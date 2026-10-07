@@ -36,7 +36,7 @@ mutation UpdateDoc($id: String!, $input: DocumentUpdateInput!) {
 res1 = graphql(mutation, {
     "id": "24e233dd-44ba-4c96-b391-1dcb7da6d020",
     "input": {
-        "title": "IEEC Resmi Kulüp Tüzüğü (Constitution & Statut)",
+        "title": "IEEC Official Club Constitution",
         "content": const_content
     }
 })
@@ -46,7 +46,7 @@ print(f"[✓] Tüzük Linear Dokümanı Güncellendi: {res1}")
 res2 = graphql(mutation, {
     "id": "399ef8e6-d063-4624-95db-dc7d1a476d68",
     "input": {
-        "title": "SCC Yıllık Faaliyet Planı (4 Temel Sütun & DevHack 2026/2027)",
+        "title": "SCC Proposed Annual Activity Plan (4 Core Pillars & DevHack 2026/2027)",
         "content": plan_content
     }
 })

@@ -32,7 +32,7 @@ mutation UpdateDoc($id: String!, $input: DocumentUpdateInput!) {
 res_doc = graphql(doc_mutation, {
     "id": "02003d18-aaaa-4236-a983-abff05a1b4e4",
     "input": {
-        "title": "SCC Taslak Yıllık Bütçe Tahmini (1.300 KM - Gerçekçi & Güvenli)",
+        "title": "SCC Proposed Annual Budget Estimate (1,300 BAM - Balanced & Realistic)",
         "content": budget_content
     }
 })

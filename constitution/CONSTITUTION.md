@@ -1,11 +1,10 @@
 # CONSTITUTION OF THE IUS ENGINEERING EVENTS CLUB (IEEC)
-## STATUT KLUBA ZA INŽENJERSKE DOGAĐAJE NA IUS-U
 
-**Pursuant to Article 77 of the Statute of the International University of Sarajevo (IUS) and the provisions of the Book of Rules on Establishing and Activities of Students' Clubs (Pravilnik o osnivanju i radu studentskih klubova na IUS-u), the Founding Assembly of the IUS Engineering Events Club adopts the following official Constitution:**
+**Pursuant to Article 77 of the Statute of the International University of Sarajevo (IUS) and the provisions of the Book of Rules on Establishing and Activities of Students' Clubs, the Founding Assembly of the IUS Engineering Events Club adopts the following official Constitution:**
 
 ---
 
-### PART I: GENERAL PROVISIONS (Opće odredbe)
+### PART I: GENERAL PROVISIONS
 
 #### Article 1: Name, Status, and Legal Affiliation
 1. The official name of the student organization is **"IUS Engineering Events Club"** (hereinafter referred to as the **"Club"** or **"IEEC"**).
@@ -40,7 +39,7 @@
 
 ---
 
-### PART II: MEMBERSHIP (Članstvo)
+### PART II: MEMBERSHIP
 
 #### Article 6: Membership Eligibility and Founding Quorum
 1. Any actively enrolled undergraduate, master's, or doctoral student at the International University of Sarajevo has the right to become a member of the Club.
@@ -71,16 +70,16 @@
 
 ---
 
-### PART III: BODIES OF THE CLUB AND GOVERNANCE (Organi kluba i upravljanje)
+### PART III: BODIES OF THE CLUB AND GOVERNANCE
 
 #### Article 10: Governing Bodies
 The administrative and governing bodies of the Club are:
-1. **The General Assembly (Skupština kluba)**;
-2. **The Executive Management Board (Upravni odbor)**;
-3. **The Functional Working Committees (Funkcionalni odbori)**;
-4. **The Faculty Academic Advisor (Akademski savjetnik)**.
+1. **The General Assembly**;
+2. **The Executive Management Board**;
+3. **The Functional Working Committees**;
+4. **The Faculty Academic Advisor**.
 
-#### Article 11: The General Assembly (Skupština kluba)
+#### Article 11: The General Assembly
 1. The General Assembly is the supreme deliberative body of the Club and consists of all registered active members.
 2. The Regular General Assembly convenes at least once per academic semester. An Extraordinary General Assembly may be convened by decision of the Executive Board or upon written request of at least one-third (1/3) of active members.
 3. The General Assembly:
@@ -89,13 +88,13 @@ The administrative and governing bodies of the Club are:
    * Confirms constitutional amendments and dissolution proposals.
 4. Decisions are adopted by a simple majority vote of members present, provided a quorum of at least one-third of registered active members is present.
 
-#### Article 12: The Executive Management Board (Upravni odbor)
+#### Article 12: The Executive Management Board
 1. The Executive Management Board is the executive governing body responsible for the day-to-day administration, planning, project execution, and official representation of the Club.
 2. The Executive Board consists of four (4) core officers:
-   * **President (Predsjednik Kluba)**
-   * **Vice President (Potpredsjednik Kluba)**
-   * **General Secretary (Generalni Sekretar)**
-   * **Treasurer (Blagajnik)**
+   * **President**
+   * **Vice President**
+   * **General Secretary**
+   * **Treasurer**
 3. The term of office for Executive Board members is one (1) academic year, with the possibility of re-election.
 
 #### Article 13: Duties and Criteria of Executive Officers
@@ -135,7 +134,7 @@ To ensure structured execution, the Executive Board establishes functional commi
 
 ---
 
-### PART IV: FACULTY ACADEMIC ADVISOR (Akademski savjetnik)
+### PART IV: FACULTY ACADEMIC ADVISOR
 
 #### Article 15: Appointment and Role of the Advisor
 1. Pursuant to the IUS Book of Rules on Establishing and Activities of Students' Clubs, the Club must have an appointed **Faculty Academic Advisor** chosen from the full-time academic staff of the Faculty of Engineering and Natural Sciences (FENS).
@@ -147,7 +146,7 @@ To ensure structured execution, the Executive Board establishes functional commi
 
 ---
 
-### PART V: PLANNING, CAMPUS LOGISTICS, AND SAFETY (Plan rada, logistika i sigurnost)
+### PART V: PLANNING, CAMPUS LOGISTICS, AND SAFETY
 
 #### Article 16: Annual Activity Plan and SCC Registration Deadline
 1. In accordance with university directives, the Executive Board must formulate and submit a comprehensive **Annual Activity Plan** to the Student & Career Center (SCC) before the university deadline (late November).
@@ -160,7 +159,7 @@ To ensure structured execution, the Executive Board establishes functional commi
 
 ---
 
-### PART VI: FINANCIAL ASSETS AND TRANSPARENCY (Finansijska sredstva i transparentnost)
+### PART VI: FINANCIAL ASSETS AND TRANSPARENCY
 
 #### Article 18: Sources of Funds and Financial Management
 1. The Club's financial resources may be derived from:
@@ -172,7 +171,7 @@ To ensure structured execution, the Executive Board establishes functional commi
 
 ---
 
-### PART VII: AMENDMENTS AND DISSOLUTION (Izmjene statuta i prestanak rada)
+### PART VII: AMENDMENTS AND DISSOLUTION
 
 #### Article 19: Constitutional Amendments
 1. Amendments to this Constitution may be proposed by the Executive Board or by a written petition signed by at least one-third of active members.
@@ -186,7 +185,7 @@ To ensure structured execution, the Executive Board establishes functional commi
 
 ---
 
-### PART VIII: FINAL AND RATIFICATION PROVISIONS (Završne odredbe)
+### PART VIII: FINAL AND RATIFICATION PROVISIONS
 
 #### Article 21: Entry into Force
 This Constitution enters into force on the day of its formal adoption by the Founding Assembly and subsequent registration with the IUS Student & Career Center (SCC).

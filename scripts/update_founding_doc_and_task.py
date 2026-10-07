@@ -33,7 +33,7 @@ mutation UpdateDoc($id: String!, $input: DocumentUpdateInput!) {
 res_doc = graphql(doc_mutation, {
     "id": "8be26629-83d3-4c7a-a7a0-66ebb1f51480",
     "input": {
-        "title": "SCC Yönetim Kurulu (5 Kişi) & 10 Kurucu Üye Listesi",
+        "title": "SCC Executive Board & Founding Members Roster (2026/2027)",
         "content": members_content
     }
 })

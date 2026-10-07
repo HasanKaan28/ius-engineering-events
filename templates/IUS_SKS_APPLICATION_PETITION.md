@@ -39,8 +39,8 @@ The IUS Engineering Events Club aims to create a dynamic, extracurricular techni
 
 ---
 
-### 5. ATTACHED DOSSIER DOCUMENTS (PRILOŽENA DOKUMENTACIJA)
-1. [x] Official Club Constitution (`CONSTITUTION.md` / `IEEC_Resmi_Kulup_Tuzugu.html`)
+### 5. ATTACHED DOSSIER DOCUMENTS
+1. [x] Official Club Constitution (`CONSTITUTION.md` / `IEEC_Official_Club_Constitution.html`)
 2. [x] Annual Activity Plan 2026/2027 (`SCC_ANNUAL_ACTIVITY_PLAN.md`)
 3. [x] Proposed Annual Budget Estimate (`SCC_DRAFT_BUDGET.md`)
 4. [x] Founding Members Signature Roster - Min. 10 Students (`SCC_FOUNDING_10_MEMBERS.md`)
@@ -48,7 +48,7 @@ The IUS Engineering Events Club aims to create a dynamic, extracurricular techni
 
 ---
 
-### 6. SUBMITTED BY (PODNOSIOCI ZAHTJEVA)
+### 6. SUBMITTED BY
 
 **Club President:**  
 Kaan Mete Şenyıldız *(Student ID: 250302201)*  
