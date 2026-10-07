@@ -45,7 +45,9 @@ ius-engineering-events/
 - **Task & Team Management Platform**: Linear.app (100% Free, unlimited team members, native desktop & iOS/Android apps).
 - **IDE Automation Bridge**: [`scripts/linear_manager.py`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/scripts/linear_manager.py) & [`scripts/linear_ops.py`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/scripts/linear_ops.py) (GraphQL API integration).
 - **Observatory Knowledge Graph Synchronizer**: [`scripts/sync_observatory.py`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/scripts/sync_observatory.py) (Pulls live Linear tasks, Google Form responses, board member relationships, and updates `graphify-out/graph.json` and `graph.html`).
-- **Interactive Cyberpunk Observatory**: [`graphify-out/graph.html`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/graphify-out/graph.html) (Hosted at `http://localhost:8085/graphify-out/graph.html` with real-time tasks, board collaboration mapping, and Ctrl+K search).
+- **GitHub Repository & 7/24 Cloud Host**: [https://github.com/HasanKaan28/ius-engineering-events](https://github.com/HasanKaan28/ius-engineering-events)
+- **Permanent 7/24 Live Observatory (GitHub Pages)**: [https://hasankaan28.github.io/ius-engineering-events/](https://hasankaan28.github.io/ius-engineering-events/) (Kalıcı, bilgisayar kapalıyken bile 7/24 aktif, sınırsız global CDN).
+- **Interactive Cyberpunk Observatory**: [`graphify-out/graph.html`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/graphify-out/graph.html) (Local `http://localhost:8085/`).
 - **Founding & Member Status**: 
   - **Yönetim Kurulu (5 Kişi)**: 
     - 👑 **Asıl Kulüp Başkanı & Kurucu Lider**: Hasan Kaan (Tüm operasyonel, teknik ve idari kararların lideri, nihai karar mercii).
