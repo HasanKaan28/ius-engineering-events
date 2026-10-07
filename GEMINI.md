@@ -64,5 +64,5 @@ ius-engineering-events/
 ## 5. Key Milestones
 - **M1 (Week 1–2)**: Faculty Advisor recruitment & SKS official filing.
 - **M2 (Week 3–4)**: Core team onboarding, Linear workspace setup & IUS-wide Welcome Meeting / Launch Event.
-- **M3 (Week 5–8)**: Bi-weekly hands-on workshops & Competition team selection.
-- **M4 (Week 9–12)**: Flagship IUS Hackathon & Semester Showcase.
+- **M3 (Week 5–8)**: Weekly AI/Prompt labs & Monthly on-campus keynotes.
+- **M4 (Week 9–12)**: Flagship IUS Hackathon (DevHack 2027), Annual Technology Summit (IUS TechSummit 2027) & Semester Showcase.

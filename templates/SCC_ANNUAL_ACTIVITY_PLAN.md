@@ -9,9 +9,9 @@
 
 ---
 
-### EXECUTIVE SUMMARY: FOUR CORE OPERATIONAL PILLARS
+### EXECUTIVE SUMMARY: FIVE CORE OPERATIONAL PILLARS
 
-As an innovative, student-driven engineering society, the IUS Engineering Events Club builds its annual agenda on four regular pillars:
+As an innovative, student-driven engineering society, the IUS Engineering Events Club builds its annual agenda on five regular pillars:
 
 1. **🤖 Pillar 1: Weekly Hands-On AI & Prompt Engineering Labs**:
    * Practical technical sessions hosted weekly in FENS Computer Laboratories (and hybrid).
@@ -24,7 +24,9 @@ As an innovative, student-driven engineering society, the IUS Engineering Events
    * Interactive 45–60 minute virtual technical discussions held weekly via the official Club Discord / Google Meet.
    * Speakers: Prominent software engineers, data scientists, and international tech professionals worldwide for open Q&A and technical guidance.
 4. **⚡ Pillar 4: Annual Flagship Campus Hackathon (IUS DevHack - 24-Hour Marathon)**:
-   * The club's landmark annual summit: A 24-hour non-stop student software and hardware hackathon on the IUS campus featuring industry challenges, corporate mentors, juries, catering, and awards.
+   * The club's landmark software marathon: A 24-hour non-stop student software and hardware hackathon on the IUS campus featuring industry challenges, corporate mentors, juries, catering, and awards.
+5. **🏛️ Pillar 5: Annual On-Campus Technology Summit (IUS TechSummit 2027)**:
+   * The premier university-wide technology conference at IUS: An all-day on-campus summit held in the IUS Main Amphitheater and Central Atrium. Unites leading technology companies, executive keynote speakers, multidisciplinary student innovators, and faculty. Features industry keynote stages, panels (AI, Cloud, Robotics, Cybersecurity), company exhibition stands, and engineering career recruitment networking.
 
 ---
 
@@ -53,8 +55,9 @@ As an innovative, student-driven engineering society, the IUS Engineering Events
 | **March (Week 1)** | **Weekly AI Workshop** | **AI Lab #4: Multimodal AI & Computer Vision Models**<br>Open-source multimodal models, vision processing, and practical edge applications. | FENS Computer Lab | 35–50 Students |
 | **March (Week 2)** | **Campus Keynote** | **Monthly Keynote #3: FinTech & Cybersecurity Summit**<br>Industry panel on cloud security, financial data systems, and enterprise resilience. | FENS Amphitheater | 80+ Students |
 | **March (Week 3)** | **Online Tech-Talk** | **Online Tech-Talk #4: "Contributing to Global Open Source"**<br>Practical guidance on open-source repositories, Git etiquette, and public code portfolios. | Club Discord / Meet | 40–50 Students |
-| **April (Week 2)** | **FLAGSHIP SUMMIT** | **⚡ FLAGSHIP: IUS DEVHACK 2027 (24-Hour Campus Hackathon)**<br>Overnight software & engineering marathon across FENS labs. Company juries, corporate mentors, catering, and sponsor track awards. | IUS Main Building & Labs | 80–100 Students (20 Teams) |
+| **April (Week 2)** | **FLAGSHIP HACKATHON** | **⚡ FLAGSHIP: IUS DEVHACK 2027 (24-Hour Campus Hackathon)**<br>Overnight software & engineering marathon across FENS labs. Company juries, corporate mentors, catering, and sponsor track awards. | IUS Main Building & Labs | 80–100 Students (20 Teams) |
 | **May (Week 1)** | **Weekly AI Workshop** | **AI Lab #5: Project Deployment & Production Demos**<br>Dockerizing student projects, cloud deployment, and portfolio showcase. | FENS Computer Lab | 30 Students |
+| **May (Week 2)** | **FLAGSHIP CONFERENCE** | **⚡ FLAGSHIP: IUS ANNUAL TECHNOLOGY SUMMIT (IUS TechSummit 2027)**<br>Full-day premier campus technology conference in the IUS Amphitheater & Atrium. Keynote panels with industry C-level leaders, corporate exhibition booths, speed networking with tech recruiters, and student demo stages. | IUS Main Amphitheater & Atrium | 150+ Students, Faculty & Industry Guests |
 | **May (Week 3)** | **Annual Showcase** | **Year-End Student Project Expo & Certificate Ceremony**<br>Awarding participation certificates to active members, volunteer instructors, and partners. | FENS Amphitheater | 80+ Students |
 
 ---

@@ -21,7 +21,7 @@
 
 | Revenue Stream | Description & Modality | Projected Amount (BAM) | Projection Basis & Terms |
 | :--- | :--- | :---: | :--- |
-| **Prospective Corporate Sponsorships** | Target event sponsorships from Sarajevo IT and engineering firms to support keynotes and the annual hackathon | 1,000 KM | *Projected:* Outreach commences only upon formal SCC registration |
+| **Prospective Corporate Sponsorships** | Target event sponsorships from Sarajevo IT and engineering firms to support keynotes, the annual hackathon, and campus tech summit | 1,000 KM | *Projected:* Outreach commences only upon formal SCC registration |
 | **Projected In-Kind Material Support** | Non-monetary contributions covering promotional banners, badges, and workshop printouts provided by community partners | 300 KM *(In-Kind)* | *Projected:* In-kind materials for lab sessions |
 | **Institutional University Logistics** | Access to FENS computer laboratories, amphitheaters, and AV equipment under standard university procedures | 0 KM *(Facilities)* | *Request:* Allocation of rooms during approved event time slots |
 | **Student Membership Dues** | Participation across all regular workshops, study circles, and tech talks is entirely free for all IUS students | 0 KM | Membership is open and free of charge |
@@ -36,7 +36,7 @@
 | **Promotion & Onboarding Day** | Roll-up banner for recruitment stand, student informational leaflets, and campus promotion stickers | 150 KM | December 2026 (Promotion Day) |
 | **Guest Speakers & Hospitality** | Symbolic appreciation gifts/plaques for visiting industry engineers, light coffee and refreshments for attendees | 200 KM | Monthly Keynotes (4 sessions across academic year) |
 | **Weekly Technical Lab Materials** | Printed exercise sheets, cheat sheets, and practical lab documentation for AI & Prompt workshops | 150 KM | Fall & Spring Semester Labs |
-| **Spring Campus Hackathon (DevHack)** | 24-hour hackathon operations: late-night catering/pizza and drinks for teams, badges, certificate printing | 700 KM | April 2027 (Flagship Annual Event) |
+| **Spring Hackathon & Tech Summit** | Flagship operations (DevHack & IUS TechSummit): catering/pizza for teams, participant badges, certificate printing, speaker tokens | 700 KM | April & May 2027 (Flagship Spring Summits) |
 | **Contingency & Operating Incidentals** | Essential office stationery, technical cables/adapters, and minor unexpected logistics items | 100 KM | Full Academic Year |
 | **TOTAL PROJECTED EXPENDITURES** | | **1,300 KM** | **Fully Balanced Operating Budget Proposal** |
 

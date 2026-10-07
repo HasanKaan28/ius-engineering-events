@@ -25,17 +25,31 @@ This document contains full operational concepts for the three flagship events p
 
 ---
 
-## 2. Flagship Event: Sarajevo Tech Horizon (Industry Summit & Networking Day)
+## 2. Flagship Event: IUS Annual Technology Summit (IUS TechSummit 2027)
 
 ### Concept Overview
-* **Description**: An afternoon conference connecting IUS students with tech leaders, HR heads, and senior engineers from the Balkan tech ecosystem.
-* **Duration**: 4–5 Hours
-* **Venue**: IUS Main Auditorium
-* **Format**:
-  * **Keynote Speech**: "The State of Engineering & AI in Europe"
-  * **Panel Discussion**: "What Top Tech Companies Actually Look For in Junior Engineers"
-  * **Speed Networking Booths**: Dedicated sponsor tables where students submit CVs and discuss internship openings.
-  * **Project Pitch Showcase**: 3 best student teams present their graduation/club projects to industry leaders.
+* **Description**: An all-day premier campus technology conference uniting IUS engineering students with tech executives, software architects, startup founders, and recruitment leaders from the Bosnian and European tech ecosystem.
+* **Timing & Season**: Spring Semester (May 2027, Week 11)
+* **Venue**: IUS Main Amphitheater (Keynote & Panel Stage) & Building A Central Atrium (Exhibition & Career Hub)
+* **Target Audience**: 150+ undergraduate and graduate students, faculty researchers, and regional tech enterprise representatives.
+
+### Multi-Track Event Architecture
+1. **Executive Keynote Stage (Amphitheater)**:
+   * "The Next Decade of Autonomous Systems & GenAI in Europe"
+   * "From Student Project to Global Tech Startup: Engineering Lessons from Founders"
+2. **Interactive Panel Discussions**:
+   * *Panel A: Modern Engineering Realities* — "What Tech Companies Actually Look For in Junior Engineers (Beyond the Degree)".
+   * *Panel B: Infrastructure & Security* — "Resilient Cloud Architecture, DevOps & Cybersecurity at Scale".
+3. **Company Exhibition & Talent Networking Booths (Main Atrium)**:
+   * Dedicated sponsor tables representing regional IT scaleups and global engineering firms.
+   * Direct student CV dropboxes, instant portfolio reviews, and fast-track internship recruitment talks.
+4. **Student Engineering Demo Stage**:
+   * Top 5 student engineering prototypes and Hackathon-winning teams showcase their live builds to company CTOs and engineering directors.
+
+### Operational Requirements
+* Venue reservations for IUS Main Amphitheater and Building A Ground Floor Atrium via SCC.
+* Audio-visual equipment, professional wireless microphones, and live recording/streaming.
+* Corporate hospitality: Speaker welcome lounge, catering, coffee bar, and appreciation plaques.
 
 ---
 
