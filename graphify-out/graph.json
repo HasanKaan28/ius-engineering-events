@@ -1,6 +1,6 @@
 {
   "project": "IUS Engineering Events Club",
-  "generated_at": "2026-10-07T21:28:23.332875",
+  "generated_at": "2026-10-07T21:30:23.423609",
   "stats": {
     "total_nodes": 38,
     "total_edges": 81,
@@ -409,7 +409,7 @@
       "file": "scripts/linear_ops.py",
       "x": -380,
       "y": -528,
-      "details": "[IUS-7] Resmi Yönetim Kurulu Kadrosu (Sadece PR Lead Eksik)\nDurum: Todo | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-7/resmi-yonetim-kurulu-kadrosu-sadece-pr-lead-eksik\n\nÖzet: ### 🎯 Resmi Yönetim Kurulu Kadrosu:\n\nSCC gereksinimlerine uygun resmi yönetim kurulu belirlenmiştir.\n\n### 📄 Doğrudan Açılabilir Resmi Belge:\n\n👉 [**🔗 TIKLAYIN: SCC 10 Kurucu Üye ve Yönetim Kurulu Listesi**](<https://linear.app/ius-engineering-events/document/scc-10-kurucu-uye-ve-y..."
+      "details": "[IUS-7] Resmi Yönetim Kurulu Kadrosu (Sadece PR Lead Eksik)\nDurum: Todo | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-7/resmi-yonetim-kurulu-kadrosu-sadece-pr-lead-eksik\n\nÖzet: ### 🎯 Resmi Yönetim Kurulu Kadrosu (5 Kişilik Heyet):\n\nSCC gereksinimlerine göre 5 kişilik yönetim kadrosu belirlenmektedir. Şu an **4 pozisyon onaylı, sadece PR Lead eksiktir**:\n\n* 👑 **Club President (Başkan):** Kaan Mete Şenyıldız (2. Sınıf, No: 250302201)\n* 🚀 **Vice President ..."
     },
     {
       "id": "linear_task_IUS-8",
@@ -421,11 +421,11 @@
       "task_state": "Todo",
       "task_priority": 1,
       "task_assignee": "Mahmut ihsan avcı",
-      "url": "https://linear.app/ius-engineering-events/issue/IUS-8/scc-uye-listesi-birebir-iletisimle-10-uye-tamamlama-210-kaydedildi",
+      "url": "https://linear.app/ius-engineering-events/issue/IUS-8/scc-uye-listesi-birebir-iletisimle-10-uye-tamamlama-410-kaydedildi",
       "file": "scripts/linear_ops.py",
       "x": -190,
       "y": -539,
-      "details": "[IUS-8] 🤫 SCC Üye Listesi: Birebir İletişimle 10 Üye Tamamlama (2/10 Kaydedildi)\nDurum: Todo | Sorumlu: Mahmut ihsan avcı\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-8/scc-uye-listesi-birebir-iletisimle-10-uye-tamamlama-210-kaydedildi\n\nÖzet: ### 🤫 STRATEJİ: STEALTH MODE (SESSİZ VE BİREBİR)\n\n⚠️ **Önemli Kural:** Kalabalık sınıf gruplarına duyuru atılmayacak! Üniversite resmi onayı öncesi dikkat çekmemek için **birebir (DM veya yüz yüze)** güvendiğimiz arkadaşlarımıza ulaşılarak 10 kişi tamamlanacaktır.\n\n### 🔗 Paylaşım..."
+      "details": "[IUS-8] 🤫 SCC Üye Listesi: Birebir İletişimle 10 Üye Tamamlama (4/10 Kaydedildi)\nDurum: Todo | Sorumlu: Mahmut ihsan avcı\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-8/scc-uye-listesi-birebir-iletisimle-10-uye-tamamlama-410-kaydedildi\n\nÖzet: ### 🤫 STRATEJİ: STEALTH MODE (SESSİZ VE BİREBİR)\n\n⚠️ **Önemli Kural:** Üniversite resmi onayı öncesi dikkat çekmemek için kalabalık sınıf gruplarına duyuru atılmayacak, **birebir (DM veya yüz yüze)** güvendiğimiz arkadaşlarımıza ulaşılarak 10 üye tamamlanacaktır.\n📌 **Rol Kuralı:*..."
     },
     {
       "id": "linear_task_IUS-9",
