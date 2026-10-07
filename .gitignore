@@ -1,0 +1,21 @@
+# API Keys and sensitive credentials
+config/linear_config.json
+.env
+*.env
+
+# Local sensitive form data
+data/form_responses.csv
+
+# Agent and IDE internal memory/logs
+.agents/
+*.log
+.system_generated/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
