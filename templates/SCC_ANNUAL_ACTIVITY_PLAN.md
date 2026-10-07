@@ -5,6 +5,7 @@
 **Faculty Affiliation**: Faculty of Engineering and Natural Sciences (FENS)  
 **Supervisory Authority**: Student & Career Center (SCC), Building B, Office G.18  
 **Academic Year**: 2026/2027  
+**Official Status**: ⚠️ **PENDING INITIAL SUBMISSION & SCC EVALUATION (PRIJEDLOG GODIŠNJEG PLANA)**  
 
 ---
 
@@ -66,14 +67,27 @@ Yeni ve dinamik bir mühendislik kulübü olarak IEEC, tüm akademik yılı 4 an
 
 ---
 
-**Prepared by / Hazırlayan:**  
-Executive Management Board of IUS Engineering Events Club  
-*President: Kaan Mete Şenyıldız (250302201)*  
-*Vice President: Hasan Kaan (250302195)*  
-*General Secretary: Mahmut İhsan Avcı (250302233)*  
-*Treasurer: Bekir Enes Çokbekler (250302229)*  
+### 4. PODNOSIOCI PRIJEDLOGA (SUBMISSION BY EXECUTIVE BOARD)
 
-**Approved by / Onaylayan:**  
-Faculty Academic Advisor: ___________________________  
-Date: ___________________________  
-Student & Career Center (SCC) Registration Stamp: ___________________________  
+**Predlaže / Submitted by Executive Board:**  
+* Kaan Mete Şenyıldız *(Club President, Student ID: 250302201)*: ___________________________  
+* Hasan Kaan *(Vice President, Student ID: 250302195)*: ___________________________  
+* Mahmut İhsan Avcı *(General Secretary, Student ID: 250302233)*: ___________________________  
+* Bekir Enes Çokbekler *(Treasurer, Student ID: 250302229)*: ___________________________  
+
+**Saglasnost akademskog savjetnika / Academic Advisor Endorsement:**  
+Faculty Academic Advisor *(FENS)*: ___________________________  
+Potpis / Signature: ___________________________ Datum / Date: ____________________  
+
+---
+
+### 5. SLUŽBENA VERIFIKACIJA STUDENTSKOG CENTRA (SCC OFFICIAL USE ONLY)
+*(Ovaj dio popunjava Studentski i karijerni centar IUS-a prilikom evaluacije prijedloga)*
+
+| Prijem plana / Intake | Evaluacija i status / Review Status |
+| :--- | :--- |
+| **Datum prijema:** _____ / _____ / 2026<br><br>**Broj protokola:** __________________ | **Status prijedloga plana aktivnosti:**<br>[ &nbsp; ] ODOBRENO U CIJELOSTI<br>[ &nbsp; ] USLOVNO ODOBRENO<br>[ &nbsp; ] POTREBNA DOPUNA ILI IZMJENA TERMINA<br>[ &nbsp; ] NIJE ODOBRENO |
+
+<br>
+Potpis ovlaštenog lica SCC-a: ___________________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; M.P. (Pečat)
+  

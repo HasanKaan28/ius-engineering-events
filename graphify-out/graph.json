@@ -1,6 +1,6 @@
 {
   "project": "IUS Engineering Events Club",
-  "generated_at": "2026-10-07T22:34:44.057550",
+  "generated_at": "2026-10-07T22:50:07.363854",
   "stats": {
     "total_nodes": 38,
     "total_edges": 81,
@@ -421,11 +421,11 @@
       "task_state": "Todo",
       "task_priority": 1,
       "task_assignee": "Mahmut ihsan avcı",
-      "url": "https://linear.app/ius-engineering-events/issue/IUS-8/scc-uye-listesi-birebir-iletisimle-10-uye-tamamlama-410-kaydedildi",
+      "url": "https://linear.app/ius-engineering-events/issue/IUS-8/scc-uye-listesi-birebir-iletisimle-10-uye-tamamlama-210-kaydedildi",
       "file": "scripts/linear_ops.py",
       "x": -190,
       "y": -539,
-      "details": "[IUS-8] 🤫 SCC Üye Listesi: Birebir İletişimle 10 Üye Tamamlama (4/10 Kaydedildi)\nDurum: Todo | Sorumlu: Mahmut ihsan avcı\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-8/scc-uye-listesi-birebir-iletisimle-10-uye-tamamlama-410-kaydedildi\n\nÖzet: ### 🤫 STRATEJİ: STEALTH MODE (SESSİZ VE BİREBİR)\n\n⚠️ **Önemli Kural:** Üniversite resmi onayı öncesi dikkat çekmemek için kalabalık sınıf gruplarına duyuru atılmayacak, **birebir (DM veya yüz yüze)** güvendiğimiz arkadaşlarımıza ulaşılarak 10 üye tamamlanacaktır.\n📌 **Rol Kuralı:*..."
+      "details": "[IUS-8] 🤫 SCC Üye Listesi: Birebir İletişimle 10 Üye Tamamlama (2/10 Kaydedildi)\nDurum: Todo | Sorumlu: Mahmut ihsan avcı\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-8/scc-uye-listesi-birebir-iletisimle-10-uye-tamamlama-210-kaydedildi\n\nÖzet: ### 🤫 STRATEJİ: STEALTH MODE (SESSİZ VE BİREBİR)\n\n⚠️ **Önemli Kural:** Üniversite resmi onayı öncesi dikkat çekmemek için kalabalık sınıf gruplarına duyuru atılmayacak, **birebir (DM veya yüz yüze)** güvendiğimiz arkadaşlarımıza ulaşılarak 10 üye tamamlanacaktır.\n📌 **Rol Kuralı:*..."
     },
     {
       "id": "linear_task_IUS-9",

@@ -144,9 +144,10 @@ def md_to_html(md_text):
     return "\n".join(out)
 
 files_to_export = [
+    ("templates/IUS_SKS_APPLICATION_PETITION.md", "IUS_SCC_Resmi_Basvuru_Dilekcesi.html", "IUS SCC Official Club Application Petition"),
     ("templates/ACADEMIC_ADVISOR_INVITATION.md", "FENS_Akademik_Danisman_Davet_Mektubu.html", "Academic Advisor Invitation Letter"),
-    ("templates/SCC_ANNUAL_ACTIVITY_PLAN.md", "SCC_Yillik_Faaliyet_Plani.html", "SCC Annual Activity Plan (2026/2027)"),
-    ("templates/SCC_DRAFT_BUDGET.md", "SCC_Taslak_Yillik_Butce.html", "SCC Draft Annual Budget (5.000 KM)"),
+    ("templates/SCC_ANNUAL_ACTIVITY_PLAN.md", "SCC_Yillik_Faaliyet_Plani.html", "SCC Proposed Annual Activity Plan (2026/2027)"),
+    ("templates/SCC_DRAFT_BUDGET.md", "SCC_Taslak_Yillik_Butce.html", "SCC Proposed Annual Budget (Prijedlog Budžeta)"),
     ("templates/SCC_FOUNDING_10_MEMBERS.md", "SCC_10_Kurucu_Uye_Listesi.html", "SCC Founding Members Roster"),
     ("constitution/CONSTITUTION.md", "IEEC_Resmi_Kulup_Tuzugu.html", "IEEC Club Constitution")
 ]

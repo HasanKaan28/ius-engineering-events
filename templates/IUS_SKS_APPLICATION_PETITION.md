@@ -28,24 +28,42 @@ The IUS Engineering Events Club aims to create a dynamic, extracurricular techni
 | **Vice President** | **Hasan Kaan** | **250302195** | FENS | 1st Year | `ufukkarabulut35@gmail.com` |
 | **General Secretary** | **Mahmut İhsan Avcı** | **250302233** | FENS | 1st Year | `mahmut.ihsanavcii@gmail.com` |
 | **Treasurer** | **Bekir Enes Çokbekler** | **250302229** | Mechanical Eng. | 1st Year | `46bekir70@gmail.com` |
+| **PR & Media Lead** | *[To be nominated]* | *—* | FENS | *—* | `—` |
 
 ---
 
 ### 4. PROPOSED ACADEMIC FACULTY ADVISOR
 * **Advisor Name & Title**: [Prof. / Assoc. Prof. / Assist. Prof. Full Name]
 * **Department**: Faculty of Engineering and Natural Sciences (FENS)
-* **Advisor Signature & Approval**: ___________________________
+* **Advisor Signature & Consent**: ___________________________ &nbsp;&nbsp;&nbsp;&nbsp; Date: _____ / _____ / 2026
 
 ---
 
-### 5. ATTACHED DOCUMENTS
-1. [x] Draft Club Constitution (`CONSTITUTION.md`)
-2. [x] Semester 1 Operational Calendar & Event Plan
-3. [x] Initial Founding Member Signature Roster
+### 5. ATTACHED DOSSIER DOCUMENTS (PRILOŽENA DOKUMENTACIJA)
+1. [x] Official Club Constitution (`CONSTITUTION.md` / `IEEC_Resmi_Kulup_Tuzugu.html`)
+2. [x] Annual Activity Plan 2026/2027 (`SCC_ANNUAL_ACTIVITY_PLAN.md`)
+3. [x] Proposed Annual Budget Estimate (`SCC_DRAFT_BUDGET.md`)
+4. [x] Founding Members Signature Roster - Min. 10 Students (`SCC_FOUNDING_10_MEMBERS.md`)
+5. [x] Faculty Academic Advisor Consent Form
 
 ---
 
-**Submitted by:**  
-[Your Name], Founder & Captain  
-Signature: ___________________________  
-Date: ___________________________  
+### 6. SUBMITTED BY (PODNOSIOCI ZAHTJEVA)
+
+**Club President:**  
+Kaan Mete Şenyıldız *(Student ID: 250302201)*  
+Signature: ___________________________ &nbsp;&nbsp;&nbsp;&nbsp; Date: _____ / _____ / 2026  
+
+**Vice President:**  
+Hasan Kaan *(Student ID: 250302195)*  
+Signature: ___________________________ &nbsp;&nbsp;&nbsp;&nbsp; Date: _____ / _____ / 2026  
+
+---
+
+### 7. STUDENT & CAREER CENTER (SCC) INTAKE & PROTOCOL
+*(For official use only upon receipt at Building B, Office G.18)*
+
+| Date Received | Protocol / Archive Number | Receiving Official Signature & Stamp |
+| :---: | :---: | :---: |
+| _____ / _____ / 2026 | _________________________ | _________________________ (M.P.) |
+  
