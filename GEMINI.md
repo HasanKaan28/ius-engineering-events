@@ -55,7 +55,7 @@ ius-engineering-events/
     - 🏛️ **Resmi / Göstermelik Başkan (Statutory President)**: Kaan Mete Şenyıldız (SCC mevzuatındaki "Kulüp başkanı en az 2. sınıf olmalıdır" kuralını karşılamak üzere resmi evraklardaki imza mercii ve okul nezdindeki temsilci).
     - 💰 **Sayman & Finans Lideri**: Bekir Enes Çokbekler (Bütçe yönetimi ve kurumsal sponsorluklar).
     - 📣 **PR & Media Lead**: ⚠️ **EKSİK / AÇIK POZİSYON** (Sosyal medya, tasarım ve kampüs içi lansman).
-  - **Normal Üyeler (10 Kişi Hedefi)**: Formdan gelen herkes (Bilal Yusuf, Nazlıcan vb.) kullanıcı özellikle PR Lead olarak atamadıkça doğrudan **Üye (Member)** statüsündedir (Şu an 2/10 kayıtlı).
+  - **Normal Üyeler (10 Kişi Hedefi)**: Formdan gelen herkes (Bilal Yusuf, Nazlıcan, Muhammed Emin, Emin Efe Duman vb.) kullanıcı özellikle PR Lead olarak atamadıkça doğrudan **Üye (Member)** statüsündedir (Şu an 4/10 kayıtlı).
 
 
 ## 5. Key Milestones

@@ -30,8 +30,8 @@
 | :-: | :--- | :---: | :--- | :---: | :--- | :---: |
 | **1** | Bilal Yusuf Şimşek | 250302196 | Computer Engineering | 1st Year | Member (Üye) | _________ |
 | **2** | Nazlıcan Cebeci | 250302243 | Computer Science & Eng. | 1st Year | Member (Üye) | _________ |
-| **3** | [Student Name 3] | [ID Number] | FENS | [Year] | Member (Üye) | _________ |
-| **4** | [Student Name 4] | [ID Number] | FENS | [Year] | Member (Üye) | _________ |
+| **3** | Muhammed Emin | 250302247 | FENS | 2nd Year | Member (Üye) | _________ |
+| **4** | Emin Efe Duman | 250302211 | FENS | 1st Year | Member (Üye) | _________ |
 | **5** | [Student Name 5] | [ID Number] | FENS | [Year] | Member (Üye) | _________ |
 | **6** | [Student Name 6] | [ID Number] | FENS | [Year] | Member (Üye) | _________ |
 | **7** | [Student Name 7] | [ID Number] | FENS | [Year] | Member (Üye) | _________ |
@@ -45,7 +45,7 @@
 * [x] Executive Board: 4/5 Officers confirmed (Sadece **PR Lead** eksik).
 * [x] Club President: 2nd Year student requirement satisfied (Kaan Mete Şenyıldız - 2nd Year Verified).
 * [ ] PR & Communications Lead appointment (Aday belirlenecek).
-* [ ] General Members: 2/10 members confirmed (8 remaining).
+* [ ] General Members: 4/10 members confirmed (6 remaining).
 * [ ] Academic Advisor (FENS) signature obtained.
 * [x] Annual Activity Plan attached (`SCC_ANNUAL_ACTIVITY_PLAN.md`).
 * [x] Draft Annual Budget attached (`SCC_DRAFT_BUDGET.md`).
