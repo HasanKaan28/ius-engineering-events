@@ -669,6 +669,19 @@ def build_observatory_graph():
         except Exception as e:
             print(f"[!] graph.html gömme hatası: {e}")
 
+    if "--push" in sys.argv:
+        try:
+            import subprocess
+            subprocess.run(["git", "add", "index.html", "graph.json", "graphify-out/"], check=False, cwd=str(WORKSPACE_ROOT))
+            subprocess.run(["git", "commit", "-m", "chore: sync observatory ecosystem updates"], check=False, cwd=str(WORKSPACE_ROOT))
+            push_res = subprocess.run(["git", "push", "origin", "main"], check=False, cwd=str(WORKSPACE_ROOT))
+            if push_res.returncode == 0:
+                print("[✓] GitHub Pages için güncellemeler başarıyla pushlandı (https://hasankaan28.github.io/ius-engineering-events/).")
+            else:
+                print("[!] Git push uyarısı.")
+        except Exception as e:
+            print(f"[!] Git push hatası: {e}")
+
     return graph_data
 
 if __name__ == "__main__":
