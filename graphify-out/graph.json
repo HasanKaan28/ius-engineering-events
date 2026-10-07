@@ -1,11 +1,11 @@
 {
   "project": "IUS Engineering Events Club",
-  "generated_at": "2026-10-07T20:38:18.790447",
+  "generated_at": "2026-10-07T21:28:23.332875",
   "stats": {
-    "total_nodes": 36,
-    "total_edges": 73,
+    "total_nodes": 38,
+    "total_edges": 81,
     "linear_tasks": 9,
-    "registered_members": 2,
+    "registered_members": 4,
     "board_members": 5
   },
   "nodes": [
@@ -34,7 +34,7 @@
     },
     {
       "id": "sheet_responses",
-      "label": "Google Sheets (5 Kayıt / 2 Onaylı Normal Üye)",
+      "label": "Google Sheets (7 Kayıt / 2 Onaylı Normal Üye)",
       "cluster": "Data",
       "isGodNode": false,
       "type": "Dataset",
@@ -388,12 +388,12 @@
       "task_ident": "IUS-6",
       "task_state": "Todo",
       "task_priority": 1,
-      "task_assignee": "Hasan Kaan",
+      "task_assignee": "Bekir Enes",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-6/scc-yillik-faaliyet-plani-ve-taslak-butce-dosyalamasi",
       "file": "scripts/linear_ops.py",
       "x": -570,
       "y": -517,
-      "details": "[IUS-6] SCC Yıllık Faaliyet Planı ve Taslak Bütçe Dosyalaması\nDurum: Todo | Sorumlu: Hasan Kaan\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-6/scc-yillik-faaliyet-plani-ve-taslak-butce-dosyalamasi\n\nÖzet: ### 🎯 Görev Amacı:\n\nSCC'nin istediği faaliyet planı ve tahmini bütçe evraklarını eksiksiz hazır hale getirmek.\n\n### 📄 Doğrudan Açılabilir Resmi Belgeler:\n\n1. 👉 [**🔗 TIKLAYIN: SCC Yıllık Faaliyet Planı (2026/2027)**](<https://linear.app/ius-engineering-events/document/scc-yillik-f..."
+      "details": "[IUS-6] SCC Yıllık Faaliyet Planı ve Taslak Bütçe Dosyalaması\nDurum: Todo | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-6/scc-yillik-faaliyet-plani-ve-taslak-butce-dosyalamasi\n\nÖzet: ### 🎯 Görev Amacı:\n\nSCC'nin istediği faaliyet planı ve tahmini bütçe evraklarını eksiksiz hazır hale getirmek.\n\n### 📄 Doğrudan Açılabilir Resmi Belgeler:\n\n1. 👉 [**🔗 TIKLAYIN: SCC Yıllık Faaliyet Planı (2026/2027)**](<https://linear.app/ius-engineering-events/document/scc-yillik-f..."
     },
     {
       "id": "linear_task_IUS-7",
@@ -532,6 +532,32 @@
       "x": 750,
       "y": 155,
       "details": "Onaylı Normal Üye #2\nÖğrenci No: 250302243\nBölüm: CSE (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası)."
+    },
+    {
+      "id": "member_muhammed_emin_250302247",
+      "label": "👤 Muhammed Emin (Member #3)",
+      "cluster": "Members",
+      "isGodNode": false,
+      "type": "Member",
+      "file": "data/form_responses.csv",
+      "student_id": "250302247",
+      "dept": "FENS (2. Sınıf)",
+      "x": 750,
+      "y": 250,
+      "details": "Onaylı Normal Üye #3\nÖğrenci No: 250302247\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası)."
+    },
+    {
+      "id": "member_emin_efe_duman_250302211",
+      "label": "👤 Emin Efe Duman (Member #4)",
+      "cluster": "Members",
+      "isGodNode": false,
+      "type": "Member",
+      "file": "data/form_responses.csv",
+      "student_id": "250302211",
+      "dept": "FENS (1. Sınıf)",
+      "x": 750,
+      "y": 345,
+      "details": "Onaylı Normal Üye #4\nÖğrenci No: 250302211\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası)."
     }
   ],
   "edges": [
@@ -701,7 +727,7 @@
       "relation": "TRACKED_IN"
     },
     {
-      "source": "board_hasan_kaan",
+      "source": "board_bekir_enes",
       "target": "linear_task_IUS-6",
       "relation": "LEADS_TODO"
     },
@@ -898,6 +924,46 @@
     {
       "source": "member_nazl_can_250302243",
       "target": "comm_software",
+      "relation": "JOINS_COMMITTEE"
+    },
+    {
+      "source": "sheet_responses",
+      "target": "member_muhammed_emin_250302247",
+      "relation": "REGISTERED_VIA"
+    },
+    {
+      "source": "member_muhammed_emin_250302247",
+      "target": "comm_whatsapp",
+      "relation": "MEMBER_OF"
+    },
+    {
+      "source": "member_muhammed_emin_250302247",
+      "target": "doc_founding",
+      "relation": "RECORDED_IN"
+    },
+    {
+      "source": "member_muhammed_emin_250302247",
+      "target": "comm_multi",
+      "relation": "JOINS_COMMITTEE"
+    },
+    {
+      "source": "sheet_responses",
+      "target": "member_emin_efe_duman_250302211",
+      "relation": "REGISTERED_VIA"
+    },
+    {
+      "source": "member_emin_efe_duman_250302211",
+      "target": "comm_whatsapp",
+      "relation": "MEMBER_OF"
+    },
+    {
+      "source": "member_emin_efe_duman_250302211",
+      "target": "doc_founding",
+      "relation": "RECORDED_IN"
+    },
+    {
+      "source": "member_emin_efe_duman_250302211",
+      "target": "comm_multi",
       "relation": "JOINS_COMMITTEE"
     }
   ]
