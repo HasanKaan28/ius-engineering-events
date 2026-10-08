@@ -26,7 +26,6 @@ def fill_docx():
         p = tc.find('w:p', ns)
         if p is None:
             p = ET.SubElement(tc, f"{{{ns['w']}}}p")
-        # Remove existing r
         for r in p.findall('w:r', ns):
             p.remove(r)
         new_r = ET.SubElement(p, f"{{{ns['w']}}}r")
@@ -38,12 +37,10 @@ def fill_docx():
         new_t = ET.SubElement(new_r, f"{{{ns['w']}}}t")
         new_t.text = text
 
-    tbls = root.findall('.//w:tbl', ns)
+    body = root.find('w:body', ns)
 
     # TABLE 0: Basic info
-    # Row 1: Club name
-    # Row 2: Status
-    # Row 3: Academic Year
+    tbls = root.findall('.//w:tbl', ns)
     if len(tbls) > 0:
         rows = tbls[0].findall('w:tr', ns)
         if len(rows) > 1:
@@ -59,14 +56,35 @@ def fill_docx():
             if len(tcs) > 1:
                 set_cell_text(tcs[1], "2026 / 2027")
 
+    # CLUB TYPE PARAGRAPHS (Between Table 0 and Table 1)
+    for p in body.findall('w:p', ns):
+        p_text = ''.join([t.text for t in p.iter(f"{{{ns['w']}}}t") if t.text])
+        if 'AEC (Academic and Educational Club):' in p_text and not p_text.startswith('[ X ]'):
+            for t in p.iter(f"{{{ns['w']}}}t"):
+                if 'AEC' in t.text:
+                    t.text = t.text.replace('AEC (Academic and Educational Club):', '[ X ] AEC (Academic and Educational Club):')
+        elif 'CSC (Community Service Club):' in p_text and not p_text.startswith('[   ]'):
+            for t in p.iter(f"{{{ns['w']}}}t"):
+                if 'CSC' in t.text:
+                    t.text = t.text.replace('CSC (Community Service Club):', '[   ] CSC (Community Service Club):')
+        elif 'SRC (Spiritual and Religious Club):' in p_text and not p_text.startswith('[   ]'):
+            for t in p.iter(f"{{{ns['w']}}}t"):
+                if 'SRC' in t.text:
+                    t.text = t.text.replace('SRC (Spiritual and Religious Club):', '[   ] SRC (Spiritual and Religious Club):')
+        elif 'CC (Cultural Club):' in p_text and not p_text.startswith('[   ]'):
+            for t in p.iter(f"{{{ns['w']}}}t"):
+                if 'CC' in t.text:
+                    t.text = t.text.replace('CC (Cultural Club):', '[   ] CC (Cultural Club):')
+        elif 'RSC (Recreation and Sports Club):' in p_text and not p_text.startswith('[   ]'):
+            for t in p.iter(f"{{{ns['w']}}}t"):
+                if 'RSC' in t.text:
+                    t.text = t.text.replace('RSC (Recreation and Sports Club):', '[   ] RSC (Recreation and Sports Club):')
+        elif 'MAC (Media and Art Club):' in p_text and not p_text.startswith('[   ]'):
+            for t in p.iter(f"{{{ns['w']}}}t"):
+                if 'MAC' in t.text:
+                    t.text = t.text.replace('MAC (Media and Art Club):', '[   ] MAC (Media and Art Club):')
+
     # TABLE 1: Purpose & Board
-    # Row 1: Purpose
-    # Row 5: Advisor -> Prof. Dr. Leila Miller
-    # Row 6: President -> Kaan Mete Şenyıldız
-    # Row 7: Vice President -> Mahmut İhsan Avcı
-    # Row 8: Secretary -> Mahmut İhsan Avcı
-    # Row 9: Treasurer -> Bekir Enes Çokbekler
-    # Row 10: PR -> [In Appointment Process / Open Position]
     if len(tbls) > 1:
         rows = tbls[1].findall('w:tr', ns)
         if len(rows) > 1:
@@ -100,12 +118,6 @@ def fill_docx():
                 set_cell_text(tcs[1], "[In Appointment Process / Open Position]")
 
     # TABLE 2: Contact Information
-    # Row 2: President Name -> Kaan Mete Şenyıldız
-    # Row 3: President Phone -> +90 553 113 11 98
-    # Row 4: President Email -> kmsenyildiz@gmail.com
-    # Row 6: Advisor Name -> Prof. Dr. Leila Miller (Full Professor Dr.)
-    # Row 7: Advisor Phone -> 033 957 -
-    # Row 8: Advisor Email -> lmiller@ius.edu.ba (Assistant: itarhanis-papic@ius.edu.ba)
     if len(tbls) > 2:
         rows = tbls[2].findall('w:tr', ns)
         if len(rows) > 2:
@@ -154,7 +166,6 @@ def fill_docx():
 
     if len(tbls) > 3:
         rows = tbls[3].findall('w:tr', ns)
-        # rows[0] is header title, rows[1] is note, rows[2] is table columns No | Name | Email | Student ID | Signature
         for i, m in enumerate(members_data):
             row_idx = 3 + i
             if row_idx < len(rows):
@@ -167,8 +178,6 @@ def fill_docx():
 
     tree.write(doc_xml_path, encoding='utf-8', xml_declaration=True)
 
-    # Rezip into target files
-    out_desktop_filled = r'C:\Users\Kaan\Desktop\student_club_registration_form_f252_DOLDURULMUS.docx'
     out_export_filled = r'C:\Users\Kaan\.gemini\antigravity-ide\scratch\ius-engineering-events\export_documents\student_club_registration_form_f252_FILLED.docx'
 
     def make_zip(out_path):
@@ -179,19 +188,13 @@ def fill_docx():
                     arcname = os.path.relpath(filepath, extract_dir)
                     zip_out.write(filepath, arcname)
 
-    make_zip(out_desktop_filled)
     make_zip(out_export_filled)
-    # Also overwrite desktop original after backing up
-    orig_bak = r'C:\Users\Kaan\Desktop\student_club_registration_form_f252_ORIGINAL_BACKUP.docx'
-    if not os.path.exists(orig_bak):
-        shutil.copy2(src_docx, orig_bak)
-    shutil.copy2(out_desktop_filled, src_docx)
+    # Overwrite the exact desktop file cleanly
+    make_zip(src_docx)
 
     shutil.rmtree(extract_dir)
-    print("SUCCESS: Docx filled with Prof. Dr. Leila Miller and all club data!")
-    print(f"Generated: {out_desktop_filled}")
-    print(f"Generated: {out_export_filled}")
-    print(f"Updated: {src_docx}")
+    print("SUCCESS: Exact school form filled cleanly on Desktop without any extra files!")
+    print(f"Updated Desktop file: {src_docx}")
 
 if __name__ == '__main__':
     fill_docx()
