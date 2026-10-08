@@ -50,7 +50,7 @@ Through high-impact extracurricular workshops, software/AI bootcamps, multidisci
 | **President** | **Kaan Mete Şenyıldız** | **250302201** | FENS | **2nd Year** |
 | **Vice President** | **Hasan Kaan Karabulut** | **250302195** | FENS | 1st Year |
 | **Secretary** | **Mahmut İhsan Avcı** | **250302233** | FENS | 1st Year |
-| **Treasurer** | **Bekir Enes Çokbekler** | **250302229** | Mechanical Engineering | 1st Year |
+| **Treasurer** | **Bekir Enes Çokbekler** | **250302229** | FENS | 1st Year |
 | **Public Relations (PR)** | **Bakir Bašić** | **260302030** | FENS | 1st Year |
 
 ---
@@ -80,9 +80,9 @@ Through high-impact extracurricular workshops, software/AI bootcamps, multidisci
 | **1** | **Kaan Mete Şenyıldız** | `kmsenyildiz@gmail.com` | **250302201** | FENS / 2nd Year | ___________________________ |
 | **2** | **Hasan Kaan Karabulut** | `hasankaankarabulut121@gmail.com` | **250302195** | FENS / 1st Year | ___________________________ |
 | **3** | **Mahmut İhsan Avcı** | `mahmut.ihsanavcii@gmail.com` | **250302233** | FENS / 1st Year | ___________________________ |
-| **4** | **Bekir Enes Çokbekler** | `becokbekler@student.ius.edu.ba` | **250302229** | ME / 1st Year | ___________________________ |
-| **5** | Bilal Yusuf Şimşek | `Simsekbilal59@gmail.com` | 250302196 | CE / 1st Year | ___________________________ |
-| **6** | Nazlıcan Cebeci | `nazlii.cebeci@gmail.com` | 250302243 | CSE / 1st Year | ___________________________ |
+| **4** | **Bekir Enes Çokbekler** | `becokbekler@student.ius.edu.ba` | **250302229** | FENS / 1st Year | ___________________________ |
+| **5** | Bilal Yusuf Şimşek | `Simsekbilal59@gmail.com` | 250302196 | FENS / 1st Year | ___________________________ |
+| **6** | Nazlıcan Cebeci | `nazlii.cebeci@gmail.com` | 250302243 | FENS / 1st Year | ___________________________ |
 | **7** | Muhammed Emin Tiryaki | `metiryaki@student.ius.edu.ba` | 250302247 | FENS / 2nd Year | ___________________________ |
 | **8** | Emin Efe Duman | `emnfdmn@gmail.com` | 250302211 | FENS / 1st Year | ___________________________ |
 | **9** | **Bakir Bašić** | `260302030@student.ius.edu.ba` | **260302030** | FENS / 1st Year | ___________________________ |
@@ -92,7 +92,7 @@ Through high-impact extracurricular workshops, software/AI bootcamps, multidisci
 | **13** | Hüseyin Talha Seymenliler | `tseymenliler16@gmail.com` | 240302179 | FENS / 2nd Year | ___________________________ |
 | **14** | Muhammed Efe Ural | `uralefe10@gmail.com` | 240302169 | FENS / 2nd Year | ___________________________ |
 | **15** | Abdullah Uzun | `250201110@student.ius.edu.ba` | 250201110 | FBA / 1st Year | ___________________________ |
-| **16** | Ahmed Hadzimurati | `260302051@student.ius.edu.ba` | 260302051 | SE / 1st Year | ___________________________ |
+| **16** | Ahmed Hadzimurati | `260302051@student.ius.edu.ba` | 260302051 | FENS / 1st Year | ___________________________ |
 
 ---
 

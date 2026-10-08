@@ -17,7 +17,7 @@
 | **1** | **Kaan Mete Şenyıldız** | **250302201** | FENS | **2nd Year** | **Club President** | ___________________________ |
 | **2** | **Hasan Kaan Karabulut** | **250302195** | FENS | 1st Year | **Co-Founder & Vice President** | ___________________________ |
 | **3** | **Mahmut İhsan Avcı** | **250302233** | FENS | 1st Year | **Co-Founder & General Secretary** | ___________________________ |
-| **4** | **Bekir Enes Çokbekler** | **250302229** | Mechanical Engineering | 1st Year | **Club Treasurer** | ___________________________ |
+| **4** | **Bekir Enes Çokbekler** | **250302229** | FENS | 1st Year | **Club Treasurer** | ___________________________ |
 | **5** | **Bakir Bašić** | **260302030** | FENS | 1st Year | **PR & Media Lead** | ___________________________ |
 
 ---
@@ -27,8 +27,8 @@
 
 | # | Full Name | Student ID | Faculty & Study Program | Year of Study | Physical Signature |
 | :-: | :--- | :---: | :--- | :---: | :---: |
-| **1** | Bilal Yusuf Şimşek | 250302196 | Computer Engineering | 1st Year | ___________________________ |
-| **2** | Nazlıcan Cebeci | 250302243 | Computer Science & Engineering | 1st Year | ___________________________ |
+| **1** | Bilal Yusuf Şimşek | 250302196 | FENS | 1st Year | ___________________________ |
+| **2** | Nazlıcan Cebeci | 250302243 | FENS | 1st Year | ___________________________ |
 | **3** | Muhammed Emin Tiryaki | 250302247 | FENS | 2nd Year | ___________________________ |
 | **4** | Emin Efe Duman | 250302211 | FENS | 1st Year | ___________________________ |
 | **5** | Ömer Arif Açıkel | 250302232 | FENS | 1st Year | ___________________________ |
@@ -37,7 +37,7 @@
 | **8** | Hüseyin Talha Seymenliler | 240302179 | FENS | 2nd Year | ___________________________ |
 | **9** | Muhammed Efe Ural | 240302169 | FENS | 2nd Year | ___________________________ |
 | **10**| Abdullah Uzun | 250201110 | FBA | 1st Year | ___________________________ |
-| **11**| Ahmed Hadzimurati | 260302051 | Software Engineering (FENS) | 1st Year | ___________________________ |
+| **11**| Ahmed Hadzimurati | 260302051 | FENS | 1st Year | ___________________________ |
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "project": "IUS Engineering Club",
-  "generated_at": "2026-10-08T22:38:21.111210",
+  "generated_at": "2026-10-08T22:42:40.301652",
   "stats": {
     "total_nodes": 35,
     "total_edges": 72,
@@ -231,7 +231,7 @@
       "file": "organization/ROLE_DESCRIPTIONS.md",
       "role_title": "👑 Asıl Başkan & Kurucu Ortak (Co-Founder & President)",
       "student_id": "250302195",
-      "dept": "FENS / CSE (1. Sınıf)",
+      "dept": "FENS (1. Sınıf)",
       "duties": "Kulübün ASIL BAŞKANI, kurucu ortağı ve nihai karar mercii. Kulübün tüm vizyonunu, teknik ve idari yapılanmasını, Linear sprintlerini, yapay zeka atölyelerini, bütçe onaylarını ve DevHack 2027'yi yönetir.",
       "tools": [
         "Linear.app Task Hub",
@@ -246,7 +246,7 @@
         "Bekir Enes (Sayman)",
         "Komiteler & Takımlar"
       ],
-      "details": "[👑 Asıl Başkan & Kurucu Ortak (Co-Founder & President)] FENS / CSE (1. Sınıf) - No: 250302195\nGörevler: Kulübün ASIL BAŞKANI, kurucu ortağı ve nihai karar mercii. Kulübün tüm vizyonunu, teknik ve idari yapılanmasını, Linear sprintlerini, yapay zeka atölyelerini, bütçe onaylarını ve DevHack 2027'yi yönetir.",
+      "details": "[👑 Asıl Başkan & Kurucu Ortak (Co-Founder & President)] FENS (1. Sınıf) - No: 250302195\nGörevler: Kulübün ASIL BAŞKANI, kurucu ortağı ve nihai karar mercii. Kulübün tüm vizyonunu, teknik ve idari yapılanmasını, Linear sprintlerini, yapay zeka atölyelerini, bütçe onaylarını ve DevHack 2027'yi yönetir.",
       "x": 0,
       "y": 0
     },
@@ -286,7 +286,7 @@
       "file": "organization/ROLE_DESCRIPTIONS.md",
       "role_title": "🏛️ Resmi / Göstermelik Başkan (SCC 2. Sınıf Temsilcisi)",
       "student_id": "250302201",
-      "dept": "FENS / CSE (2. Sınıf)",
+      "dept": "FENS (2. Sınıf)",
       "duties": "SCC mevzuatındaki 'Kulüp başkanı en az 2. sınıf olmalıdır' kuralını karşılamak üzere resmi evraklardaki imza mercii ve üniversite nezdindeki biçimsel temsilci. Fiili kulüp yönetimi ve kararlar Hasan Kaan ve Mahmut İhsan tarafından yürütülür.",
       "tools": [
         "Resmi Dilekçe İmzaları",
@@ -298,7 +298,7 @@
         "Mahmut İhsan (Asıl Bşk. Yrd.)",
         "FENS Academic Advisor"
       ],
-      "details": "[🏛️ Resmi / Göstermelik Başkan (SCC 2. Sınıf Temsilcisi)] FENS / CSE (2. Sınıf) - No: 250302201\nGörevler: SCC mevzuatındaki 'Kulüp başkanı en az 2. sınıf olmalıdır' kuralını karşılamak üzere resmi evraklardaki imza mercii ve üniversite nezdindeki biçimsel temsilci. Fiili kulüp yönetimi ve kararlar Hasan Kaan ve Mahmut İhsan tarafından yürütülür.",
+      "details": "[🏛️ Resmi / Göstermelik Başkan (SCC 2. Sınıf Temsilcisi)] FENS (2. Sınıf) - No: 250302201\nGörevler: SCC mevzuatındaki 'Kulüp başkanı en az 2. sınıf olmalıdır' kuralını karşılamak üzere resmi evraklardaki imza mercii ve üniversite nezdindeki biçimsel temsilci. Fiili kulüp yönetimi ve kararlar Hasan Kaan ve Mahmut İhsan tarafından yürütülür.",
       "x": 280,
       "y": 0
     },
@@ -311,7 +311,7 @@
       "file": "organization/ROLE_DESCRIPTIONS.md",
       "role_title": "💰 Sayman & Finans Lideri (Treasurer & Finance)",
       "student_id": "250302229",
-      "dept": "Makine Mühendisliği (1. Sınıf)",
+      "dept": "FENS (1. Sınıf)",
       "duties": "Bütçe ve finans lideri. SCC 1.300 KM taslak bütçe ve 3 katmanlı sürdürülebilir finans modelini (Şirket sponsorlukları 800 KM, Üniversite/SCC hibe desteği 300 KM, DevHack cüzi katılım payı 200 KM) yönetir. Saraybosna teknoloji ekosistemi şirketleriyle görüşmeler yürütür. Hasan Kaan ve Mahmut İhsan'a rapor verir.",
       "tools": [
         "Corporate Sponsorship Package",
@@ -325,7 +325,7 @@
         "SCC / Üniversite",
         "PR Lead"
       ],
-      "details": "[💰 Sayman & Finans Lideri (Treasurer & Finance)] Makine Mühendisliği (1. Sınıf) - No: 250302229\nGörevler: Bütçe ve finans lideri. SCC 1.300 KM taslak bütçe ve 3 katmanlı sürdürülebilir finans modelini (Şirket sponsorlukları 800 KM, Üniversite/SCC hibe desteği 300 KM, DevHack cüzi katılım payı 200 KM) yönetir. Saraybosna teknoloji ekosistemi şirketleriyle görüşmeler yürütür. Hasan Kaan ve Mahmut İhsan'a rapor verir.",
+      "details": "[💰 Sayman & Finans Lideri (Treasurer & Finance)] FENS (1. Sınıf) - No: 250302229\nGörevler: Bütçe ve finans lideri. SCC 1.300 KM taslak bütçe ve 3 katmanlı sürdürülebilir finans modelini (Şirket sponsorlukları 800 KM, Üniversite/SCC hibe desteği 300 KM, DevHack cüzi katılım payı 200 KM) yönetir. Saraybosna teknoloji ekosistemi şirketleriyle görüşmeler yürütür. Hasan Kaan ve Mahmut İhsan'a rapor verir.",
       "x": -140,
       "y": 180
     },
