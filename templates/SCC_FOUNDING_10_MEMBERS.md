@@ -15,8 +15,8 @@
 | # | Full Name | Student ID | Faculty / Study Program | Year of Study | Proposed Office / Position | Physical Signature |
 | :-: | :--- | :---: | :--- | :---: | :--- | :---: |
 | **1** | **Kaan Mete Şenyıldız** | **250302201** | FENS | **2nd Year** | **Club President** | ___________________________ |
-| **2** | **Hasan Kaan** | **250302195** | FENS | 1st Year | **Vice President** | ___________________________ |
-| **3** | **Mahmut İhsan Avcı** | **250302233** | FENS | 1st Year | **General Secretary** | ___________________________ |
+| **2** | **Hasan Kaan Karabulut** | **250302195** | FENS | 1st Year | **Co-Founder & Vice President** | ___________________________ |
+| **3** | **Mahmut İhsan Avcı** | **250302233** | FENS | 1st Year | **Co-Founder & General Secretary** | ___________________________ |
 | **4** | **Bekir Enes Çokbekler** | **250302229** | Mechanical Engineering | 1st Year | **Club Treasurer** | ___________________________ |
 | **5** | *[In Appointment Process]* | *—* | FENS | *—* | **PR & Media Lead** | ___________________________ |
 
@@ -29,14 +29,15 @@
 | :-: | :--- | :---: | :--- | :---: | :---: |
 | **1** | Bilal Yusuf Şimşek | 250302196 | Computer Engineering | 1st Year | ___________________________ |
 | **2** | Nazlıcan Cebeci | 250302243 | Computer Science & Engineering | 1st Year | ___________________________ |
-| **3** | Muhammed Emin | 250302247 | FENS | 2nd Year | ___________________________ |
+| **3** | Muhammed Emin Tiryaki | 250302247 | FENS | 2nd Year | ___________________________ |
 | **4** | Emin Efe Duman | 250302211 | FENS | 1st Year | ___________________________ |
-| **5** | Bakir | 260302030 | FENS | 1st Year | ___________________________ |
+| **5** | Bakir Šabić | 260302030 | FENS | 1st Year | ___________________________ |
 | **6** | Ömer Arif Açıkel | 250302232 | FENS | 1st Year | ___________________________ |
 | **7** | Mert Çınar Atalay | 250302162 | FENS | 1st Year | ___________________________ |
 | **8** | Ferit Enes Seymenliler | 240302180 | FENS | 2nd Year | ___________________________ |
 | **9** | Hüseyin Talha Seymenliler | 240302179 | FENS | 2nd Year | ___________________________ |
 | **10**| Muhammed Efe Ural | 240302169 | FENS | 2nd Year | ___________________________ |
+| **11**| Abdullah Uzun | 250201110 | FBA | 1st Year | ___________________________ |
 
 ---
 
@@ -44,7 +45,7 @@
 
 I hereby confirm my acceptance of the appointment as Academic Faculty Advisor for the IUS Engineering Events Club for the 2026/2027 academic year, and confirm that I will advise the club's educational activities in alignment with university standards.
 
-**Advisor Name & Academic Title:** ___________________________________________________________  
+**Advisor Name & Academic Title:** Prof. Dr. Leila Miller (Full Professor Dr.)  
 **Faculty / Department:** Faculty of Engineering and Natural Sciences (FENS)  
 **Advisor Signature:** ___________________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Date:** _____ / _____ / 2026  
 

@@ -78,14 +78,14 @@ Through high-impact extracurricular workshops, software/AI bootcamps, multidisci
 | No. | Name and Surname | Email | Student ID | Department / Year | Physical Signature |
 | :---: | :--- | :--- | :---: | :---: | :---: |
 | **1** | **Kaan Mete Şenyıldız** | `kmsenyildiz@gmail.com` | **250302201** | FENS / 2nd Year | ___________________________ |
-| **2** | **Hasan Kaan** | `ufukkarabulut35@gmail.com` | **250302195** | FENS / 1st Year | ___________________________ |
+| **2** | **Hasan Kaan Karabulut** | `hasankaankarabulut121@gmail.com` | **250302195** | FENS / 1st Year | ___________________________ |
 | **3** | **Mahmut İhsan Avcı** | `mahmut.ihsanavcii@gmail.com` | **250302233** | FENS / 1st Year | ___________________________ |
-| **4** | **Bekir Enes Çokbekler** | `46bekir70@gmail.com` | **250302229** | ME / 1st Year | ___________________________ |
+| **4** | **Bekir Enes Çokbekler** | `becokbekler@student.ius.edu.ba` | **250302229** | ME / 1st Year | ___________________________ |
 | **5** | Bilal Yusuf Şimşek | `Simsekbilal59@gmail.com` | 250302196 | CE / 1st Year | ___________________________ |
 | **6** | Nazlıcan Cebeci | `nazlii.cebeci@gmail.com` | 250302243 | CSE / 1st Year | ___________________________ |
-| **7** | Muhammed Emin | `duduck6107@gmail.com` | 250302247 | FENS / 2nd Year | ___________________________ |
+| **7** | Muhammed Emin Tiryaki | `metiryaki@student.ius.edu.ba` | 250302247 | FENS / 2nd Year | ___________________________ |
 | **8** | Emin Efe Duman | `emnfdmn@gmail.com` | 250302211 | FENS / 1st Year | ___________________________ |
-| **9** | Bakir | `260302030@student.ius.edu.ba` | 260302030 | FENS / 1st Year | ___________________________ |
+| **9** | Bakir Šabić | `bsabic@student.ius.edu.ba` | 260302030 | FENS / 1st Year | ___________________________ |
 | **10** | Ömer Arif Açıkel | `o.arifacikel@gmail.com` | 250302232 | FENS / 1st Year | ___________________________ |
 | **11** | Mert Çınar Atalay | `atalayss301@gmail.com` | 250302162 | FENS / 1st Year | ___________________________ |
 | **12** | Ferit Enes Seymenliler | `eenesseymenliler@gmail.com` | 240302180 | FENS / 2nd Year | ___________________________ |
@@ -99,7 +99,7 @@ Through high-impact extracurricular workshops, software/AI bootcamps, multidisci
 *(For clubs related to study programs)*
 
 - **Dean of the Faculty of Engineering and Natural Sciences (FENS):**  
-  **Name and Surname:** ___________________________________________________________  
+  **Name and Surname:** Assoc. Prof. Dr. Altijana Hromić-Jahjefendić  
   **Signature & Stamp:** ___________________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Date:** _____ / _____ / 2026  
 
 ---
