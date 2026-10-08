@@ -1,9 +1,9 @@
 {
   "project": "IUS Engineering Events Club",
-  "generated_at": "2026-10-08T12:10:56.420210",
+  "generated_at": "2026-10-08T12:16:35.339480",
   "stats": {
-    "total_nodes": 45,
-    "total_edges": 107,
+    "total_nodes": 44,
+    "total_edges": 106,
     "linear_tasks": 10,
     "registered_members": 10,
     "board_members": 5
@@ -123,17 +123,6 @@
       "y": 110
     },
     {
-      "id": "comm_discord",
-      "label": "Discord Community Server",
-      "cluster": "Community",
-      "isGodNode": false,
-      "type": "Platform",
-      "file": "community/DISCORD_SERVER_STRUCTURE.md",
-      "details": "Online Tech-Talks canlı yayınları, sesli çalışma odaları, kod hata çözümü ve Linear webhookları.",
-      "x": 520,
-      "y": 260
-    },
-    {
       "id": "doc_constitution",
       "label": "📄 IEEC Kulüp Tüzüğü",
       "cluster": "Documents",
@@ -246,7 +235,7 @@
       "tools": [
         "Linear.app Task Hub",
         "Antigravity IDE & Python Automation",
-        "Discord Community Server",
+        "WhatsApp Community Hub",
         "AI/LLM Workshop Stacks",
         "Tüm Stratejik Kararlar"
       ],
@@ -469,11 +458,11 @@
       "task_state": "Backlog",
       "task_priority": 2,
       "task_assignee": "Hasan Kaan",
-      "url": "https://linear.app/ius-engineering-events/issue/IUS-11/aralik-3-hafta-haftalik-online-tech-talks-discordmeet-format-ve-konuk",
+      "url": "https://linear.app/ius-engineering-events/issue/IUS-11/aralik-3-hafta-haftalik-online-tech-talks-google-meet-format-ve-konuk",
       "file": "scripts/linear_ops.py",
       "x": 253,
       "y": -535,
-      "details": "[IUS-11] 🌐 [Aralık 3. Hafta] Haftalık Online Tech-Talks (Discord/Meet): Format ve Konuk Daveti\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 2\nURL: https://linear.app/ius-engineering-events/issue/IUS-11/aralik-3-hafta-haftalik-online-tech-talks-discordmeet-format-ve-konuk\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\nHer hafta tanınmış, sektörde deneyimli yerli ve yabancı teknoloji uzmanları ile Discord / Google Meet üzerinden samimi, interaktif online söyleşi (fireside chat) ve mentorluk seansları yapmak.\n\n### 📋 Yapılacaklar:\n\n- [ ] **Topluluk Platformu:** Kulüp Discor..."
+      "details": "[IUS-11] 🌐 [Aralık 3. Hafta] Haftalık Online Tech-Talks (Google Meet): Format ve Konuk Daveti\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 2\nURL: https://linear.app/ius-engineering-events/issue/IUS-11/aralik-3-hafta-haftalik-online-tech-talks-google-meet-format-ve-konuk\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\nHer hafta tanınmış, sektörde deneyimli yerli ve yabancı teknoloji uzmanları ile Google Meet webinar formatında samimi, interaktif online söyleşi (fireside chat) ve mentorluk seansları yapmak.\n\n### 📋 Yapılacaklar:\n\n- [ ] **Topluluk Platformu:** Google Meet w..."
     },
     {
       "id": "linear_task_IUS-12",
@@ -726,11 +715,6 @@
       "relation": "DIRECTS_COMMITTEE"
     },
     {
-      "source": "board_hasan_kaan",
-      "target": "comm_discord",
-      "relation": "ADMINISTERS"
-    },
-    {
       "source": "board_mahmut_ihsan",
       "target": "sheet_responses",
       "relation": "MONITORS_FORM"
@@ -932,8 +916,8 @@
     },
     {
       "source": "linear_task_IUS-11",
-      "target": "comm_discord",
-      "relation": "STREAMS_ON"
+      "target": "comm_whatsapp",
+      "relation": "ANNOUNCES_ON"
     },
     {
       "source": "linear_task_IUS-11",
