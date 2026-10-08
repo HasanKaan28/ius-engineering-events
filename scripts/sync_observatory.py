@@ -179,6 +179,21 @@ def build_observatory_graph():
     sheet_rows = fetch_responses()
     print(f"    [✓] {len(sheet_rows)} form yanıtı işleniyor.")
 
+    # Filter normal members (non-board) from sheet rows upfront
+    normal_member_rows = []
+    for r in sheet_rows:
+        if len(r) < 5:
+            continue
+        m_name = r[1].strip()
+        m_id = r[4].strip()
+        is_board = False
+        for b in BOARD_MEMBERS.values():
+            if b["student_id"] == m_id or any(al in m_name.lower() for al in b["aliases"]):
+                is_board = True
+                break
+        if not is_board:
+            normal_member_rows.append(r)
+
     nodes = []
     edges = []
 
@@ -214,13 +229,13 @@ def build_observatory_graph():
 
     add_node({
         "id": "sheet_responses",
-        "label": f"Google Sheets ({len(sheet_rows)} Kayıt / 2 Onaylı Normal Üye)",
+        "label": f"Google Sheets ({len(sheet_rows)} Kayıt / {len(normal_member_rows)} Normal Üye)",
         "cluster": "Data",
         "isGodNode": False,
         "type": "Dataset",
         "file": "data/form_responses.csv",
         "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
-        "details": "Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. Formdan gelen herkes aksi belirtilmedikçe Normal Üyedir."
+        "details": f"Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. {len(normal_member_rows)} onaylı normal üye kayıtlı."
     })
 
     add_node({
@@ -322,12 +337,12 @@ def build_observatory_graph():
 
     add_node({
         "id": "doc_founding",
-        "label": "📄 SCC 10 Kurucu Üye Listesi",
+        "label": f"📄 SCC 10 Kurucu Üye Listesi ({len(normal_member_rows)}/10)",
         "cluster": "Documents",
         "isGodNode": True,
         "type": "Doc",
         "file": "templates/SCC_FOUNDING_10_MEMBERS.md",
-        "details": "Resmi kuruluş evrağı: 4 Yönetim Kurulu Onaylı + 1 PR Lead Açık | 2 Normal Üye Onaylı + 8 Üye Bekleniyor."
+        "details": f"Resmi kuruluş evrağı: 4 Yönetim Kurulu Onaylı + 1 PR Lead Açık | {len(normal_member_rows)} Normal Üye Onaylı + {max(0, 10 - len(normal_member_rows))} Üye Bekleniyor."
     })
 
     add_node({
@@ -573,29 +588,15 @@ def build_observatory_graph():
             edges.append({"source": task_node_id, "target": "doc_sponsorship", "relation": "SEEKS_SPONSORS"})
 
     # 9. NORMAL MEMBER NODES (From Google Sheet Responses)
-    # Filter only approved non-board normal members
-    member_idx = 1
-    for r in sheet_rows:
-        if len(r) < 5:
-            continue
+    for member_idx, r in enumerate(normal_member_rows, 1):
         m_name = r[1].strip()
         m_id = r[4].strip()
         m_dept = r[5].strip() if len(r) > 5 else ""
         m_year = r[6].strip() if len(r) > 6 else ""
 
-        # Check if already a board member
-        is_board = False
-        for b in BOARD_MEMBERS.values():
-            if b["student_id"] == m_id or any(al in m_name.lower() for al in b["aliases"]):
-                is_board = True
-                break
-        
-        if is_board:
-            continue
-
         member_node_id = f"member_{re.sub(r'[^a-zA-Z0-9]', '_', m_name.lower())}_{m_id}"
         member_x = 750
-        member_y = 60 + (member_idx - 1) * 95
+        member_y = 60 + (member_idx - 1) * 75
 
         nodes.append({
             "id": member_node_id,
@@ -608,7 +609,7 @@ def build_observatory_graph():
             "dept": f"{m_dept} ({m_year}. Sınıf)",
             "x": int(member_x),
             "y": int(member_y),
-            "details": f"Onaylı Normal Üye #{member_idx}\nÖğrenci No: {m_id}\nBölüm: {m_dept} ({m_year}. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası)."
+            "details": f"Onaylı Normal Üye #{member_idx}\nÖğrenci No: {m_id}\nBölüm: {m_dept} ({m_year}. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: {len(normal_member_rows)}/10)."
         })
 
         edges.append({"source": "sheet_responses", "target": member_node_id, "relation": "REGISTERED_VIA"})
@@ -619,8 +620,6 @@ def build_observatory_graph():
         else:
             edges.append({"source": member_node_id, "target": "comm_multi", "relation": "JOINS_COMMITTEE"})
 
-        member_idx += 1
-
     graph_data = {
         "project": "IUS Engineering Events Club",
         "generated_at": datetime.now().isoformat(),
@@ -628,7 +627,7 @@ def build_observatory_graph():
             "total_nodes": len(nodes),
             "total_edges": len(edges),
             "linear_tasks": len(raw_issues),
-            "registered_members": member_idx - 1,
+            "registered_members": len(normal_member_rows),
             "board_members": 5
         },
         "nodes": nodes,

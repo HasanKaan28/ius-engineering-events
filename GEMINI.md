@@ -55,8 +55,7 @@ ius-engineering-events/
     - 🏛️ **Resmi / Göstermelik Başkan (Statutory President)**: Kaan Mete Şenyıldız (SCC mevzuatındaki "Kulüp başkanı en az 2. sınıf olmalıdır" kuralını karşılamak üzere resmi evraklardaki imza mercii ve okul nezdindeki temsilci).
     - 💰 **Sayman & Finans Lideri**: Bekir Enes Çokbekler (Bütçe yönetimi ve kurumsal sponsorluklar).
     - 📣 **PR & Media Lead**: ⚠️ **EKSİK / AÇIK POZİSYON** (Sosyal medya, tasarım ve kampüs içi lansman).
-  - **Normal Üyeler (10 Kişi Hedefi)**: Formdan gelen herkes (Bilal Yusuf, Nazlıcan, Muhammed Emin, Emin Efe Duman vb.) kullanıcı özellikle PR Lead olarak atamadıkça doğrudan **Üye (Member)** statüsündedir (Şu an 4/10 kayıtlı).
-  - **Okula Teslim Başvuru Dosyası (SKS / SCC Paketi)**:
+  - **Normal Üyeler (10 Kişi Hedefi)**: Formdan gelen herkes kullanıcı özellikle PR Lead olarak atamadıkça doğrudan **Üye (Member)** statüsündedir (Şu an 9/10 kayıtlı: Bilal Yusuf Şimşek, Nazlıcan Cebeci, Muhammed Emin, Emin Efe Duman, Bakir, Ömer Arif Açıkel, Mert Çınar Atalay, Ferit Enes Seymenliler, Hüseyin Talha Seymenliler). Hedefe sadece 1 üye kaldı!
     - Tüm başvuru evrakları (`templates/` ve `export_documents/`) okula sunulacak resmi **Prijedlog (Proposal)** formatındadır.
     - Hiçbir bütçe kalemi, üyelik veya izin "Onaylandı" olarak doldurulmaz; tüm kalemler **Projekcija / Planirano / Pending SCC Review** olarak işaretlenmiştir.
     - Okula teslim edilecek belgelerde iç yönetim notları (göstermelik başkan vb.) kesinlikle yer almaz; resmi unvanlar, ıslak imza satırları ve okulun değerlendirme/kaşeleme yapacağı boş SCC kutuları mevcuttur.

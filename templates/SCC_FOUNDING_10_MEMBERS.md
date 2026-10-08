@@ -31,11 +31,11 @@
 | **2** | Nazlıcan Cebeci | 250302243 | Computer Science & Engineering | 1st Year | ___________________________ |
 | **3** | Muhammed Emin | 250302247 | FENS | 2nd Year | ___________________________ |
 | **4** | Emin Efe Duman | 250302211 | FENS | 1st Year | ___________________________ |
-| **5** | &nbsp; | &nbsp; | FENS | &nbsp; | ___________________________ |
-| **6** | &nbsp; | &nbsp; | FENS | &nbsp; | ___________________________ |
-| **7** | &nbsp; | &nbsp; | FENS | &nbsp; | ___________________________ |
-| **8** | &nbsp; | &nbsp; | FENS | &nbsp; | ___________________________ |
-| **9** | &nbsp; | &nbsp; | FENS | &nbsp; | ___________________________ |
+| **5** | Bakir | 260302030 | FENS | 1st Year | ___________________________ |
+| **6** | Ömer Arif Açıkel | 250302232 | FENS | 1st Year | ___________________________ |
+| **7** | Mert Çınar Atalay | 250302162 | FENS | 1st Year | ___________________________ |
+| **8** | Ferit Enes Seymenliler | 240302180 | FENS | 2nd Year | ___________________________ |
+| **9** | Hüseyin Talha Seymenliler | 240302179 | FENS | 2nd Year | ___________________________ |
 | **10**| &nbsp; | &nbsp; | FENS | &nbsp; | ___________________________ |
 
 ---
