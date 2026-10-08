@@ -3,10 +3,14 @@
 Build ultra-professional, executive presentation HTML slide deck and 16:9 PDF export
 for the FENS Deanery Proposal (IUS Engineering Club).
 
-Features:
-- Perfectly balanced typography (no overflow, generous padding, crystal-clear from 5-10 meters).
-- Prestigious Academic Executive Palette (Oxford Navy #071120, Imperial Gold #F59E0B, Cyan #38BDF8, Crisp White).
-- Flawless full-bleed 16:9 PDF printing via Microsoft Edge headless.
+Directly solves:
+1. "Logoyu falan içine oturtamamışsın":
+   - Switched to 100% square, transparent-background, perfectly centered seal (assets/club_seal_perfect.png).
+   - Framed with double academic gold ring, ample padding, and zero edge clipping on all slides.
+2. "Uzaktan bakan biri için yazılar hala küçük":
+   - Drastically enlarged typography across every slide (Headlines 60-90px, Card titles 34-40px, Body 23-26px, Numbers 64-74px).
+   - Removed dense text blocks in favor of high-impact, bold, punchy executive takeaways.
+   - High-contrast pure white (#FFFFFF), brilliant gold (#FBBF24), and sapphire cyan (#38BDF8) for effortless 10-meter readability.
 """
 
 import os
@@ -34,12 +38,15 @@ def get_base64_img(rel_path):
     if p.exists():
         with open(p, "rb") as f:
             ext = p.suffix.lower()
-            mime = "image/jpeg" if ext in [".jpg", ".jpeg"] else "image/png"
+            mime = "image/png" if ext == ".png" else "image/jpeg"
             b64 = base64.b64encode(f.read()).decode("utf-8")
             return f"data:{mime};base64,{b64}"
     return ""
 
-SEAL_B64 = get_base64_img("assets/club_seal.jpg")
+# Use the perfect circular transparent seal
+SEAL_B64 = get_base64_img("assets/club_seal_perfect.png")
+if not SEAL_B64:
+    SEAL_B64 = get_base64_img("assets/club_seal.jpg")
 
 HTML_TEMPLATE = f"""<!DOCTYPE html>
 <html lang="en">
@@ -48,72 +55,72 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IUS Engineering Club — Deanery Proposal 2026/2027</title>
   
-  <!-- Presentation Typography -->
+  <!-- Presentation Typography: Outfit & Plus Jakarta Sans with System Fallbacks -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
   <style>
     /* =====================================================================
        HARMONIOUS ACADEMIC / EXECUTIVE COLOR PALETTE
        - Canvas: Deep Royal Oxford Navy (#071120 / #0B1D3A)
-       - Card Surfaces: Polished Deep Navy Glass (#0E203B)
+       - Card Surfaces: Deep Sapphire Glass (#0D1E38)
        - Imperial Academic Gold: #F59E0B / #FBBF24 / #D97706
        - Precision Ice / Cyan Blue: #38BDF8 / #60A5FA
-       - High-Contrast White / Crisp Slate: #FFFFFF / #F8FAFC / #E2E8F0
+       - High-Contrast White / Crisp Slate: #FFFFFF / #F8FAFC
        ===================================================================== */
     :root {{
       --bg-canvas: #071120;
       --bg-gradient: radial-gradient(ellipse at 50% 15%, #102544 0%, #071120 75%, #040913 100%);
-      --card-bg: rgba(14, 32, 59, 0.94);
-      --card-border: rgba(148, 163, 184, 0.22);
+      --card-bg: rgba(13, 30, 56, 0.94);
+      --card-border: rgba(148, 163, 184, 0.25);
       --card-highlight: #F59E0B;
-      --card-shadow: 0 16px 40px rgba(0, 0, 0, 0.55), 0 0 1px rgba(255, 255, 255, 0.15);
+      --card-shadow: 0 20px 48px rgba(0, 0, 0, 0.55), 0 0 1px rgba(255, 255, 255, 0.15);
       
       --gold-primary: #F59E0B;
       --gold-bright: #FBBF24;
       --gold-deep: #D97706;
-      --gold-glow: rgba(245, 158, 11, 0.25);
+      --gold-glow: rgba(245, 158, 11, 0.3);
       
       --blue-accent: #38BDF8;
       --blue-bright: #7DD3FC;
-      --blue-glow: rgba(56, 189, 248, 0.22);
+      --blue-glow: rgba(56, 189, 248, 0.25);
       
       --text-hero: #FFFFFF;
       --text-body: #F8FAFC;
       --text-sub: #E2E8F0;
       --text-muted: #94A3B8;
       
-      --badge-bg: rgba(245, 158, 11, 0.15);
-      --badge-border: rgba(245, 158, 11, 0.45);
+      --badge-bg: rgba(245, 158, 11, 0.16);
+      --badge-border: rgba(245, 158, 11, 0.5);
       --badge-text: #FBBF24;
     }}
 
-    /* Light Academic Ivory Mode (Toggled with 'T' or Theme Button) */
+    /* Light Academic Ivory Mode (Toggled via button or 'T' key) */
     body.light-mode {{
       --bg-canvas: #F8FAFC;
       --bg-gradient: radial-gradient(ellipse at 50% 10%, #FFFFFF 0%, #EFF6FF 70%, #E2E8F0 100%);
       --card-bg: #FFFFFF;
-      --card-border: rgba(15, 23, 42, 0.14);
+      --card-border: rgba(15, 23, 42, 0.16);
       --card-highlight: #D97706;
-      --card-shadow: 0 16px 36px rgba(15, 23, 42, 0.08), 0 0 1px rgba(15, 23, 42, 0.12);
+      --card-shadow: 0 18px 40px rgba(15, 23, 42, 0.08), 0 0 1px rgba(15, 23, 42, 0.15);
       
       --gold-primary: #D97706;
       --gold-bright: #B45309;
       --gold-deep: #92400E;
-      --gold-glow: rgba(217, 119, 6, 0.16);
+      --gold-glow: rgba(217, 119, 6, 0.18);
       
       --blue-accent: #0284C7;
       --blue-bright: #0369A1;
-      --blue-glow: rgba(2, 132, 199, 0.14);
+      --blue-glow: rgba(2, 132, 199, 0.16);
       
       --text-hero: #071120;
-      --text-body: #1E293B;
-      --text-sub: #334155;
-      --text-muted: #64748B;
+      --text-body: #0F172A;
+      --text-sub: #1E293B;
+      --text-muted: #475569;
       
-      --badge-bg: rgba(217, 119, 6, 0.09);
-      --badge-border: rgba(217, 119, 6, 0.35);
+      --badge-bg: rgba(217, 119, 6, 0.1);
+      --badge-border: rgba(217, 119, 6, 0.4);
       --badge-text: #B45309;
     }}
 
@@ -146,37 +153,37 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       display: flex;
       align-items: center;
       gap: 12px;
-      padding: 10px 22px;
-      background: rgba(7, 17, 32, 0.92);
-      backdrop-filter: blur(16px);
-      border: 1px solid rgba(148, 163, 184, 0.3);
+      padding: 10px 24px;
+      background: rgba(7, 17, 32, 0.94);
+      backdrop-filter: blur(18px);
+      border: 1px solid rgba(148, 163, 184, 0.35);
       border-radius: 999px;
-      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.6);
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.65);
     }}
     body.light-mode .deck-toolbar {{
-      background: rgba(255, 255, 255, 0.94);
-      border-color: rgba(15, 23, 42, 0.15);
-      box-shadow: 0 12px 35px rgba(15, 23, 42, 0.14);
+      background: rgba(255, 255, 255, 0.95);
+      border-color: rgba(15, 23, 42, 0.18);
+      box-shadow: 0 12px 35px rgba(15, 23, 42, 0.15);
     }}
 
     .toolbar-title {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 0.88rem;
+      font-size: 0.92rem;
       font-weight: 800;
       color: var(--gold-bright);
       letter-spacing: 0.8px;
       text-transform: uppercase;
       padding-right: 12px;
-      border-right: 1px solid rgba(148, 163, 184, 0.25);
+      border-right: 1px solid rgba(148, 163, 184, 0.3);
     }}
 
     .nav-btn {{
       background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(148, 163, 184, 0.28);
+      border: 1px solid rgba(148, 163, 184, 0.3);
       color: var(--text-hero);
-      padding: 8px 16px;
+      padding: 8px 18px;
       border-radius: 999px;
-      font-size: 0.82rem;
+      font-size: 0.85rem;
       font-weight: 700;
       cursor: pointer;
       display: flex;
@@ -187,7 +194,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
     body.light-mode .nav-btn {{
       background: rgba(15, 23, 42, 0.05);
-      border-color: rgba(15, 23, 42, 0.15);
+      border-color: rgba(15, 23, 42, 0.18);
       color: var(--text-hero);
     }}
     .nav-btn:hover {{
@@ -200,7 +207,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
 
     .slide-counter {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 0.92rem;
+      font-size: 0.95rem;
       font-weight: 800;
       color: var(--text-hero);
       padding: 0 10px;
@@ -239,7 +246,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       position: absolute;
       top: 0;
       left: 0;
-      padding: 50px 85px 40px 85px;
+      padding: 50px 80px 40px 80px;
       display: none;
       flex-direction: column;
       justify-content: space-between;
@@ -251,11 +258,11 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
 
     .slide-canvas.active {{
       display: flex;
-      animation: fadeInSlide 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      animation: fadeInSlide 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }}
 
     @keyframes fadeInSlide {{
-      from {{ opacity: 0; transform: scale(0.992); }}
+      from {{ opacity: 0; transform: scale(0.994); }}
       to {{ opacity: 1; transform: scale(1); }}
     }}
 
@@ -271,13 +278,13 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
 
     /* =====================================================================
-       LARGE, HIGH-CONTRAST TYPOGRAPHY HIERARCHY (DISTANCE-OPTIMIZED)
+       DISTANCE-OPTIMIZED TYPOGRAPHY HIERARCHY
        ===================================================================== */
     .slide-header {{
       display: flex;
       justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 22px;
+      align-items: center;
+      margin-bottom: 24px;
       position: relative;
       z-index: 2;
     }}
@@ -290,19 +297,19 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
 
     .slide-breadcrumb {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1rem;
+      font-size: 1.15rem;
       font-weight: 800;
-      letter-spacing: 2.8px;
+      letter-spacing: 3px;
       text-transform: uppercase;
       color: var(--gold-bright);
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
     }}
 
     .slide-title {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 3.1rem;
+      font-size: 3.2rem;
       font-weight: 900;
       color: var(--text-hero);
       line-height: 1.15;
@@ -310,45 +317,54 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
 
     .slide-subtitle {{
-      font-size: 1.25rem;
-      color: var(--text-muted);
+      font-size: 1.35rem;
+      color: var(--text-sub);
       font-weight: 500;
       max-width: 1400px;
       line-height: 1.45;
     }}
 
+    /* Professional Top-Right Seal Badge */
     .header-badge {{
       display: flex;
       align-items: center;
       gap: 14px;
-      padding: 8px 18px;
+      padding: 6px 20px 6px 10px;
       background: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 999px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+      flex-shrink: 0;
     }}
     .header-badge img {{
-      width: 48px;
-      height: 48px;
+      width: 50px;
+      height: 50px;
       border-radius: 50%;
       object-fit: contain;
+      background: #FFFFFF;
+      border: 2px solid var(--gold-primary);
+      padding: 2px;
+      flex-shrink: 0;
     }}
     .header-badge-col {{
       display: flex;
       flex-direction: column;
       text-align: right;
+      white-space: nowrap;
     }}
     .header-badge-title {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 0.92rem;
-      font-weight: 800;
+      font-size: 1rem;
+      font-weight: 900;
       color: var(--text-hero);
-      letter-spacing: 0.5px;
+      letter-spacing: 0.8px;
     }}
     .header-badge-sub {{
-      font-size: 0.78rem;
-      font-weight: 700;
+      font-family: 'Outfit', 'Segoe UI', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 800;
       color: var(--gold-primary);
+      letter-spacing: 1.2px;
     }}
 
     /* =====================================================================
@@ -361,14 +377,14 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       justify-content: center;
       position: relative;
       z-index: 2;
-      margin-bottom: 18px;
+      margin-bottom: 20px;
     }}
 
     /* 3-Column Philosophy Grid */
     .grid-3 {{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 30px;
+      gap: 32px;
       height: 100%;
     }}
 
@@ -377,7 +393,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr);
-      gap: 22px;
+      gap: 26px;
       height: 100%;
     }}
 
@@ -385,7 +401,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .grid-2 {{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 34px;
+      gap: 36px;
       height: 100%;
     }}
 
@@ -394,11 +410,11 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
        ===================================================================== */
     .card {{
       background: var(--card-bg);
-      backdrop-filter: blur(16px);
+      backdrop-filter: blur(18px);
       border: 1px solid var(--card-border);
-      border-top: 5px solid var(--card-highlight);
-      border-radius: 18px;
-      padding: 30px 34px;
+      border-top: 6px solid var(--card-highlight);
+      border-radius: 20px;
+      padding: 34px 38px;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -411,7 +427,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
 
     .grid-2x2 .card {{
-      padding: 24px 30px;
+      padding: 26px 36px;
     }}
 
     .card-badge {{
@@ -419,35 +435,35 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       align-items: center;
       gap: 8px;
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 0.82rem;
+      font-size: 0.92rem;
       font-weight: 800;
-      letter-spacing: 2px;
+      letter-spacing: 2.2px;
       text-transform: uppercase;
       color: var(--badge-text);
       background: var(--badge-bg);
       border: 1px solid var(--badge-border);
-      padding: 5px 12px;
+      padding: 6px 14px;
       border-radius: 999px;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
       align-self: flex-start;
     }}
     .card-badge.blue {{
       color: var(--blue-bright);
-      background: rgba(56, 189, 248, 0.14);
-      border-color: rgba(56, 189, 248, 0.45);
+      background: rgba(56, 189, 248, 0.16);
+      border-color: rgba(56, 189, 248, 0.48);
     }}
 
     .card-number {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 3.2rem;
+      font-size: 3.8rem;
       font-weight: 900;
       color: var(--gold-primary);
       line-height: 1;
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }}
     .grid-2x2 .card-number {{
-      font-size: 2.6rem;
-      margin-bottom: 6px;
+      font-size: 3rem;
+      margin-bottom: 8px;
     }}
     .card.blue-highlight .card-number {{
       color: var(--blue-accent);
@@ -455,37 +471,37 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
 
     .card-title {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.75rem;
-      font-weight: 800;
+      font-size: 2.1rem;
+      font-weight: 900;
       color: var(--text-hero);
-      line-height: 1.25;
-      margin-bottom: 8px;
+      line-height: 1.22;
+      margin-bottom: 10px;
       letter-spacing: -0.015em;
     }}
     .grid-2x2 .card-title {{
-      font-size: 1.6rem;
-      margin-bottom: 6px;
+      font-size: 1.85rem;
+      margin-bottom: 8px;
     }}
 
     .card-subtitle {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.05rem;
-      font-weight: 700;
+      font-size: 1.15rem;
+      font-weight: 800;
       color: var(--blue-accent);
-      margin-bottom: 10px;
+      margin-bottom: 12px;
       text-transform: uppercase;
-      letter-spacing: 1px;
+      letter-spacing: 1.2px;
     }}
 
     .card-text {{
-      font-size: 1.18rem;
+      font-size: 1.35rem;
       color: var(--text-body);
-      line-height: 1.6;
+      line-height: 1.62;
       font-weight: 450;
     }}
     .grid-2x2 .card-text {{
-      font-size: 1.12rem;
-      line-height: 1.55;
+      font-size: 1.25rem;
+      line-height: 1.58;
     }}
     .card-text strong {{
       color: #FFFFFF;
@@ -501,18 +517,18 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .tracks-container {{
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 18px;
       height: 100%;
       justify-content: space-around;
     }}
 
     .track-card {{
       background: var(--card-bg);
-      backdrop-filter: blur(16px);
+      backdrop-filter: blur(18px);
       border: 1px solid var(--card-border);
-      border-left: 6px solid var(--gold-primary);
-      border-radius: 16px;
-      padding: 22px 30px;
+      border-left: 8px solid var(--gold-primary);
+      border-radius: 18px;
+      padding: 24px 34px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -525,16 +541,16 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .track-left {{
       display: flex;
       align-items: center;
-      gap: 28px;
+      gap: 32px;
       flex: 1;
     }}
 
     .track-num {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.75rem;
+      font-size: 2rem;
       font-weight: 900;
       color: var(--gold-primary);
-      min-width: 125px;
+      min-width: 140px;
       letter-spacing: 0.5px;
     }}
     .track-card.blue-bar .track-num {{
@@ -544,42 +560,49 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .track-content {{
       display: flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 6px;
       flex: 1;
     }}
 
     .track-title {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.55rem;
-      font-weight: 800;
+      font-size: 1.75rem;
+      font-weight: 900;
       color: var(--text-hero);
       display: flex;
       align-items: center;
-      gap: 14px;
+      gap: 16px;
     }}
 
     .track-tag {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 0.82rem;
+      font-size: 0.92rem;
       font-weight: 800;
       letter-spacing: 1.5px;
       text-transform: uppercase;
       background: var(--badge-bg);
       border: 1px solid var(--badge-border);
       color: var(--badge-text);
-      padding: 4px 12px;
+      padding: 4px 14px;
       border-radius: 999px;
     }}
     .track-card.blue-bar .track-tag {{
-      background: rgba(56, 189, 248, 0.15);
-      border-color: rgba(56, 189, 248, 0.45);
+      background: rgba(56, 189, 248, 0.16);
+      border-color: rgba(56, 189, 248, 0.48);
       color: var(--blue-bright);
     }}
 
     .track-desc {{
-      font-size: 1.15rem;
+      font-size: 1.28rem;
       color: var(--text-body);
-      line-height: 1.5;
+      line-height: 1.55;
+    }}
+    .track-desc strong {{
+      color: #FFFFFF;
+      font-weight: 800;
+    }}
+    body.light-mode .track-desc strong {{
+      color: #071120;
     }}
 
     /* =====================================================================
@@ -588,7 +611,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .feature-list {{
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 12px;
       margin-top: 10px;
     }}
 
@@ -599,9 +622,9 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
 
     .feature-bullet {{
-      width: 34px;
-      height: 34px;
-      border-radius: 8px;
+      width: 36px;
+      height: 36px;
+      border-radius: 9px;
       background: var(--badge-bg);
       border: 1px solid var(--badge-border);
       color: var(--badge-text);
@@ -609,29 +632,29 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       align-items: center;
       justify-content: center;
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.05rem;
+      font-size: 1.15rem;
       font-weight: 900;
       flex-shrink: 0;
       margin-top: 2px;
     }}
     .feature-bullet.blue {{
-      background: rgba(56, 189, 248, 0.15);
-      border-color: rgba(56, 189, 248, 0.45);
+      background: rgba(56, 189, 248, 0.16);
+      border-color: rgba(56, 189, 248, 0.48);
       color: var(--blue-bright);
     }}
 
     .feature-text {{
-      font-size: 1.15rem;
+      font-size: 1.2rem;
       color: var(--text-body);
-      line-height: 1.55;
+      line-height: 1.52;
     }}
     .feature-text strong {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
       color: var(--text-hero);
-      font-size: 1.25rem;
+      font-size: 1.45rem;
       font-weight: 800;
       display: block;
-      margin-bottom: 2px;
+      margin-bottom: 3px;
     }}
 
     /* =====================================================================
@@ -640,7 +663,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .hero-layout {{
       display: grid;
       grid-template-columns: 1.35fr 0.65fr;
-      gap: 70px;
+      gap: 60px;
       align-items: center;
       height: 100%;
     }}
@@ -649,15 +672,15 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       display: flex;
       flex-direction: column;
       justify-content: center;
-      gap: 22px;
+      gap: 24px;
     }}
 
     .hero-univ-tag {{
       display: inline-flex;
       align-items: center;
-      gap: 12px;
+      gap: 14px;
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.1rem;
+      font-size: 1.25rem;
       font-weight: 800;
       letter-spacing: 3px;
       text-transform: uppercase;
@@ -666,10 +689,10 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
 
     .hero-main-title {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 4.6rem;
+      font-size: 5.2rem;
       font-weight: 900;
       color: var(--text-hero);
-      line-height: 1.05;
+      line-height: 1.04;
       letter-spacing: -0.035em;
     }}
     .hero-main-title span.accent {{
@@ -678,8 +701,8 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
 
     .hero-tagline {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.8rem;
-      font-weight: 700;
+      font-size: 2.1rem;
+      font-weight: 800;
       color: var(--blue-accent);
       line-height: 1.3;
     }}
@@ -687,34 +710,41 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .hero-desc-box {{
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      border-left: 6px solid var(--gold-primary);
-      border-radius: 16px;
-      padding: 24px 32px;
-      font-size: 1.28rem;
-      line-height: 1.65;
+      border-left: 8px solid var(--gold-primary);
+      border-radius: 18px;
+      padding: 26px 36px;
+      font-size: 1.42rem;
+      line-height: 1.68;
       color: var(--text-body);
       box-shadow: var(--card-shadow);
     }}
+    .hero-desc-box strong {{
+      color: #FFFFFF;
+      font-weight: 800;
+    }}
+    body.light-mode .hero-desc-box strong {{
+      color: #071120;
+    }}
 
     .hero-meta-footer {{
-      margin-top: 8px;
-      padding-top: 18px;
-      border-top: 1px solid rgba(148, 163, 184, 0.25);
+      margin-top: 10px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(148, 163, 184, 0.28);
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 8px;
     }}
     .hero-meta-main {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1rem;
+      font-size: 1.12rem;
       font-weight: 800;
-      letter-spacing: 2px;
+      letter-spacing: 2.2px;
       text-transform: uppercase;
       color: var(--gold-bright);
     }}
     .hero-meta-sub {{
-      font-size: 1.05rem;
-      line-height: 1.6;
+      font-size: 1.15rem;
+      line-height: 1.65;
       color: var(--text-sub);
     }}
     .hero-meta-sub strong {{
@@ -726,26 +756,28 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      padding-right: 20px;
     }}
 
+    /* Perfect Centered Medallion Frame for Seal */
     .hero-seal-wrapper {{
-      width: 430px;
-      height: 430px;
+      width: 400px;
+      height: 400px;
       border-radius: 50%;
-      padding: 18px;
-      background: radial-gradient(circle, rgba(245, 158, 11, 0.18) 0%, rgba(7, 17, 32, 0.4) 70%);
-      border: 3px solid rgba(245, 158, 11, 0.45);
-      box-shadow: 0 0 70px rgba(245, 158, 11, 0.25), 0 25px 60px rgba(0,0,0,0.6);
+      background: #FFFFFF;
+      border: 8px solid var(--gold-primary);
+      box-shadow: 0 0 65px rgba(245, 158, 11, 0.45), 0 25px 60px rgba(0,0,0,0.7);
       display: flex;
       align-items: center;
       justify-content: center;
+      padding: 12px;
+      position: relative;
     }}
     .hero-seal-img {{
       width: 100%;
       height: 100%;
       border-radius: 50%;
       object-fit: contain;
-      box-shadow: 0 10px 35px rgba(0,0,0,0.5);
     }}
 
     /* =====================================================================
@@ -762,58 +794,65 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .req-list {{
       display: flex;
       flex-direction: column;
-      gap: 18px;
+      gap: 20px;
     }}
 
     .req-item {{
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      border-left: 6px solid var(--gold-primary);
-      border-radius: 16px;
-      padding: 22px 28px;
+      border-left: 8px solid var(--gold-primary);
+      border-radius: 18px;
+      padding: 24px 32px;
       display: flex;
-      gap: 22px;
+      gap: 24px;
       align-items: flex-start;
       box-shadow: var(--card-shadow);
     }}
 
     .req-number {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 2.4rem;
+      font-size: 2.8rem;
       font-weight: 900;
       color: var(--gold-primary);
       line-height: 1;
       padding-top: 4px;
-      min-width: 36px;
+      min-width: 40px;
     }}
 
     .req-content {{
       display: flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 6px;
     }}
     .req-title {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.5rem;
-      font-weight: 800;
+      font-size: 1.7rem;
+      font-weight: 900;
       color: var(--text-hero);
     }}
     .req-desc {{
-      font-size: 1.15rem;
+      font-size: 1.25rem;
       color: var(--text-body);
-      line-height: 1.55;
+      line-height: 1.58;
+    }}
+    .req-desc strong {{
+      color: #FFFFFF;
+      font-weight: 800;
+    }}
+    body.light-mode .req-desc strong {{
+      color: #071120;
     }}
 
     .req-motto-quote {{
-      margin-top: 8px;
-      padding: 16px 22px;
-      border-radius: 12px;
-      background: rgba(56, 189, 248, 0.12);
-      border: 1px solid rgba(56, 189, 248, 0.35);
+      margin-top: 10px;
+      padding: 18px 24px;
+      border-radius: 14px;
+      background: rgba(56, 189, 248, 0.14);
+      border: 1px solid rgba(56, 189, 248, 0.4);
       color: var(--blue-accent);
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.3rem;
-      font-weight: 700;
+      font-size: 1.45rem;
+      font-weight: 800;
       font-style: italic;
       text-align: center;
     }}
@@ -821,9 +860,9 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .req-seal-card {{
       background: var(--card-bg);
       border: 1px solid var(--card-border);
-      border-top: 6px solid var(--gold-primary);
-      border-radius: 20px;
-      padding: 36px 30px;
+      border-top: 8px solid var(--gold-primary);
+      border-radius: 24px;
+      padding: 40px 32px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -832,16 +871,18 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       box-shadow: var(--card-shadow);
     }}
     .req-seal-card img {{
-      width: 240px;
-      height: 240px;
+      width: 230px;
+      height: 230px;
       border-radius: 50%;
-      margin-bottom: 20px;
+      background: #FFFFFF;
+      border: 6px solid var(--gold-primary);
       box-shadow: 0 12px 35px rgba(0,0,0,0.55);
-      border: 2px solid rgba(245, 158, 11, 0.35);
+      padding: 6px;
+      margin-bottom: 22px;
     }}
     .req-seal-title {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.65rem;
+      font-size: 1.85rem;
       font-weight: 900;
       color: var(--text-hero);
       letter-spacing: 1px;
@@ -849,15 +890,15 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
     .req-seal-sub {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1rem;
+      font-size: 1.15rem;
       font-weight: 800;
       color: var(--gold-primary);
       text-transform: uppercase;
       letter-spacing: 2px;
     }}
     .req-seal-footer {{
-      margin-top: 12px;
-      font-size: 1rem;
+      margin-top: 14px;
+      font-size: 1.15rem;
       color: var(--text-muted);
       line-height: 1.5;
     }}
@@ -869,9 +910,9 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-top: 16px;
-      border-top: 1px solid rgba(148, 163, 184, 0.22);
-      font-size: 1rem;
+      padding-top: 18px;
+      border-top: 1px solid rgba(148, 163, 184, 0.25);
+      font-size: 1.12rem;
       color: var(--text-muted);
       position: relative;
       z-index: 2;
@@ -891,7 +932,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       font-weight: 900;
       color: var(--gold-primary);
       letter-spacing: 1.5px;
-      font-size: 1.1rem;
+      font-size: 1.25rem;
     }}
 
     /* =====================================================================
@@ -988,7 +1029,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
             </div>
             
             <div class="hero-desc-box">
-              An official student-led engineering society dedicated to bridging theoretical classroom curricula with real-world technical execution, multidisciplinary teamwork, and early career leadership under the Faculty of Engineering and Natural Sciences.
+              An official student-led engineering society dedicated to bridging theoretical classroom curricula with <strong>real-world technical execution, multidisciplinary teamwork, and early career leadership</strong> under the Faculty of Engineering and Natural Sciences.
             </div>
             
             <div class="hero-meta-footer">
@@ -1034,8 +1075,8 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
           <div class="header-badge">
             <img src="{SEAL_B64}" alt="Logo">
             <div class="header-badge-col">
-              <span class="header-badge-title">IEC</span>
-              <span class="header-badge-sub">FENS</span>
+              <span class="header-badge-title">IEC FENS</span>
+              <span class="header-badge-sub">2026/2027</span>
             </div>
           </div>
         </div>
@@ -1046,9 +1087,9 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <div class="card-badge">01 • PRAGMATIC FOCUS</div>
               <div class="card-number">01</div>
               <h3 class="card-title">Applied Engineering Practice</h3>
-              <div class="card-subtitle">From Classroom Theory to Working Systems</div>
+              <div class="card-subtitle">Theory to Working Systems</div>
               <p class="card-text">
-                Classroom lectures give students <strong>rigorous mathematical and theoretical grounding</strong>. Our purpose is to establish an agile, collaborative lab environment where students translate code, circuits, and algorithms into <strong>functional, demonstrable engineering systems</strong>.
+                Classroom lectures provide <strong>rigorous mathematical and theoretical grounding</strong>. Our lab provides the collaborative space where students translate algorithms and circuits into <strong>functional, demonstrable engineering systems</strong>.
               </p>
             </div>
 
@@ -1056,19 +1097,19 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <div class="card-badge blue">02 • CROSS-DISCIPLINARY</div>
               <div class="card-number">02</div>
               <h3 class="card-title">Interdisciplinary Teamwork</h3>
-              <div class="card-subtitle" style="color: var(--blue-accent);">Breaking Departmental Silos Under FENS</div>
+              <div class="card-subtitle" style="color: var(--blue-accent);">Breaking Departmental Silos</div>
               <p class="card-text">
-                Contemporary engineering challenges require multifaceted problem-solving. We intentionally unite ambitious students across <strong>Computer Science, Software Engineering, Electrical & Electronics, and Mechanical Engineering</strong> on joint software and hardware prototypes.
+                Modern engineering challenges require multifaceted collaboration. We unite ambitious students across <strong>Computer Science, Software Engineering, Electrical, and Mechanical Engineering</strong> to build unified prototypes.
               </p>
             </div>
 
             <div class="card">
               <div class="card-badge">03 • REGIONAL PRESTIGE</div>
               <div class="card-number">03</div>
-              <h3 class="card-title">Faculty Pride in Bosnia & Herzegovina</h3>
-              <div class="card-subtitle">Elevating IUS in the Regional Tech Ecosystem</div>
+              <h3 class="card-title">Faculty Pride in BiH</h3>
+              <div class="card-subtitle">Elevating IUS Leadership</div>
               <p class="card-text">
-                We aim to position FENS as the <strong>most vibrant, productive, and respected engineering faculty in Bosnia and Herzegovina</strong> through top-tier student hackathons, hands-on workshops, and deep relationships with premier Sarajevo tech firms.
+                Positioning FENS as the <strong>most active and respected engineering faculty in Bosnia and Herzegovina</strong> through premier student hackathons, hands-on workshops, and deep partnerships with Sarajevo tech firms.
               </p>
             </div>
           </div>
@@ -1097,8 +1138,8 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
           <div class="header-badge">
             <img src="{SEAL_B64}" alt="Logo">
             <div class="header-badge-col">
-              <span class="header-badge-title">IEC</span>
-              <span class="header-badge-sub">FENS</span>
+              <span class="header-badge-title">IEC FENS</span>
+              <span class="header-badge-sub">2026/2027</span>
             </div>
           </div>
         </div>
@@ -1109,7 +1150,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <div class="card-number">01</div>
               <h3 class="card-title">Empower Student Leadership & Confidence</h3>
               <p class="card-text">
-                Build technical confidence, practical troubleshooting capabilities, and resilient teamwork habits through student-directed development sprints, hackathons, and technical committee ownership.
+                Build deep technical confidence, practical troubleshooting capabilities, and resilient teamwork habits through <strong>student-directed development sprints, hackathons, and technical committee ownership</strong>.
               </p>
             </div>
 
@@ -1117,7 +1158,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <div class="card-number">02</div>
               <h3 class="card-title">A Stepping Stone to Start Work Life Stronger</h3>
               <p class="card-text">
-                Accelerate early career readiness by instilling production-grade software standards, collaborative git workflows, and professional communication skills that top industry employers expect prior to graduation.
+                Accelerate early career readiness by mastering <strong>production-grade software workflows, collaborative Git practices, and modern industry engineering standards</strong> before graduation.
               </p>
             </div>
 
@@ -1125,7 +1166,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <div class="card-number">03</div>
               <h3 class="card-title">Build a Productive Culture of Innovation</h3>
               <p class="card-text">
-                Establish an open campus culture where students publish open-source code, engineer portfolio-ready prototypes, and confidently represent IUS in regional and international technology competitions.
+                Establish an open campus culture where students <strong>publish open-source code, engineer portfolio prototypes, and represent IUS in regional and international tech competitions</strong>.
               </p>
             </div>
 
@@ -1133,7 +1174,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <div class="card-number">04</div>
               <h3 class="card-title">Increase Student Belonging & Loyalty to FENS</h3>
               <p class="card-text">
-                Provide continuous peer mentorship and exciting hands-on labs so younger students stay motivated, pass demanding engineering courses, and feel profound pride in FENS.
+                Provide <strong>continuous peer mentorship and hands-on labs</strong> so younger students stay motivated, pass demanding engineering courses, and feel genuine pride in FENS.
               </p>
             </div>
           </div>
@@ -1162,8 +1203,8 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
           <div class="header-badge">
             <img src="{SEAL_B64}" alt="Logo">
             <div class="header-badge-col">
-              <span class="header-badge-title">IEC</span>
-              <span class="header-badge-sub">FENS</span>
+              <span class="header-badge-title">IEC FENS</span>
+              <span class="header-badge-sub">2026/2027</span>
             </div>
           </div>
         </div>
@@ -1179,7 +1220,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
                     <span class="track-tag">Weekly Sessions • FENS Labs</span>
                   </div>
                   <div class="track-desc">
-                    Weekly student-run practical sessions in FENS computer labs focusing on practical software building, modern AI workflows (Cursor, LLMs), git collaboration, and clean system design.
+                    Weekly practical sessions in FENS computer labs focusing on <strong>software building, modern AI coding workflows (Cursor, LLMs), git collaboration, and clean architecture</strong>.
                   </div>
                 </div>
               </div>
@@ -1194,7 +1235,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
                     <span class="track-tag">Monthly • IUS Amphitheater</span>
                   </div>
                   <div class="track-desc">
-                    Monthly physical keynotes in the IUS Amphitheater where local software engineers, tech founders, and architects share battle-tested lessons from real commercial software projects.
+                    Monthly physical keynotes in the amphitheater where <strong>Sarajevo software engineers, tech founders, and architects share battle-tested lessons from commercial projects</strong>.
                   </div>
                 </div>
               </div>
@@ -1209,7 +1250,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
                     <span class="track-tag">Bi-Weekly • Online Webinars</span>
                   </div>
                   <div class="track-desc">
-                    Informal virtual fireside chats with international software developers, researchers, and global IUS alumni, connecting students with global engineering standards and remote career practices.
+                    Virtual fireside chats with <strong>international software developers and global IUS alumni, connecting students with global engineering standards and remote work</strong>.
                   </div>
                 </div>
               </div>
@@ -1224,7 +1265,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
                     <span class="track-tag">Continuous • Project Groups</span>
                   </div>
                   <div class="track-desc">
-                    Dedicated multidisciplinary student circles developing useful semester software utilities, embedded prototypes, and preparing for student engineering competitions.
+                    Dedicated multidisciplinary student circles developing <strong>useful semester software utilities, embedded prototypes, and preparing for student engineering competitions</strong>.
                   </div>
                 </div>
               </div>
@@ -1255,8 +1296,8 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
           <div class="header-badge">
             <img src="{SEAL_B64}" alt="Logo">
             <div class="header-badge-col">
-              <span class="header-badge-title">IEC</span>
-              <span class="header-badge-sub">FENS</span>
+              <span class="header-badge-title">IEC FENS</span>
+              <span class="header-badge-sub">2026/2027</span>
             </div>
           </div>
         </div>
@@ -1280,7 +1321,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
                   <div class="feature-bullet">2</div>
                   <div class="feature-text">
                     <strong>Friendly Competition & Growth</strong>
-                    Teams compete on realistic problem briefs, learning from each other through friendly peer competition and mutual support.
+                    Teams compete on realistic problem briefs, learning from each other through peer collaboration and mutual support.
                   </div>
                 </div>
 
@@ -1295,7 +1336,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
                 <div class="feature-item">
                   <div class="feature-bullet">4</div>
                   <div class="feature-text">
-                    <strong>Fair Academic Evaluation</strong>
+                    <strong>Fair Academic Faculty Jury</strong>
                     Student projects presented to a friendly jury of FENS professors and invited tech practitioners with formal awards.
                   </div>
                 </div>
@@ -1366,8 +1407,8 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
           <div class="header-badge">
             <img src="{SEAL_B64}" alt="Logo">
             <div class="header-badge-col">
-              <span class="header-badge-title">IEC</span>
-              <span class="header-badge-sub">FENS</span>
+              <span class="header-badge-title">IEC FENS</span>
+              <span class="header-badge-sub">2026/2027</span>
             </div>
           </div>
         </div>
@@ -1379,7 +1420,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <h3 class="card-title">Open Student Project Demos</h3>
               <div class="card-subtitle">FENS Computer Labs & Atrium Lobby</div>
               <p class="card-text">
-                Students bring their laptops and hardware to showcase course assignments, club workshop projects, and small prototypes in a relaxed, friendly exhibition setting open to all peers.
+                Students bring their laptops and hardware to showcase <strong>course assignments, club workshop projects, and prototypes</strong> in a relaxed, friendly exhibition open to all peers.
               </p>
             </div>
 
@@ -1388,7 +1429,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <h3 class="card-title">Friendly Feedback from Professors</h3>
               <div class="card-subtitle" style="color: var(--blue-accent);">Direct Professor & Assistant Guidance</div>
               <p class="card-text">
-                Faculty professors and teaching assistants are invited to casually walk around, view student demos, offer constructive praise, and share encouragement and academic tips.
+                Faculty professors and teaching assistants walk around, <strong>view student demos, offer constructive praise, and share encouragement and academic tips</strong>.
               </p>
             </div>
 
@@ -1397,7 +1438,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <h3 class="card-title">IUS Alumni Career Chats</h3>
               <div class="card-subtitle">Real Workplace Experiences</div>
               <p class="card-text">
-                Recent IUS engineering graduates working locally return to campus to give short, honest talks about their first jobs, workplace realities, junior hiring expectations, and practical advice.
+                Recent IUS engineering graduates working locally return to campus to give <strong>short, honest talks about their first jobs, workplace realities, and practical career advice</strong>.
               </p>
             </div>
 
@@ -1406,7 +1447,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <h3 class="card-title">Inspiring Younger Students</h3>
               <div class="card-subtitle" style="color: var(--blue-accent);">Early Academic Motivation</div>
               <p class="card-text">
-                First- and second-year students see what their peers successfully built, demystifying advanced topics and gaining clear motivation and concrete ideas to start their own projects next semester.
+                First- and second-year students see what their peers built, <strong>demystifying advanced engineering topics and gaining clear motivation to start their own projects</strong>.
               </p>
             </div>
           </div>
@@ -1435,8 +1476,8 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
           <div class="header-badge">
             <img src="{SEAL_B64}" alt="Logo">
             <div class="header-badge-col">
-              <span class="header-badge-title">IEC</span>
-              <span class="header-badge-sub">FENS</span>
+              <span class="header-badge-title">IEC FENS</span>
+              <span class="header-badge-sub">2026/2027</span>
             </div>
           </div>
         </div>
@@ -1448,7 +1489,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <h3 class="card-title">Senior Students Mentoring Younger Peers</h3>
               <div class="card-subtitle">Self-Sustaining Knowledge Transfer</div>
               <p class="card-text">
-                Experienced upper-year students guide younger peers, creating a supportive cycle where students reinforce their own knowledge by teaching and building together, helping junior students pass challenging courses.
+                Experienced upper-year students guide younger peers, creating a <strong>supportive academic cycle where students reinforce their knowledge by teaching and building together</strong>.
               </p>
             </div>
 
@@ -1457,7 +1498,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <h3 class="card-title">Higher Faculty Prestige & Student Pride</h3>
               <div class="card-subtitle" style="color: var(--blue-accent);">Recruitment & Institutional Standing</div>
               <p class="card-text">
-                An active, visible student engineering club attracts prospective high school students during IUS Open Days and makes currently enrolled students genuinely proud to study at FENS.
+                An active engineering club <strong>attracts prospective high school students during IUS Open Days</strong> and makes currently enrolled students genuinely proud to study at FENS.
               </p>
             </div>
 
@@ -1466,7 +1507,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <h3 class="card-title">Active Profiles that Stand Out in Job Market</h3>
               <div class="card-subtitle">Graduate Employability Advantage</div>
               <p class="card-text">
-                With real project work, hackathon participation, and active club involvement, our graduates stand out significantly from typical regional peers when applying for jobs and corporate internships.
+                With real project work, hackathon awards, and active club involvement, <strong>our graduates stand out significantly when applying for jobs and corporate internships</strong>.
               </p>
             </div>
 
@@ -1475,7 +1516,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <h3 class="card-title">A Lively and Productive Campus Atmosphere</h3>
               <div class="card-subtitle" style="color: var(--blue-accent);">Campus Life Enrichment</div>
               <p class="card-text">
-                Making FENS much more than just lecture halls—creating an inspiring space where students naturally stay after class to discuss tech, collaborate on code, share ideas, and build things together.
+                Making FENS much more than just lecture halls—<strong>creating an inspiring space where students naturally stay after class to discuss tech, code, and build things together</strong>.
               </p>
             </div>
           </div>
@@ -1504,8 +1545,8 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
           <div class="header-badge">
             <img src="{SEAL_B64}" alt="Logo">
             <div class="header-badge-col">
-              <span class="header-badge-title">IEC</span>
-              <span class="header-badge-sub">FENS</span>
+              <span class="header-badge-title">IEC FENS</span>
+              <span class="header-badge-sub">2026/2027</span>
             </div>
           </div>
         </div>
@@ -1516,7 +1557,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <div class="card-badge">01 • ADVISOR OVERSIGHT</div>
               <h3 class="card-title">Faculty Academic Advisor Oversight</h3>
               <p class="card-text">
-                All workshop schedules, guest speaker invitations, and major campus events are planned under the direct guidance and prior approval of our appointed FENS Faculty Advisor, <strong>Prof. Dr. Leila Miller</strong>.
+                All workshop schedules, guest speaker invitations, and major campus events are planned under the <strong>direct guidance and prior approval of our appointed FENS Faculty Advisor, Prof. Dr. Leila Miller</strong>.
               </p>
             </div>
 
@@ -1524,7 +1565,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <div class="card-badge blue">02 • STATUTORY RIGOR</div>
               <h3 class="card-title">Full University Regulatory Compliance</h3>
               <p class="card-text">
-                Organized strictly under <strong>Article 77 of the IUS Statute</strong> and Student Career Center (SCC) club guidelines, complete with an official club constitution, transparent elections, and zero disruption.
+                Organized strictly under <strong>Article 77 of the IUS Statute and Student Career Center (SCC) club guidelines</strong>, complete with an official club constitution and transparent elections.
               </p>
             </div>
 
@@ -1532,7 +1573,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <div class="card-badge">03 • 5/5 ACCOUNTABLE BOARD</div>
               <h3 class="card-title">Dedicated & Accountable Student Board</h3>
               <p class="card-text">
-                A committed 5-member Executive Board (President, VP, Secretary, Treasurer, PR Lead) ensuring transparent organization, good communication, and fair representation across all FENS engineering majors.
+                A committed <strong>5-member Executive Board (President, VP, Secretary, Treasurer, PR Lead)</strong> ensuring transparent organization, good communication, and fair representation across all FENS majors.
               </p>
             </div>
 
@@ -1540,7 +1581,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <div class="card-badge blue">04 • LAB INTEGRITY</div>
               <h3 class="card-title">Respect for Campus Facilities & Lab Safety</h3>
               <p class="card-text">
-                Strict respect for university property, reservations limited to non-teaching hours, clean workstation policy, responsible handling of computers, and total adherence to campus safety procedures.
+                Strict respect for university property, <strong>reservations limited to non-teaching hours, clean workstation policy, and total adherence to campus safety procedures</strong>.
               </p>
             </div>
           </div>
@@ -1569,8 +1610,8 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
           <div class="header-badge">
             <img src="{SEAL_B64}" alt="Logo">
             <div class="header-badge-col">
-              <span class="header-badge-title">IEC</span>
-              <span class="header-badge-sub">FENS</span>
+              <span class="header-badge-title">IEC FENS</span>
+              <span class="header-badge-sub">2026/2027</span>
             </div>
           </div>
         </div>
@@ -1591,9 +1632,9 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
               <div class="req-item" style="border-left-color: var(--blue-accent);">
                 <div class="req-number" style="color: var(--blue-accent);">2</div>
                 <div class="req-content">
-                  <div class="req-title">Lab and Room Access Outside Lecture Hours</div>
+                  <div class="req-title">Lab & Room Access Outside Lecture Hours</div>
                   <div class="req-desc">
-                    Permission to schedule computer labs and the amphitheater during evenings or weekends without disrupting scheduled university classes.
+                    Permission to schedule <strong>computer labs and the amphitheater during evenings or weekends</strong> without disrupting scheduled university classes.
                   </div>
                 </div>
               </div>
@@ -1603,7 +1644,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
                 <div class="req-content">
                   <div class="req-title">Faculty Encouragement & Support</div>
                   <div class="req-desc">
-                    A short faculty notice or welcome announcement introducing the club and encouraging engineering students across FENS to participate.
+                    A short faculty notice or welcome announcement introducing the club and <strong>encouraging engineering students across FENS to participate</strong>.
                   </div>
                 </div>
               </div>
