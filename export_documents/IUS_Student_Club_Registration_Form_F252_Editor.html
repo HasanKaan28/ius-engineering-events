@@ -643,15 +643,19 @@
       </tr>
       <tr>
         <td><strong>Name and Surname</strong></td>
-        <td><input type="text" id="advName" class="editable-field" value="Prof. Dr. Leila Miller" style="font-weight: 600;"></td>
+        <td><input type="text" id="advName" class="editable-field" value="Prof. Dr. Leila Miller (Full Professor Dr.)" style="font-weight: 700; color: #003366;"></td>
       </tr>
       <tr>
         <td><strong>Phone Number</strong></td>
-        <td><input type="text" id="advPhone" class="editable-field" value="033 957 - / +387 33 957 000"></td>
+        <td><input type="text" id="advPhone" class="editable-field" value="033 957 -" style="font-weight: 600;"></td>
       </tr>
       <tr>
         <td><strong>E-mail</strong></td>
         <td><input type="email" id="advEmail" class="editable-field" value="lmiller@ius.edu.ba" style="font-weight: 600;"></td>
+      </tr>
+      <tr>
+        <td><strong>Assistant(s) / E-mail</strong></td>
+        <td><input type="text" id="advAssistant" class="editable-field" value="Ilma Papić (itarhanis-papic@ius.edu.ba)" style="font-weight: 500; color: #334155;"></td>
       </tr>
       <tr>
         <td><strong>Signature</strong></td>
@@ -854,6 +858,7 @@
         advName: document.getElementById("advName").value,
         advPhone: document.getElementById("advPhone").value,
         advEmail: document.getElementById("advEmail").value,
+        advAssistant: document.getElementById("advAssistant") ? document.getElementById("advAssistant").value : "Ilma Papić (itarhanis-papic@ius.edu.ba)",
         deanName: document.getElementById("deanName").value,
         members: []
       };
@@ -899,7 +904,13 @@
           if (radio) radio.checked = true;
         }
         if (data.purposeStatement) document.getElementById("purposeStatement").value = data.purposeStatement;
-        if (data.boardAdvisor) document.getElementById("boardAdvisor").value = data.boardAdvisor;
+        
+        // Advisor fields check - always enforce Prof. Dr. Leila Miller if empty or placeholder
+        if (!data.boardAdvisor || data.boardAdvisor.includes("Full Name") || data.boardAdvisor.includes("[")) {
+          data.boardAdvisor = "Prof. Dr. Leila Miller";
+        }
+        document.getElementById("boardAdvisor").value = data.boardAdvisor;
+
         if (data.boardPresident) document.getElementById("boardPresident").value = data.boardPresident;
         if (data.boardVicePresident) document.getElementById("boardVicePresident").value = data.boardVicePresident;
         if (data.boardSecretary) document.getElementById("boardSecretary").value = data.boardSecretary;
@@ -908,9 +919,26 @@
         if (data.presName) document.getElementById("presName").value = data.presName;
         if (data.presPhone) document.getElementById("presPhone").value = data.presPhone;
         if (data.presEmail) document.getElementById("presEmail").value = data.presEmail;
-        if (data.advName) document.getElementById("advName").value = data.advName;
-        if (data.advPhone) document.getElementById("advPhone").value = data.advPhone;
-        if (data.advEmail) document.getElementById("advEmail").value = data.advEmail;
+
+        if (!data.advName || data.advName.includes("Full Name") || data.advName.includes("[")) {
+          data.advName = "Prof. Dr. Leila Miller (Full Professor Dr.)";
+        }
+        document.getElementById("advName").value = data.advName;
+
+        if (!data.advPhone || data.advPhone.includes("000")) {
+          data.advPhone = "033 957 -";
+        }
+        document.getElementById("advPhone").value = data.advPhone;
+
+        if (!data.advEmail || data.advEmail.includes("advisor@")) {
+          data.advEmail = "lmiller@ius.edu.ba";
+        }
+        document.getElementById("advEmail").value = data.advEmail;
+
+        if (document.getElementById("advAssistant")) {
+          document.getElementById("advAssistant").value = data.advAssistant || "Ilma Papić (itarhanis-papic@ius.edu.ba)";
+        }
+
         if (data.deanName) document.getElementById("deanName").value = data.deanName;
 
         if (Array.isArray(data.members) && data.members.length > 0) {
