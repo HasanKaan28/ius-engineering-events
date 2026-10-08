@@ -55,6 +55,11 @@ ius-engineering-events/
     - 🏛️ **Resmi / Göstermelik Başkan (Statutory President)**: Kaan Mete Şenyıldız (SCC mevzuatındaki "Kulüp başkanı en az 2. sınıf olmalıdır" kuralını karşılamak üzere resmi evraklardaki imza mercii ve okul nezdindeki temsilci).
     - 💰 **Sayman & Finans Lideri**: Bekir Enes Çokbekler (Bütçe yönetimi ve kurumsal sponsorluklar).
     - 📣 **PR & Media Lead**: ⚠️ **EKSİK / AÇIK POZİSYON** (Sosyal medya, tasarım ve kampüs içi lansman).
+  - **3 Katmanlı Sürdürülebilir Finansman Mimarisi (1.300 KM)**:
+    - **Tier 1 (Şirket Sponsorlukları - 800 KM)**: Saraybosna teknoloji ekosistemi (Bit Alliance firmaları) ile seminer, hackathon ve zirve destekleri.
+    - **Tier 2 (Üniversite / SCC Hibe Desteği - 300 KM)**: Öğrenci kulübü faaliyet ödeneği, afiş baskısı ve kampüs lojistiği için okul desteği.
+    - **Tier 3 (Yedek Güvence / Katılımcı Cüzi Katkı Payı - 200 KM)**: Sadece büyük ölçekli ve yüksek maliyetli amiral gemisi etkinliklerde (örneğin 24 saatlik yatılı DevHack maratonunda catering/materyal giderleri), sponsorluk ve okul bütçesi yetersiz kaldığı takdirde katılımcılardan toplanacak sembolik ~5 KM cüzi pay. Normal haftalık AI atölyeleri ve tech-talklar tüm IUS öğrencilerine **%100 ücretsizdir**.
+    - **Toplam Bütçe**: 1.300 KM dengeli taslak teklif (Prijedlog).
   - **Normal Üyeler (10 Kişi Hedefi)**: Formdan gelen herkes kullanıcı özellikle PR Lead olarak atamadıkça doğrudan **Üye (Member)** statüsündedir (10/10 kayıtlı: Bilal Yusuf Şimşek, Nazlıcan Cebeci, Muhammed Emin, Emin Efe Duman, Bakir, Ömer Arif Açıkel, Mert Çınar Atalay, Ferit Enes Seymenliler, Hüseyin Talha Seymenliler, Muhammed Efe Ural). Tüzük 10 Kurucu Üye kotası başarıyla %100 tamamlandı! 🎯
     - Tüm başvuru evrakları (`templates/` ve `export_documents/`) okula sunulacak resmi **Prijedlog (Proposal)** formatındadır.
     - Hiçbir bütçe kalemi, üyelik veya izin "Onaylandı" olarak doldurulmaz; tüm kalemler **Projekcija / Planirano / Pending SCC Review** olarak işaretlenmiştir.

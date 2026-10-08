@@ -17,15 +17,16 @@
 
 ---
 
-### 1. ESTIMATED REVENUE / FUNDING SOURCES
+### 1. ESTIMATED REVENUE / FUNDING SOURCES (MULTI-TIER FINANCIAL MODEL)
 
 | Revenue Stream | Description & Modality | Projected Amount (BAM) | Projection Basis & Terms |
 | :--- | :--- | :---: | :--- |
-| **Prospective Corporate Sponsorships** | Target event sponsorships from Sarajevo IT and engineering firms to support keynotes, the annual hackathon, and campus tech summit | 1,000 KM | *Projected:* Outreach commences only upon formal SCC registration |
-| **Projected In-Kind Material Support** | Non-monetary contributions covering promotional banners, badges, and workshop printouts provided by community partners | 300 KM *(In-Kind)* | *Projected:* In-kind materials for lab sessions |
-| **Institutional University Logistics** | Access to FENS computer laboratories, amphitheaters, and AV equipment under standard university procedures | 0 KM *(Facilities)* | *Request:* Allocation of rooms during approved event time slots |
-| **Student Membership Dues** | Participation across all regular workshops, study circles, and tech talks is entirely free for all IUS students | 0 KM | Membership is open and free of charge |
-| **TOTAL PROJECTED REVENUES** | | **1,300 KM** | **Balanced Proposal (Zero Cash Deficit)** |
+| **Tier 1: Prospective Corporate Sponsorships** | Target event sponsorships from Sarajevo IT and engineering firms to support keynotes, DevHack hackathon, and TechSummit | 800 KM | *Primary Pillar:* Outreach commences upon formal SCC registration |
+| **Tier 2: Institutional University / SCC Support** | Discretionary student club activity grants, event logistics co-funding, and institutional allocations from IUS / SCC / FENS | 300 KM | *Institutional Allocation:* Requested under university student club funding regulations |
+| **Tier 3: Contingency Participant Micro-Contributions** | Nominal attendee contribution (~5 KM per participant) applicable selectively for major flagship events (e.g. 24h DevHack catering/materials) if sponsorships and university grants leave a deficit | 200 KM | *Contingency Safety Net:* Regular weekly workshops and tech-talks remain 100% free |
+| **Projected In-Kind Material Support** | Non-monetary contributions covering promotional banners, badges, and workshop printouts provided by community partners | 300 KM *(In-Kind)* | *Non-Monetary:* Partner printing and materials |
+| **Institutional Campus Facilities** | Access to FENS computer laboratories, amphitheaters, and AV equipment under standard university procedures | 0 KM *(Facilities)* | *Request:* Allocation of rooms during approved event time slots |
+| **TOTAL PROJECTED REVENUES** | | **1,300 KM** *(Cash)* | **Fully Balanced, Multi-Tier Financial Architecture** |
 
 ---
 
@@ -44,9 +45,12 @@
 
 ### 3. FINANCIAL PRINCIPLES & GOVERNANCE STANDARDS
 
-1. **Zero Direct Financial Burden on IUS:** The club requests zero direct monetary subsidies from the general operating budget of the International University of Sarajevo upon establishment. All financial requirements will be self-sustained through prospective industry sponsorships and voluntary in-kind contributions. The only institutional assistance requested from IUS is the scheduled allocation of campus venues and laboratory facilities.
-2. **Strict Non-Profit Operation:** All revenues and donations acquired shall be deployed exclusively for the technical education, competition logistics, and materials of IUS students. No executive officer or member may derive personal financial gain from club funds.
-3. **Transparent Financial Accounting & Documentation:** Every transaction must be documented with an official fiscal receipt or invoice. Financial records are maintained continuously by the Club Treasurer (Bekir Enes Çokbekler) and remain open for audit by the Faculty Academic Advisor and the Student & Career Center (SCC) at all times.
+1. **Multi-Tiered Sustainable Funding Strategy:** The club operates under a diversified 3-tier financial model to ensure complete operational resilience:
+   * **Primary Pillar (Industry Partnerships):** Corporate sponsorships from the Bosnian and regional tech industry (e.g., Bit Alliance member firms) form the backbone of major event budgets.
+   * **Secondary Pillar (University / SCC Co-Funding):** The club applies for standard university club activity grants and logistical support allocated by the SCC / FENS for registered student initiatives.
+   * **Contingency Pillar (Nominal Participant Micro-Contributions):** While all regular weekly workshops, tech-talks, and onboarding events are strictly free of charge for IUS students, the club reserves the option to collect a modest, nominal fee (e.g., ~5 KM / 2.50 EUR) for resource-heavy flagship events (such as the 24-hour DevHack marathon with multi-meal catering) strictly in the event that external sponsorships and institutional grants leave an operational shortfall.
+2. **Strict Non-Profit & Student-Centric Deployment:** All revenues, grants, and contributions acquired shall be deployed exclusively for student technical training, competition catering, materials, prizes, and campus logistics. No executive officer or member may derive personal financial gain from club funds.
+3. **Transparent Financial Accounting & Auditing:** Every transaction must be documented with an official fiscal receipt or invoice. Financial ledgers are maintained continuously by the Club Treasurer (Bekir Enes Çokbekler) and remain open for audit by the Faculty Academic Advisor, the FENS Dean's Office, and the Student & Career Center (SCC) at all times.
 
 ---
 

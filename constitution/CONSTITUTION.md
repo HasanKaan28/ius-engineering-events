@@ -163,12 +163,14 @@ To ensure structured execution, the Executive Board establishes functional commi
 ### PART VI: FINANCIAL ASSETS AND TRANSPARENCY
 
 #### Article 18: Sources of Funds and Financial Management
-1. The Club's financial resources may be derived from:
-   * University budget allocations through the SCC / SPIUS;
-   * Corporate sponsorships and industry partnerships;
-   * Donations, grants, and material technical sponsorships.
-2. All revenues and expenditures must be transparently documented in the club ledger by the Treasurer.
-3. No member or officer of the Club shall receive personal financial remuneration or profit from club activities. All resources must be reinvested into student educational and technological activities.
+1. The Club operates under a diversified, sustainable multi-tier financial framework. Financial resources may be derived from:
+   * **Corporate Sponsorships & Industry Partnerships:** Financial and material support from technology enterprises, IT scaleups, and ecosystem partners;
+   * **Institutional University Allocations & Grants:** Discretionary student club activity funding, event co-sponsorship, and logistical grants provided by the IUS Student & Career Center (SCC) and the Faculty of Engineering and Natural Sciences (FENS);
+   * **Contingency Participant Micro-Contributions:** Modest, nominal participation fees (e.g., approximately 5 BAM) levied selectively for resource-intensive, high-cost flagship events (such as 24-hour campus hackathons requiring multi-meal catering and hardware supplies), strictly in instances where corporate sponsorships and university grants leave an operational deficit;
+   * **In-Kind & Material Donations:** Educational dev boards, software licenses, cloud computing credits, and event catering.
+2. Regular weekly workshops, technical training labs, guest keynotes, and general assembly meetings shall remain strictly free of charge for all IUS students.
+3. All revenues, donations, and expenditures must be transparently documented in the club ledger with corresponding receipts by the Club Treasurer.
+4. The Club is strictly non-profit. No member, officer, or advisor shall derive personal financial gain or profit from club activities. All assets and funds shall be exclusively deployed for student educational and organizational enrichment.
 
 ---
 

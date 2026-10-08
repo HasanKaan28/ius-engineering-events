@@ -82,9 +82,9 @@ BOARD_MEMBERS = {
         "dept": "Makine Mühendisliği (1. Sınıf)",
         "phone": "05523822006",
         "email": "46bekir70@gmail.com",
-        "duties": "Bütçe ve sponsorluk yöneticisi. SCC 1.300 KM taslak bütçe ve 5.000 KM kurumsal sponsorluk paketini hazırlar. Saraybosna teknoloji ekosistemi şirketleriyle sponsorluk görüşmeleri yürütür. Hasan Kaan ve Mahmut İhsan'a rapor verir.",
-        "tools": ["Corporate Sponsorship Package", "1.300 KM Taslak Bütçe Tablosu", "Promotion Day Afiş & Roll-up Materyalleri"],
-        "collaborates": ["Hasan Kaan (Asıl Başkan)", "Mahmut İhsan (Asıl Bşk. Yrd.)", "Saraybosna Şirketleri", "PR Lead"],
+        "duties": "Bütçe ve finans lideri. SCC 1.300 KM taslak bütçe ve 3 katmanlı sürdürülebilir finans modelini (Şirket sponsorlukları 800 KM, Üniversite/SCC hibe desteği 300 KM, DevHack cüzi katılım payı 200 KM) yönetir. Saraybosna teknoloji ekosistemi şirketleriyle görüşmeler yürütür. Hasan Kaan ve Mahmut İhsan'a rapor verir.",
+        "tools": ["Corporate Sponsorship Package", "1.300 KM 3-Katmanlı Bütçe Tablosu", "Promotion Day Afiş & Roll-up Materyalleri"],
+        "collaborates": ["Hasan Kaan (Asıl Başkan)", "Mahmut İhsan (Asıl Bşk. Yrd.)", "Saraybosna Şirketleri", "SCC / Üniversite", "PR Lead"],
         "isGodNode": True,
         "aliases": ["bekir enes çokbekler", "bekir enes", "46bekir70"]
     },
@@ -351,7 +351,7 @@ def build_observatory_graph():
         "isGodNode": False,
         "type": "Doc",
         "file": "templates/SCC_DRAFT_BUDGET.md",
-        "details": "Okuldan para talep etmeyen, yerel şirket sponsorluğu ile dengelenmiş güvenli bütçe tablosu."
+        "details": "3 Katmanlı Güvenli Finans Modeli: Şirket sponsorlukları (800 KM) + Üniversite/SCC faaliyet ödeneği (300 KM) + Güvence amaçlı cüzi katılım payı (200 KM - DevHack için 5 KM)."
     })
 
     add_node({
@@ -449,6 +449,8 @@ def build_observatory_graph():
     edges.append({"source": "board_bekir_enes", "target": "doc_sponsorship", "relation": "AUTHORS_PACKAGE"})
     edges.append({"source": "board_bekir_enes", "target": "doc_budget", "relation": "MANAGES_1300KM_BUDGET"})
     edges.append({"source": "board_bekir_enes", "target": "ext_industry", "relation": "PITCHES_SPONSORSHIPS"})
+    edges.append({"source": "sks", "target": "doc_budget", "relation": "FUNDS_GRANT_SUPPORT"})
+    edges.append({"source": "ext_industry", "target": "doc_budget", "relation": "SPONSORS_800KM"})
 
     edges.append({"source": "board_pr_lead", "target": "board_bekir_enes", "relation": "COLLABORATES_ON_PROMO"})
     edges.append({"source": "board_pr_lead", "target": "board_hasan_kaan", "relation": "COORDINATES_MEDIA"})
