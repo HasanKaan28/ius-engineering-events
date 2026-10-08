@@ -35,7 +35,7 @@ gantt
 * **Task 1.4**: Establish digital infrastructure:
   * Official Email / Google Workspace
   * Linktree / Instagram (`@ius.engineeringevents`) / LinkedIn Page
-  * WhatsApp / Discord Community Server for all engineering students
+  * Official WhatsApp Community Group for all engineering students
 
 ### Weeks 3–4: Campus Buzz & Grand Kickoff Launch
 * **Task 2.1**: Launch visual campaign: Post high-aesthetic posters across FENS A-Block and student cafeterias.

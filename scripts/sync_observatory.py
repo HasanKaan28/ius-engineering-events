@@ -42,7 +42,7 @@ BOARD_MEMBERS = {
         "dept": "FENS / CSE (1. Sınıf)",
         "email": "ufukkarabulut35@gmail.com",
         "duties": "Kulübün ASIL BAŞKANI, kurucusu ve nihai karar mercii. Kulübün tüm vizyonunu, teknik ve idari yapılanmasını, Linear sprintlerini, yapay zeka atölyelerini, bütçe onaylarını ve DevHack 2027'yi yönetir.",
-        "tools": ["Linear.app Task Hub", "Antigravity IDE & Python Automation", "Discord Community Server", "AI/LLM Workshop Stacks", "Tüm Stratejik Kararlar"],
+        "tools": ["Linear.app Task Hub", "Antigravity IDE & Python Automation", "WhatsApp Community Hub", "AI/LLM Workshop Stacks", "Tüm Stratejik Kararlar"],
         "collaborates": ["Mahmut İhsan (Asıl Bşk. Yrd.)", "Kaan Mete (Resmi Temsilci)", "Bekir Enes (Sayman)", "Komiteler & Takımlar"],
         "isGodNode": True,
         "aliases": ["hasan kaan", "hasankaan", "hasan"]
@@ -134,7 +134,6 @@ SECTOR_POSITIONS = {
     "sheet_responses": {"x": 520, "y": -60},
     "fetch_tool": {"x": 750, "y": -60},
     "comm_whatsapp": {"x": 520, "y": 110},
-    "comm_discord": {"x": 520, "y": 260},
 
     # 🚀 TOP-RIGHT: EVENTS & INDUSTRY ECOSYSTEM
     "event_launch": {"x": 750, "y": -250},
@@ -314,16 +313,6 @@ def build_observatory_graph():
         "details": "Üye koordinasyonu ve hızlı anlık duyurular için resmi WhatsApp grubu."
     })
 
-    add_node({
-        "id": "comm_discord",
-        "label": "Discord Community Server",
-        "cluster": "Community",
-        "isGodNode": False,
-        "type": "Platform",
-        "file": "community/DISCORD_SERVER_STRUCTURE.md",
-        "details": "Online Tech-Talks canlı yayınları, sesli çalışma odaları, kod hata çözümü ve Linear webhookları."
-    })
-
     # 5. DOCUMENTS & TEMPLATES (DEDICATED SHELF: RESMİ ŞABLONLAR)
     add_node({
         "id": "doc_constitution",
@@ -451,7 +440,6 @@ def build_observatory_graph():
     edges.append({"source": "board_hasan_kaan", "target": "tool_ide", "relation": "AUTOMATES_WITH"})
     edges.append({"source": "board_hasan_kaan", "target": "comm_software", "relation": "DIRECTS_COMMITTEE"})
     edges.append({"source": "board_hasan_kaan", "target": "comm_multi", "relation": "DIRECTS_COMMITTEE"})
-    edges.append({"source": "board_hasan_kaan", "target": "comm_discord", "relation": "ADMINISTERS"})
 
     edges.append({"source": "board_mahmut_ihsan", "target": "sheet_responses", "relation": "MONITORS_FORM"})
     edges.append({"source": "board_mahmut_ihsan", "target": "comm_whatsapp", "relation": "MODERATES_COMMUNITY"})
@@ -578,7 +566,7 @@ def build_observatory_graph():
         elif "10" in ident:
             edges.append({"source": task_node_id, "target": "comm_software", "relation": "CURATES_CURRICULUM"})
         elif "11" in ident:
-            edges.append({"source": task_node_id, "target": "comm_discord", "relation": "STREAMS_ON"})
+            edges.append({"source": task_node_id, "target": "comm_whatsapp", "relation": "ANNOUNCES_ON"})
             edges.append({"source": task_node_id, "target": "comm_software", "relation": "HOSTED_BY"})
         elif "12" in ident:
             edges.append({"source": task_node_id, "target": "ext_industry", "relation": "INVITES_SPEAKERS"})

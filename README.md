@@ -23,7 +23,6 @@ The IUS Engineering Events Club is a student-led engineering initiative founded 
 | [`constitution/CONSTITUTION.md`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/constitution/CONSTITUTION.md) | Official English Club Constitution ready for IUS SKS & Rectorate filing. |
 | [`organization/ORGANIZATIONAL_STRUCTURE.md`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/organization/ORGANIZATIONAL_STRUCTURE.md) | Hierarchy, executive bureau, and functional committee breakdowns. |
 | [`organization/ROLE_DESCRIPTIONS.md`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/organization/ROLE_DESCRIPTIONS.md) | Exact duties, expectations, and KPIs for each leadership position. |
-| [`community/DISCORD_SERVER_STRUCTURE.md`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/community/DISCORD_SERVER_STRUCTURE.md) | Discord server layout, channels, committee rooms, and Linear task webhook feed. |
 | [`community/WHATSAPP_TELEGRAM_COMMUNITY_GUIDE.md`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/community/WHATSAPP_TELEGRAM_COMMUNITY_GUIDE.md) | Campus-wide broadcast channel strategy and instant student outreach. |
 | [`sponsorship/SPONSORSHIP_PACKAGE.md`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/sponsorship/SPONSORSHIP_PACKAGE.md) | Tiered prospectus for Sarajevo tech firms (Bronze, Silver, Gold, Platinum). |
 | [`pr_and_branding/SOCIAL_MEDIA_LAUNCH_KIT.md`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/pr_and_branding/SOCIAL_MEDIA_LAUNCH_KIT.md) | Copy-paste Instagram bio, captions, and LinkedIn launch announcement. |
@@ -34,7 +33,6 @@ The IUS Engineering Events Club is a student-led engineering initiative founded 
 | [`templates/IUS_SKS_APPLICATION_PETITION.md`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/templates/IUS_SKS_APPLICATION_PETITION.md) | Official club registration petition for IUS Student Affairs. |
 | [`templates/EVENT_PROPOSAL_FORM.md`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/templates/EVENT_PROPOSAL_FORM.md) | Event reservation & approval template. |
 | [`scripts/linear_manager.py`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/scripts/linear_manager.py) | Python CLI for direct Antigravity IDE task automation with Linear.app. |
-| [`scripts/discord_notifier.py`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/scripts/discord_notifier.py) | Python CLI for sending rich Discord embeds for announcements and tasks. |
 | [`graphify-out/graph.html`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/graphify-out/graph.html) | Interactive Cyberpunk Deep Space Observatory Knowledge Graph. |
 
 ---

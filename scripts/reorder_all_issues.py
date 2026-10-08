@@ -79,7 +79,7 @@ todo_updates = {
 # Sıra:
 # IUS-9:  2026-12-04 (Aralık 1. Hafta) - Promotion Day: Kampüs Standı & Lansman
 # IUS-10: 2026-12-11 (Aralık 2. Hafta) - Haftalık Yapay Zeka & Prompt Atölyeleri
-# IUS-11: 2026-12-18 (Aralık 3. Hafta) - Haftalık Online Tech-Talks (Discord/Meet)
+# IUS-11: 2026-12-18 (Aralık 3. Hafta) - Haftalık Online Tech-Talks (Google Meet)
 # IUS-12: 2026-12-25 (Aralık 4. Hafta) - Aylık Kampüs Teknoloji Konuşmacıları
 # IUS-13: 2027-04-16 (Bahar Dönemi)   - IUS Yıllık Kampüs Hackathonu (DevHack)
 
@@ -99,16 +99,16 @@ backlog_updates = {
         "assigneeId": hasan_id
     },
     "IUS-11": {
-        "title": "🌐 [Aralık 3. Hafta] Haftalık Online Tech-Talks (Discord/Meet): Format ve Konuk Daveti",
+        "title": "🌐 [Aralık 3. Hafta] Haftalık Online Tech-Talks (Google Meet): Format ve Konuk Daveti",
         "dueDate": "2026-12-18",
         "priority": 2,
         "sortOrder": -2000.0,
         "assigneeId": hasan_id,
         "description": """### 🎯 Faaliyet Amacı:
-Her hafta tanınmış, sektörde deneyimli yerli ve yabancı teknoloji uzmanları ile Discord / Google Meet üzerinden samimi, interaktif online söyleşi (fireside chat) ve mentorluk seansları yapmak.
+Her hafta tanınmış, sektörde deneyimli yerli ve yabancı teknoloji uzmanları ile Google Meet webinar formatında samimi, interaktif online söyleşi (fireside chat) ve mentorluk seansları yapmak.
 
 ### 📋 Yapılacaklar:
-- [ ] **Topluluk Platformu:** Kulüp Discord sunucusunda ses/sahne kanalının ("IEEC Stage") teknik altyapısını hazırlamak.
+- [ ] **Topluluk Platformu:** Google Meet webinar altyapısını, Q&A moderasyon kurallarını hazırlamak.
 - [ ] **LinkedIn / X İletişim Stratejisi:** Yurt dışında ve Türkiye'de büyük teknoloji şirketlerinde (Google, Amazon, Trendyol vb.) çalışan yazılımcılara ulaşmak için samimi davet mesajı taslağı hazırlamak.
 - [ ] **Format Belirleme:** Çarşamba veya Pazar akşamları 45 dakika konuk söyleşisi + 15 dakika soru-cevap.
 - [ ] **Kayıt ve Arşiv:** Konuğun izniyle oturumların kaydedilip kulüp üyelerine özel paylaşılması.

@@ -20,7 +20,7 @@ desc_ius7 = """### 🎯 Görev Amacı:
    * **General Secretary (Genel Sekreter):** Bekir Enes Çokbekler.
    * **Treasurer & Finance (Sayman / Mali İşler):** Mahmut İhsan Avcı.
    * **Board Member (Yönetim Kurulu):** Kaan Mete Şenyıldız.
-3. **[ ] Hızlı Senkronizasyon (15 dk):** Ekiple kampüste veya Discord/WhatsApp üzerinden buluşup rolleri ve hedefleri teyit etmek.
+3. **[ ] Hızlı Senkronizasyon (15 dk):** Ekiple kampüste veya WhatsApp üzerinden buluşup rolleri ve hedefleri teyit etmek.
 4. **[ ] Doküman Güncellemesi:** 'templates/SCC_FOUNDING_10_MEMBERS.md' dosyasına bilgileri işlemek."""
 
 # 2. Update IUS-5: FENS Akademik Danışman

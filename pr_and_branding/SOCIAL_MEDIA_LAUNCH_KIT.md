@@ -42,7 +42,7 @@
 > 🏁 The 24-hour **IUS DevHack 2026/2027**!
 >
 > 🗓️ **Grand Kickoff Meeting**: Coming soon to the A-Block Amphitheater.
-> 🔗 Tap the link in our bio to secure your membership and join our official Discord server!
+> 🔗 Tap the link in our bio to secure your membership and join our official WhatsApp community!
 >
 > Tag a fellow engineering student who needs to see this! 👇
 >

@@ -72,14 +72,14 @@ issues_to_create = [
 🔗 **İlgili Resmi Belge:** [SCC Yıllık Faaliyet Planı](https://linear.app/ius-engineering-events/document/scc-yillik-faaliyet-plani-4-temel-sutun-and-devhack-20262027-db3b4f5e5a05)"""
     },
     {
-        "title": "🌐 Haftalık Online Tech-Talks (Discord/Meet): Format ve Konuk Davet Şablonu",
+        "title": "🌐 Haftalık Online Tech-Talks (Google Meet): Format ve Konuk Davet Şablonu",
         "assigneeId": hasan_id,
         "priority": 3,
         "description": """### 🎯 Faaliyet Amacı:
-Her hafta tanınmış, sektörde deneyimli yerli ve yabancı teknoloji uzmanları ile Discord / Google Meet üzerinden samimi, interaktif online söyleşi (fireside chat) ve mentorluk seansları yapmak.
+Her hafta tanınmış, sektörde deneyimli yerli ve yabancı teknoloji uzmanları ile Google Meet webinar formatında samimi, interaktif online söyleşi (fireside chat) ve mentorluk seansları yapmak.
 
 ### 📋 Yapılacaklar:
-- [ ] **Topluluk Platformu:** Kulüp Discord sunucusunda ses/sahne kanalının ("IEEC Stage") teknik altyapısını hazırlamak.
+- [ ] **Topluluk Platformu:** Google Meet webinar altyapısını, Q&A moderasyon kurallarını hazırlamak.
 - [ ] **LinkedIn / X İletişim Stratejisi:** Yurt dışında ve Türkiye'de büyük teknoloji şirketlerinde (Google, Amazon, Trendyol vb.) çalışan yazılımcılara ulaşmak için samimi davet mesajı taslağı hazırlamak.
 - [ ] **Format Belirleme:** Çarşamba veya Pazar akşamları 45 dakika konuk söyleşisi + 15 dakika soru-cevap.
 - [ ] **Kayıt ve Arşiv:** Konuğun izniyle oturumların kaydedilip kulüp üyelerine özel paylaşılması.
