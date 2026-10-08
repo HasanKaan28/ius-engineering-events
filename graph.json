@@ -1,11 +1,11 @@
 {
   "project": "IUS Engineering Events Club",
-  "generated_at": "2026-10-08T12:35:16.649647",
+  "generated_at": "2026-10-08T20:12:51.344453",
   "stats": {
-    "total_nodes": 44,
-    "total_edges": 108,
+    "total_nodes": 45,
+    "total_edges": 112,
     "linear_tasks": 10,
-    "registered_members": 10,
+    "registered_members": 11,
     "board_members": 5
   },
   "nodes": [
@@ -34,13 +34,13 @@
     },
     {
       "id": "sheet_responses",
-      "label": "Google Sheets (13 Kayıt / 10 Normal Üye)",
+      "label": "Google Sheets (14 Kayıt / 11 Normal Üye)",
       "cluster": "Data",
       "isGodNode": false,
       "type": "Dataset",
       "file": "data/form_responses.csv",
       "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
-      "details": "Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. 10 onaylı normal üye kayıtlı.",
+      "details": "Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. 11 onaylı normal üye kayıtlı.",
       "x": 520,
       "y": -60
     },
@@ -135,12 +135,12 @@
     },
     {
       "id": "doc_founding",
-      "label": "📄 SCC 10 Kurucu Üye Listesi (10/10)",
+      "label": "📄 SCC 10 Kurucu Üye Listesi (11/10)",
       "cluster": "Documents",
       "isGodNode": true,
       "type": "Doc",
       "file": "templates/SCC_FOUNDING_10_MEMBERS.md",
-      "details": "Resmi kuruluş evrağı: 4 Yönetim Kurulu Onaylı + 1 PR Lead Açık | 10 Normal Üye Onaylı + 0 Üye Bekleniyor.",
+      "details": "Resmi kuruluş evrağı: 4 Yönetim Kurulu Onaylı + 1 PR Lead Açık | 11 Normal Üye Onaylı + 0 Üye Bekleniyor.",
       "x": -140,
       "y": 570
     },
@@ -524,7 +524,7 @@
       "dept": "Computer Engineering (1. Sınıf)",
       "x": 750,
       "y": 60,
-      "details": "Onaylı Normal Üye #1\nÖğrenci No: 250302196\nBölüm: Computer Engineering (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 10/10)."
+      "details": "Onaylı Normal Üye #1\nÖğrenci No: 250302196\nBölüm: Computer Engineering (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
     },
     {
       "id": "member_nazl_can_250302243",
@@ -537,7 +537,7 @@
       "dept": "CSE (1. Sınıf)",
       "x": 750,
       "y": 135,
-      "details": "Onaylı Normal Üye #2\nÖğrenci No: 250302243\nBölüm: CSE (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 10/10)."
+      "details": "Onaylı Normal Üye #2\nÖğrenci No: 250302243\nBölüm: CSE (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
     },
     {
       "id": "member_muhammed_emin_250302247",
@@ -550,7 +550,7 @@
       "dept": "FENS (2. Sınıf)",
       "x": 750,
       "y": 210,
-      "details": "Onaylı Normal Üye #3\nÖğrenci No: 250302247\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 10/10)."
+      "details": "Onaylı Normal Üye #3\nÖğrenci No: 250302247\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
     },
     {
       "id": "member_emin_efe_duman_250302211",
@@ -563,7 +563,7 @@
       "dept": "FENS (1. Sınıf)",
       "x": 750,
       "y": 285,
-      "details": "Onaylı Normal Üye #4\nÖğrenci No: 250302211\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 10/10)."
+      "details": "Onaylı Normal Üye #4\nÖğrenci No: 250302211\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
     },
     {
       "id": "member_bakir_260302030",
@@ -576,7 +576,7 @@
       "dept": "FENS (1. Sınıf)",
       "x": 750,
       "y": 360,
-      "details": "Onaylı Normal Üye #5\nÖğrenci No: 260302030\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 10/10)."
+      "details": "Onaylı Normal Üye #5\nÖğrenci No: 260302030\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
     },
     {
       "id": "member__mer_arif_a__kel_250302232",
@@ -589,7 +589,7 @@
       "dept": "FENS (1. Sınıf)",
       "x": 750,
       "y": 435,
-      "details": "Onaylı Normal Üye #6\nÖğrenci No: 250302232\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 10/10)."
+      "details": "Onaylı Normal Üye #6\nÖğrenci No: 250302232\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
     },
     {
       "id": "member_mert___nar_atalay_250302162",
@@ -602,7 +602,7 @@
       "dept": "FENS (1. Sınıf)",
       "x": 750,
       "y": 510,
-      "details": "Onaylı Normal Üye #7\nÖğrenci No: 250302162\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 10/10)."
+      "details": "Onaylı Normal Üye #7\nÖğrenci No: 250302162\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
     },
     {
       "id": "member_ferit_enes_seymenliler_240302180",
@@ -615,7 +615,7 @@
       "dept": "FENS (2. Sınıf)",
       "x": 750,
       "y": 585,
-      "details": "Onaylı Normal Üye #8\nÖğrenci No: 240302180\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 10/10)."
+      "details": "Onaylı Normal Üye #8\nÖğrenci No: 240302180\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
     },
     {
       "id": "member_h_seyin_talha_seymenliler_240302179",
@@ -628,7 +628,7 @@
       "dept": "FENS (2. Sınıf)",
       "x": 750,
       "y": 660,
-      "details": "Onaylı Normal Üye #9\nÖğrenci No: 240302179\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 10/10)."
+      "details": "Onaylı Normal Üye #9\nÖğrenci No: 240302179\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
     },
     {
       "id": "member_muhammed_efe_ural_240302169",
@@ -641,7 +641,20 @@
       "dept": "FENS (2. Sınıf)",
       "x": 750,
       "y": 735,
-      "details": "Onaylı Normal Üye #10\nÖğrenci No: 240302169\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 10/10)."
+      "details": "Onaylı Normal Üye #10\nÖğrenci No: 240302169\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
+    },
+    {
+      "id": "member_abdullah_uzun_250201110",
+      "label": "👤 Abdullah Uzun (Member #11)",
+      "cluster": "Members",
+      "isGodNode": false,
+      "type": "Member",
+      "file": "data/form_responses.csv",
+      "student_id": "250201110",
+      "dept": "FBA (1. Sınıf)",
+      "x": 750,
+      "y": 810,
+      "details": "Onaylı Normal Üye #11\nÖğrenci No: 250201110\nBölüm: FBA (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
     }
   ],
   "edges": [
@@ -1182,6 +1195,26 @@
     },
     {
       "source": "member_muhammed_efe_ural_240302169",
+      "target": "comm_multi",
+      "relation": "JOINS_COMMITTEE"
+    },
+    {
+      "source": "sheet_responses",
+      "target": "member_abdullah_uzun_250201110",
+      "relation": "REGISTERED_VIA"
+    },
+    {
+      "source": "member_abdullah_uzun_250201110",
+      "target": "comm_whatsapp",
+      "relation": "MEMBER_OF"
+    },
+    {
+      "source": "member_abdullah_uzun_250201110",
+      "target": "doc_founding",
+      "relation": "RECORDED_IN"
+    },
+    {
+      "source": "member_abdullah_uzun_250201110",
       "target": "comm_multi",
       "relation": "JOINS_COMMITTEE"
     }

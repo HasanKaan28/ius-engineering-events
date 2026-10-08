@@ -49,6 +49,8 @@ ius-engineering-events/
 - **Permanent 7/24 Live Observatory (GitHub Pages)**: [https://hasankaan28.github.io/ius-engineering-events/](https://hasankaan28.github.io/ius-engineering-events/) (Kalıcı, bilgisayar kapalıyken bile 7/24 aktif, sınırsız global CDN).
 - **Interactive Cyberpunk Observatory**: [`graphify-out/graph.html`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/graphify-out/graph.html) (Local `http://localhost:8085/`).
 - **Founding & Member Status**: 
+  - **Akademik Danışman (Academic Faculty Advisor)**:
+    - 🎓 **Prof. Dr. Leila Miller** (Full Professor Dr., FENS, E-mail: `lmiller@ius.edu.ba`, Tel: `033 957 -`, Asistan: Ilma Papić `itarhanis-papic@ius.edu.ba`). Kulübün resmi akademik danışmanı olarak belirlendi ve tüm başvuru evraklarına işlendi.
   - **Yönetim Kurulu (5 Kişi)**: 
     - 👑 **Asıl Kulüp Başkanı & Kurucu Lider**: Hasan Kaan (Tüm operasyonel, teknik ve idari kararların lideri, nihai karar mercii).
     - 🚀 **Asıl Başkan Yardımcısı & İdari Koordinatör**: Mahmut İhsan Avcı (Operasyonel sağ kol, üye alımları, bürokrasi ve toplantı kayıtları).

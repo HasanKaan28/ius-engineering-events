@@ -1,16 +1,17 @@
 # Formal Invitation Letter: Academic Faculty Advisor
+## INTERNATIONAL UNIVERSITY OF SARAJEVO (IUS)
 
-**To:** [Title, Full Name of Professor]  
-**Department:** [Department of Computer Science and Engineering / Electrical and Electronics Engineering / etc.]  
-**Faculty:** Faculty of Engineering and Natural Sciences (FENS)  
+**To:** Prof. Dr. Leila Miller, Full Professor Dr.  
+**Department:** Faculty of Engineering and Natural Sciences (FENS)  
 **Institution:** International University of Sarajevo (IUS)  
-**Date:** [Date]  
+**Office / Contact:** `lmiller@ius.edu.ba` | Phone: 033 957 -  
+**Date:** October 2026  
 
-**Subject:** Invitation to Serve as Academic Faculty Advisor for the IUS Engineering Events Club  
+**Subject:** Official Invitation to Serve as Academic Faculty Advisor for the IUS Engineering Events Club (IEEC)  
 
 ---
 
-Dear Professor [Last Name],
+Dear Professor Dr. Leila Miller,
 
 On behalf of the founding student initiative of the **IUS Engineering Events Club**, we are writing to respectfully invite you to serve as our **Academic Faculty Advisor** for the upcoming academic year.
 

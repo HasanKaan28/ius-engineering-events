@@ -1,0 +1,86 @@
+P: STUDENT CLUB REGISTRATION FORM
+P: Please complete this form if you are interested in starting a new or renewing an already existing Student Club. Submit this form to the University Communications Office (UCO) and the president or student club advisor will be informed about the final decision on establishing a student club. If you have any further questions, visit us at the University Communications Office (A G.16).
+--- TABLE START ---
+ROW: STUDENT CLUB NAME
+ROW: 
+ROW: Status of the Student Club? | NEW | RENEWAL
+ROW: Academic Year | 
+--- TABLE END ---
+P: Please choose the type of your Student Club:
+P: AEC (Academic and Educational Club): provides attention, support and recognition to all IUS students toward the high standards of the academic mission at IUS.
+P: CSC (Community Service Club): builds community and creates connections among students at IUS.
+P: SRC (Spiritual and Religious Club): faith-based societies formed by students who want to stay in touch with students of the same background.
+P: CC (Cultural Club): student groups that exist to network with people coming from the same parts of the world, same background, and share a similar culture. The aim is to represent their tradition to other people.
+P: RSC (Recreation and Sports Club): activities are organized so students can stay fit, healthy and spend time on their hobbies, sports competitions or in nature.
+P: MAC (Media and Art Club): offer a variety of interesting activities, projects and content for students who would like to exercise and improve their creative skills.
+--- TABLE START ---
+ROW: PURPOSE STATEMENT OF THE STUDENT CLUB
+ROW: 
+ROW: MANAGEMENT BOARD INFORMATION
+ROW: 
+ROW: TITLE | NAME AND SURNAME
+ROW: Student Club Advisor | 
+ROW: President | 
+ROW: Vice President | 
+ROW: Secretary | 
+ROW: Treasurer | 
+ROW: Public Relations (PR) | 
+ROW:  | 
+--- TABLE END ---
+--- TABLE START ---
+ROW: CONTACT INFORMATION
+ROW: STUDENT CLUB PRESIDENT
+ROW: Name and Surname | 
+ROW: Phone Number | 
+ROW: E-mail | 
+ROW: STUDENT CLUB ADVISOR
+ROW: Name and Surname | 
+ROW: Phone Number | 
+ROW: E-mail | 
+ROW: Signature | 
+--- TABLE END ---
+--- TABLE START ---
+ROW: INFORMATION ON THE CLUB MEMBERS
+ROW: Note: In order to establish a student club, you need at least 10 students, including the Management board
+ROW: No. | Name and Surname | Email | Student ID | Signature
+ROW: 1 |  |  |  | 
+ROW: 2 |  |  |  | 
+ROW: 3 |  |  |  | 
+ROW: 4 |  |  |  | 
+ROW: 5 |  |  |  | 
+ROW: 6 |  |  |  | 
+ROW: 7 |  |  |  | 
+ROW: 8 |  |  |  | 
+ROW: 9 |  |  |  | 
+ROW: 10 |  |  |  | 
+ROW: 11 |  |  |  | 
+ROW: 12 |  |  |  | 
+ROW: 13 |  |  |  | 
+ROW: 14 |  |  |  | 
+ROW: 15 |  |  |  | 
+ROW: 16 |  |  |  | 
+ROW: 17 |  |  |  | 
+ROW: 18 |  |  |  | 
+ROW: 19 |  |  |  | 
+ROW: 20 |  |  |  | 
+--- TABLE END ---
+--- TABLE START ---
+ROW: APPROVED BY
+ROW: 
+ROW: DEAN OF THE RELEVANT FACULTY (FOR CLUBS RELATED TO STUDY PROGRAMS)
+ROW: Name and Surname | 
+ROW: Signature | 
+--- TABLE END ---
+--- TABLE START ---
+ROW: STUDENT CLUB COMMITTEE
+ROW: No. | Name and Surname | Signature
+ROW: 1 | Velida Handžić-Mirica, UCO Manager | 
+ROW: 2 | Asst. Prof. Dr. Özge Büyükdağlı | 
+ROW: 3 | Asst. Prof. Roman Slulejmanpašić | 
+ROW: 4 | Assoc. Prof. Dr. Ena Kazić-Çakar | 
+ROW: 5 | Asst. Prof. Dr. Mustafa Krupalija | 
+--- TABLE END ---
+P: IMPORTANT NOTES:
+P: Student Club can't start with its activities before Rector signs his approval.
+P: Report on semiannual activities must be submitted to the University Communications Office (UCO) before the end of each semester.
+P: Student Club must have all documentation on activities and all Reports on semiannual activities.
