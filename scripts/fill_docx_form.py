@@ -162,6 +162,7 @@ def fill_docx():
         ("Hüseyin Talha Seymenliler", "tseymenliler16@gmail.com", "240302179"),
         ("Muhammed Efe Ural", "uralefe10@gmail.com", "240302169"),
         ("Abdullah Uzun", "250201110@student.ius.edu.ba", "250201110"),
+        ("Ahmed Hadzimurati", "260302051@student.ius.edu.ba", "260302051"),
     ]
 
     if len(tbls) > 3:

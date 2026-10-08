@@ -1,11 +1,11 @@
 {
   "project": "IUS Engineering Club",
-  "generated_at": "2026-10-08T21:56:56.188395",
+  "generated_at": "2026-10-08T22:38:21.111210",
   "stats": {
     "total_nodes": 35,
     "total_edges": 72,
     "linear_tasks": 10,
-    "registered_members": 10,
+    "registered_members": 11,
     "board_members": 5
   },
   "nodes": [
@@ -34,13 +34,13 @@
     },
     {
       "id": "sheet_responses",
-      "label": "Google Sheets (14 Kayıt / 10 Normal Üye)",
+      "label": "Google Sheets (15 Kayıt / 11 Normal Üye)",
       "cluster": "Data",
       "isGodNode": false,
       "type": "Dataset",
       "file": "data/form_responses.csv",
       "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
-      "details": "Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. 10 onaylı normal üye kayıtlı.",
+      "details": "Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. 11 onaylı normal üye kayıtlı.",
       "x": 520,
       "y": -60
     },
@@ -136,12 +136,12 @@
     },
     {
       "id": "doc_founding",
-      "label": "📄 SCC 10 Kurucu Üye Listesi (10/10)",
+      "label": "📄 SCC 10 Kurucu Üye Listesi (11/10)",
       "cluster": "Documents",
       "isGodNode": true,
       "type": "Doc",
       "file": "templates/SCC_FOUNDING_10_MEMBERS.md",
-      "details": "Resmi kuruluş evrağı: 5 Yönetim Kurulu Onaylı (5/5 Tam Kadro - PR Lead: Bakir Bašić) | 10 Kurucu Normal Üye Onaylı (10/10 Kotası %100 Tamamlandı).",
+      "details": "Resmi kuruluş evrağı: 5 Yönetim Kurulu Onaylı (5/5 Tam Kadro - PR Lead: Bakir Bašić) | 11 Kurucu Normal Üye Onaylı (10/10 Kotası %100 Tamamlandı).",
       "x": -140,
       "y": 570
     },
@@ -517,13 +517,13 @@
     },
     {
       "id": "members_cohort",
-      "label": "👥 Kayıtlı Üye Topluluğu (10 Öğrenci)",
+      "label": "👥 Kayıtlı Üye Topluluğu (11 Öğrenci)",
       "cluster": "Community",
       "isGodNode": false,
       "type": "CommunityBase",
       "file": "data/form_responses.csv",
       "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
-      "details": "Kulübün kayıtlı üye topluluğu (10 onaylı başvuru).\nGoogle Form üzerinden kayıt olmuş ve WhatsApp komünitesine dahil edilmiştir.\nTüzük 10 kurucu üye kotası (%100 tamamlandı).\nFENS (CSE, EE, Makine vb.) ve diğer fakültelerden çok disiplinli mühendislik öğrencileri.",
+      "details": "Kulübün kayıtlı üye topluluğu (11 onaylı başvuru).\nGoogle Form üzerinden kayıt olmuş ve WhatsApp komünitesine dahil edilmiştir.\nTüzük 10 kurucu üye kotası (%100 tamamlandı).\nFENS (CSE, EE, Makine vb.) ve diğer fakültelerden çok disiplinli mühendislik öğrencileri.",
       "x": 750,
       "y": 110
     }

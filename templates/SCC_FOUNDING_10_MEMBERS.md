@@ -37,6 +37,7 @@
 | **8** | Hüseyin Talha Seymenliler | 240302179 | FENS | 2nd Year | ___________________________ |
 | **9** | Muhammed Efe Ural | 240302169 | FENS | 2nd Year | ___________________________ |
 | **10**| Abdullah Uzun | 250201110 | FBA | 1st Year | ___________________________ |
+| **11**| Ahmed Hadzimurati | 260302051 | Software Engineering (FENS) | 1st Year | ___________________________ |
 
 ---
 

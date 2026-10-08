@@ -92,6 +92,7 @@ Through high-impact extracurricular workshops, software/AI bootcamps, multidisci
 | **13** | Hüseyin Talha Seymenliler | `tseymenliler16@gmail.com` | 240302179 | FENS / 2nd Year | ___________________________ |
 | **14** | Muhammed Efe Ural | `uralefe10@gmail.com` | 240302169 | FENS / 2nd Year | ___________________________ |
 | **15** | Abdullah Uzun | `250201110@student.ius.edu.ba` | 250201110 | FBA / 1st Year | ___________________________ |
+| **16** | Ahmed Hadzimurati | `260302051@student.ius.edu.ba` | 260302051 | SE / 1st Year | ___________________________ |
 
 ---
 
