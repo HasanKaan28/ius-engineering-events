@@ -1,11 +1,11 @@
 {
   "project": "IUS Engineering Club",
-  "generated_at": "2026-10-08T21:23:44.957570",
+  "generated_at": "2026-10-08T21:56:56.188395",
   "stats": {
     "total_nodes": 35,
     "total_edges": 72,
     "linear_tasks": 10,
-    "registered_members": 11,
+    "registered_members": 10,
     "board_members": 5
   },
   "nodes": [
@@ -34,13 +34,13 @@
     },
     {
       "id": "sheet_responses",
-      "label": "Google Sheets (14 Kayıt / 11 Normal Üye)",
+      "label": "Google Sheets (14 Kayıt / 10 Normal Üye)",
       "cluster": "Data",
       "isGodNode": false,
       "type": "Dataset",
       "file": "data/form_responses.csv",
       "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
-      "details": "Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. 11 onaylı normal üye kayıtlı.",
+      "details": "Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. 10 onaylı normal üye kayıtlı.",
       "x": 520,
       "y": -60
     },
@@ -136,12 +136,12 @@
     },
     {
       "id": "doc_founding",
-      "label": "📄 SCC 10 Kurucu Üye Listesi (11/10)",
+      "label": "📄 SCC 10 Kurucu Üye Listesi (10/10)",
       "cluster": "Documents",
       "isGodNode": true,
       "type": "Doc",
       "file": "templates/SCC_FOUNDING_10_MEMBERS.md",
-      "details": "Resmi kuruluş evrağı: 4 Yönetim Kurulu Onaylı + 1 PR Lead Açık | 11 Normal Üye Onaylı + 0 Üye Bekleniyor.",
+      "details": "Resmi kuruluş evrağı: 5 Yönetim Kurulu Onaylı (5/5 Tam Kadro - PR Lead: Bakir Bašić) | 10 Kurucu Normal Üye Onaylı (10/10 Kotası %100 Tamamlandı).",
       "x": -140,
       "y": 570
     },
@@ -331,26 +331,27 @@
     },
     {
       "id": "board_pr_lead",
-      "label": "PR & Communications Lead [AÇIK POZİSYON] (PR & Media Lead)",
+      "label": "Bakir Bašić (📣 PR & Media Lead)",
       "cluster": "Leadership",
-      "isGodNode": false,
+      "isGodNode": true,
       "type": "BoardMember",
       "file": "organization/ROLE_DESCRIPTIONS.md",
-      "role_title": "PR & Media Lead (Basın & Tanıtım)",
-      "student_id": "Bekleniyor",
-      "dept": "Aday Bekleniyor",
-      "duties": "5. Yönetim Kurulu pozisyonu (Açık). Sosyal medya hesapları (Instagram, LinkedIn), afiş/broşür görsel tasarımları, etkinlik tanıtımı ve kampüs içi marka görünürlüğü.",
+      "role_title": "📣 PR & Media Lead (Basın, Medya ve İletişim)",
+      "student_id": "260302030",
+      "dept": "FENS (1. Sınıf)",
+      "duties": "5. Yönetim Kurulu pozisyonu (PR & Media Lead). Kulübün tüm sosyal medya kanallarını (Instagram, LinkedIn), afiş/broşür görsel tasarımlarını, etkinlik duyurularını ve kampüs içi marka tanıtımını yönetir. 5/5 Tam Kadro tamamlandı.",
       "tools": [
-        "Canva / Figma",
-        "Instagram & LinkedIn",
-        "Promosyon & Etkinlik Afişleri"
+        "Canva / Adobe Suite",
+        "Instagram & LinkedIn Hub",
+        "Etkinlik Afişleri & Tanıtım Becerileri",
+        "Medya ve Lansman İletişimi"
       ],
       "collaborates": [
-        "Bekir Enes (Promotion Day)",
-        "Hasan Kaan (Tech-Talk Duyuruları)",
-        "Mahmut İhsan (İdari Duyurular)"
+        "Hasan Kaan (Genel Lansman & Vizyon)",
+        "Mahmut İhsan (İdari Duyurular)",
+        "Bekir Enes (Promotion Day & Bütçe)"
       ],
-      "details": "[PR & Media Lead (Basın & Tanıtım)] Aday Bekleniyor - No: Bekleniyor\nGörevler: 5. Yönetim Kurulu pozisyonu (Açık). Sosyal medya hesapları (Instagram, LinkedIn), afiş/broşür görsel tasarımları, etkinlik tanıtımı ve kampüs içi marka görünürlüğü.",
+      "details": "[📣 PR & Media Lead (Basın, Medya ve İletişim)] FENS (1. Sınıf) - No: 260302030\nGörevler: 5. Yönetim Kurulu pozisyonu (PR & Media Lead). Kulübün tüm sosyal medya kanallarını (Instagram, LinkedIn), afiş/broşür görsel tasarımlarını, etkinlik duyurularını ve kampüs içi marka tanıtımını yönetir. 5/5 Tam Kadro tamamlandı.",
       "x": 140,
       "y": 180
     },
@@ -390,17 +391,17 @@
       "id": "linear_task_IUS-7",
       "label": "[IUS-7] Yönetim Kurulu Kadrosu",
       "cluster": "Linear Tasks",
-      "isGodNode": true,
+      "isGodNode": false,
       "type": "LinearTask",
       "task_ident": "IUS-7",
-      "task_state": "Todo",
+      "task_state": "Done",
       "task_priority": 1,
       "task_assignee": "Bekir Enes",
-      "url": "https://linear.app/ius-engineering-events/issue/IUS-7/resmi-yonetim-kurulu-kadrosu-sadece-pr-lead-eksik",
+      "url": "https://linear.app/ius-engineering-events/issue/IUS-7/resmi-yonetim-kurulu-kadrosu-55-tam-kadro-pr-lead-bakir-basic",
       "file": "scripts/linear_ops.py",
       "x": -422,
       "y": -525,
-      "details": "[IUS-7] Resmi Yönetim Kurulu Kadrosu (Sadece PR Lead Eksik)\nDurum: Todo | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-7/resmi-yonetim-kurulu-kadrosu-sadece-pr-lead-eksik\n\nÖzet: ### 🎯 Resmi Yönetim Kurulu Kadrosu (5 Kişilik Heyet):\n\nSCC gereksinimlerine göre 5 kişilik yönetim kadrosu belirlenmektedir. Şu an **4 pozisyon onaylı, sadece PR Lead eksiktir**:\n\n* 👑 **Club President (Başkan):** Kaan Mete Şenyıldız (2. Sınıf, No: 250302201)\n* 🚀 **Vice President ..."
+      "details": "[IUS-7] 🎉 Resmi Yönetim Kurulu Kadrosu (5/5 Tam Kadro - PR Lead: Bakir Bašić)\nDurum: Done | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-7/resmi-yonetim-kurulu-kadrosu-55-tam-kadro-pr-lead-bakir-basic\n\nÖzet: ### 🎯 Resmi Yönetim Kurulu Kadrosu (5/5 Tam Kadro Onaylandı):\n\nSCC resmi kulüp yönergesi ve Form F252 uyarınca 5 kişilik yönetim kadrosu eksiksiz tamamlanmıştır:\n\n* 👑 **Club President (Başkan):** Kaan Mete Şenyıldız (2. Sınıf, No: 250302201 - FENS)\n* 🚀 **Vice President (Kurucu Or..."
     },
     {
       "id": "linear_task_IUS-8",
@@ -516,13 +517,13 @@
     },
     {
       "id": "members_cohort",
-      "label": "👥 Kayıtlı Üye Topluluğu (11 Öğrenci)",
+      "label": "👥 Kayıtlı Üye Topluluğu (10 Öğrenci)",
       "cluster": "Community",
       "isGodNode": false,
       "type": "CommunityBase",
       "file": "data/form_responses.csv",
       "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
-      "details": "Kulübün kayıtlı üye topluluğu (11 onaylı başvuru).\nGoogle Form üzerinden kayıt olmuş ve WhatsApp komünitesine dahil edilmiştir.\nTüzük 10 kurucu üye kotası (%100 tamamlandı).\nFENS (CSE, EE, Makine vb.) ve diğer fakültelerden çok disiplinli mühendislik öğrencileri.",
+      "details": "Kulübün kayıtlı üye topluluğu (10 onaylı başvuru).\nGoogle Form üzerinden kayıt olmuş ve WhatsApp komünitesine dahil edilmiştir.\nTüzük 10 kurucu üye kotası (%100 tamamlandı).\nFENS (CSE, EE, Makine vb.) ve diğer fakültelerden çok disiplinli mühendislik öğrencileri.",
       "x": 750,
       "y": 110
     }
@@ -726,7 +727,7 @@
     {
       "source": "board_bekir_enes",
       "target": "linear_task_IUS-7",
-      "relation": "LEADS_TODO"
+      "relation": "LEADS_DONE"
     },
     {
       "source": "linear_task_IUS-7",

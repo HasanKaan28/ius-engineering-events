@@ -623,7 +623,7 @@ def generate_interactive_form_editor():
       </tr>
       <tr>
         <td><strong>Public Relations (PR)</strong></td>
-        <td><input type="text" id="boardPR" class="editable-field" value="[In Appointment Process / Open Position]"></td>
+        <td><input type="text" id="boardPR" class="editable-field" value="Bakir Bašić"></td>
       </tr>
     </table>
 
@@ -783,7 +783,7 @@ def generate_interactive_form_editor():
       {{ no: 6, name: "Nazlıcan Cebeci", email: "nazlii.cebeci@gmail.com", id: "250302243" }},
       {{ no: 7, name: "Muhammed Emin", email: "duduck6107@gmail.com", id: "250302247" }},
       {{ no: 8, name: "Emin Efe Duman", email: "emnfdmn@gmail.com", id: "250302211" }},
-      {{ no: 9, name: "Bakir", email: "260302030@student.ius.edu.ba", id: "260302030" }},
+      {{ no: 9, name: "Bakir Bašić", email: "260302030@student.ius.edu.ba", id: "260302030" }},
       {{ no: 10, name: "Ömer Arif Açıkel", email: "o.arifacikel@gmail.com", id: "250302232" }},
       {{ no: 11, name: "Mert Çınar Atalay", email: "atalayss301@gmail.com", id: "250302162" }},
       {{ no: 12, name: "Ferit Enes Seymenliler", email: "eenesseymenliler@gmail.com", id: "240302180" }},

@@ -69,7 +69,8 @@
 
 ---
 
-## 7. PR, Branding & Social Media Lead
+## 7. PR, Branding & Social Media Lead — Bakir Bašić
+* **Profile**: Student ID: 260302030 | FENS (1st Year) | Phone: +387-61-533-947
 * **Core Mission**: Create a vibrant, unmistakable brand presence that attracts students, sponsors, and faculty.
 * **Direct Responsibilities**:
   * Design modern, sleek promotional visuals (posters, banners, Instagram stories/reels, LinkedIn posts).

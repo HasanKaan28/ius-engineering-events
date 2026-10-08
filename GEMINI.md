@@ -56,13 +56,13 @@ ius-engineering-events/
     - 🚀 **Asıl Başkan Yardımcısı & Kurucu Ortak (Co-Founder & Vice President)**: Mahmut İhsan Avcı (Operasyonel sağ kol, üye alımları, bürokrasi ve toplantı kayıtları).
     - 🏛️ **Resmi / Göstermelik Başkan (Statutory President)**: Kaan Mete Şenyıldız (SCC mevzuatındaki "Kulüp başkanı en az 2. sınıf olmalıdır" kuralını karşılamak üzere resmi evraklardaki imza mercii ve okul nezdindeki temsilci).
     - 💰 **Sayman & Finans Lideri**: Bekir Enes Çokbekler (Bütçe yönetimi ve kurumsal sponsorluklar).
-    - 📣 **PR & Media Lead**: ⚠️ **EKSİK / AÇIK POZİSYON** (Sosyal medya, tasarım ve kampüs içi lansman).
+    - 📣 **PR & Media Lead**: Bakir Bašić (No: 260302030, FENS 1. Sınıf, Tel: `+387-61-533-947`. Sosyal medya, tasarım, lansman ve medya ilişkileri). 5/5 Tam Kadro Onaylandı! 🎯
   - **3 Katmanlı Sürdürülebilir Finansman Mimarisi (1.300 KM)**:
     - **Tier 1 (Şirket Sponsorlukları - 800 KM)**: Saraybosna teknoloji ekosistemi (Bit Alliance firmaları) ile seminer, hackathon ve zirve destekleri.
     - **Tier 2 (Üniversite / SCC Hibe Desteği - 300 KM)**: Öğrenci kulübü faaliyet ödeneği, afiş baskısı ve kampüs lojistiği için okul desteği.
     - **Tier 3 (Yedek Güvence / Katılımcı Cüzi Katkı Payı - 200 KM)**: Sadece büyük ölçekli ve yüksek maliyetli amiral gemisi etkinliklerde (örneğin 24 saatlik yatılı DevHack maratonunda catering/materyal giderleri), sponsorluk ve okul bütçesi yetersiz kaldığı takdirde katılımcılardan toplanacak sembolik ~5 KM cüzi pay. Normal haftalık AI atölyeleri ve tech-talklar tüm IUS öğrencilerine **%100 ücretsizdir**.
     - **Toplam Bütçe**: 1.300 KM dengeli taslak teklif (Prijedlog).
-  - **Normal Üyeler (10 Kişi Hedefi)**: Formdan gelen herkes kullanıcı özellikle PR Lead olarak atamadıkça doğrudan **Üye (Member)** statüsündedir (11/10 kayıtlı tam kadro: Bilal Yusuf Şimşek, Nazlıcan Cebeci, Muhammed Emin Tiryaki, Emin Efe Duman, Bakir Šabić, Ömer Arif Açıkel, Mert Çınar Atalay, Ferit Enes Seymenliler, Hüseyin Talha Seymenliler, Muhammed Efe Ural, Abdullah Uzun). Tüzük 10 Kurucu Üye kotası başarıyla %100 tamamlandı! 🎯
+  - **Normal Üyeler (10 Kişi Hedefi)**: 10/10 kayıtlı tam kadro: Bilal Yusuf Şimşek, Nazlıcan Cebeci, Muhammed Emin Tiryaki, Emin Efe Duman, Ömer Arif Açıkel, Mert Çınar Atalay, Ferit Enes Seymenliler, Hüseyin Talha Seymenliler, Muhammed Efe Ural, Abdullah Uzun. Tüzük 10 Kurucu Üye kotası başarıyla %100 tamamlandı! 🎯
     - Tüm başvuru evrakları (`templates/` ve `export_documents/`) okula sunulacak resmi **Prijedlog (Proposal)** formatındadır.
     - Hiçbir bütçe kalemi, üyelik veya izin "Onaylandı" olarak doldurulmaz; tüm kalemler **Projekcija / Planirano / Pending SCC Review** olarak işaretlenmiştir.
     - Okula teslim edilecek belgelerde iç yönetim notları (göstermelik başkan vb.) kesinlikle yer almaz; resmi unvanlar, ıslak imza satırları ve okulun değerlendirme/kaşeleme yapacağı boş SCC kutuları mevcuttur.

@@ -115,7 +115,7 @@ def fill_docx():
         if len(rows) > 10:
             tcs = rows[10].findall('w:tc', ns)
             if len(tcs) > 1:
-                set_cell_text(tcs[1], "[In Appointment Process / Open Position]")
+                set_cell_text(tcs[1], "Bakir Bašić")
 
     # TABLE 2: Contact Information
     if len(tbls) > 2:
@@ -155,7 +155,7 @@ def fill_docx():
         ("Nazlıcan Cebeci", "nazlii.cebeci@gmail.com", "250302243"),
         ("Muhammed Emin Tiryaki", "metiryaki@student.ius.edu.ba", "250302247"),
         ("Emin Efe Duman", "emnfdmn@gmail.com", "250302211"),
-        ("Bakir Šabić", "bsabic@student.ius.edu.ba", "260302030"),
+        ("Bakir Bašić", "260302030@student.ius.edu.ba", "260302030"),
         ("Ömer Arif Açıkel", "o.arifacikel@gmail.com", "250302232"),
         ("Mert Çınar Atalay", "atalayss301@gmail.com", "250302162"),
         ("Ferit Enes Seymenliler", "eenesseymenliler@gmail.com", "240302180"),

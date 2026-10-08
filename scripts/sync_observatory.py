@@ -90,15 +90,17 @@ BOARD_MEMBERS = {
     },
     "pr_lead": {
         "id": "board_pr_lead",
-        "name": "PR & Communications Lead [AÇIK POZİSYON]",
-        "role": "PR & Media Lead (Basın & Tanıtım)",
-        "student_id": "Bekleniyor",
-        "dept": "Aday Bekleniyor",
-        "duties": "5. Yönetim Kurulu pozisyonu (Açık). Sosyal medya hesapları (Instagram, LinkedIn), afiş/broşür görsel tasarımları, etkinlik tanıtımı ve kampüs içi marka görünürlüğü.",
-        "tools": ["Canva / Figma", "Instagram & LinkedIn", "Promosyon & Etkinlik Afişleri"],
-        "collaborates": ["Bekir Enes (Promotion Day)", "Hasan Kaan (Tech-Talk Duyuruları)", "Mahmut İhsan (İdari Duyurular)"],
-        "isGodNode": False,
-        "aliases": ["pr lead", "pr", "açık pozisyon"]
+        "name": "Bakir Bašić",
+        "role": "📣 PR & Media Lead (Basın, Medya ve İletişim)",
+        "student_id": "260302030",
+        "dept": "FENS (1. Sınıf)",
+        "phone": "+387-61-533-947",
+        "email": "260302030@student.ius.edu.ba",
+        "duties": "5. Yönetim Kurulu pozisyonu (PR & Media Lead). Kulübün tüm sosyal medya kanallarını (Instagram, LinkedIn), afiş/broşür görsel tasarımlarını, etkinlik duyurularını ve kampüs içi marka tanıtımını yönetir. 5/5 Tam Kadro tamamlandı.",
+        "tools": ["Canva / Adobe Suite", "Instagram & LinkedIn Hub", "Etkinlik Afişleri & Tanıtım Becerileri", "Medya ve Lansman İletişimi"],
+        "collaborates": ["Hasan Kaan (Genel Lansman & Vizyon)", "Mahmut İhsan (İdari Duyurular)", "Bekir Enes (Promotion Day & Bütçe)"],
+        "isGodNode": True,
+        "aliases": ["bakir basic", "bakir basic", "bakir bašić", "bakir", "260302030", "pr lead", "pr"]
     }
 }
 
@@ -333,7 +335,7 @@ def build_observatory_graph():
         "isGodNode": True,
         "type": "Doc",
         "file": "templates/SCC_FOUNDING_10_MEMBERS.md",
-        "details": f"Resmi kuruluş evrağı: 4 Yönetim Kurulu Onaylı + 1 PR Lead Açık | {len(normal_member_rows)} Normal Üye Onaylı + {max(0, 10 - len(normal_member_rows))} Üye Bekleniyor."
+        "details": f"Resmi kuruluş evrağı: 5 Yönetim Kurulu Onaylı (5/5 Tam Kadro - PR Lead: Bakir Bašić) | {len(normal_member_rows)} Kurucu Normal Üye Onaylı (10/10 Kotası %100 Tamamlandı)."
     })
 
     add_node({

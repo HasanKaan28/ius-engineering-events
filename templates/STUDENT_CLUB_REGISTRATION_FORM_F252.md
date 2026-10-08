@@ -48,10 +48,10 @@ Through high-impact extracurricular workshops, software/AI bootcamps, multidisci
 | :--- | :--- | :---: | :--- | :---: |
 | **Student Club Advisor** | **Prof. Dr. Leila Miller** | Full Professor Dr. | FENS | Academic Staff |
 | **President** | **Kaan Mete Şenyıldız** | **250302201** | FENS | **2nd Year** |
-| **Vice President** | **Hasan Kaan** | **250302195** | FENS | 1st Year |
+| **Vice President** | **Hasan Kaan Karabulut** | **250302195** | FENS | 1st Year |
 | **Secretary** | **Mahmut İhsan Avcı** | **250302233** | FENS | 1st Year |
 | **Treasurer** | **Bekir Enes Çokbekler** | **250302229** | Mechanical Engineering | 1st Year |
-| **Public Relations (PR)** | *[In Appointment Process]* | — | FENS | — |
+| **Public Relations (PR)** | **Bakir Bašić** | **260302030** | FENS | 1st Year |
 
 ---
 
@@ -85,7 +85,7 @@ Through high-impact extracurricular workshops, software/AI bootcamps, multidisci
 | **6** | Nazlıcan Cebeci | `nazlii.cebeci@gmail.com` | 250302243 | CSE / 1st Year | ___________________________ |
 | **7** | Muhammed Emin Tiryaki | `metiryaki@student.ius.edu.ba` | 250302247 | FENS / 2nd Year | ___________________________ |
 | **8** | Emin Efe Duman | `emnfdmn@gmail.com` | 250302211 | FENS / 1st Year | ___________________________ |
-| **9** | Bakir Šabić | `bsabic@student.ius.edu.ba` | 260302030 | FENS / 1st Year | ___________________________ |
+| **9** | **Bakir Bašić** | `260302030@student.ius.edu.ba` | **260302030** | FENS / 1st Year | ___________________________ |
 | **10** | Ömer Arif Açıkel | `o.arifacikel@gmail.com` | 250302232 | FENS / 1st Year | ___________________________ |
 | **11** | Mert Çınar Atalay | `atalayss301@gmail.com` | 250302162 | FENS / 1st Year | ___________________________ |
 | **12** | Ferit Enes Seymenliler | `eenesseymenliler@gmail.com` | 240302180 | FENS / 2nd Year | ___________________________ |
