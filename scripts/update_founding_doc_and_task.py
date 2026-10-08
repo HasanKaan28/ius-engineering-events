@@ -60,7 +60,7 @@ desc_ius8 = """### 🤫 STRATEJİ: STEALTH MODE (SESSİZ VE BİREBİR)
 ⚠️ **Önemli Kural:** Üniversite resmi onayı öncesi dikkat çekmemek için kalabalık sınıf gruplarına duyuru atılmayacak, **birebir (DM veya yüz yüze)** güvendiğimiz arkadaşlarımıza ulaşılarak 10 üye tamamlanacaktır.
 📌 **Rol Kuralı:** Özel olarak "PR Lead" atanmadığı sürece formdan gelen herkes doğrudan **Normal Üye (Member)** statüsündedir.
 
-### 📊 Mevcut Üye Durumu: 9 / 10 Normal Üye Kaydedildi (Kalan: Sadece 1 Üye + 1 PR Lead)
+### 📊 Mevcut Üye Durumu: 10 / 10 Normal Üye Tamamlandı (HEDEF BAŞARILDI! 🎯)
 * [x] **1. Bilal Yusuf Şimşek** (1. Sınıf, Bilgisayar Müh., No: 250302196) — Üye
 * [x] **2. Nazlıcan Cebeci** (1. Sınıf, CSE, No: 250302243) — Üye
 * [x] **3. Muhammed Emin** (2. Sınıf, FENS, No: 250302247) — Üye
@@ -70,7 +70,7 @@ desc_ius8 = """### 🤫 STRATEJİ: STEALTH MODE (SESSİZ VE BİREBİR)
 * [x] **7. Mert Çınar Atalay** (1. Sınıf, FENS, No: 250302162) — Üye
 * [x] **8. Ferit Enes Seymenliler** (2. Sınıf, FENS, No: 240302180) — Üye
 * [x] **9. Hüseyin Talha Seymenliler** (2. Sınıf, FENS, No: 240302179) — Üye
-* [ ] **10. Üye 10** (Bekleniyor - Son 1 Üye)
+* [x] **10. Muhammed Efe Ural** (2. Sınıf, FENS, No: 240302169) — Üye
 
 ---
 
@@ -90,7 +90,7 @@ for iss in issues:
         print("[✓] IUS-7 güncellendi (PR Lead eksik olarak netleştirildi).")
     elif iss["identifier"] == "IUS-8":
         update_issue(iss["id"], {
-            "title": "🤫 SCC Üye Listesi: Birebir İletişimle 10 Üye Tamamlama (9/10 Kaydedildi - Son 1 Üye)",
+            "title": "🎉 SCC Üye Listesi: 10/10 Kurucu Normal Üye Kotası Tamamlandı!",
             "description": desc_ius8
         })
-        print("[✓] IUS-8 güncellendi (9/10 Üye olarak senkronize edildi).")
+        print("[✓] IUS-8 güncellendi (10/10 Üye Tamamlandı).")

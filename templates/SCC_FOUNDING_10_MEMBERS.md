@@ -36,7 +36,7 @@
 | **7** | Mert Çınar Atalay | 250302162 | FENS | 1st Year | ___________________________ |
 | **8** | Ferit Enes Seymenliler | 240302180 | FENS | 2nd Year | ___________________________ |
 | **9** | Hüseyin Talha Seymenliler | 240302179 | FENS | 2nd Year | ___________________________ |
-| **10**| &nbsp; | &nbsp; | FENS | &nbsp; | ___________________________ |
+| **10**| Muhammed Efe Ural | 240302169 | FENS | 2nd Year | ___________________________ |
 
 ---
 
