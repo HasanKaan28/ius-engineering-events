@@ -1,9 +1,9 @@
 {
   "project": "IUS Engineering Events Club",
-  "generated_at": "2026-10-08T20:12:51.344453",
+  "generated_at": "2026-10-08T20:16:52.249554",
   "stats": {
-    "total_nodes": 45,
-    "total_edges": 112,
+    "total_nodes": 35,
+    "total_edges": 72,
     "linear_tasks": 10,
     "registered_members": 11,
     "board_members": 5
@@ -57,12 +57,13 @@
     },
     {
       "id": "advisor",
-      "label": "FENS Academic Advisor",
+      "label": "Prof. Dr. Leila Miller (Faculty Advisor)",
       "cluster": "Governance",
       "isGodNode": true,
       "type": "Academic",
       "file": "templates/ACADEMIC_ADVISOR_INVITATION.md",
-      "details": "FENS Fakültesinden resmi kulüp danışmanı profesör. Rektörlük ve dekanlık ile kurumsal bağ sağlar.",
+      "email": "lmiller@ius.edu.ba",
+      "details": "FENS Fakültesinden resmi kulüp akademik danışmanı (Full Professor Dr.). Rektörlük, dekanlık ve UCO nezdinde kurumsal akademik güvence sağlar. Asistan: Ilma Papić.",
       "x": -740,
       "y": -200
     },
@@ -514,147 +515,16 @@
       "details": "[IUS-14] 🏛️ [Bahar 2027 / Mayıs] IUS Yıllık Teknoloji Zirvesi (IUS TechSummit 2027): Konsept, Konuşmacılar ve Stantlar\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 2\nURL: https://linear.app/ius-engineering-events/issue/IUS-14/bahar-2027-mayis-ius-yillik-teknoloji-zirvesi-ius-techsummit-2027\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\nBahar döneminde (Mayıs ayı 2. haftası) IUS kampüsünde tüm üniversiteyi ve Saraybosna teknoloji ekosistemini bir araya getirecek tam günlük **Yıllık Teknoloji Zirvesini (IUS TechSummit 2027)** organize etmek.\n\n---\n\n### 📋 Zirve Mimarisi ve Yapılacaklar:\n\n- [ ..."
     },
     {
-      "id": "member_bilal_yusuf__im_ek_250302196",
-      "label": "👤 Bilal Yusuf Şimşek (Member #1)",
-      "cluster": "Members",
+      "id": "members_cohort",
+      "label": "👥 Kayıtlı Üye Topluluğu (11 Öğrenci)",
+      "cluster": "Community",
       "isGodNode": false,
-      "type": "Member",
+      "type": "CommunityBase",
       "file": "data/form_responses.csv",
-      "student_id": "250302196",
-      "dept": "Computer Engineering (1. Sınıf)",
+      "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
+      "details": "Kulübün kayıtlı üye topluluğu (11 onaylı başvuru).\nGoogle Form üzerinden kayıt olmuş ve WhatsApp komünitesine dahil edilmiştir.\nTüzük 10 kurucu üye kotası (%100 tamamlandı).\nFENS (CSE, EE, Makine vb.) ve diğer fakültelerden çok disiplinli mühendislik öğrencileri.",
       "x": 750,
-      "y": 60,
-      "details": "Onaylı Normal Üye #1\nÖğrenci No: 250302196\nBölüm: Computer Engineering (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
-    },
-    {
-      "id": "member_nazl_can_250302243",
-      "label": "👤 Nazlıcan (Member #2)",
-      "cluster": "Members",
-      "isGodNode": false,
-      "type": "Member",
-      "file": "data/form_responses.csv",
-      "student_id": "250302243",
-      "dept": "CSE (1. Sınıf)",
-      "x": 750,
-      "y": 135,
-      "details": "Onaylı Normal Üye #2\nÖğrenci No: 250302243\nBölüm: CSE (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
-    },
-    {
-      "id": "member_muhammed_emin_250302247",
-      "label": "👤 Muhammed Emin (Member #3)",
-      "cluster": "Members",
-      "isGodNode": false,
-      "type": "Member",
-      "file": "data/form_responses.csv",
-      "student_id": "250302247",
-      "dept": "FENS (2. Sınıf)",
-      "x": 750,
-      "y": 210,
-      "details": "Onaylı Normal Üye #3\nÖğrenci No: 250302247\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
-    },
-    {
-      "id": "member_emin_efe_duman_250302211",
-      "label": "👤 Emin Efe Duman (Member #4)",
-      "cluster": "Members",
-      "isGodNode": false,
-      "type": "Member",
-      "file": "data/form_responses.csv",
-      "student_id": "250302211",
-      "dept": "FENS (1. Sınıf)",
-      "x": 750,
-      "y": 285,
-      "details": "Onaylı Normal Üye #4\nÖğrenci No: 250302211\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
-    },
-    {
-      "id": "member_bakir_260302030",
-      "label": "👤 Bakir (Member #5)",
-      "cluster": "Members",
-      "isGodNode": false,
-      "type": "Member",
-      "file": "data/form_responses.csv",
-      "student_id": "260302030",
-      "dept": "FENS (1. Sınıf)",
-      "x": 750,
-      "y": 360,
-      "details": "Onaylı Normal Üye #5\nÖğrenci No: 260302030\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
-    },
-    {
-      "id": "member__mer_arif_a__kel_250302232",
-      "label": "👤 Ömer Arif Açıkel (Member #6)",
-      "cluster": "Members",
-      "isGodNode": false,
-      "type": "Member",
-      "file": "data/form_responses.csv",
-      "student_id": "250302232",
-      "dept": "FENS (1. Sınıf)",
-      "x": 750,
-      "y": 435,
-      "details": "Onaylı Normal Üye #6\nÖğrenci No: 250302232\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
-    },
-    {
-      "id": "member_mert___nar_atalay_250302162",
-      "label": "👤 Mert Çınar Atalay (Member #7)",
-      "cluster": "Members",
-      "isGodNode": false,
-      "type": "Member",
-      "file": "data/form_responses.csv",
-      "student_id": "250302162",
-      "dept": "FENS (1. Sınıf)",
-      "x": 750,
-      "y": 510,
-      "details": "Onaylı Normal Üye #7\nÖğrenci No: 250302162\nBölüm: FENS (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
-    },
-    {
-      "id": "member_ferit_enes_seymenliler_240302180",
-      "label": "👤 Ferit Enes Seymenliler (Member #8)",
-      "cluster": "Members",
-      "isGodNode": false,
-      "type": "Member",
-      "file": "data/form_responses.csv",
-      "student_id": "240302180",
-      "dept": "FENS (2. Sınıf)",
-      "x": 750,
-      "y": 585,
-      "details": "Onaylı Normal Üye #8\nÖğrenci No: 240302180\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
-    },
-    {
-      "id": "member_h_seyin_talha_seymenliler_240302179",
-      "label": "👤 Hüseyin Talha Seymenliler (Member #9)",
-      "cluster": "Members",
-      "isGodNode": false,
-      "type": "Member",
-      "file": "data/form_responses.csv",
-      "student_id": "240302179",
-      "dept": "FENS (2. Sınıf)",
-      "x": 750,
-      "y": 660,
-      "details": "Onaylı Normal Üye #9\nÖğrenci No: 240302179\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
-    },
-    {
-      "id": "member_muhammed_efe_ural_240302169",
-      "label": "👤 Muhammed Efe Ural (Member #10)",
-      "cluster": "Members",
-      "isGodNode": false,
-      "type": "Member",
-      "file": "data/form_responses.csv",
-      "student_id": "240302169",
-      "dept": "FENS (2. Sınıf)",
-      "x": 750,
-      "y": 735,
-      "details": "Onaylı Normal Üye #10\nÖğrenci No: 240302169\nBölüm: FENS (2. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
-    },
-    {
-      "id": "member_abdullah_uzun_250201110",
-      "label": "👤 Abdullah Uzun (Member #11)",
-      "cluster": "Members",
-      "isGodNode": false,
-      "type": "Member",
-      "file": "data/form_responses.csv",
-      "student_id": "250201110",
-      "dept": "FBA (1. Sınıf)",
-      "x": 750,
-      "y": 810,
-      "details": "Onaylı Normal Üye #11\nÖğrenci No: 250201110\nBölüm: FBA (1. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: 11/10)."
+      "y": 110
     }
   ],
   "edges": [
@@ -1000,223 +870,23 @@
     },
     {
       "source": "sheet_responses",
-      "target": "member_bilal_yusuf__im_ek_250302196",
-      "relation": "REGISTERED_VIA"
+      "target": "members_cohort",
+      "relation": "INGESTS_APPLICATIONS"
     },
     {
-      "source": "member_bilal_yusuf__im_ek_250302196",
+      "source": "members_cohort",
       "target": "comm_whatsapp",
-      "relation": "MEMBER_OF"
+      "relation": "ACTIVE_MEMBERS"
     },
     {
-      "source": "member_bilal_yusuf__im_ek_250302196",
+      "source": "members_cohort",
       "target": "doc_founding",
-      "relation": "RECORDED_IN"
+      "relation": "ROSTER_DOCUMENTED"
     },
     {
-      "source": "member_bilal_yusuf__im_ek_250302196",
-      "target": "comm_software",
-      "relation": "JOINS_COMMITTEE"
-    },
-    {
-      "source": "sheet_responses",
-      "target": "member_nazl_can_250302243",
-      "relation": "REGISTERED_VIA"
-    },
-    {
-      "source": "member_nazl_can_250302243",
-      "target": "comm_whatsapp",
-      "relation": "MEMBER_OF"
-    },
-    {
-      "source": "member_nazl_can_250302243",
-      "target": "doc_founding",
-      "relation": "RECORDED_IN"
-    },
-    {
-      "source": "member_nazl_can_250302243",
-      "target": "comm_software",
-      "relation": "JOINS_COMMITTEE"
-    },
-    {
-      "source": "sheet_responses",
-      "target": "member_muhammed_emin_250302247",
-      "relation": "REGISTERED_VIA"
-    },
-    {
-      "source": "member_muhammed_emin_250302247",
-      "target": "comm_whatsapp",
-      "relation": "MEMBER_OF"
-    },
-    {
-      "source": "member_muhammed_emin_250302247",
-      "target": "doc_founding",
-      "relation": "RECORDED_IN"
-    },
-    {
-      "source": "member_muhammed_emin_250302247",
-      "target": "comm_multi",
-      "relation": "JOINS_COMMITTEE"
-    },
-    {
-      "source": "sheet_responses",
-      "target": "member_emin_efe_duman_250302211",
-      "relation": "REGISTERED_VIA"
-    },
-    {
-      "source": "member_emin_efe_duman_250302211",
-      "target": "comm_whatsapp",
-      "relation": "MEMBER_OF"
-    },
-    {
-      "source": "member_emin_efe_duman_250302211",
-      "target": "doc_founding",
-      "relation": "RECORDED_IN"
-    },
-    {
-      "source": "member_emin_efe_duman_250302211",
-      "target": "comm_multi",
-      "relation": "JOINS_COMMITTEE"
-    },
-    {
-      "source": "sheet_responses",
-      "target": "member_bakir_260302030",
-      "relation": "REGISTERED_VIA"
-    },
-    {
-      "source": "member_bakir_260302030",
-      "target": "comm_whatsapp",
-      "relation": "MEMBER_OF"
-    },
-    {
-      "source": "member_bakir_260302030",
-      "target": "doc_founding",
-      "relation": "RECORDED_IN"
-    },
-    {
-      "source": "member_bakir_260302030",
-      "target": "comm_multi",
-      "relation": "JOINS_COMMITTEE"
-    },
-    {
-      "source": "sheet_responses",
-      "target": "member__mer_arif_a__kel_250302232",
-      "relation": "REGISTERED_VIA"
-    },
-    {
-      "source": "member__mer_arif_a__kel_250302232",
-      "target": "comm_whatsapp",
-      "relation": "MEMBER_OF"
-    },
-    {
-      "source": "member__mer_arif_a__kel_250302232",
-      "target": "doc_founding",
-      "relation": "RECORDED_IN"
-    },
-    {
-      "source": "member__mer_arif_a__kel_250302232",
-      "target": "comm_multi",
-      "relation": "JOINS_COMMITTEE"
-    },
-    {
-      "source": "sheet_responses",
-      "target": "member_mert___nar_atalay_250302162",
-      "relation": "REGISTERED_VIA"
-    },
-    {
-      "source": "member_mert___nar_atalay_250302162",
-      "target": "comm_whatsapp",
-      "relation": "MEMBER_OF"
-    },
-    {
-      "source": "member_mert___nar_atalay_250302162",
-      "target": "doc_founding",
-      "relation": "RECORDED_IN"
-    },
-    {
-      "source": "member_mert___nar_atalay_250302162",
-      "target": "comm_multi",
-      "relation": "JOINS_COMMITTEE"
-    },
-    {
-      "source": "sheet_responses",
-      "target": "member_ferit_enes_seymenliler_240302180",
-      "relation": "REGISTERED_VIA"
-    },
-    {
-      "source": "member_ferit_enes_seymenliler_240302180",
-      "target": "comm_whatsapp",
-      "relation": "MEMBER_OF"
-    },
-    {
-      "source": "member_ferit_enes_seymenliler_240302180",
-      "target": "doc_founding",
-      "relation": "RECORDED_IN"
-    },
-    {
-      "source": "member_ferit_enes_seymenliler_240302180",
-      "target": "comm_multi",
-      "relation": "JOINS_COMMITTEE"
-    },
-    {
-      "source": "sheet_responses",
-      "target": "member_h_seyin_talha_seymenliler_240302179",
-      "relation": "REGISTERED_VIA"
-    },
-    {
-      "source": "member_h_seyin_talha_seymenliler_240302179",
-      "target": "comm_whatsapp",
-      "relation": "MEMBER_OF"
-    },
-    {
-      "source": "member_h_seyin_talha_seymenliler_240302179",
-      "target": "doc_founding",
-      "relation": "RECORDED_IN"
-    },
-    {
-      "source": "member_h_seyin_talha_seymenliler_240302179",
-      "target": "comm_multi",
-      "relation": "JOINS_COMMITTEE"
-    },
-    {
-      "source": "sheet_responses",
-      "target": "member_muhammed_efe_ural_240302169",
-      "relation": "REGISTERED_VIA"
-    },
-    {
-      "source": "member_muhammed_efe_ural_240302169",
-      "target": "comm_whatsapp",
-      "relation": "MEMBER_OF"
-    },
-    {
-      "source": "member_muhammed_efe_ural_240302169",
-      "target": "doc_founding",
-      "relation": "RECORDED_IN"
-    },
-    {
-      "source": "member_muhammed_efe_ural_240302169",
-      "target": "comm_multi",
-      "relation": "JOINS_COMMITTEE"
-    },
-    {
-      "source": "sheet_responses",
-      "target": "member_abdullah_uzun_250201110",
-      "relation": "REGISTERED_VIA"
-    },
-    {
-      "source": "member_abdullah_uzun_250201110",
-      "target": "comm_whatsapp",
-      "relation": "MEMBER_OF"
-    },
-    {
-      "source": "member_abdullah_uzun_250201110",
-      "target": "doc_founding",
-      "relation": "RECORDED_IN"
-    },
-    {
-      "source": "member_abdullah_uzun_250201110",
-      "target": "comm_multi",
-      "relation": "JOINS_COMMITTEE"
+      "source": "members_cohort",
+      "target": "event_launch",
+      "relation": "ATTENDS_LAUNCH"
     }
   ]
 }

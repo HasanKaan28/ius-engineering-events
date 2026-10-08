@@ -134,6 +134,7 @@ SECTOR_POSITIONS = {
     "sheet_responses": {"x": 520, "y": -60},
     "fetch_tool": {"x": 750, "y": -60},
     "comm_whatsapp": {"x": 520, "y": 110},
+    "members_cohort": {"x": 750, "y": 110},
 
     # 🚀 TOP-RIGHT: EVENTS & INDUSTRY ECOSYSTEM
     "event_launch": {"x": 750, "y": -250},
@@ -252,12 +253,13 @@ def build_observatory_graph():
     # 2. GOVERNANCE & ACADEMIC NODES
     add_node({
         "id": "advisor",
-        "label": "FENS Academic Advisor",
+        "label": "Prof. Dr. Leila Miller (Faculty Advisor)",
         "cluster": "Governance",
         "isGodNode": True,
         "type": "Academic",
         "file": "templates/ACADEMIC_ADVISOR_INVITATION.md",
-        "details": "FENS Fakültesinden resmi kulüp danışmanı profesör. Rektörlük ve dekanlık ile kurumsal bağ sağlar."
+        "email": "lmiller@ius.edu.ba",
+        "details": "FENS Fakültesinden resmi kulüp akademik danışmanı (Full Professor Dr.). Rektörlük, dekanlık ve UCO nezdinde kurumsal akademik güvence sağlar. Asistan: Ilma Papić."
     })
 
     add_node({
@@ -577,38 +579,22 @@ def build_observatory_graph():
             edges.append({"source": task_node_id, "target": "event_hackathon", "relation": "PLANS_HACKATHON"})
             edges.append({"source": task_node_id, "target": "doc_sponsorship", "relation": "SEEKS_SPONSORS"})
 
-    # 9. NORMAL MEMBER NODES (From Google Sheet Responses)
-    for member_idx, r in enumerate(normal_member_rows, 1):
-        m_name = r[1].strip()
-        m_id = r[4].strip()
-        m_dept = r[5].strip() if len(r) > 5 else ""
-        m_year = r[6].strip() if len(r) > 6 else ""
+    # 9. AGGREGATED MEMBER COHORT (Clean & uncluttered overview)
+    add_node({
+        "id": "members_cohort",
+        "label": f"👥 Kayıtlı Üye Topluluğu ({len(normal_member_rows)} Öğrenci)",
+        "cluster": "Community",
+        "isGodNode": False,
+        "type": "CommunityBase",
+        "file": "data/form_responses.csv",
+        "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
+        "details": f"Kulübün kayıtlı üye topluluğu ({len(normal_member_rows)} onaylı başvuru).\nGoogle Form üzerinden kayıt olmuş ve WhatsApp komünitesine dahil edilmiştir.\nTüzük 10 kurucu üye kotası (%100 tamamlandı).\nFENS (CSE, EE, Makine vb.) ve diğer fakültelerden çok disiplinli mühendislik öğrencileri."
+    })
 
-        member_node_id = f"member_{re.sub(r'[^a-zA-Z0-9]', '_', m_name.lower())}_{m_id}"
-        member_x = 750
-        member_y = 60 + (member_idx - 1) * 75
-
-        nodes.append({
-            "id": member_node_id,
-            "label": f"👤 {m_name} (Member #{member_idx})",
-            "cluster": "Members",
-            "isGodNode": False,
-            "type": "Member",
-            "file": "data/form_responses.csv",
-            "student_id": m_id,
-            "dept": f"{m_dept} ({m_year}. Sınıf)",
-            "x": int(member_x),
-            "y": int(member_y),
-            "details": f"Onaylı Normal Üye #{member_idx}\nÖğrenci No: {m_id}\nBölüm: {m_dept} ({m_year}. Sınıf)\nDurum: Aktif Kayıtlı Üye (Tüzük 10-Üye Kotası: {len(normal_member_rows)}/10)."
-        })
-
-        edges.append({"source": "sheet_responses", "target": member_node_id, "relation": "REGISTERED_VIA"})
-        edges.append({"source": member_node_id, "target": "comm_whatsapp", "relation": "MEMBER_OF"})
-        edges.append({"source": member_node_id, "target": "doc_founding", "relation": "RECORDED_IN"})
-        if "computer" in m_dept.lower() or "cse" in m_dept.lower() or "yazılım" in m_dept.lower():
-            edges.append({"source": member_node_id, "target": "comm_software", "relation": "JOINS_COMMITTEE"})
-        else:
-            edges.append({"source": member_node_id, "target": "comm_multi", "relation": "JOINS_COMMITTEE"})
+    edges.append({"source": "sheet_responses", "target": "members_cohort", "relation": "INGESTS_APPLICATIONS"})
+    edges.append({"source": "members_cohort", "target": "comm_whatsapp", "relation": "ACTIVE_MEMBERS"})
+    edges.append({"source": "members_cohort", "target": "doc_founding", "relation": "ROSTER_DOCUMENTED"})
+    edges.append({"source": "members_cohort", "target": "event_launch", "relation": "ATTENDS_LAUNCH"})
 
     graph_data = {
         "project": "IUS Engineering Events Club",
