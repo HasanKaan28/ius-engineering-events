@@ -27,7 +27,7 @@
 2. **Primary Operational Pillars & Objectives**:
    * **a. Weekly AI & Prompt Engineering Workshops**: Organize regular, hands-on weekly practical labs focusing on artificial intelligence applications, effective prompt engineering, modern AI coding tools, and workflow automation.
    * **b. Monthly On-Campus Tech Keynotes**: Host prominent figures, engineering leaders, and technology founders for physical keynote sessions and Q&A panels in the IUS Amphitheater at least once every month.
-   * **c. Weekly Online Tech-Talks & Fireside Chats**: Convene weekly interactive virtual discussions via Discord / Google Meet with experienced software engineers, researchers, and domain experts globally to discuss real-world engineering practices and career paths.
+   * **c. Weekly Online Tech-Talks & Fireside Chats**: Convene weekly interactive virtual discussions via Google Meet webinars with experienced software engineers, researchers, and domain experts globally to discuss real-world engineering practices and career paths.
    * **d. Flagship Campus Hackathon (IUS DevHack)**: Organize an annual flagship 24-hour hackathon on campus, featuring company mentors, project problem sets, awards, and industry juries.
    * **e. Annual On-Campus Technology Summit (IUS TechSummit)**: Organize a full-day university-wide engineering and technology conference on the IUS campus featuring prominent industry leaders, technology exhibition booths, keynote panels, and direct student career networking.
    * **f. Volunteer Instructor & Peer-Mentorship Network**: Establish an open volunteer instructor structure, recruiting capable senior students and external mentors to lead workshops and maintain continuous, sustainable peer-to-peer knowledge sharing.

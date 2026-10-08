@@ -1,6 +1,6 @@
-# WhatsApp & Telegram Community Management Strategy 📱
+# WhatsApp & Community Management Strategy 📱
 
-While Discord is ideal for deep technical projects and voice channels, **WhatsApp** and **Telegram** are essential for instant, high-reach campus communications at IUS.
+**WhatsApp** is the primary platform for instant, high-reach student communications and community engagement at IUS.
 
 ---
 
@@ -20,7 +20,7 @@ While Discord is ideal for deep technical projects and voice channels, **WhatsAp
 * **Moderation Rules**:
   1. Respectful communication in English and Turkish/Bosnian.
   2. No spam, advertisements, or political discussions.
-  3. Technical questions are encouraged to move to Discord `#help-and-questions` for deep troubleshooting.
+  3. Technical and project questions are coordinated during hands-on lab sessions and workshops.
 
 ---
 
