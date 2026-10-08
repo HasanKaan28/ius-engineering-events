@@ -1,6 +1,6 @@
 {
   "project": "IUS Engineering Events Club",
-  "generated_at": "2026-10-08T20:16:52.249554",
+  "generated_at": "2026-10-08T20:45:39.574877",
   "stats": {
     "total_nodes": 35,
     "total_edges": 72,
@@ -224,15 +224,15 @@
     },
     {
       "id": "board_hasan_kaan",
-      "label": "Hasan Kaan (👑 Asıl Başkan & Kurucu Lider)",
+      "label": "Hasan Kaan (👑 Asıl Başkan & Kurucu Ortak)",
       "cluster": "Leadership",
       "isGodNode": true,
       "type": "BoardMember",
       "file": "organization/ROLE_DESCRIPTIONS.md",
-      "role_title": "👑 Asıl Başkan & Kurucu Lider (Executive President)",
+      "role_title": "👑 Asıl Başkan & Kurucu Ortak (Co-Founder & President)",
       "student_id": "250302195",
       "dept": "FENS / CSE (1. Sınıf)",
-      "duties": "Kulübün ASIL BAŞKANI, kurucusu ve nihai karar mercii. Kulübün tüm vizyonunu, teknik ve idari yapılanmasını, Linear sprintlerini, yapay zeka atölyelerini, bütçe onaylarını ve DevHack 2027'yi yönetir.",
+      "duties": "Kulübün ASIL BAŞKANI, kurucu ortağı ve nihai karar mercii. Kulübün tüm vizyonunu, teknik ve idari yapılanmasını, Linear sprintlerini, yapay zeka atölyelerini, bütçe onaylarını ve DevHack 2027'yi yönetir.",
       "tools": [
         "Linear.app Task Hub",
         "Antigravity IDE & Python Automation",
@@ -241,23 +241,23 @@
         "Tüm Stratejik Kararlar"
       ],
       "collaborates": [
-        "Mahmut İhsan (Asıl Bşk. Yrd.)",
+        "Mahmut İhsan (Kurucu Ortak & Bşk. Yrd.)",
         "Kaan Mete (Resmi Temsilci)",
         "Bekir Enes (Sayman)",
         "Komiteler & Takımlar"
       ],
-      "details": "[👑 Asıl Başkan & Kurucu Lider (Executive President)] FENS / CSE (1. Sınıf) - No: 250302195\nGörevler: Kulübün ASIL BAŞKANI, kurucusu ve nihai karar mercii. Kulübün tüm vizyonunu, teknik ve idari yapılanmasını, Linear sprintlerini, yapay zeka atölyelerini, bütçe onaylarını ve DevHack 2027'yi yönetir.",
+      "details": "[👑 Asıl Başkan & Kurucu Ortak (Co-Founder & President)] FENS / CSE (1. Sınıf) - No: 250302195\nGörevler: Kulübün ASIL BAŞKANI, kurucu ortağı ve nihai karar mercii. Kulübün tüm vizyonunu, teknik ve idari yapılanmasını, Linear sprintlerini, yapay zeka atölyelerini, bütçe onaylarını ve DevHack 2027'yi yönetir.",
       "x": 0,
       "y": 0
     },
     {
       "id": "board_mahmut_ihsan",
-      "label": "Mahmut İhsan Avcı (🚀 Asıl Başkan Yardımcısı & İdari Koordinatör)",
+      "label": "Mahmut İhsan Avcı (🚀 Asıl Başkan Yrd. & Kurucu Ortak)",
       "cluster": "Leadership",
       "isGodNode": true,
       "type": "BoardMember",
       "file": "organization/ROLE_DESCRIPTIONS.md",
-      "role_title": "🚀 Asıl Başkan Yardımcısı & İdari Koordinatör (Vice President)",
+      "role_title": "🚀 Asıl Başkan Yrd. & Kurucu Ortak (Co-Founder & Vice President)",
       "student_id": "250302233",
       "dept": "FENS (1. Sınıf)",
       "duties": "Kulübün ASIL BAŞKAN YARDIMCISI ve operasyonel sağ kolu. Üye alımları, bürokrasi, toplantı tutanakları ve idari/lojistik operasyonların yöneticisi. Hasan Kaan ile birlikte kulübü fiilen yönetir.",
@@ -273,7 +273,7 @@
         "Bekir Enes (Sayman)",
         "Kurucu Üyeler"
       ],
-      "details": "[🚀 Asıl Başkan Yardımcısı & İdari Koordinatör (Vice President)] FENS (1. Sınıf) - No: 250302233\nGörevler: Kulübün ASIL BAŞKAN YARDIMCISI ve operasyonel sağ kolu. Üye alımları, bürokrasi, toplantı tutanakları ve idari/lojistik operasyonların yöneticisi. Hasan Kaan ile birlikte kulübü fiilen yönetir.",
+      "details": "[🚀 Asıl Başkan Yrd. & Kurucu Ortak (Co-Founder & Vice President)] FENS (1. Sınıf) - No: 250302233\nGörevler: Kulübün ASIL BAŞKAN YARDIMCISI ve operasyonel sağ kolu. Üye alımları, bürokrasi, toplantı tutanakları ve idari/lojistik operasyonların yöneticisi. Hasan Kaan ile birlikte kulübü fiilen yönetir.",
       "x": -280,
       "y": 0
     },
