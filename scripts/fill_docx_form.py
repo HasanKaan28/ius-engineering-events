@@ -103,7 +103,7 @@ def fill_docx():
         if len(rows) > 7:
             tcs = rows[7].findall('w:tc', ns)
             if len(tcs) > 1:
-                set_cell_text(tcs[1], "Mahmut İhsan Avcı")
+                set_cell_text(tcs[1], "Hasan Kaan Karabulut")
         if len(rows) > 8:
             tcs = rows[8].findall('w:tc', ns)
             if len(tcs) > 1:
@@ -148,7 +148,7 @@ def fill_docx():
     # TABLE 3: Member list (Rows 3..17)
     members_data = [
         ("Kaan Mete Şenyıldız", "kmsenyildiz@gmail.com", "250302201"),
-        ("Hasan Kaan", "ufukkarabulut35@gmail.com", "250302195"),
+        ("Hasan Kaan Karabulut", "hasankaankarabulut121@gmail.com", "250302195"),
         ("Mahmut İhsan Avcı", "mahmut.ihsanavcii@gmail.com", "250302233"),
         ("Bekir Enes Çokbekler", "46bekir70@gmail.com", "250302229"),
         ("Bilal Yusuf Şimşek", "Simsekbilal59@gmail.com", "250302196"),
@@ -175,6 +175,14 @@ def fill_docx():
                     set_cell_text(tcs[1], m[0])
                     set_cell_text(tcs[2], m[1])
                     set_cell_text(tcs[3], m[2])
+
+    # TABLE 4: APPROVED BY DEAN
+    if len(tbls) > 4:
+        rows = tbls[4].findall('w:tr', ns)
+        if len(rows) > 3:
+            tcs = rows[3].findall('w:tc', ns)
+            if len(tcs) > 1:
+                set_cell_text(tcs[1], "Assoc. Prof. Dr. Altijana Hromić-Jahjefendić")
 
     tree.write(doc_xml_path, encoding='utf-8', xml_declaration=True)
 
