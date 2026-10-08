@@ -936,16 +936,16 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
 
     /* =====================================================================
-       PRINT & PDF EXPORT STYLES (100% Full Bleed 16:9 Landscape)
+       PRINT & PDF EXPORT STYLES (100% Full Bleed 1920x1080 - ZERO DRIFT)
        ===================================================================== */
     @page {{
-      size: 16in 9in;
+      size: 1920px 1080px;
       margin: 0;
     }}
 
     @media print {{
       html, body {{
-        width: 16in !important;
+        width: 1920px !important;
         height: auto !important;
         margin: 0 !important;
         padding: 0 !important;
@@ -959,7 +959,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       }}
       .viewport-container {{
         display: block !important;
-        width: 16in !important;
+        width: 1920px !important;
         height: auto !important;
         margin: 0 !important;
         padding: 0 !important;
@@ -967,7 +967,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       }}
       #presentationStage {{
         display: block !important;
-        width: 16in !important;
+        width: 1920px !important;
         height: auto !important;
         transform: none !important;
         margin: 0 !important;
@@ -976,18 +976,29 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       }}
       .slide-canvas {{
         display: flex !important;
-        width: 16in !important;
-        height: 9in !important;
+        width: 1920px !important;
+        height: 1080px !important;
+        min-height: 1080px !important;
+        max-height: 1080px !important;
         transform: none !important;
         position: relative !important;
         top: auto !important;
         left: auto !important;
+        page-break-before: always !important;
+        break-before: page !important;
         page-break-after: always !important;
         break-after: page !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
         margin: 0 !important;
-        padding: 0.52in 0.8in 0.42in 0.8in !important;
+        padding: 45px 80px 35px 80px !important;
         box-sizing: border-box !important;
+        overflow: hidden !important;
         box-shadow: none !important;
+      }}
+      .slide-canvas:first-of-type {{
+        page-break-before: auto !important;
+        break-before: auto !important;
       }}
     }}
   </style>
@@ -1790,6 +1801,8 @@ def generate():
             "--headless",
             "--disable-gpu",
             "--no-pdf-header-footer",
+            "--window-size=1920,1080",
+            "--force-device-scale-factor=1",
             f"--print-to-pdf={pdf_out.resolve()}",
             export_html_path.resolve().as_uri()
         ]
