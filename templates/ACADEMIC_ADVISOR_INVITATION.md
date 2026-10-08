@@ -33,9 +33,14 @@ We would be deeply honored to discuss this initiative with you in person at your
 
 Respectfully yours,
 
-**[Your Full Name]**  
-Captain & Founder, IUS Engineering Events Club  
+**Hasan Kaan**  
+Executive President & Founder, IUS Engineering Events Club  
 Faculty of Engineering and Natural Sciences (FENS)  
 International University of Sarajevo  
-Email: [Your Student Email]  
-Phone: [Your Phone Number]  
+Email: ufukkarabulut35@gmail.com  
+
+**Kaan Mete Şenyıldız**  
+Club President, IUS Engineering Events Club  
+Faculty of Engineering and Natural Sciences (FENS)  
+International University of Sarajevo  
+Email: kmsenyildiz@gmail.com | Phone: +90 553 113 11 98    

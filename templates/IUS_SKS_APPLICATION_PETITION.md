@@ -3,7 +3,7 @@
 **To:** Student Affairs Office / Student Career and Services (SKS)  
 **Dean's Office:** Faculty of Engineering and Natural Sciences (FENS)  
 **Institution:** International University of Sarajevo (IUS)  
-**Date:** [Date]  
+**Date:** October 12, 2026  
 
 ---
 
@@ -12,7 +12,7 @@
 * **Affiliated Faculty**: Faculty of Engineering and Natural Sciences (FENS)
 * **Target Audience**: All IUS Undergraduate & Graduate Engineering Students
 * **Primary Working Language**: English
-* **Contact Email**: [Club Contact Email / Captain Email]
+* **Contact Email**: `ufukkarabulut35@gmail.com` | `kmsenyildiz@gmail.com`
 
 ---
 
