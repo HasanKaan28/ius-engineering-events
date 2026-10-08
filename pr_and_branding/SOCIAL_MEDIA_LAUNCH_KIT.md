@@ -8,7 +8,7 @@
 ---
 
 ## 1. Instagram Bio Configuration
-* **Name**: IUS Engineering Events Club 🚀
+* **Name**: IUS Engineering Club 🚀
 * **Category**: University / Non-profit Organization
 * **Bio**:
   ```
@@ -24,7 +24,7 @@
 ## 2. Launch Announcement Post (Instagram Carousel & LinkedIn)
 
 ### Post Visual Idea
-* **Slide 1**: High-contrast cyberpunk graphic with text: *"Something big is coming to FENS. Meet the IUS Engineering Events Club."*
+* **Slide 1**: High-contrast cyberpunk graphic with text: *"Something big is coming to FENS. Meet the IUS Engineering Club."*
 * **Slide 2**: The 4 Pillars (Multidisciplinary Eng, AI & Software, Applied Projects, Industry Bridge).
 * **Slide 3**: Save the date: Grand Welcome Meeting in Main Amphitheater.
 * **Slide 4**: Call to Action (Scan QR code / Link in Bio to register).
@@ -32,7 +32,7 @@
 ### Copy-Paste Caption (English)
 > **🚀 Engineering at IUS is leveling up.**
 >
-> Introducing the **IUS Engineering Events Club (IEEC)** — your premier hands-on engineering society designed to bridge classroom theory with industry-grade software, hardware, and competitive innovation.
+> Introducing the **IUS Engineering Club (IEC)** — your premier hands-on engineering society designed to bridge classroom theory with industry-grade software, hardware, and competitive innovation.
 >
 > What’s on the horizon this semester?
 > 💻 Full-Stack & Autonomous AI Coding Labs  
@@ -51,7 +51,7 @@
 ---
 
 ## 3. LinkedIn Post (Professional Tone for Professors & Industry Sponsors)
-> We are thrilled to officially announce the launch of the **IUS Engineering Events Club** under the Faculty of Engineering and Natural Sciences (FENS) at the International University of Sarajevo!
+> We are thrilled to officially announce the launch of the **IUS Engineering Club** under the Faculty of Engineering and Natural Sciences (FENS) at the International University of Sarajevo!
 >
 > Our mission is simple yet ambitious: to foster an agile, multidisciplinary engineering community where students build real-world systems, prototype innovative solutions, and connect directly with forward-thinking tech employers in Bosnia & Herzegovina and beyond.
 >

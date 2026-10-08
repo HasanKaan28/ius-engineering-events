@@ -1,12 +1,12 @@
-# IUS Engineering Events Club (IEEC) 🚀
+# IUS Engineering Club (IEC) 🚀
 **Faculty of Engineering and Natural Sciences (FENS) | International University of Sarajevo**
 
-Welcome to the central repository and operational workspace for the **IUS Engineering Events Club**.
+Welcome to the central repository and operational workspace for the **IUS Engineering Club**.
 
 ---
 
 ## 📌 Executive Summary
-The IUS Engineering Events Club is a student-led engineering initiative founded to transform the student experience at IUS by bridging theory, multidisciplinary practice, competition excellence, and corporate networking.
+The IUS Engineering Club is a student-led engineering initiative founded to transform the student experience at IUS by bridging theory, multidisciplinary practice, competition excellence, and corporate networking.
 
 ### Core Pillars
 1. **Multidisciplinary Engineering**: Hands-on hardware, embedded systems, and cross-discipline projects.

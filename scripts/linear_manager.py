@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-IEEC Linear Management Bridge
+IEC Linear Management Bridge
 Allows Antigravity IDE to directly interact with Linear.app (GraphQL API).
 Uses Python standard library (urllib) - zero external dependencies required.
 """
@@ -189,7 +189,7 @@ def create_issue(title, description="", team_key=None, assignee_name=None, prior
 if __name__ == "__main__":
     args = sys.argv[1:]
     if not args:
-        print("IEEC Linear Yöneticisi")
+        print("IEC Linear Yöneticisi")
         print("Kullanım:")
         print("  python scripts/linear_manager.py configure <API_KEY>")
         print("  python scripts/linear_manager.py list-teams")

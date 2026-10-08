@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-IEEC Deep Space Observatory Synchronizer
+IEC Deep Space Observatory Synchronizer
 Fetches live Linear tasks and Google Form members, builds a comprehensive
 ecosystem knowledge graph, and synchronizes graphify-out/graph.json and graph.html.
 """
@@ -318,7 +318,7 @@ def build_observatory_graph():
     # 5. DOCUMENTS & TEMPLATES (DEDICATED SHELF: RESMİ ŞABLONLAR)
     add_node({
         "id": "doc_constitution",
-        "label": "📄 IEEC Kulüp Tüzüğü",
+        "label": "📄 IEC Kulüp Tüzüğü",
         "cluster": "Documents",
         "isGodNode": True,
         "type": "Doc",
@@ -597,7 +597,7 @@ def build_observatory_graph():
     edges.append({"source": "members_cohort", "target": "event_launch", "relation": "ATTENDS_LAUNCH"})
 
     graph_data = {
-        "project": "IUS Engineering Events Club",
+        "project": "IUS Engineering Club",
         "generated_at": datetime.now().isoformat(),
         "stats": {
             "total_nodes": len(nodes),

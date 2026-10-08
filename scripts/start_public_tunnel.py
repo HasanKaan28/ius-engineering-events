@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-IEEC Observatory Public Tunnel & Share Link
+IEC Observatory Public Tunnel & Share Link
 Starts a local background HTTP server and creates an instant public HTTPS tunnel
 so the team and external members can view the live observatory on any device.
 """
@@ -23,7 +23,7 @@ WORKSPACE_ROOT = Path(__file__).resolve().parent.parent
 
 def main():
     print("==================================================")
-    print(" 🛰️ IEEC Observatory Public Tunnel Service")
+    print(" 🛰️ IEC Observatory Public Tunnel Service")
     print("==================================================")
     
     # 1. Update index.html from graphify-out

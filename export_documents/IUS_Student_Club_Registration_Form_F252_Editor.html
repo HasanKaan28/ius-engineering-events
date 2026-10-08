@@ -477,7 +477,7 @@
       <span id="saveStatus" class="save-status">✓ Kaydedildi</span>
     </div>
     <div class="toolbar-actions">
-      <button class="btn btn-outline" onclick="resetToIEECDefaults()" title="Varsayılan IUS Engineering Events verilerini doldur">⚡ IEEC Doldur</button>
+      <button class="btn btn-outline" onclick="resetToIECDefaults()" title="Varsayılan IUS Engineering Club verilerini doldur">⚡ IEC Doldur</button>
       <button class="btn btn-outline" onclick="clearAllFields()" title="Tüm alanları boşalt">🧹 Formu Temizle</button>
       <button class="btn btn-secondary" onclick="exportDataJSON()" title="Yedek JSON indir">💾 JSON Yedek</button>
       <button class="btn btn-primary" onclick="saveManual()" title="Tarayıcı hafızasına kaydet">💾 Kaydet</button>
@@ -515,7 +515,7 @@
       <tr>
         <th style="width: 35%;">STUDENT CLUB NAME</th>
         <td>
-          <input type="text" id="clubName" class="editable-field" style="font-weight: 700; font-size: 0.95rem; color: #003366;" value="IUS Engineering Events Club">
+          <input type="text" id="clubName" class="editable-field" style="font-weight: 700; font-size: 0.95rem; color: #003366;" value="IUS Engineering Club">
         </td>
       </tr>
       <tr>
@@ -577,7 +577,7 @@
       </tr>
       <tr>
         <td>
-          <textarea id="purposeStatement" class="editable-field" rows="4">The IUS Engineering Events Club (IEEC) is established as an Academic and Educational Club (AEC) under the Faculty of Engineering and Natural Sciences (FENS) to bridge university engineering education with real-world industrial practice. Through high-impact extracurricular workshops, software/AI bootcamps, multidisciplinary student engineering project teams (spanning Computer Science, Software Engineering, Electrical & Electronics, and Mechanical Engineering), and professional networking with Bosnia and Herzegovina’s leading technology companies, IEEC equips IUS students with industry-grade engineering proficiencies, leadership experience, and career acceleration.</textarea>
+          <textarea id="purposeStatement" class="editable-field" rows="4">The IUS Engineering Club (IEC) is established as an Academic and Educational Club (AEC) under the Faculty of Engineering and Natural Sciences (FENS) to bridge university engineering education with real-world industrial practice. Through high-impact extracurricular workshops, software/AI bootcamps, multidisciplinary student engineering project teams (spanning Computer Science, Software Engineering, Electrical & Electronics, and Mechanical Engineering), and professional networking with Bosnia and Herzegovina’s leading technology companies, IEC equips IUS students with industry-grade engineering proficiencies, leadership experience, and career acceleration.</textarea>
         </td>
       </tr>
     </table>
@@ -957,8 +957,8 @@
       alert("Tüm form verileri tarayıcınızın yerel hafızasına başarıyla kaydedildi!");
     }
 
-    function resetToIEECDefaults() {
-      if (confirm("Formu varsayılan IUS Engineering Events Club verileriyle sıfırlamak istiyor musunuz?")) {
+    function resetToIECDefaults() {
+      if (confirm("Formu varsayılan IUS Engineering Club verileriyle sıfırlamak istiyor musunuz?")) {
         localStorage.removeItem("ius_club_form_f252_data");
         location.reload();
       }

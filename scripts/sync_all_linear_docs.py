@@ -36,7 +36,7 @@ mutation UpdateDoc($id: String!, $input: DocumentUpdateInput!) {
 res1 = graphql(mutation, {
     "id": "24e233dd-44ba-4c96-b391-1dcb7da6d020",
     "input": {
-        "title": "IEEC Official Club Constitution",
+        "title": "IEC Official Club Constitution",
         "content": const_content
     }
 })

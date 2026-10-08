@@ -1,6 +1,6 @@
 {
-  "project": "IUS Engineering Events Club",
-  "generated_at": "2026-10-08T20:45:39.574877",
+  "project": "IUS Engineering Club",
+  "generated_at": "2026-10-08T21:17:31.257567",
   "stats": {
     "total_nodes": 35,
     "total_edges": 72,
@@ -125,7 +125,7 @@
     },
     {
       "id": "doc_constitution",
-      "label": "📄 IEEC Kulüp Tüzüğü",
+      "label": "📄 IEC Kulüp Tüzüğü",
       "cluster": "Documents",
       "isGodNode": true,
       "type": "Doc",

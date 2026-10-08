@@ -58,7 +58,7 @@ Bahar döneminde (Mayıs ayı 2. haftası) IUS kampüsünde tüm üniversiteyi v
 🔗 **İlgili Resmi Belgeler:**
 - [SCC Proposed Annual Activity Plan](https://linear.app/ius-engineering-events/document/scc-proposed-annual-activity-plan-4-core-pillars-and-devhack-20262027-db3b4f5e5a05)
 - [SCC Proposed Annual Budget Estimate](https://linear.app/ius-engineering-events/document/scc-proposed-annual-budget-estimate-1300-bam-balanced-and-realistic-127e6ed0a921)
-- [IEEC Official Club Constitution](https://linear.app/ius-engineering-events/document/ieec-official-club-constitution-ab238dce240a)"""
+- [IEC Official Club Constitution](https://linear.app/ius-engineering-events/document/ieec-official-club-constitution-ab238dce240a)"""
 }
 
 res = graphql(mutation, {"input": issue_data})

@@ -1,7 +1,7 @@
-# Project Context: IUS Engineering Events Club
+# Project Context: IUS Engineering Club
 
 ## 1. Overview & Vision
-- **Organization**: IUS Engineering Events Club (International University of Sarajevo)
+- **Organization**: IUS Engineering Club (International University of Sarajevo)
 - **Institution**: International University of Sarajevo (IUS), Faculty of Engineering and Natural Sciences (FENS)
 - **Leadership**: Led by Club Captain / President with a core founding committee.
 - **Language**: 100% English (Official documents, external partnerships, event communications).

@@ -30,7 +30,7 @@ Kulübün arkasında duracak, FENS fakültesinden bir profesörü (Advisor) resm
 
 ### ✉️ Hazır E-Posta / Görüşme Taslağı (Kopyalamaya Hazır):
 > **Dear Professor,**  
-> On behalf of the founding student initiative of the **IUS Engineering Events Club**, we are writing to respectfully invite you to serve as our **Academic Faculty Advisor** for the 2026/2027 academic year.  
+> On behalf of the founding student initiative of the **IUS Engineering Club**, we are writing to respectfully invite you to serve as our **Academic Faculty Advisor** for the 2026/2027 academic year.  
 > We would be deeply honored to discuss this initiative with you in person at your office at your earliest convenience.  
 > Respectfully yours,  
 > **Hasan Kaan (Vice President) & Kaan Mete Şenyıldız (President)**  
@@ -57,7 +57,7 @@ SCC gereksinimlerine uygun resmi yönetim kurulu belirlenmiştir.
 
 ### 📄 Doğrudan Açılabilir Resmi Belge:
 👉 **[🔗 TIKLAYIN: SCC 10 Kurucu Üye ve Yönetim Kurulu Listesi](https://linear.app/ius-engineering-events/document/scc-10-kurucu-uye-ve-yonetim-kurulu-listesi-f3bab5324d30)**
-👉 **[🔗 TIKLAYIN: IEEC Kulüp Tüzüğü (Constitution)](https://linear.app/ius-engineering-events/document/ieec-resmi-kulup-tuzugu-constitution-ab238dce240a)**
+👉 **[🔗 TIKLAYIN: IEC Kulüp Tüzüğü (Constitution)](https://linear.app/ius-engineering-events/document/ieec-resmi-kulup-tuzugu-constitution-ab238dce240a)**
 
 ---
 

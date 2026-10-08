@@ -1,4 +1,4 @@
-# Organizational Structure: IUS Engineering Events Club
+# Organizational Structure: IUS Engineering Club
 
 ## Executive Leadership Hierarchy
 

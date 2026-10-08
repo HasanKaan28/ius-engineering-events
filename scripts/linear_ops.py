@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-IEEC Linear Issue Operations Tool
+IEC Linear Issue Operations Tool
 Expands linear_manager.py to query, update, create, and assign tasks across the team.
 """
 

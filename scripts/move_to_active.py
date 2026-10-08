@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Move all IEEC issues to Todo (Active) state and update detailed checklists.
+Move all IEC issues to Todo (Active) state and update detailed checklists.
 """
 
 import sys

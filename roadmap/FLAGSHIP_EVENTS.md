@@ -1,6 +1,6 @@
 # Flagship Event Blueprints
 
-This document contains full operational concepts for the three flagship events planned for IUS Engineering Events Club.
+This document contains full operational concepts for the three flagship events planned for IUS Engineering Club.
 
 ---
 

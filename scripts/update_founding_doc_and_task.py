@@ -53,7 +53,7 @@ SCC gereksinimlerine göre 5 kişilik yönetim kadrosu belirlenmektedir. Şu an 
 
 ### 📄 Doğrudan Açılabilir Resmi Belge:
 👉 [**🔗 TIKLAYIN: SCC Yönetim Kurulu ve Üye Listesi**](<https://linear.app/ius-engineering-events/document/scc-10-kurucu-uye-ve-yonetim-kurulu-listesi-f3bab5324d30>)
-👉 [**🔗 TIKLAYIN: IEEC Kulüp Tüzüğü (Constitution)**](<https://linear.app/ius-engineering-events/document/ieec-resmi-kulup-tuzugu-constitution-ab238dce240a>)"""
+👉 [**🔗 TIKLAYIN: IEC Kulüp Tüzüğü (Constitution)**](<https://linear.app/ius-engineering-events/document/ieec-resmi-kulup-tuzugu-constitution-ab238dce240a>)"""
 
 # 4. Update Linear Issue IUS-8 (10 Normal Üye & Stealth Mode)
 desc_ius8 = """### 🤫 STRATEJİ: STEALTH MODE (SESSİZ VE BİREBİR)

@@ -5,7 +5,7 @@
 ---
 
 ### Header Section
-* **Form Title**: IUS Engineering Events Club — Management & Member Registration (2026/2027)
+* **Form Title**: IUS Engineering Club — Management & Member Registration (2026/2027)
 * **Description**: Join the most dynamic engineering community at IUS! Whether you want to attend hands-on workshops, build innovative engineering projects, or help organize major campus hackathons, this is your launchpad.
 
 ---
@@ -39,4 +39,4 @@
    * [ ] Yes, I want to be an active organizer / committee member!
    * [ ] No, I prefer to participate as a general attendee in workshops and hackathons.
 8. **Previous Projects / GitHub / Portfolio**: `Short Answer (Optional)`
-9. **What is one technical workshop or event you would love IEEC to organize this year?**: `Long Text (Optional)`
+9. **What is one technical workshop or event you would love IEC to organize this year?**: `Long Text (Optional)`

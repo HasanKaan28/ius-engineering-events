@@ -1,14 +1,14 @@
 # Corporate Sponsorship Package & Partnership Prospectus
 
-**IUS Engineering Events Club (IEEC)**  
+**IUS Engineering Club (IEC)**  
 **Faculty of Engineering and Natural Sciences (FENS) | International University of Sarajevo**  
 **Academic Year:** 2026–2027  
 
 ---
 
-## 🌟 Executive Summary: Why Partner with IEEC?
+## 🌟 Executive Summary: Why Partner with IEC?
 
-The **IUS Engineering Events Club** is the premier student-led engineering hub at the International University of Sarajevo. Our mission is to train high-caliber engineers capable of excelling in regional and global tech ecosystems.
+The **IUS Engineering Club** is the premier student-led engineering hub at the International University of Sarajevo. Our mission is to train high-caliber engineers capable of excelling in regional and global tech ecosystems.
 
 By partnering with us, your company gains:
 1. **Direct Access to Top Tech Talent**: First-look hiring access to ambitious Computer Science, Software Engineering, and Electrical Engineering students.

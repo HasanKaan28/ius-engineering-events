@@ -1,14 +1,14 @@
-# CONSTITUTION OF THE IUS ENGINEERING EVENTS CLUB (IEEC)
+# CONSTITUTION OF THE IUS ENGINEERING CLUB (IEC)
 
-**Pursuant to Article 77 of the Statute of the International University of Sarajevo (IUS) and the provisions of the Book of Rules on Establishing and Activities of Students' Clubs, the Founding Assembly of the IUS Engineering Events Club adopts the following official Constitution:**
+**Pursuant to Article 77 of the Statute of the International University of Sarajevo (IUS) and the provisions of the Book of Rules on Establishing and Activities of Students' Clubs, the Founding Assembly of the IUS Engineering Club adopts the following official Constitution:**
 
 ---
 
 ### PART I: GENERAL PROVISIONS
 
 #### Article 1: Name, Status, and Legal Affiliation
-1. The official name of the student organization is **"IUS Engineering Events Club"** (hereinafter referred to as the **"Club"** or **"IEEC"**).
-2. In Bosnian/Croatian/Serbian language, the name of the Club is **"Klub za inženjerske događaje IUS"**.
+1. The official name of the student organization is **"IUS Engineering Club"** (hereinafter referred to as the **"Club"** or **"IEC"**).
+2. In Bosnian/Croatian/Serbian language, the name of the Club is **"Inženjerski klub IUS"**.
 3. The Club is an officially recognized, non-profit, student-led extracurricular organization established at the **International University of Sarajevo (IUS)**.
 4. The Club operates under the academic umbrella of the **Faculty of Engineering and Natural Sciences (FENS)** and is registered with and supervised by the **Student & Career Center (SCC)** (Building B, Ground Floor, Office G.18) in accordance with **Student Club Registration Form (F252)**.
 

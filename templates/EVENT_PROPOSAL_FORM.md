@@ -1,6 +1,6 @@
 # Standard Event Proposal & University Reservation Form
 
-**Organization**: IUS Engineering Events Club  
+**Organization**: IUS Engineering Club  
 **Faculty**: Faculty of Engineering and Natural Sciences (FENS)  
 **Submission Date**: [Date]  
 

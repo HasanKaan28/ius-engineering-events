@@ -89,7 +89,7 @@ doc_roster = create_doc(
 
 # 5. Constitution attached to Team
 doc_const = create_doc(
-    "IEEC Resmi Kulüp Tüzüğü (Constitution)",
+    "IEC Resmi Kulüp Tüzüğü (Constitution)",
     constitution,
     team_id_arg=team_id
 )

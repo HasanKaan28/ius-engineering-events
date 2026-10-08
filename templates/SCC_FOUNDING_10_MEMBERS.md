@@ -1,7 +1,7 @@
 # IUS SCC FOUNDING ROSTER & LEADERSHIP STRUCTURE
-## OFFICIAL FOUNDING ASSEMBLY & EXECUTIVE APPOINTMENTS (IEEC)
+## OFFICIAL FOUNDING ASSEMBLY & EXECUTIVE APPOINTMENTS (IEC)
 
-**Club Name**: IUS Engineering Events Club (IEEC)  
+**Club Name**: IUS Engineering Club (IEC)  
 **Faculty Affiliation**: Faculty of Engineering and Natural Sciences (FENS)  
 **Supervisory Authority**: Student & Career Center (SCC), Building B, Office G.18  
 **Academic Year**: 2026/2027  
@@ -23,7 +23,7 @@
 ---
 
 ### PART B: FOUNDING MEMBERS ROSTER (MINIMUM 10 REGISTERED STUDENTS)
-*By affixing their signatures below, the undersigned students confirm their status as actively enrolled students at the International University of Sarajevo and declare their voluntary membership in the founding assembly of the IUS Engineering Events Club.*
+*By affixing their signatures below, the undersigned students confirm their status as actively enrolled students at the International University of Sarajevo and declare their voluntary membership in the founding assembly of the IUS Engineering Club.*
 
 | # | Full Name | Student ID | Faculty & Study Program | Year of Study | Physical Signature |
 | :-: | :--- | :---: | :--- | :---: | :---: |
@@ -43,7 +43,7 @@
 
 ### PART C: FACULTY ACADEMIC ADVISOR CONSENT
 
-I hereby confirm my acceptance of the appointment as Academic Faculty Advisor for the IUS Engineering Events Club for the 2026/2027 academic year, and confirm that I will advise the club's educational activities in alignment with university standards.
+I hereby confirm my acceptance of the appointment as Academic Faculty Advisor for the IUS Engineering Club for the 2026/2027 academic year, and confirm that I will advise the club's educational activities in alignment with university standards.
 
 **Advisor Name & Academic Title:** Prof. Dr. Leila Miller (Full Professor Dr.)  
 **Faculty / Department:** Faculty of Engineering and Natural Sciences (FENS)  

@@ -1,7 +1,7 @@
 # IUS SCC PROPOSED ANNUAL BUDGET ESTIMATE (2026/2027)
-## PROPOSED ANNUAL CLUB BUDGET (IEEC)
+## PROPOSED ANNUAL CLUB BUDGET (IEC)
 
-**Club Name**: IUS Engineering Events Club (IEEC)  
+**Club Name**: IUS Engineering Club (IEC)  
 **Faculty Affiliation**: Faculty of Engineering and Natural Sciences (FENS)  
 **Supervisory Authority**: Student & Career Center (SCC), Building B, Office G.18  
 **Academic Year**: 2026/2027  

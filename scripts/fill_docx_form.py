@@ -46,7 +46,7 @@ def fill_docx():
         if len(rows) > 1:
             tcs = rows[1].findall('w:tc', ns)
             if len(tcs) > 0:
-                set_cell_text(tcs[0], "IUS Engineering Events Club (IEEC)")
+                set_cell_text(tcs[0], "IUS Engineering Club (IEC)")
         if len(rows) > 2:
             tcs = rows[2].findall('w:tc', ns)
             if len(tcs) > 1:
@@ -90,7 +90,7 @@ def fill_docx():
         if len(rows) > 1:
             tcs = rows[1].findall('w:tc', ns)
             if len(tcs) > 0:
-                purpose_text = "The IUS Engineering Events Club (IEEC) is established as an Academic and Educational Club (AEC) under the Faculty of Engineering and Natural Sciences (FENS) to bridge university engineering education with real-world industrial practice through technical workshops, AI bootcamps, multidisciplinary student engineering project teams, and tech industry networking."
+                purpose_text = "The IUS Engineering Club (IEC) is established as an Academic and Educational Club (AEC) under the Faculty of Engineering and Natural Sciences (FENS) to bridge university engineering education with real-world industrial practice through technical workshops, AI bootcamps, multidisciplinary student engineering project teams, and tech industry networking."
                 set_cell_text(tcs[0], purpose_text)
         if len(rows) > 5:
             tcs = rows[5].findall('w:tc', ns)

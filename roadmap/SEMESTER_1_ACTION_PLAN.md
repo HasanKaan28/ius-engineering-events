@@ -1,6 +1,6 @@
 # Semester 1 Operational Action Plan & Timeline
 
-This roadmap outlines the week-by-week timeline from founding to the semester finale for the IUS Engineering Events Club.
+This roadmap outlines the week-by-week timeline from founding to the semester finale for the IUS Engineering Club.
 
 ---
 

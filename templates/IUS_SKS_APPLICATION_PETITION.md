@@ -8,7 +8,7 @@
 ---
 
 ### 1. GENERAL CLUB INFORMATION
-* **Proposed Club Name**: IUS Engineering Events Club (IEEC)
+* **Proposed Club Name**: IUS Engineering Club (IEC)
 * **Affiliated Faculty**: Faculty of Engineering and Natural Sciences (FENS)
 * **Target Audience**: All IUS Undergraduate & Graduate Engineering Students
 * **Primary Working Language**: English
@@ -17,7 +17,7 @@
 ---
 
 ### 2. CLUB MISSION & PURPOSE
-The IUS Engineering Events Club aims to create a dynamic, extracurricular technical environment that enhances the academic mission of FENS. Through hands-on workshops, multidisciplinary student engineering project teams, regional hackathons, and corporate networking with the tech industry in Bosnia and Herzegovina, the club equips IUS students with industry-standard practical engineering proficiencies.
+The IUS Engineering Club aims to create a dynamic, extracurricular technical environment that enhances the academic mission of FENS. Through hands-on workshops, multidisciplinary student engineering project teams, regional hackathons, and corporate networking with the tech industry in Bosnia and Herzegovina, the club equips IUS students with industry-standard practical engineering proficiencies.
 
 ---
 
@@ -40,7 +40,7 @@ The IUS Engineering Events Club aims to create a dynamic, extracurricular techni
 ---
 
 ### 5. ATTACHED DOSSIER DOCUMENTS
-1. [x] Official Club Constitution (`CONSTITUTION.md` / `IEEC_Official_Club_Constitution.html`)
+1. [x] Official Club Constitution (`CONSTITUTION.md` / `IEC_Official_Club_Constitution.html`)
 2. [x] Annual Activity Plan 2026/2027 (`SCC_ANNUAL_ACTIVITY_PLAN.md`)
 3. [x] Proposed Annual Budget Estimate (`SCC_DRAFT_BUDGET.md`)
 4. [x] Founding Members Signature Roster - Min. 10 Students (`SCC_FOUNDING_10_MEMBERS.md`)

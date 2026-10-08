@@ -1,7 +1,7 @@
 # IUS SCC PROPOSED ANNUAL ACTIVITY PLAN (2026/2027)
-## PROPOSED ANNUAL WORK PLAN (IEEC)
+## PROPOSED ANNUAL WORK PLAN (IEC)
 
-**Club Name**: IUS Engineering Events Club (IEEC)  
+**Club Name**: IUS Engineering Club (IEC)  
 **Faculty Affiliation**: Faculty of Engineering and Natural Sciences (FENS)  
 **Supervisory Authority**: Student & Career Center (SCC), Building B, Office G.18  
 **Academic Year**: 2026/2027  
@@ -11,7 +11,7 @@
 
 ### EXECUTIVE SUMMARY: FIVE CORE OPERATIONAL PILLARS
 
-As an innovative, student-driven engineering society, the IUS Engineering Events Club builds its annual agenda on five regular pillars:
+As an innovative, student-driven engineering society, the IUS Engineering Club builds its annual agenda on five regular pillars:
 
 1. **🤖 Pillar 1: Weekly Hands-On AI & Prompt Engineering Labs**:
    * Practical technical sessions hosted weekly in FENS Computer Laboratories (and hybrid).

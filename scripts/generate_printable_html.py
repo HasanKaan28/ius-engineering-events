@@ -65,7 +65,7 @@ def wrap_html(title, body_content):
   </div>
   {body_content}
   <div class="footer-note">
-    Official Document • IUS Engineering Events Club (IEEC) • Academic Year 2026/2027
+    Official Document • IUS Engineering Club (IEC) • Academic Year 2026/2027
   </div>
 </body>
 </html>
@@ -149,7 +149,7 @@ files_to_export = [
     ("templates/SCC_ANNUAL_ACTIVITY_PLAN.md", ["SCC_Proposed_Annual_Activity_Plan.html", "SCC_Yillik_Faaliyet_Plani.html"], "SCC Proposed Annual Activity Plan (2026/2027)"),
     ("templates/SCC_DRAFT_BUDGET.md", ["SCC_Proposed_Annual_Budget.html", "SCC_Taslak_Yillik_Butce.html"], "SCC Proposed Annual Budget Estimate (2026/2027)"),
     ("templates/SCC_FOUNDING_10_MEMBERS.md", ["SCC_Founding_Members_Roster.html", "SCC_10_Kurucu_Uye_Listesi.html"], "SCC Founding Members & Executive Roster"),
-    ("constitution/CONSTITUTION.md", ["IEEC_Official_Club_Constitution.html", "IEEC_Resmi_Kulup_Tuzugu.html"], "IEEC Official Club Constitution")
+    ("constitution/CONSTITUTION.md", ["IEC_Official_Club_Constitution.html", "IEC_Resmi_Kulup_Tuzugu.html", "IEEC_Official_Club_Constitution.html", "IEEC_Resmi_Kulup_Tuzugu.html"], "IEC Official Club Constitution")
 ]
 
 for src, dests, title in files_to_export:

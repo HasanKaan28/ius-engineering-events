@@ -41,6 +41,6 @@ for d in docs:
           }
         }
         """
-        graphql(mutation, {"id": d["id"], "input": {"content": content, "title": "IEEC Resmi Kulüp Tüzüğü (12 Maddelik Tam Tüzük)"}})
+        graphql(mutation, {"id": d["id"], "input": {"content": content, "title": "IEC Resmi Kulüp Tüzüğü (12 Maddelik Tam Tüzük)"}})
         print(f"[✓] Linear Dokümanı Başarıyla Güncellendi: {d['title']}")
         break

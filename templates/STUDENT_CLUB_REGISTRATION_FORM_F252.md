@@ -16,7 +16,7 @@
 
 | Field | Details / Specification |
 | :--- | :--- |
-| **STUDENT CLUB NAME** | **IUS Engineering Events Club (IEEC)** |
+| **STUDENT CLUB NAME** | **IUS Engineering Club (IEC)** |
 | **Status of the Student Club?** | **[ X ] NEW** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ &nbsp; ] RENEWAL |
 | **Academic Year** | **2026 / 2027** |
 
@@ -36,9 +36,9 @@
 
 ### 3. PURPOSE STATEMENT OF THE STUDENT CLUB
 
-The IUS Engineering Events Club (IEEC) is established as an Academic and Educational Club (AEC) under the Faculty of Engineering and Natural Sciences (FENS) to bridge university engineering education with real-world industrial practice.
+The IUS Engineering Club (IEC) is established as an Academic and Educational Club (AEC) under the Faculty of Engineering and Natural Sciences (FENS) to bridge university engineering education with real-world industrial practice.
 
-Through high-impact extracurricular workshops, software/AI bootcamps, multidisciplinary student engineering project teams (spanning Computer Science, Software Engineering, Electrical & Electronics, and Mechanical Engineering), and professional networking with Bosnia and Herzegovina’s leading technology companies, IEEC equips IUS students with industry-grade engineering proficiencies, leadership experience, and career acceleration.
+Through high-impact extracurricular workshops, software/AI bootcamps, multidisciplinary student engineering project teams (spanning Computer Science, Software Engineering, Electrical & Electronics, and Mechanical Engineering), and professional networking with Bosnia and Herzegovina’s leading technology companies, IEC equips IUS students with industry-grade engineering proficiencies, leadership experience, and career acceleration.
 
 ---
 
