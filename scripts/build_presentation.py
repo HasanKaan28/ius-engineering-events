@@ -1,16 +1,14 @@
 #!/usr/bin/env python3
 """
-Build ultra-professional, executive presentation HTML slide deck and 16:9 PDF export
+Build ultra-professional, human-centered presentation HTML slide deck and 16:9 PDF export
 for the FENS Deanery Proposal (IUS Engineering Club).
 
-Directly solves:
-1. "Logoyu falan içine oturtamamışsın":
-   - Switched to 100% square, transparent-background, perfectly centered seal (assets/club_seal_perfect.png).
-   - Framed with double academic gold ring, ample padding, and zero edge clipping on all slides.
-2. "Uzaktan bakan biri için yazılar hala küçük":
-   - Drastically enlarged typography across every slide (Headlines 60-90px, Card titles 34-40px, Body 23-26px, Numbers 64-74px).
-   - Removed dense text blocks in favor of high-impact, bold, punchy executive takeaways.
-   - High-contrast pure white (#FFFFFF), brilliant gold (#FBBF24), and sapphire cyan (#38BDF8) for effortless 10-meter readability.
+Features:
+- Authentic, warm photography of university students coding, collaborating in labs,
+  hackathons, and presenting projects to professors.
+- High-contrast, large, projector-optimized typography (readable from 10 meters).
+- Zero-drift 1920x1080 page mapping for flawless pixel-perfect PDF export.
+- Warm, inviting student community spirit combined with executive academic rigor.
 """
 
 import os
@@ -43,10 +41,13 @@ def get_base64_img(rel_path):
             return f"data:{mime};base64,{b64}"
     return ""
 
-# Use the perfect circular transparent seal
 SEAL_B64 = get_base64_img("assets/club_seal_perfect.png")
 if not SEAL_B64:
     SEAL_B64 = get_base64_img("assets/club_seal.jpg")
+
+PHOTO_LAB_B64 = get_base64_img("assets/photo_lab_students.jpg")
+PHOTO_HACK_B64 = get_base64_img("assets/photo_hackathon.jpg")
+PHOTO_DEMO_B64 = get_base64_img("assets/photo_demo_day.jpg")
 
 HTML_TEMPLATE = f"""<!DOCTYPE html>
 <html lang="en">
@@ -55,19 +56,19 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IUS Engineering Club — Deanery Proposal 2026/2027</title>
   
-  <!-- Presentation Typography: Outfit & Plus Jakarta Sans with System Fallbacks -->
+  <!-- Presentation Typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
   <style>
     /* =====================================================================
-       HARMONIOUS ACADEMIC / EXECUTIVE COLOR PALETTE
+       HARMONIOUS ACADEMIC & STUDENT COMMUNITY PALETTE
        - Canvas: Deep Royal Oxford Navy (#071120 / #0B1D3A)
        - Card Surfaces: Deep Sapphire Glass (#0D1E38)
        - Imperial Academic Gold: #F59E0B / #FBBF24 / #D97706
-       - Precision Ice / Cyan Blue: #38BDF8 / #60A5FA
-       - High-Contrast White / Crisp Slate: #FFFFFF / #F8FAFC
+       - Precision Cyan / Ice Blue: #38BDF8 / #7DD3FC
+       - High-Contrast Pure White: #FFFFFF / #F8FAFC
        ===================================================================== */
     :root {{
       --bg-canvas: #071120;
@@ -96,7 +97,6 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       --badge-text: #FBBF24;
     }}
 
-    /* Light Academic Ivory Mode (Toggled via button or 'T' key) */
     body.light-mode {{
       --bg-canvas: #F8FAFC;
       --bg-gradient: radial-gradient(ellipse at 50% 10%, #FFFFFF 0%, #EFF6FF 70%, #E2E8F0 100%);
@@ -246,7 +246,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       position: absolute;
       top: 0;
       left: 0;
-      padding: 50px 80px 40px 80px;
+      padding: 48px 80px 38px 80px;
       display: none;
       flex-direction: column;
       justify-content: space-between;
@@ -278,13 +278,13 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
 
     /* =====================================================================
-       DISTANCE-OPTIMIZED TYPOGRAPHY HIERARCHY
+       TYPOGRAPHY HIERARCHY
        ===================================================================== */
     .slide-header {{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 24px;
+      margin-bottom: 22px;
       position: relative;
       z-index: 2;
     }}
@@ -324,7 +324,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       line-height: 1.45;
     }}
 
-    /* Professional Top-Right Seal Badge */
+    /* Top-Right Seal Badge */
     .header-badge {{
       display: flex;
       align-items: center;
@@ -380,90 +380,130 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       margin-bottom: 20px;
     }}
 
-    /* 3-Column Philosophy Grid */
-    .grid-3 {{
+    /* 2-Column Split with Photo */
+    .split-photo-grid {{
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 32px;
-      height: 100%;
-    }}
-
-    /* 2x2 Balanced Matrix Grid */
-    .grid-2x2 {{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      gap: 26px;
-      height: 100%;
-    }}
-
-    /* 2-Column Split Grid */
-    .grid-2 {{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 1.15fr 0.85fr;
       gap: 36px;
       height: 100%;
+      align-items: stretch;
     }}
 
-    /* =====================================================================
-       PREMIUM EXECUTIVE CARDS
-       ===================================================================== */
+    /* Vertical stack for cards next to photos */
+    .stack-cards {{
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      height: 100%;
+      justify-content: space-between;
+    }}
+
+    /* Photo Frame Component */
+    .photo-card {{
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: var(--card-shadow);
+      border: 2px solid rgba(245, 158, 11, 0.45);
+      height: 100%;
+      min-height: 480px;
+      display: flex;
+      flex-direction: column;
+      background: #000;
+    }}
+    .photo-card img {{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s ease;
+    }}
+    .photo-caption-overlay {{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 24px 28px;
+      background: linear-gradient(0deg, rgba(7, 17, 32, 0.96) 0%, rgba(7, 17, 32, 0.75) 65%, transparent 100%);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }}
+    .photo-caption-tag {{
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'Outfit', 'Segoe UI', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--gold-bright);
+      margin-bottom: 4px;
+    }}
+    .photo-caption-title {{
+      font-family: 'Outfit', 'Segoe UI', sans-serif;
+      font-size: 1.45rem;
+      font-weight: 900;
+      color: #FFFFFF;
+      line-height: 1.25;
+    }}
+    .photo-caption-sub {{
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--blue-bright);
+      line-height: 1.4;
+    }}
+
+    /* Standard Card Container */
     .card {{
       background: var(--card-bg);
       backdrop-filter: blur(18px);
       border: 1px solid var(--card-border);
-      border-top: 6px solid var(--card-highlight);
-      border-radius: 20px;
-      padding: 34px 38px;
+      border-left: 6px solid var(--card-highlight);
+      border-radius: 18px;
+      padding: 22px 28px;
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
+      justify-content: center;
       box-shadow: var(--card-shadow);
       position: relative;
       overflow: hidden;
     }}
     .card.blue-highlight {{
+      border-left-color: var(--blue-accent);
+    }}
+
+    .grid-2x2 {{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 24px;
+      height: 100%;
+    }}
+    .grid-2x2 .card {{
+      border-left: none;
+      border-top: 6px solid var(--card-highlight);
+      padding: 24px 32px;
+      justify-content: flex-start;
+    }}
+    .grid-2x2 .card.blue-highlight {{
       border-top-color: var(--blue-accent);
     }}
 
-    .grid-2x2 .card {{
-      padding: 26px 36px;
-    }}
-
-    .card-badge {{
-      display: inline-flex;
+    .card-num-row {{
+      display: flex;
       align-items: center;
-      gap: 8px;
-      font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 0.92rem;
-      font-weight: 800;
-      letter-spacing: 2.2px;
-      text-transform: uppercase;
-      color: var(--badge-text);
-      background: var(--badge-bg);
-      border: 1px solid var(--badge-border);
-      padding: 6px 14px;
-      border-radius: 999px;
-      margin-bottom: 14px;
-      align-self: flex-start;
-    }}
-    .card-badge.blue {{
-      color: var(--blue-bright);
-      background: rgba(56, 189, 248, 0.16);
-      border-color: rgba(56, 189, 248, 0.48);
+      gap: 16px;
+      margin-bottom: 8px;
     }}
 
     .card-number {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 3.8rem;
+      font-size: 2.4rem;
       font-weight: 900;
       color: var(--gold-primary);
       line-height: 1;
-      margin-bottom: 10px;
-    }}
-    .grid-2x2 .card-number {{
-      font-size: 3rem;
-      margin-bottom: 8px;
     }}
     .card.blue-highlight .card-number {{
       color: var(--blue-accent);
@@ -471,37 +511,32 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
 
     .card-title {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 2.1rem;
-      font-weight: 900;
+      font-size: 1.75rem;
+      font-weight: 800;
       color: var(--text-hero);
       line-height: 1.22;
-      margin-bottom: 10px;
       letter-spacing: -0.015em;
     }}
     .grid-2x2 .card-title {{
-      font-size: 1.85rem;
-      margin-bottom: 8px;
+      font-size: 1.7rem;
+      margin-bottom: 6px;
     }}
 
     .card-subtitle {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.15rem;
-      font-weight: 800;
+      font-size: 1.05rem;
+      font-weight: 700;
       color: var(--blue-accent);
-      margin-bottom: 12px;
+      margin-bottom: 8px;
       text-transform: uppercase;
-      letter-spacing: 1.2px;
+      letter-spacing: 1px;
     }}
 
     .card-text {{
-      font-size: 1.35rem;
+      font-size: 1.22rem;
       color: var(--text-body);
-      line-height: 1.62;
-      font-weight: 450;
-    }}
-    .grid-2x2 .card-text {{
-      font-size: 1.25rem;
       line-height: 1.58;
+      font-weight: 450;
     }}
     .card-text strong {{
       color: #FFFFFF;
@@ -517,7 +552,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .tracks-container {{
       display: flex;
       flex-direction: column;
-      gap: 18px;
+      gap: 16px;
       height: 100%;
       justify-content: space-around;
     }}
@@ -528,7 +563,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       border: 1px solid var(--card-border);
       border-left: 8px solid var(--gold-primary);
       border-radius: 18px;
-      padding: 24px 34px;
+      padding: 22px 32px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -541,16 +576,16 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .track-left {{
       display: flex;
       align-items: center;
-      gap: 32px;
+      gap: 30px;
       flex: 1;
     }}
 
     .track-num {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 2rem;
+      font-size: 1.85rem;
       font-weight: 900;
       color: var(--gold-primary);
-      min-width: 140px;
+      min-width: 135px;
       letter-spacing: 0.5px;
     }}
     .track-card.blue-bar .track-num {{
@@ -560,13 +595,13 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .track-content {{
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 5px;
       flex: 1;
     }}
 
     .track-title {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.75rem;
+      font-size: 1.65rem;
       font-weight: 900;
       color: var(--text-hero);
       display: flex;
@@ -576,7 +611,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
 
     .track-tag {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 0.92rem;
+      font-size: 0.88rem;
       font-weight: 800;
       letter-spacing: 1.5px;
       text-transform: uppercase;
@@ -593,9 +628,9 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
 
     .track-desc {{
-      font-size: 1.28rem;
+      font-size: 1.22rem;
       color: var(--text-body);
-      line-height: 1.55;
+      line-height: 1.52;
     }}
     .track-desc strong {{
       color: #FFFFFF;
@@ -603,58 +638,6 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
     body.light-mode .track-desc strong {{
       color: #071120;
-    }}
-
-    /* =====================================================================
-       FEATURE LIST ITEMS (Slide 5: DevHack)
-       ===================================================================== */
-    .feature-list {{
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      margin-top: 10px;
-    }}
-
-    .feature-item {{
-      display: flex;
-      gap: 18px;
-      align-items: flex-start;
-    }}
-
-    .feature-bullet {{
-      width: 36px;
-      height: 36px;
-      border-radius: 9px;
-      background: var(--badge-bg);
-      border: 1px solid var(--badge-border);
-      color: var(--badge-text);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.15rem;
-      font-weight: 900;
-      flex-shrink: 0;
-      margin-top: 2px;
-    }}
-    .feature-bullet.blue {{
-      background: rgba(56, 189, 248, 0.16);
-      border-color: rgba(56, 189, 248, 0.48);
-      color: var(--blue-bright);
-    }}
-
-    .feature-text {{
-      font-size: 1.2rem;
-      color: var(--text-body);
-      line-height: 1.52;
-    }}
-    .feature-text strong {{
-      font-family: 'Outfit', 'Segoe UI', sans-serif;
-      color: var(--text-hero);
-      font-size: 1.45rem;
-      font-weight: 800;
-      display: block;
-      margin-bottom: 3px;
     }}
 
     /* =====================================================================
@@ -672,7 +655,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       display: flex;
       flex-direction: column;
       justify-content: center;
-      gap: 24px;
+      gap: 22px;
     }}
 
     .hero-univ-tag {{
@@ -712,8 +695,8 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       border: 1px solid var(--card-border);
       border-left: 8px solid var(--gold-primary);
       border-radius: 18px;
-      padding: 26px 36px;
-      font-size: 1.42rem;
+      padding: 24px 34px;
+      font-size: 1.38rem;
       line-height: 1.68;
       color: var(--text-body);
       box-shadow: var(--card-shadow);
@@ -727,12 +710,12 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
 
     .hero-meta-footer {{
-      margin-top: 10px;
-      padding-top: 20px;
+      margin-top: 8px;
+      padding-top: 18px;
       border-top: 1px solid rgba(148, 163, 184, 0.28);
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 6px;
     }}
     .hero-meta-main {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
@@ -794,7 +777,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     .req-list {{
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 18px;
     }}
 
     .req-item {{
@@ -802,38 +785,38 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       border: 1px solid var(--card-border);
       border-left: 8px solid var(--gold-primary);
       border-radius: 18px;
-      padding: 24px 32px;
+      padding: 22px 30px;
       display: flex;
-      gap: 24px;
+      gap: 22px;
       align-items: flex-start;
       box-shadow: var(--card-shadow);
     }}
 
     .req-number {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 2.8rem;
+      font-size: 2.6rem;
       font-weight: 900;
       color: var(--gold-primary);
       line-height: 1;
       padding-top: 4px;
-      min-width: 40px;
+      min-width: 38px;
     }}
 
     .req-content {{
       display: flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 5px;
     }}
     .req-title {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.7rem;
+      font-size: 1.65rem;
       font-weight: 900;
       color: var(--text-hero);
     }}
     .req-desc {{
-      font-size: 1.25rem;
+      font-size: 1.22rem;
       color: var(--text-body);
-      line-height: 1.58;
+      line-height: 1.55;
     }}
     .req-desc strong {{
       color: #FFFFFF;
@@ -844,14 +827,14 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
 
     .req-motto-quote {{
-      margin-top: 10px;
+      margin-top: 8px;
       padding: 18px 24px;
       border-radius: 14px;
       background: rgba(56, 189, 248, 0.14);
       border: 1px solid rgba(56, 189, 248, 0.4);
       color: var(--blue-accent);
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.45rem;
+      font-size: 1.4rem;
       font-weight: 800;
       font-style: italic;
       text-align: center;
@@ -862,7 +845,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       border: 1px solid var(--card-border);
       border-top: 8px solid var(--gold-primary);
       border-radius: 24px;
-      padding: 40px 32px;
+      padding: 38px 32px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -878,7 +861,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       border: 6px solid var(--gold-primary);
       box-shadow: 0 12px 35px rgba(0,0,0,0.55);
       padding: 6px;
-      margin-bottom: 22px;
+      margin-bottom: 20px;
     }}
     .req-seal-title {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
@@ -890,7 +873,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
     }}
     .req-seal-sub {{
       font-family: 'Outfit', 'Segoe UI', sans-serif;
-      font-size: 1.15rem;
+      font-size: 1.12rem;
       font-weight: 800;
       color: var(--gold-primary);
       text-transform: uppercase;
@@ -1074,7 +1057,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       </section>
 
       <!-- =================================================================
-           SLIDE 2: CORE PHILOSOPHY
+           SLIDE 2: CORE PHILOSOPHY (WITH LAB PHOTO)
            ================================================================= -->
       <section class="slide-canvas" id="slide-2">
         <div class="slide-header">
@@ -1093,35 +1076,55 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
         </div>
 
         <div class="slide-body">
-          <div class="grid-3">
-            <div class="card">
-              <div class="card-badge">01 • PRAGMATIC FOCUS</div>
-              <div class="card-number">01</div>
-              <h3 class="card-title">Applied Engineering Practice</h3>
-              <div class="card-subtitle">Theory to Working Systems</div>
-              <p class="card-text">
-                Classroom lectures provide <strong>rigorous mathematical and theoretical grounding</strong>. Our lab provides the collaborative space where students translate algorithms and circuits into <strong>functional, demonstrable engineering systems</strong>.
-              </p>
+          <div class="split-photo-grid">
+            <div class="stack-cards">
+              <div class="card">
+                <div class="card-num-row">
+                  <span class="card-number">01</span>
+                  <div>
+                    <h3 class="card-title">Applied Engineering Practice</h3>
+                    <div class="card-subtitle">Theory to Working Systems</div>
+                  </div>
+                </div>
+                <p class="card-text">
+                  Classroom lectures give students <strong>rigorous mathematical grounding</strong>. Our club provides the collaborative lab where students translate code, circuits, and algorithms into <strong>functional, demonstrable systems</strong>.
+                </p>
+              </div>
+
+              <div class="card blue-highlight">
+                <div class="card-num-row">
+                  <span class="card-number">02</span>
+                  <div>
+                    <h3 class="card-title">Interdisciplinary Teamwork</h3>
+                    <div class="card-subtitle">Breaking Departmental Silos</div>
+                  </div>
+                </div>
+                <p class="card-text">
+                  Modern challenges require multifaceted skills. We intentionally unite students across <strong>Computer Science, Software Engineering, Electrical, and Mechanical Engineering</strong> to build joint hardware/software prototypes.
+                </p>
+              </div>
+
+              <div class="card">
+                <div class="card-num-row">
+                  <span class="card-number">03</span>
+                  <div>
+                    <h3 class="card-title">Faculty Pride in BiH</h3>
+                    <div class="card-subtitle">Elevating IUS Leadership</div>
+                  </div>
+                </div>
+                <p class="card-text">
+                  Positioning FENS as the <strong>most active, respected engineering faculty in Bosnia and Herzegovina</strong> through student hackathons, hands-on workshops, and deep partnerships with Sarajevo tech firms.
+                </p>
+              </div>
             </div>
 
-            <div class="card blue-highlight">
-              <div class="card-badge blue">02 • CROSS-DISCIPLINARY</div>
-              <div class="card-number">02</div>
-              <h3 class="card-title">Interdisciplinary Teamwork</h3>
-              <div class="card-subtitle" style="color: var(--blue-accent);">Breaking Departmental Silos</div>
-              <p class="card-text">
-                Modern engineering challenges require multifaceted collaboration. We unite ambitious students across <strong>Computer Science, Software Engineering, Electrical, and Mechanical Engineering</strong> to build unified prototypes.
-              </p>
-            </div>
-
-            <div class="card">
-              <div class="card-badge">03 • REGIONAL PRESTIGE</div>
-              <div class="card-number">03</div>
-              <h3 class="card-title">Faculty Pride in BiH</h3>
-              <div class="card-subtitle">Elevating IUS Leadership</div>
-              <p class="card-text">
-                Positioning FENS as the <strong>most active and respected engineering faculty in Bosnia and Herzegovina</strong> through premier student hackathons, hands-on workshops, and deep partnerships with Sarajevo tech firms.
-              </p>
+            <div class="photo-card">
+              <img src="{PHOTO_LAB_B64}" alt="Students Collaborating in Lab">
+              <div class="photo-caption-overlay">
+                <span class="photo-caption-tag">⚡ Student-Led Execution</span>
+                <div class="photo-caption-title">Hands-On Practice in FENS Labs</div>
+                <div class="photo-caption-sub">Students coding and prototyping collaboratively after class.</div>
+              </div>
             </div>
           </div>
         </div>
@@ -1295,7 +1298,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       </section>
 
       <!-- =================================================================
-           SLIDE 5: FLAGSHIP EVENT (IUS DEVHACK)
+           SLIDE 5: FLAGSHIP EVENT (WITH HACKATHON PHOTO)
            ================================================================= -->
       <section class="slide-canvas" id="slide-5">
         <div class="slide-header">
@@ -1314,82 +1317,31 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
         </div>
 
         <div class="slide-body">
-          <div class="grid-2">
-            <div class="card">
-              <div class="card-badge">THE CONCEPT & FORMAT</div>
-              <h3 class="card-title">Event Concept & Academic Structure</h3>
-              
-              <div class="feature-list">
-                <div class="feature-item">
-                  <div class="feature-bullet">1</div>
-                  <div class="feature-text">
-                    <strong>24-Hour Intensive Marathon</strong>
-                    A focused, energetic software and engineering hackathon hosted entirely on the IUS campus over a weekend block.
-                  </div>
-                </div>
+          <div class="split-photo-grid">
+            <div class="stack-cards">
+              <div class="card">
+                <div class="card-subtitle" style="color: var(--gold-bright);">The Concept & Format</div>
+                <h3 class="card-title" style="margin-bottom: 10px;">24-Hour Intensive Marathon</h3>
+                <p class="card-text">
+                  A focused, energetic software and engineering hackathon hosted entirely on the IUS campus over a weekend. Teams compete on <strong>realistic problem briefs, learning from each other through friendly peer collaboration, senior mentorship, and faculty evaluation</strong>.
+                </p>
+              </div>
 
-                <div class="feature-item">
-                  <div class="feature-bullet">2</div>
-                  <div class="feature-text">
-                    <strong>Friendly Competition & Growth</strong>
-                    Teams compete on realistic problem briefs, learning from each other through peer collaboration and mutual support.
-                  </div>
-                </div>
-
-                <div class="feature-item">
-                  <div class="feature-bullet">3</div>
-                  <div class="feature-text">
-                    <strong>Experienced Industry Mentorship</strong>
-                    Senior students and local guest engineers provide friendly technical guidance under direct faculty supervision.
-                  </div>
-                </div>
-
-                <div class="feature-item">
-                  <div class="feature-bullet">4</div>
-                  <div class="feature-text">
-                    <strong>Fair Academic Faculty Jury</strong>
-                    Student projects presented to a friendly jury of FENS professors and invited tech practitioners with formal awards.
-                  </div>
-                </div>
+              <div class="card blue-highlight">
+                <div class="card-subtitle">Practical Learning Impact</div>
+                <h3 class="card-title" style="margin-bottom: 10px;">Hands-On Portfolios & Lab Respect</h3>
+                <p class="card-text">
+                  Students turn theoretical classroom concepts into <strong>working project portfolios on GitHub and resumes</strong>. Strict care for university property, pre-approved schedule, clean workstations, and standard campus safety procedures.
+                </p>
               </div>
             </div>
 
-            <div class="card blue-highlight">
-              <div class="card-badge blue">PRACTICAL LEARNING IMPACT</div>
-              <h3 class="card-title">Educational & Institutional Impact</h3>
-
-              <div class="feature-list">
-                <div class="feature-item">
-                  <div class="feature-bullet blue">✓</div>
-                  <div class="feature-text">
-                    <strong>Fast Learning Through Action</strong>
-                    Students turn concepts learned in lecture into working code under a realistic, exciting deadline.
-                  </div>
-                </div>
-
-                <div class="feature-item">
-                  <div class="feature-bullet blue">✓</div>
-                  <div class="feature-text">
-                    <strong>Tangible Project Portfolios</strong>
-                    Every team leaves with a working project and git history they can showcase on their resume and GitHub.
-                  </div>
-                </div>
-
-                <div class="feature-item">
-                  <div class="feature-bullet blue">✓</div>
-                  <div class="feature-text">
-                    <strong>Positive Campus Culture</strong>
-                    Shows the broader community that IUS engineering students are active, motivated, and passionate about tech.
-                  </div>
-                </div>
-
-                <div class="feature-item">
-                  <div class="feature-bullet blue">✓</div>
-                  <div class="feature-text">
-                    <strong>Full Safety & Lab Respect</strong>
-                    Strict care for university computers, pre-approved schedule, clean-desk policy, and campus security adherence.
-                  </div>
-                </div>
+            <div class="photo-card">
+              <img src="{PHOTO_HACK_B64}" alt="Students at 24-Hour Hackathon">
+              <div class="photo-caption-overlay">
+                <span class="photo-caption-tag">🚀 Annual Flagship Event</span>
+                <div class="photo-caption-title">IUS DevHack 2027 • 24-Hour Marathon</div>
+                <div class="photo-caption-sub">Collaboration, late-night coding, and genuine teamwork on campus.</div>
               </div>
             </div>
           </div>
@@ -1406,7 +1358,7 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
       </section>
 
       <!-- =================================================================
-           SLIDE 6: CAMPUS DEMO DAY
+           SLIDE 6: CAMPUS DEMO DAY (WITH EXHIBITION PHOTO)
            ================================================================= -->
       <section class="slide-canvas" id="slide-6">
         <div class="slide-header">
@@ -1425,41 +1377,55 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
         </div>
 
         <div class="slide-body">
-          <div class="grid-2x2">
-            <div class="card">
-              <div class="card-badge">01 • DEMO EXHIBITION</div>
-              <h3 class="card-title">Open Student Project Demos</h3>
-              <div class="card-subtitle">FENS Computer Labs & Atrium Lobby</div>
-              <p class="card-text">
-                Students bring their laptops and hardware to showcase <strong>course assignments, club workshop projects, and prototypes</strong> in a relaxed, friendly exhibition open to all peers.
-              </p>
+          <div class="split-photo-grid">
+            <div class="stack-cards">
+              <div class="card">
+                <div class="card-num-row">
+                  <span class="card-number">01</span>
+                  <div>
+                    <h3 class="card-title">Open Student Project Demos</h3>
+                    <div class="card-subtitle">FENS Computer Labs & Atrium Lobby</div>
+                  </div>
+                </div>
+                <p class="card-text">
+                  Students bring their laptops and hardware to showcase <strong>course assignments, club workshop projects, and prototypes</strong> in a relaxed, friendly exhibition open to all peers.
+                </p>
+              </div>
+
+              <div class="card blue-highlight">
+                <div class="card-num-row">
+                  <span class="card-number">02</span>
+                  <div>
+                    <h3 class="card-title">Faculty Feedback & Mentorship</h3>
+                    <div class="card-subtitle">Direct Professor & TA Guidance</div>
+                  </div>
+                </div>
+                <p class="card-text">
+                  Faculty professors and teaching assistants walk around, <strong>view student demos, offer constructive praise, and share encouragement and academic tips</strong>.
+                </p>
+              </div>
+
+              <div class="card">
+                <div class="card-num-row">
+                  <span class="card-number">03</span>
+                  <div>
+                    <h3 class="card-title">Alumni Chats & Inspiring Underclassmen</h3>
+                    <div class="card-subtitle">Demystifying Engineering Careers</div>
+                  </div>
+                </div>
+                <p class="card-text">
+                  Recent graduates share honest career advice, while first- and second-year students see what is possible, <strong>gaining clear motivation to start their own engineering projects</strong>.
+                </p>
+              </div>
             </div>
 
-            <div class="card blue-highlight">
-              <div class="card-badge blue">02 • ACADEMIC ENGAGEMENT</div>
-              <h3 class="card-title">Friendly Feedback from Professors</h3>
-              <div class="card-subtitle" style="color: var(--blue-accent);">Direct Professor & Assistant Guidance</div>
-              <p class="card-text">
-                Faculty professors and teaching assistants walk around, <strong>view student demos, offer constructive praise, and share encouragement and academic tips</strong>.
-              </p>
-            </div>
-
-            <div class="card">
-              <div class="card-badge">03 • CAREER PERSPECTIVES</div>
-              <h3 class="card-title">IUS Alumni Career Chats</h3>
-              <div class="card-subtitle">Real Workplace Experiences</div>
-              <p class="card-text">
-                Recent IUS engineering graduates working locally return to campus to give <strong>short, honest talks about their first jobs, workplace realities, and practical career advice</strong>.
-              </p>
-            </div>
-
-            <div class="card blue-highlight">
-              <div class="card-badge blue">04 • INSPIRING UNDERCLASSMEN</div>
-              <h3 class="card-title">Inspiring Younger Students</h3>
-              <div class="card-subtitle" style="color: var(--blue-accent);">Early Academic Motivation</div>
-              <p class="card-text">
-                First- and second-year students see what their peers built, <strong>demystifying advanced engineering topics and gaining clear motivation to start their own projects</strong>.
-              </p>
+            <div class="photo-card">
+              <img src="{PHOTO_DEMO_B64}" alt="Student Project Exhibition to Professors">
+              <div class="photo-caption-overlay">
+                <span class="photo-caption-tag">🎓 Academic Engagement</span>
+                <div class="photo-caption-title">Campus Demo Day • Spring 2027</div>
+                <div class="photo-caption-sub">Students demonstrating prototypes and discussing tech with professors.</div>
+              </div>
             </div>
           </div>
         </div>
@@ -1565,32 +1531,36 @@ HTML_TEMPLATE = f"""<!DOCTYPE html>
         <div class="slide-body">
           <div class="grid-2x2">
             <div class="card">
-              <div class="card-badge">01 • ADVISOR OVERSIGHT</div>
+              <div class="card-number">01</div>
               <h3 class="card-title">Faculty Academic Advisor Oversight</h3>
+              <div class="card-subtitle">Prof. Dr. Leila Miller</div>
               <p class="card-text">
                 All workshop schedules, guest speaker invitations, and major campus events are planned under the <strong>direct guidance and prior approval of our appointed FENS Faculty Advisor, Prof. Dr. Leila Miller</strong>.
               </p>
             </div>
 
             <div class="card blue-highlight">
-              <div class="card-badge blue">02 • STATUTORY RIGOR</div>
+              <div class="card-number">02</div>
               <h3 class="card-title">Full University Regulatory Compliance</h3>
+              <div class="card-subtitle">Article 77 & SCC Rules</div>
               <p class="card-text">
                 Organized strictly under <strong>Article 77 of the IUS Statute and Student Career Center (SCC) club guidelines</strong>, complete with an official club constitution and transparent elections.
               </p>
             </div>
 
             <div class="card">
-              <div class="card-badge">03 • 5/5 ACCOUNTABLE BOARD</div>
+              <div class="card-number">03</div>
               <h3 class="card-title">Dedicated & Accountable Student Board</h3>
+              <div class="card-subtitle">5/5 Full Core Leadership</div>
               <p class="card-text">
                 A committed <strong>5-member Executive Board (President, VP, Secretary, Treasurer, PR Lead)</strong> ensuring transparent organization, good communication, and fair representation across all FENS majors.
               </p>
             </div>
 
             <div class="card blue-highlight">
-              <div class="card-badge blue">04 • LAB INTEGRITY</div>
+              <div class="card-number">04</div>
               <h3 class="card-title">Respect for Campus Facilities & Lab Safety</h3>
+              <div class="card-subtitle">Lab Care & Zero Disruption</div>
               <p class="card-text">
                 Strict respect for university property, <strong>reservations limited to non-teaching hours, clean workstation policy, and total adherence to campus safety procedures</strong>.
               </p>
