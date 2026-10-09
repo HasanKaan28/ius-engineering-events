@@ -1,6 +1,6 @@
 {
   "project": "IUS Engineering Club",
-  "generated_at": "2026-10-09T16:51:45.542291",
+  "generated_at": "2026-10-09T18:38:30.093527",
   "stats": {
     "total_nodes": 37,
     "total_edges": 90,
@@ -435,17 +435,17 @@
       "id": "linear_task_IUS-9",
       "label": "[IUS-9] Kampüs Standı & Afişler",
       "cluster": "Linear Tasks",
-      "isGodNode": false,
+      "isGodNode": true,
       "type": "LinearTask",
       "task_ident": "IUS-9",
-      "task_state": "Backlog",
+      "task_state": "Todo",
       "task_priority": 1,
       "task_assignee": "Bekir Enes",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-9/aralik-1-hafta-promotion-day-kampus-standi-ve-afis-hazirligi",
       "file": "scripts/linear_ops.py",
       "x": -152,
       "y": -541,
-      "details": "[IUS-9] ⏸️ [Aralık 1. Hafta] Promotion Day: Kampüs Standı ve Afiş Hazırlığı\nDurum: Backlog | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-9/aralik-1-hafta-promotion-day-kampus-standi-ve-afis-hazirligi\n\nÖzet: ### 🛑 DURUM: BEKLEMEDE (ONAY SONRASINA ERTELENDİ)\n\n⚠️ **Kural:** IUS SCC resmi kulüp onayı çıkana kadar kampüste veya sosyal medyada **kamuya açık hiçbir paylaşım yapılmayacaktır**.\n\n### 🎯 Görev Amacı:\n\nKulüp resmiyet kazandıktan sonra (Kasım sonu / Aralık başı) yapılacak \"Studen..."
+      "details": "[IUS-9] ⏸️ [Aralık 1. Hafta] Promotion Day: Kampüs Standı ve Afiş Hazırlığı\nDurum: Todo | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-9/aralik-1-hafta-promotion-day-kampus-standi-ve-afis-hazirligi\n\nÖzet: ### 🛑 DURUM: BEKLEMEDE (ONAY SONRASINA ERTELENDİ)\n\n⚠️ **Kural:** IUS SCC resmi kulüp onayı çıkana kadar kampüste veya sosyal medyada **kamuya açık hiçbir paylaşım yapılmayacaktır**.\n\n### 🎯 Görev Amacı:\n\nKulüp resmiyet kazandıktan sonra (Kasım sonu / Aralık başı) yapılacak \"Studen..."
     },
     {
       "id": "linear_task_IUS-10",
@@ -860,7 +860,7 @@
     {
       "source": "board_bekir_enes",
       "target": "linear_task_IUS-9",
-      "relation": "LEADS_BACKLOG"
+      "relation": "LEADS_TODO"
     },
     {
       "source": "linear_task_IUS-9",

@@ -1,11 +1,11 @@
 {
-  "ts": "2026-10-09T14:44:29.591Z",
+  "ts": "2026-10-09T16:36:29.598Z",
   "source": "auto-on-generation-start",
   "contexts": [
     {
       "ctxId": "main",
       "frameUrl": "vscode-file://vscode-app/c:/Users/Kaan/AppData/Local/Programs/Antigravity%20IDE/resources/app/out/vs/code/electron-browser/workbench/workbench.html",
-      "totalBtns": 142,
+      "totalBtns": 110,
       "inputBoxFound": true,
       "inputBoxBtns": [
         {
@@ -335,7 +335,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 678,
+            "x": 692,
             "y": 40,
             "w": 20,
             "h": 20
@@ -351,7 +351,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 984,
+            "x": 1034,
             "y": 40,
             "w": 20,
             "h": 20
@@ -367,7 +367,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1167,
+            "x": 1210,
             "y": 40,
             "w": 20,
             "h": 20
@@ -383,7 +383,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1394,
+            "x": 1501,
             "y": 40,
             "w": 20,
             "h": 20
@@ -399,7 +399,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1654,
+            "x": 1668,
             "y": 40,
             "w": 20,
             "h": 20
@@ -415,7 +415,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1979,
+            "x": 1895,
             "y": 40,
             "w": 20,
             "h": 20
@@ -431,7 +431,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2171,
+            "x": 2139,
             "y": 40,
             "w": 20,
             "h": 20
@@ -447,7 +447,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2372,
+            "x": 2448,
             "y": 40,
             "w": 20,
             "h": 20
@@ -463,7 +463,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2652,
+            "x": 2624,
             "y": 40,
             "w": 20,
             "h": 20
@@ -479,7 +479,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2872,
+            "x": 2826,
             "y": 40,
             "w": 20,
             "h": 20
@@ -495,7 +495,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 3047,
+            "x": 3090,
             "y": 40,
             "w": 20,
             "h": 20
@@ -511,7 +511,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 3189,
+            "x": 3294,
             "y": 40,
             "w": 20,
             "h": 20
@@ -527,7 +527,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 3456,
+            "x": 3469,
             "y": 40,
             "w": 20,
             "h": 20
@@ -543,7 +543,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 3793,
+            "x": 3595,
             "y": 40,
             "w": 20,
             "h": 20
@@ -559,7 +559,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 4054,
+            "x": 3861,
             "y": 40,
             "w": 20,
             "h": 20
@@ -575,7 +575,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 4245,
+            "x": 4199,
             "y": 40,
             "w": 20,
             "h": 20
@@ -591,7 +591,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 4432,
+            "x": 4459,
             "y": 40,
             "w": 20,
             "h": 20
@@ -607,7 +607,39 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 4588,
+            "x": 4651,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 4838,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 4994,
             "y": 40,
             "w": 20,
             "h": 20
@@ -691,38 +723,6 @@
             "y": 39,
             "w": 22,
             "h": 22
-          }
-        },
-        {
-          "aria": "Hide Panel (Ctrl+J)",
-          "title": "",
-          "cls": "action-label codicon codicon-panel-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": false,
-          "rect": {
-            "x": 0,
-            "y": 0,
-            "w": 0,
-            "h": 0
-          }
-        },
-        {
-          "aria": "Maximize Secondary Side Bar Size",
-          "title": "",
-          "cls": "action-label codicon codicon-auxiliarybar-maximize",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": false,
-          "rect": {
-            "x": 0,
-            "y": 0,
-            "w": 0,
-            "h": 0
           }
         }
       ]
@@ -730,7 +730,7 @@
     {
       "ctxId": 2,
       "frameUrl": "vscode-file://vscode-app/c:/Users/Kaan/AppData/Local/Programs/Antigravity%20IDE/resources/app/out/vs/code/electron-browser/workbench/workbench.html",
-      "totalBtns": 142,
+      "totalBtns": 110,
       "inputBoxFound": true,
       "inputBoxBtns": [
         {
@@ -1060,7 +1060,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 678,
+            "x": 692,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1076,7 +1076,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 984,
+            "x": 1034,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1092,7 +1092,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1167,
+            "x": 1210,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1108,7 +1108,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1394,
+            "x": 1501,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1124,7 +1124,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1654,
+            "x": 1668,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1140,7 +1140,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1979,
+            "x": 1895,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1156,7 +1156,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2171,
+            "x": 2139,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1172,7 +1172,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2372,
+            "x": 2448,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1188,7 +1188,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2652,
+            "x": 2624,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1204,7 +1204,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2872,
+            "x": 2826,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1220,7 +1220,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 3047,
+            "x": 3090,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1236,7 +1236,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 3189,
+            "x": 3294,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1252,7 +1252,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 3456,
+            "x": 3469,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1268,7 +1268,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 3793,
+            "x": 3595,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1284,7 +1284,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 4054,
+            "x": 3861,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1300,7 +1300,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 4245,
+            "x": 4199,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1316,7 +1316,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 4432,
+            "x": 4459,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1332,7 +1332,39 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 4588,
+            "x": 4651,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 4838,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 4994,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1416,38 +1448,6 @@
             "y": 39,
             "w": 22,
             "h": 22
-          }
-        },
-        {
-          "aria": "Hide Panel (Ctrl+J)",
-          "title": "",
-          "cls": "action-label codicon codicon-panel-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": false,
-          "rect": {
-            "x": 0,
-            "y": 0,
-            "w": 0,
-            "h": 0
-          }
-        },
-        {
-          "aria": "Maximize Secondary Side Bar Size",
-          "title": "",
-          "cls": "action-label codicon codicon-auxiliarybar-maximize",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": false,
-          "rect": {
-            "x": 0,
-            "y": 0,
-            "w": 0,
-            "h": 0
           }
         }
       ]
@@ -1455,7 +1455,7 @@
     {
       "ctxId": 1,
       "frameUrl": "vscode-file://vscode-app/c:/Users/Kaan/AppData/Local/Programs/Antigravity%20IDE/resources/app/out/vs/code/electron-browser/workbench/workbench.html",
-      "totalBtns": 142,
+      "totalBtns": 110,
       "inputBoxFound": true,
       "inputBoxBtns": [
         {
@@ -1785,7 +1785,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 678,
+            "x": 692,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1801,7 +1801,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 984,
+            "x": 1034,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1817,7 +1817,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1167,
+            "x": 1210,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1833,7 +1833,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1394,
+            "x": 1501,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1849,7 +1849,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1654,
+            "x": 1668,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1865,7 +1865,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1979,
+            "x": 1895,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1881,7 +1881,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2171,
+            "x": 2139,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1897,7 +1897,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2372,
+            "x": 2448,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1913,7 +1913,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2652,
+            "x": 2624,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1929,7 +1929,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2872,
+            "x": 2826,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1945,7 +1945,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 3047,
+            "x": 3090,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1961,7 +1961,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 3189,
+            "x": 3294,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1977,7 +1977,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 3456,
+            "x": 3469,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1993,7 +1993,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 3793,
+            "x": 3595,
             "y": 40,
             "w": 20,
             "h": 20
@@ -2009,7 +2009,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 4054,
+            "x": 3861,
             "y": 40,
             "w": 20,
             "h": 20
@@ -2025,7 +2025,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 4245,
+            "x": 4199,
             "y": 40,
             "w": 20,
             "h": 20
@@ -2041,7 +2041,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 4432,
+            "x": 4459,
             "y": 40,
             "w": 20,
             "h": 20
@@ -2057,7 +2057,39 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 4588,
+            "x": 4651,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 4838,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 4994,
             "y": 40,
             "w": 20,
             "h": 20
@@ -2141,38 +2173,6 @@
             "y": 39,
             "w": 22,
             "h": 22
-          }
-        },
-        {
-          "aria": "Hide Panel (Ctrl+J)",
-          "title": "",
-          "cls": "action-label codicon codicon-panel-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": false,
-          "rect": {
-            "x": 0,
-            "y": 0,
-            "w": 0,
-            "h": 0
-          }
-        },
-        {
-          "aria": "Maximize Secondary Side Bar Size",
-          "title": "",
-          "cls": "action-label codicon codicon-auxiliarybar-maximize",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": false,
-          "rect": {
-            "x": 0,
-            "y": 0,
-            "w": 0,
-            "h": 0
           }
         }
       ]

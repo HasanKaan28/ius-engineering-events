@@ -27,9 +27,9 @@
 
 ---
 
-## 2. CANLI İMZA ONAY DURUMU (9 / 10 ONAYLANDI — %90 TAMAMLANDI! 🎯)
+## 2. CANLI İMZA ONAY DURUMU (10 / 10 ONAYLANDI — %100 TAM KADRO KİLİTLENDİ! 🎯)
 
-### ✅ KESİNLEŞEN ÜYELER (9 KİŞİ KİLİTLENDİ):
+### ✅ KESİNLEŞEN ÜYELER (10/10 TAM KADRO KİLİTLENDİ 🎯):
 | # | İsim Soyisim | Öğrenci No | Bölüm / Sınıf | Uyruk | WhatsApp | Onay Durumu / Buluşma |
 | :-: | :--- | :---: | :---: | :---: | :--- | :--- |
 | **1** | **Emin Efe Duman** | 250302211 | FENS / 1. Sınıf | 🇹🇷 TR | `+90 541 321 6147` | **✅ ONAYLANDI** — Pazartesi 14:50 |
@@ -41,19 +41,25 @@
 | **7** | **Ömer Arif Açıkel** | 250302232 | FENS / 1. Sınıf | 🇹🇷 TR | `+90 542 553 17 00` | **✅ ONAYLANDI** — Pazartesi 14:50 |
 | **8** | **Nazlıcan Cebeci** | 250302243 | CSE / 1. Sınıf | 🇹🇷 TR | `+387 67 149 1362` | **✅ ONAYLANDI** — Salı 11:50 (Calculus çıkışı) |
 | **9** | **Bilal Yusuf Şimşek** | 250302196 | Bilgisayar Müh. / 1 | 🇹🇷 TR | `0551 078 9863` | **✅ ONAYLANDI** — Salı 14:50 (15:00 dersi öncesi) |
+| **10** | **Mert Çınar Atalay** | 250302162 | FENS / 1. Sınıf | 🇹🇷 TR | `+90 542 357 27 33` | **✅ ONAYLANDI** — Pazartesi 12:00–13:00 (**Sorumlu: Bekir Enes**) |
 
 ---
 
-### ⏳ YANIT BEKLENEN VE SON 1 KİŞİLİK KOTAYI DOLDURACAK ADAYLAR (2 KİŞİ):
-*Aşağıdaki 2 kişiden yanıt veren İLK KİŞİ doğrudan 10'luk resmi listeyi kapatacaktır (%100 tamamlandı):*
+### 🎉 10/10 RESMİ KOTA %100 DOLDU! (YEDEK HAVUZ):
+*10 kişilik kurucu imza kotası tam kadro kilitlendi. Muhammed Emin Tiryaki yedek güvence havuzunda tutulmaktadır:*
 
 | # | İsim Soyisim | Öğrenci No | Bölüm / Sınıf | Uyruk | WhatsApp | Durum |
-| :-: | :--- | :---: | :---: | :---: | :--- | :--- |
-| **10**| **Muhammed Emin Tiryaki** | 250302247 | FENS / 2. Sınıf | 🇹🇷 TR | `0538 484 9161` | ⏳ Mesaj Gönderildi / Bekleniyor |
-| **11**| **Mert Çınar Atalay** | 250302162 | FENS / 1. Sınıf | 🇹🇷 TR | `+90 542 357 27 33` | ⏳ Mesaj Gönderildi / Bekleniyor |
+| :-: | :--- | :---: | :--- | :---: | :--- | :--- |
+| **11**| **Muhammed Emin Tiryaki** | 250302247 | FENS / 2. Sınıf | 🇹🇷 TR | `0538 484 9161` | 🛡️ Yedek Güvence Havuzunda (Kota Doldu) |
 
 ---
 
+### 🤝 ÖZEL OPERASYON: Pazartesi 12:00 – 13:00 (Mert Çınar Atalay — Sorumlu: Bekir Enes Çokbekler)
+* **Durum:** Mert Çınar Salı günü konsolosluk randevusunda olacağı için yalnızca Pazartesi 12:00 – 13:00 veya 15:50 sonrası müsait olduğunu belirtti.
+* **Görev Paylaşımı:** Hasan Kaan Pazartesi 12:00 – 14:50 saatleri arasında **CS103 Programlama** dersinde (B F2.15) olacağından, imzayı Hasan Kaan adına **Bekir Enes Çokbekler** teslim alacaktır.
+* **İletişim:** Bekir Enes, Pazartesi saat 12:00 civarında Mert Çınar ile WhatsApp (`+90 542 357 27 33`) üzerinden iletişime geçerek A/B Blok fuaye veya kafeteryada formu 1 dakikada imzalatacaktır.
+
+---
 ## 4. ÖZELDEN ATILACAK GÜNCEL MESAJ ŞABLONLARI (DERS MOLALARINA GÖRE)
 
 ### A. Türk Öğrenciler İçin DM Şablonu (Türkçe)
