@@ -40,9 +40,15 @@ gantt
 ### Weeks 3–4: Campus Buzz & Grand Kickoff Launch
 * **Task 2.1**: Launch visual campaign: Post high-aesthetic posters across FENS A-Block and student cafeterias.
 * **Task 2.2**: Open online membership registration form.
-* **Task 2.3**: **Flagship Launch Event ("Engineering Events Kickoff 2026")**:
-  * Location: IUS Main Amphitheater (A-Block).
-  * Agenda: Introduction by Captain, address by Faculty Advisor, reveal of the semester roadmap, lightning tech talk by an industry guest speaker, interactive Q&A and networking coffee.
+* **Task 2.3**: **Grand Welcome Meeting: The Marshmallow Challenge Edition** ([Detailed Blueprint](roadmap/MARSHMALLOW_CHALLENGE_KICKOFF.md)):
+  * **Location**: IUS Main Amphitheater (A-Block) / FENS Common Area.
+  * **Hosts & Moderators**: Hasan Kaan (*President*) & Muhammed Efe Ural (*Social Life & Fun Engineering Lead*).
+  * **Agenda**:
+    1. Short Club Vision & Semester Roadmap Intro (Hasan Kaan).
+    2. Welcome remarks by Academic Advisor (Prof. Dr. Leila Miller).
+    3. **⚡ 18-Minute Marshmallow Challenge Tournament**: 4-5 student multidisciplinary teams building free-standing towers out of 20 spaghetti sticks, 1m tape, 1m string, and 1 marshmallow.
+    4. Tower measurements, award ceremony (*Apex Tower*, *Best Architecture*, *Epic Crash*).
+    5. Networking, coffee & committee member recruitment.
 
 ### Weeks 5–6: First Technical Deep-Dive Series
 * **Workshop 1 (Software & AI)**: "Building Autonomous AI Agents & Modern Web Systems" (Hands-on coding lab).

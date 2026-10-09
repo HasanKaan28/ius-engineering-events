@@ -392,12 +392,12 @@ def build_observatory_graph():
     # 6. FLAGSHIP EVENTS & EXTERNAL
     add_node({
         "id": "event_launch",
-        "label": "Welcome Meeting & Launch",
+        "label": "🎪 Kickoff: Marshmallow Challenge",
         "cluster": "Events",
-        "isGodNode": False,
+        "isGodNode": True,
         "type": "Milestone",
-        "file": "roadmap/SEMESTER_1_ACTION_PLAN.md",
-        "details": "A-Block Amfisinde resmi kulüp lansmanı, üye alımı ve dönem açılış sunumu."
+        "file": "roadmap/MARSHMALLOW_CHALLENGE_KICKOFF.md",
+        "details": "İlk büyük tanışma toplantısı! Moderatör: Muhammed Efe Ural & Hasan Kaan. 20 spagetti, ip, bant ve marshmallow ile 18 dakikalık kule inşa etme turnuvası (Icebreaker, Hızlı Prototipleme & Multidisipliner Mühendislik)."
     })
 
     add_node({
@@ -471,6 +471,8 @@ def build_observatory_graph():
     edges.append({"source": "board_pr_lead", "target": "board_hasan_kaan", "relation": "COORDINATES_MEDIA"})
 
     edges.append({"source": "board_hasan_kaan", "target": "comm_social", "relation": "DIRECTS_COMMITTEE"})
+    edges.append({"source": "comm_social", "target": "event_launch", "relation": "CO_HOSTS_CHALLENGE"})
+    edges.append({"source": "event_launch", "target": "advisor", "relation": "HONOR_JURY"})
     edges.append({"source": "advisor", "target": "sks", "relation": "RESMI_FAKULTE_ONAYI"})
     edges.append({"source": "advisor", "target": "doc_advisor_letter", "relation": "TEK_ISLAK_IMZA"})
     edges.append({"source": "board_hasan_kaan", "target": "advisor", "relation": "ACADEMIC_LIAISON"})
@@ -500,6 +502,8 @@ def build_observatory_graph():
         "IUS-11": "Haftalık Online Tech-Talks",
         "IUS-12": "Kampüs Konuşmacıları",
         "IUS-13": "DevHack 2027 Hackathonu",
+        "IUS-14": "TechSummit 2027 Zirvesi",
+        "IUS-15": "🎪 Kickoff: Marshmallow Challenge",
     }
 
     for idx, issue in enumerate(sorted_issues):
@@ -597,6 +601,12 @@ def build_observatory_graph():
         elif "13" in ident:
             edges.append({"source": task_node_id, "target": "event_hackathon", "relation": "PLANS_HACKATHON"})
             edges.append({"source": task_node_id, "target": "doc_sponsorship", "relation": "SEEKS_SPONSORS"})
+        elif "14" in ident:
+            edges.append({"source": task_node_id, "target": "ext_industry", "relation": "ORGANIZES_SUMMIT"})
+            edges.append({"source": task_node_id, "target": "doc_sponsorship", "relation": "CORPORATE_BOOTHS"})
+        elif "15" in ident:
+            edges.append({"source": task_node_id, "target": "event_launch", "relation": "ORGANIZES_KICKOFF"})
+            edges.append({"source": task_node_id, "target": "comm_social", "relation": "LED_BY_SOCIAL_COMMITTEE"})
 
     # 9. AGGREGATED MEMBER COHORT (Clean & uncluttered overview)
     add_node({

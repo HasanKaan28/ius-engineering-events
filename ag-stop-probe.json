@@ -1,11 +1,11 @@
 {
-  "ts": "2026-10-09T14:09:24.495Z",
+  "ts": "2026-10-09T14:24:29.629Z",
   "source": "auto-on-generation-start",
   "contexts": [
     {
       "ctxId": "main",
       "frameUrl": "vscode-file://vscode-app/c:/Users/Kaan/AppData/Local/Programs/Antigravity%20IDE/resources/app/out/vs/code/electron-browser/workbench/workbench.html",
-      "totalBtns": 90,
+      "totalBtns": 116,
       "inputBoxFound": true,
       "inputBoxBtns": [
         {
@@ -198,9 +198,9 @@
           }
         },
         {
-          "aria": "About",
+          "aria": "Give feedback",
           "title": "",
-          "cls": "action-label codicon codicon-info",
+          "cls": "action-label codicon codicon-feedback",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -214,7 +214,7 @@
           }
         },
         {
-          "aria": "Open Settings",
+          "aria": "Settings",
           "title": "",
           "cls": "action-label codicon codicon-settings-gear",
           "text": "",
@@ -230,9 +230,9 @@
           }
         },
         {
-          "aria": "Refresh Quota",
+          "aria": "Logout",
           "title": "",
-          "cls": "action-label codicon codicon-refresh",
+          "cls": "action-label codicon codicon-sign-out",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -246,11 +246,11 @@
           }
         },
         {
-          "aria": "Antigravity Panel Section",
+          "aria": "CodeRabbit Section",
           "title": "",
           "cls": "pane-header expanded hidden",
-          "text": "Antigravity Panel",
-          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon view-tfa-sidebar\" custom-hover=\"true\" aria-label=\"Antigravity Panel\" style=\"background-color: var(--vs",
+          "text": "CodeRabbit",
+          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon view-coderabbit-vscode-sidebar\" custom-hover=\"true\" aria-label=\"CodeRabbit\" style=\"background-color: v",
           "hasSvg": false,
           "dataAttrs": {},
           "visible": false,
@@ -262,9 +262,9 @@
           }
         },
         {
-          "aria": "About",
+          "aria": "Give feedback",
           "title": "",
-          "cls": "action-label codicon codicon-info",
+          "cls": "action-label codicon codicon-feedback",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -278,7 +278,7 @@
           }
         },
         {
-          "aria": "Open Settings",
+          "aria": "Settings",
           "title": "",
           "cls": "action-label codicon codicon-settings-gear",
           "text": "",
@@ -294,9 +294,9 @@
           }
         },
         {
-          "aria": "Refresh Quota",
+          "aria": "Logout",
           "title": "",
-          "cls": "action-label codicon codicon-refresh",
+          "cls": "action-label codicon codicon-sign-out",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -335,7 +335,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 765,
+            "x": 745,
             "y": 40,
             "w": 20,
             "h": 20
@@ -351,7 +351,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 985,
+            "x": 1067,
             "y": 40,
             "w": 20,
             "h": 20
@@ -367,7 +367,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1173,
+            "x": 1243,
             "y": 40,
             "w": 20,
             "h": 20
@@ -383,7 +383,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1315,
+            "x": 1445,
             "y": 40,
             "w": 20,
             "h": 20
@@ -399,7 +399,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1595,
+            "x": 1709,
             "y": 40,
             "w": 20,
             "h": 20
@@ -415,7 +415,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1948,
+            "x": 1913,
             "y": 40,
             "w": 20,
             "h": 20
@@ -431,7 +431,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2224,
+            "x": 2088,
             "y": 40,
             "w": 20,
             "h": 20
@@ -447,7 +447,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2430,
+            "x": 2214,
             "y": 40,
             "w": 20,
             "h": 20
@@ -463,7 +463,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2629,
+            "x": 2481,
             "y": 40,
             "w": 20,
             "h": 20
@@ -479,7 +479,71 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2802,
+            "x": 2818,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 3079,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 3270,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 3457,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 3614,
             "y": 40,
             "w": 20,
             "h": 20
@@ -658,70 +722,6 @@
             "x": 44,
             "y": 1056,
             "w": 40,
-            "h": 22
-          }
-        },
-        {
-          "aria": "ius-engineering-events (Git) - Synchronize Changes",
-          "title": "",
-          "cls": "statusbar-item-label",
-          "text": "",
-          "innerHTML": "<span class=\"codicon codicon-sync\"></span>",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 84,
-            "y": 1056,
-            "w": 22,
-            "h": 22
-          }
-        },
-        {
-          "aria": "dashboard Cockpit, Antigravity Cockpit & Dashboard v2.0",
-          "title": "",
-          "cls": "statusbar-item-label",
-          "text": "Cockpit",
-          "innerHTML": "<span class=\"codicon codicon-dashboard\"></span> Cockpit",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 114,
-            "y": 1056,
-            "w": 69,
-            "h": 22
-          }
-        },
-        {
-          "aria": "broadcast Link: 3000, Antigravity Link Server Running - Click to Show QR",
-          "title": "",
-          "cls": "statusbar-item-label",
-          "text": "Link: 3000",
-          "innerHTML": "<span class=\"codicon codicon-broadcast\"></span> Link: 3000",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 190,
-            "y": 1056,
-            "w": 82,
-            "h": 22
-          }
-        },
-        {
-          "aria": "No Problems",
-          "title": "",
-          "cls": "statusbar-item-label",
-          "text": "0 0",
-          "innerHTML": "<span class=\"codicon codicon-error\"></span> 0 <span class=\"codicon codicon-warning\"></span> 0",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 278,
-            "y": 1056,
-            "w": 65,
             "h": 22
           }
         }
@@ -730,7 +730,7 @@
     {
       "ctxId": 2,
       "frameUrl": "vscode-file://vscode-app/c:/Users/Kaan/AppData/Local/Programs/Antigravity%20IDE/resources/app/out/vs/code/electron-browser/workbench/workbench.html",
-      "totalBtns": 90,
+      "totalBtns": 116,
       "inputBoxFound": true,
       "inputBoxBtns": [
         {
@@ -923,9 +923,9 @@
           }
         },
         {
-          "aria": "About",
+          "aria": "Give feedback",
           "title": "",
-          "cls": "action-label codicon codicon-info",
+          "cls": "action-label codicon codicon-feedback",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -939,7 +939,7 @@
           }
         },
         {
-          "aria": "Open Settings",
+          "aria": "Settings",
           "title": "",
           "cls": "action-label codicon codicon-settings-gear",
           "text": "",
@@ -955,9 +955,9 @@
           }
         },
         {
-          "aria": "Refresh Quota",
+          "aria": "Logout",
           "title": "",
-          "cls": "action-label codicon codicon-refresh",
+          "cls": "action-label codicon codicon-sign-out",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -971,11 +971,11 @@
           }
         },
         {
-          "aria": "Antigravity Panel Section",
+          "aria": "CodeRabbit Section",
           "title": "",
           "cls": "pane-header expanded hidden",
-          "text": "Antigravity Panel",
-          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon view-tfa-sidebar\" custom-hover=\"true\" aria-label=\"Antigravity Panel\" style=\"background-color: var(--vs",
+          "text": "CodeRabbit",
+          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon view-coderabbit-vscode-sidebar\" custom-hover=\"true\" aria-label=\"CodeRabbit\" style=\"background-color: v",
           "hasSvg": false,
           "dataAttrs": {},
           "visible": false,
@@ -987,9 +987,9 @@
           }
         },
         {
-          "aria": "About",
+          "aria": "Give feedback",
           "title": "",
-          "cls": "action-label codicon codicon-info",
+          "cls": "action-label codicon codicon-feedback",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -1003,7 +1003,7 @@
           }
         },
         {
-          "aria": "Open Settings",
+          "aria": "Settings",
           "title": "",
           "cls": "action-label codicon codicon-settings-gear",
           "text": "",
@@ -1019,9 +1019,9 @@
           }
         },
         {
-          "aria": "Refresh Quota",
+          "aria": "Logout",
           "title": "",
-          "cls": "action-label codicon codicon-refresh",
+          "cls": "action-label codicon codicon-sign-out",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -1060,7 +1060,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 765,
+            "x": 745,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1076,7 +1076,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 985,
+            "x": 1067,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1092,7 +1092,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1173,
+            "x": 1243,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1108,7 +1108,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1315,
+            "x": 1445,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1124,7 +1124,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1595,
+            "x": 1709,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1140,7 +1140,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1948,
+            "x": 1913,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1156,7 +1156,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2224,
+            "x": 2088,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1172,7 +1172,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2430,
+            "x": 2214,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1188,7 +1188,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2629,
+            "x": 2481,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1204,7 +1204,71 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2802,
+            "x": 2818,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 3079,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 3270,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 3457,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 3614,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1383,70 +1447,6 @@
             "x": 44,
             "y": 1056,
             "w": 40,
-            "h": 22
-          }
-        },
-        {
-          "aria": "ius-engineering-events (Git) - Synchronize Changes",
-          "title": "",
-          "cls": "statusbar-item-label",
-          "text": "",
-          "innerHTML": "<span class=\"codicon codicon-sync\"></span>",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 84,
-            "y": 1056,
-            "w": 22,
-            "h": 22
-          }
-        },
-        {
-          "aria": "dashboard Cockpit, Antigravity Cockpit & Dashboard v2.0",
-          "title": "",
-          "cls": "statusbar-item-label",
-          "text": "Cockpit",
-          "innerHTML": "<span class=\"codicon codicon-dashboard\"></span> Cockpit",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 114,
-            "y": 1056,
-            "w": 69,
-            "h": 22
-          }
-        },
-        {
-          "aria": "broadcast Link: 3000, Antigravity Link Server Running - Click to Show QR",
-          "title": "",
-          "cls": "statusbar-item-label",
-          "text": "Link: 3000",
-          "innerHTML": "<span class=\"codicon codicon-broadcast\"></span> Link: 3000",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 190,
-            "y": 1056,
-            "w": 82,
-            "h": 22
-          }
-        },
-        {
-          "aria": "No Problems",
-          "title": "",
-          "cls": "statusbar-item-label",
-          "text": "0 0",
-          "innerHTML": "<span class=\"codicon codicon-error\"></span> 0 <span class=\"codicon codicon-warning\"></span> 0",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 278,
-            "y": 1056,
-            "w": 65,
             "h": 22
           }
         }
@@ -1455,7 +1455,7 @@
     {
       "ctxId": 1,
       "frameUrl": "vscode-file://vscode-app/c:/Users/Kaan/AppData/Local/Programs/Antigravity%20IDE/resources/app/out/vs/code/electron-browser/workbench/workbench.html",
-      "totalBtns": 90,
+      "totalBtns": 116,
       "inputBoxFound": true,
       "inputBoxBtns": [
         {
@@ -1648,9 +1648,9 @@
           }
         },
         {
-          "aria": "About",
+          "aria": "Give feedback",
           "title": "",
-          "cls": "action-label codicon codicon-info",
+          "cls": "action-label codicon codicon-feedback",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -1664,7 +1664,7 @@
           }
         },
         {
-          "aria": "Open Settings",
+          "aria": "Settings",
           "title": "",
           "cls": "action-label codicon codicon-settings-gear",
           "text": "",
@@ -1680,9 +1680,9 @@
           }
         },
         {
-          "aria": "Refresh Quota",
+          "aria": "Logout",
           "title": "",
-          "cls": "action-label codicon codicon-refresh",
+          "cls": "action-label codicon codicon-sign-out",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -1696,11 +1696,11 @@
           }
         },
         {
-          "aria": "Antigravity Panel Section",
+          "aria": "CodeRabbit Section",
           "title": "",
           "cls": "pane-header expanded hidden",
-          "text": "Antigravity Panel",
-          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon view-tfa-sidebar\" custom-hover=\"true\" aria-label=\"Antigravity Panel\" style=\"background-color: var(--vs",
+          "text": "CodeRabbit",
+          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon view-coderabbit-vscode-sidebar\" custom-hover=\"true\" aria-label=\"CodeRabbit\" style=\"background-color: v",
           "hasSvg": false,
           "dataAttrs": {},
           "visible": false,
@@ -1712,9 +1712,9 @@
           }
         },
         {
-          "aria": "About",
+          "aria": "Give feedback",
           "title": "",
-          "cls": "action-label codicon codicon-info",
+          "cls": "action-label codicon codicon-feedback",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -1728,7 +1728,7 @@
           }
         },
         {
-          "aria": "Open Settings",
+          "aria": "Settings",
           "title": "",
           "cls": "action-label codicon codicon-settings-gear",
           "text": "",
@@ -1744,9 +1744,9 @@
           }
         },
         {
-          "aria": "Refresh Quota",
+          "aria": "Logout",
           "title": "",
-          "cls": "action-label codicon codicon-refresh",
+          "cls": "action-label codicon codicon-sign-out",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -1785,7 +1785,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 765,
+            "x": 745,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1801,7 +1801,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 985,
+            "x": 1067,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1817,7 +1817,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1173,
+            "x": 1243,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1833,7 +1833,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1315,
+            "x": 1445,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1849,7 +1849,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1595,
+            "x": 1709,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1865,7 +1865,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1948,
+            "x": 1913,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1881,7 +1881,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2224,
+            "x": 2088,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1897,7 +1897,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2430,
+            "x": 2214,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1913,7 +1913,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2629,
+            "x": 2481,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1929,7 +1929,71 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2802,
+            "x": 2818,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 3079,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 3270,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 3457,
+            "y": 40,
+            "w": 20,
+            "h": 20
+          }
+        },
+        {
+          "aria": "Close (Ctrl+F4)",
+          "title": "",
+          "cls": "action-label codicon codicon-close",
+          "text": "",
+          "innerHTML": "",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 3614,
             "y": 40,
             "w": 20,
             "h": 20
@@ -2108,70 +2172,6 @@
             "x": 44,
             "y": 1056,
             "w": 40,
-            "h": 22
-          }
-        },
-        {
-          "aria": "ius-engineering-events (Git) - Synchronize Changes",
-          "title": "",
-          "cls": "statusbar-item-label",
-          "text": "",
-          "innerHTML": "<span class=\"codicon codicon-sync\"></span>",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 84,
-            "y": 1056,
-            "w": 22,
-            "h": 22
-          }
-        },
-        {
-          "aria": "dashboard Cockpit, Antigravity Cockpit & Dashboard v2.0",
-          "title": "",
-          "cls": "statusbar-item-label",
-          "text": "Cockpit",
-          "innerHTML": "<span class=\"codicon codicon-dashboard\"></span> Cockpit",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 114,
-            "y": 1056,
-            "w": 69,
-            "h": 22
-          }
-        },
-        {
-          "aria": "broadcast Link: 3000, Antigravity Link Server Running - Click to Show QR",
-          "title": "",
-          "cls": "statusbar-item-label",
-          "text": "Link: 3000",
-          "innerHTML": "<span class=\"codicon codicon-broadcast\"></span> Link: 3000",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 190,
-            "y": 1056,
-            "w": 82,
-            "h": 22
-          }
-        },
-        {
-          "aria": "No Problems",
-          "title": "",
-          "cls": "statusbar-item-label",
-          "text": "0 0",
-          "innerHTML": "<span class=\"codicon codicon-error\"></span> 0 <span class=\"codicon codicon-warning\"></span> 0",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 278,
-            "y": 1056,
-            "w": 65,
             "h": 22
           }
         }

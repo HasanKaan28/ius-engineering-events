@@ -1,10 +1,10 @@
 {
   "project": "IUS Engineering Club",
-  "generated_at": "2026-10-09T16:14:37.458013",
+  "generated_at": "2026-10-09T16:26:13.211635",
   "stats": {
-    "total_nodes": 36,
-    "total_edges": 77,
-    "linear_tasks": 10,
+    "total_nodes": 37,
+    "total_edges": 85,
+    "linear_tasks": 11,
     "registered_members": 11,
     "board_members": 5
   },
@@ -17,7 +17,7 @@
       "type": "Software",
       "file": "scripts/linear_manager.py",
       "url": "https://linear.app/ius-engineering-events",
-      "details": "Merkezi görev ve sprint motoru. Antigravity IDE ile çift yönlü GraphQL API senkronizasyonu (10 aktif görev kayıtlı).",
+      "details": "Merkezi görev ve sprint motoru. Antigravity IDE ile çift yönlü GraphQL API senkronizasyonu (11 aktif görev kayıtlı).",
       "x": 0,
       "y": -220
     },
@@ -202,12 +202,12 @@
     },
     {
       "id": "event_launch",
-      "label": "Welcome Meeting & Launch",
+      "label": "🎪 Kickoff: Marshmallow Challenge",
       "cluster": "Events",
-      "isGodNode": false,
+      "isGodNode": true,
       "type": "Milestone",
-      "file": "roadmap/SEMESTER_1_ACTION_PLAN.md",
-      "details": "A-Block Amfisinde resmi kulüp lansmanı, üye alımı ve dönem açılış sunumu.",
+      "file": "roadmap/MARSHMALLOW_CHALLENGE_KICKOFF.md",
+      "details": "İlk büyük tanışma toplantısı! Moderatör: Muhammed Efe Ural & Hasan Kaan. 20 spagetti, ip, bant ve marshmallow ile 18 dakikalık kule inşa etme turnuvası (Icebreaker, Hızlı Prototipleme & Multidisipliner Mühendislik).",
       "x": 750,
       "y": -250
     },
@@ -394,8 +394,8 @@
       "task_assignee": "Bekir Enes",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-6/scc-yillik-faaliyet-plani-ve-taslak-butce-dosyalamasi",
       "file": "scripts/linear_ops.py",
-      "x": -591,
-      "y": -515,
+      "x": -608,
+      "y": -514,
       "details": "[IUS-6] SCC Yıllık Faaliyet Planı ve Taslak Bütçe Dosyalaması\nDurum: Todo | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-6/scc-yillik-faaliyet-plani-ve-taslak-butce-dosyalamasi\n\nÖzet: ### 🎯 Görev Amacı:\n\nSCC'nin istediği faaliyet planı ve tahmini bütçe evraklarını eksiksiz hazır hale getirmek.\n\n### 📄 Doğrudan Açılabilir Resmi Belgeler:\n\n1. 👉 [**🔗 TIKLAYIN: SCC Yıllık Faaliyet Planı (2026/2027)**](<https://linear.app/ius-engineering-events/document/scc-yillik-f..."
     },
     {
@@ -410,8 +410,8 @@
       "task_assignee": "Bekir Enes",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-7/resmi-yonetim-kurulu-kadrosu-55-tam-kadro-pr-lead-bakir-basic",
       "file": "scripts/linear_ops.py",
-      "x": -422,
-      "y": -525,
+      "x": -456,
+      "y": -523,
       "details": "[IUS-7] 🎉 Resmi Yönetim Kurulu Kadrosu (5/5 Tam Kadro - PR Lead: Bakir Bašić)\nDurum: Done | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-7/resmi-yonetim-kurulu-kadrosu-55-tam-kadro-pr-lead-bakir-basic\n\nÖzet: ### 🎯 Resmi Yönetim Kurulu Kadrosu (5/5 Tam Kadro Onaylandı):\n\nSCC resmi kulüp yönergesi ve Form F252 uyarınca 5 kişilik yönetim kadrosu eksiksiz tamamlanmıştır:\n\n* 👑 **Club President (Başkan):** Kaan Mete Şenyıldız (2. Sınıf, No: 250302201 - FENS)\n* 🚀 **Vice President (Kurucu Or..."
     },
     {
@@ -426,8 +426,8 @@
       "task_assignee": "Mahmut ihsan avcı",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-8/scc-uye-listesi-1010-kurucu-normal-uye-kotasi-tamamlandi",
       "file": "scripts/linear_ops.py",
-      "x": -253,
-      "y": -535,
+      "x": -304,
+      "y": -532,
       "details": "[IUS-8] 🎉 SCC Üye Listesi: 10/10 Kurucu Normal Üye Kotası Tamamlandı!\nDurum: Todo | Sorumlu: Mahmut ihsan avcı\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-8/scc-uye-listesi-1010-kurucu-normal-uye-kotasi-tamamlandi\n\nÖzet: ### 🤫 STRATEJİ: STEALTH MODE (SESSİZ VE BİREBİR)\n\n⚠️ **Önemli Kural:** Üniversite resmi onayı öncesi dikkat çekmemek için kalabalık sınıf gruplarına duyuru atılmayacak, **birebir (DM veya yüz yüze)** güvendiğimiz arkadaşlarımıza ulaşılarak 10 üye tamamlanacaktır.\n📌 **Rol Kuralı:*..."
     },
     {
@@ -442,8 +442,8 @@
       "task_assignee": "Bekir Enes",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-9/aralik-1-hafta-promotion-day-kampus-standi-ve-afis-hazirligi",
       "file": "scripts/linear_ops.py",
-      "x": -84,
-      "y": -545,
+      "x": -152,
+      "y": -541,
       "details": "[IUS-9] ⏸️ [Aralık 1. Hafta] Promotion Day: Kampüs Standı ve Afiş Hazırlığı\nDurum: Backlog | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-9/aralik-1-hafta-promotion-day-kampus-standi-ve-afis-hazirligi\n\nÖzet: ### 🛑 DURUM: BEKLEMEDE (ONAY SONRASINA ERTELENDİ)\n\n⚠️ **Kural:** IUS SCC resmi kulüp onayı çıkana kadar kampüste veya sosyal medyada **kamuya açık hiçbir paylaşım yapılmayacaktır**.\n\n### 🎯 Görev Amacı:\n\nKulüp resmiyet kazandıktan sonra (Kasım sonu / Aralık başı) yapılacak \"Studen..."
     },
     {
@@ -458,8 +458,8 @@
       "task_assignee": "Hasan Kaan",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-10/aralik-2-hafta-haftalik-yapay-zeka-and-prompt-atolyeleri-mufredat-ve",
       "file": "scripts/linear_ops.py",
-      "x": 84,
-      "y": -545,
+      "x": 0,
+      "y": -550,
       "details": "[IUS-10] 🤖 [Aralık 2. Hafta] Haftalık Yapay Zeka & Prompt Atölyeleri: Müfredat ve Eğitmen Ağı\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 2\nURL: https://linear.app/ius-engineering-events/issue/IUS-10/aralik-2-hafta-haftalik-yapay-zeka-and-prompt-atolyeleri-mufredat-ve\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\nÖğrencilere pratik yapay zeka kullanımı, prompt mühendisliği ve modern AI araçları (Cursor, Claude, Copilot) üzerine **her hafta düzenli atölye** sunmak. Taze bir kulüp yapısı olduğumuz için süreci sürdürülebilir kılmak adına akran eğitimi ve gönüllü eğitme..."
     },
     {
@@ -474,8 +474,8 @@
       "task_assignee": "Hasan Kaan",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-11/aralik-3-hafta-haftalik-online-tech-talks-google-meet-format-ve-konuk",
       "file": "scripts/linear_ops.py",
-      "x": 253,
-      "y": -535,
+      "x": 152,
+      "y": -541,
       "details": "[IUS-11] 🌐 [Aralık 3. Hafta] Haftalık Online Tech-Talks (Google Meet): Format ve Konuk Daveti\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 2\nURL: https://linear.app/ius-engineering-events/issue/IUS-11/aralik-3-hafta-haftalik-online-tech-talks-google-meet-format-ve-konuk\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\nHer hafta tanınmış, sektörde deneyimli yerli ve yabancı teknoloji uzmanları ile Google Meet webinar formatında samimi, interaktif online söyleşi (fireside chat) ve mentorluk seansları yapmak.\n\n### 📋 Yapılacaklar:\n\n- [ ] **Topluluk Platformu:** Google Meet w..."
     },
     {
@@ -490,8 +490,8 @@
       "task_assignee": "Mahmut ihsan avcı",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-12/aralik-4-hafta-aylik-kampus-teknoloji-konusmacilari-konuk-havuzu-ve",
       "file": "scripts/linear_ops.py",
-      "x": 422,
-      "y": -525,
+      "x": 304,
+      "y": -532,
       "details": "[IUS-12] 🎙️ [Aralık 4. Hafta] Aylık Kampüs Teknoloji Konuşmacıları: Konuk Havuzu ve Salon\nDurum: Backlog | Sorumlu: Mahmut ihsan avcı\nÖncelik: 3\nURL: https://linear.app/ius-engineering-events/issue/IUS-12/aralik-4-hafta-aylik-kampus-teknoloji-konusmacilari-konuk-havuzu-ve\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\n**Minimum ayda 1 kez** teknoloji alanında öncü bir ismi, yazılım mimarını veya şirket kurucusunu IUS kampüsüne davet edip amfide yüz yüze seminer ve networking düzenlemek.\n\n### 📋 Yapılacaklar:\n\n- [ ] **Potansiyel Şirket & Konuk Listesi:** Sarajevo'daki tekn..."
     },
     {
@@ -506,13 +506,13 @@
       "task_assignee": "Hasan Kaan",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-13/bahar-2027-nisan-ius-yillik-kampus-hackathonu-devhack-konsept-ve",
       "file": "scripts/linear_ops.py",
-      "x": 591,
-      "y": -515,
+      "x": 456,
+      "y": -523,
       "details": "[IUS-13] ⚡ [Bahar 2027 / Nisan] IUS Yıllık Kampüs Hackathonu (DevHack): Konsept ve Sponsorluk\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 4\nURL: https://linear.app/ius-engineering-events/issue/IUS-13/bahar-2027-nisan-ius-yillik-kampus-hackathonu-devhack-konsept-ve\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\nBu yıl içinde IUS kampüsünde gerçekleştireceğimiz **24 saatlik büyük yazılım ve mühendislik hackathonunu (IUS DevHack)** planlamak.\n\n### 📋 Yapılacaklar:\n\n- [ ] **Hedef Dönem:** Bahar 2027 (Nisan 2. haftası - vize sonrası, finaller öncesi).\n- [ ] **Gece Kalm..."
     },
     {
       "id": "linear_task_IUS-14",
-      "label": "[IUS-14] IUS Yıllık Teknoloji Zirve..",
+      "label": "[IUS-14] TechSummit 2027 Zirvesi",
       "cluster": "Linear Tasks",
       "isGodNode": false,
       "type": "LinearTask",
@@ -522,9 +522,25 @@
       "task_assignee": "Hasan Kaan",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-14/bahar-2027-mayis-ius-yillik-teknoloji-zirvesi-ius-techsummit-2027",
       "file": "scripts/linear_ops.py",
+      "x": 608,
+      "y": -514,
+      "details": "[IUS-14] 🏛️ [Bahar 2027 / Mayıs] IUS Yıllık Teknoloji Zirvesi (IUS TechSummit 2027): Konsept, Konuşmacılar ve Stantlar\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 2\nURL: https://linear.app/ius-engineering-events/issue/IUS-14/bahar-2027-mayis-ius-yillik-teknoloji-zirvesi-ius-techsummit-2027\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\nBahar döneminde (Mayıs ayı 2. haftası) IUS kampüsünde tüm üniversiteyi ve Saraybosna teknoloji ekosistemini bir araya getirecek tam günlük **Yıllık Teknoloji Zirvesini (IUS TechSummit 2027)** organize etmek.\n\n---\n\n### 📋 Zirve Mimarisi ve Yapılacaklar:\n\n- [ ..."
+    },
+    {
+      "id": "linear_task_IUS-15",
+      "label": "[IUS-15] 🎪 Kickoff: Marshmallow Challenge",
+      "cluster": "Linear Tasks",
+      "isGodNode": true,
+      "type": "LinearTask",
+      "task_ident": "IUS-15",
+      "task_state": "Todo",
+      "task_priority": 1,
+      "task_assignee": "Hasan Kaan",
+      "url": "https://linear.app/ius-engineering-events/issue/IUS-15/kasim-1-hafta-iec-buyuk-tanisma-toplantisi-the-marshmallow-challenge",
+      "file": "scripts/linear_ops.py",
       "x": 760,
       "y": -505,
-      "details": "[IUS-14] 🏛️ [Bahar 2027 / Mayıs] IUS Yıllık Teknoloji Zirvesi (IUS TechSummit 2027): Konsept, Konuşmacılar ve Stantlar\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 2\nURL: https://linear.app/ius-engineering-events/issue/IUS-14/bahar-2027-mayis-ius-yillik-teknoloji-zirvesi-ius-techsummit-2027\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\nBahar döneminde (Mayıs ayı 2. haftası) IUS kampüsünde tüm üniversiteyi ve Saraybosna teknoloji ekosistemini bir araya getirecek tam günlük **Yıllık Teknoloji Zirvesini (IUS TechSummit 2027)** organize etmek.\n\n---\n\n### 📋 Zirve Mimarisi ve Yapılacaklar:\n\n- [ ..."
+      "details": "[IUS-15] 🎪 [Kasım 1. Hafta] IEC Büyük Tanışma Toplantısı: The Marshmallow Challenge (Icebreaker & Spagetti Kuleleri)\nDurum: Todo | Sorumlu: Hasan Kaan\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-15/kasim-1-hafta-iec-buyuk-tanisma-toplantisi-the-marshmallow-challenge\n\nÖzet: ### 🎪 Etkinlik Amacı & Konsept:\n\nIUS Engineering Club (IEC) resmi kuruluş lansmanı ve tüm FENS öğrencileri için ilk büyük tanışma toplantısı! Klasik ve sıkıcı amfi sunumları yerine, dünya çapında (Stanford, Google, TED) uygulanan **Marshmallow Challenge** ile mühendislik ruhunu a..."
     },
     {
       "id": "members_cohort",
@@ -669,6 +685,16 @@
       "source": "board_hasan_kaan",
       "target": "comm_social",
       "relation": "DIRECTS_COMMITTEE"
+    },
+    {
+      "source": "comm_social",
+      "target": "event_launch",
+      "relation": "CO_HOSTS_CHALLENGE"
+    },
+    {
+      "source": "event_launch",
+      "target": "advisor",
+      "relation": "HONOR_JURY"
     },
     {
       "source": "advisor",
@@ -904,6 +930,36 @@
       "source": "board_hasan_kaan",
       "target": "linear_task_IUS-14",
       "relation": "LEADS_BACKLOG"
+    },
+    {
+      "source": "linear_task_IUS-14",
+      "target": "ext_industry",
+      "relation": "ORGANIZES_SUMMIT"
+    },
+    {
+      "source": "linear_task_IUS-14",
+      "target": "doc_sponsorship",
+      "relation": "CORPORATE_BOOTHS"
+    },
+    {
+      "source": "linear_task_IUS-15",
+      "target": "platform_linear",
+      "relation": "TRACKED_IN"
+    },
+    {
+      "source": "board_hasan_kaan",
+      "target": "linear_task_IUS-15",
+      "relation": "LEADS_TODO"
+    },
+    {
+      "source": "linear_task_IUS-15",
+      "target": "advisor",
+      "relation": "TARGETS_PROFESSOR"
+    },
+    {
+      "source": "linear_task_IUS-15",
+      "target": "doc_advisor_letter",
+      "relation": "USES_OFFICIAL_LETTER"
     },
     {
       "source": "sheet_responses",
