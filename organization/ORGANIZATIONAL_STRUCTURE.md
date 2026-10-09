@@ -49,7 +49,7 @@
 * **Vice President & Operations Co-Leader (Mahmut İhsan Avcı)**: [ASIL BAŞKAN YARDIMCISI] Direct right hand to the President, manages day-to-day team syncs, member intake, and administrative/logistical execution.
 * **Statutory President (Kaan Mete Şenyıldız)**: [RESMİ / GÖSTERMELİK BAŞKAN] Fulfills the SCC university 2nd-year eligibility prerequisite on official documents, petitions, and formal university meetings.
 * **Treasurer & Sponsorship Lead (Bekir Enes Çokbekler)**: Controls the treasury, prepares corporate sponsorship decks (1.300 KM / 5.000 KM), and reports to Hasan Kaan & Mahmut İhsan.
-* **PR & Media Lead (Bakir Bašić)**: [YÖNETİM KURULU ÜYESİ] Manages branding, social media accounts, visual identity, event flyers, and campus promotion.
+* **Statutory PR Lead (Bakir Bašić)**: [RESMİ / GÖSTERMELİK PR LEAD] Fulfills the 5th Executive Board signatory requirement and local Bosnian representative role on SCC paperwork. Handles institutional university communications, campus bulletin boards, and media liaison. (Fiili sosyal medya, Instagram ve görsel tasarım liderliği Muhammed Efe Ural tarafından yürütülür).
 
 ### 2. Software & AI Committee
 * **Focus**: Full-Stack Development, Modern Cloud, LLM & AI Agents, Data Engineering, Competitive Programming.

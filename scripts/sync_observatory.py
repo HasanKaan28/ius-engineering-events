@@ -91,14 +91,14 @@ BOARD_MEMBERS = {
     "pr_lead": {
         "id": "board_pr_lead",
         "name": "Bakir Bašić",
-        "role": "📣 PR & Media Lead (Basın, Medya ve İletişim)",
+        "role": "📣 Resmi PR Lead (Statutory PR Representative)",
         "student_id": "260302030",
         "dept": "FENS (1. Sınıf)",
         "phone": "+387-61-533-947",
         "email": "260302030@student.ius.edu.ba",
-        "duties": "5. Yönetim Kurulu pozisyonu (PR & Media Lead). Kulübün tüm sosyal medya kanallarını (Instagram, LinkedIn), afiş/broşür görsel tasarımlarını, etkinlik duyurularını ve kampüs içi marka tanıtımını yönetir. 5/5 Tam Kadro tamamlandı.",
-        "tools": ["Canva / Adobe Suite", "Instagram & LinkedIn Hub", "Etkinlik Afişleri & Tanıtım Becerileri", "Medya ve Lansman İletişimi"],
-        "collaborates": ["Hasan Kaan (Genel Lansman & Vizyon)", "Mahmut İhsan (İdari Duyurular)", "Bekir Enes (Promotion Day & Bütçe)"],
+        "duties": "SCC resmi başvurusundaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Üniversite duyuru panoları, resmi basın ve kurumsal iletişimi koordine eder. Kulübün fiili sosyal medya içerikleri, Instagram (@ius.engineeringevents), görsel afiş tasarımları ve reels paylaşımları doğrudan Muhammed Efe Ural tarafından yürütülür.",
+        "tools": ["Resmi Duyuru Panoları", "SCC Temsilcilik Evrakları", "Etkinlik Fotoğraf Arşivi", "Boşnak Topluluk İletişimi"],
+        "collaborates": ["Hasan Kaan (Genel Lansman & Vizyon)", "Muhammed Efe Ural (Fiili Sosyal Medya & Tasarım)", "Mahmut İhsan (İdari Duyurular)", "Bekir Enes (Bütçe)"],
         "isGodNode": True,
         "aliases": ["bakir basic", "bakir basic", "bakir bašić", "bakir", "260302030", "pr lead", "pr"]
     }
