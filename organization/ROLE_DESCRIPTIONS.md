@@ -79,3 +79,16 @@
 * **Key KPIs**:
   * Follower growth and engagement (>500 active followers in Semester 1).
   * Turnaround time for post-event recaps < 48 hours.
+
+---
+
+## 8. Social Life & Fun Engineering Lead — Muhammed Efe Ural
+* **Profile**: Student ID: 240302169 | FENS (2nd Year) | Phone: 0537 560 66 08 | Email: `uralefe10@gmail.com`
+* **Core Mission**: Drive campus social vibrancy, peer bonding, and entertaining engineering challenges so the club is both intellectually elite and culturally exciting.
+* **Direct Responsibilities**:
+  * Organize informal community gatherings: Pizza & Coding nights, gaming/LAN tournaments (FIFA, CS2), and board game sessions.
+  * Plan fun engineering challenges (e.g. Spaghetti Bridge contests, egg-drop challenges, paper plane aerodynamics, robot-sumo).
+  * Coordinate off-campus social outings, coffee meetups, and team celebrations for club members.
+* **Key KPIs**:
+  * At least 2 major social / fun engineering events per semester.
+  * High member satisfaction and active social cohesion across cohorts.

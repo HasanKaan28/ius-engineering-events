@@ -36,6 +36,7 @@ ius-engineering-events/
 3. **Applied Engineering Projects**: Practical student development circles, prototypes, and semester showcases.
 4. **Operations & Event Logistics**: Venue reservation (IUS Amphitheater, A-Block, Labs), technical equipment, ticketing/registration.
 5. **PR, Media & Corporate Relations**: Branding, social media, photography, company sponsorships, and Sarajevo tech ecosystem outreach.
+6. **Social Life & Fun Engineering**: Muhammed Efe Ural (FENS 2nd Year) — Gaming tournaments, pizza & coding meetups, lighthearted engineering challenges, and team bonding.
 
 ## 4. Operational Infrastructure & Integrations
 - **Management Team Application Form**: [https://forms.gle/v8c85MgFUmVvpzTH6](https://forms.gle/v8c85MgFUmVvpzTH6)
@@ -63,6 +64,7 @@ ius-engineering-events/
     - **Tier 3 (Yedek Güvence / Katılımcı Cüzi Katkı Payı - 200 KM)**: Sadece büyük ölçekli ve yüksek maliyetli amiral gemisi etkinliklerde (örneğin 24 saatlik yatılı DevHack maratonunda catering/materyal giderleri), sponsorluk ve okul bütçesi yetersiz kaldığı takdirde katılımcılardan toplanacak sembolik ~5 KM cüzi pay. Normal haftalık AI atölyeleri ve tech-talklar tüm IUS öğrencilerine **%100 ücretsizdir**.
     - **Toplam Bütçe**: 1.300 KM dengeli taslak teklif (Prijedlog).
   - **Normal Üyeler (10 Kişi Hedefi)**: 11/10 kayıtlı tam kadro: Bilal Yusuf Şimşek, Nazlıcan Cebeci, Muhammed Emin Tiryaki, Emin Efe Duman, Ömer Arif Açıkel, Mert Çınar Atalay, Ferit Enes Seymenliler, Hüseyin Talha Seymenliler, Muhammed Efe Ural, Abdullah Uzun, Ahmed Hadzimurati. Tüzük 10 Kurucu Üye kotası %110 ile aşıldı! 🎯
+    - **Pazartesi & Salı İmza Toplama Operasyonu (12-13 Ekim 2026)**: Masaüstündeki `student_club_registration_form_f252.docx` Tablo 3 için SCC şartı olan en az 10 ıslak imza toplanmaktadır. Asil 10 kadro: Kaan Mete Şenyıldız (Bşk), Hasan Kaan Karabulut (Bşk Yrd), Mahmut İhsan Avcı (Sekreter), Bekir Enes Çokbekler (Sayman), Bakir Bašić (PR Lead), Bilal Yusuf Şimşek, Nazlıcan Cebeci, Muhammed Emin Tiryaki, Emin Efe Duman, Ahmed Hadzimurati. 6 kişilik yedek havuz hazır tutulmaktadır.
     - Tüm başvuru evrakları (`templates/` ve `export_documents/`) okula sunulacak resmi **Prijedlog (Proposal)** formatındadır.
     - Hiçbir bütçe kalemi, üyelik veya izin "Onaylandı" olarak doldurulmaz; tüm kalemler **Projekcija / Planirano / Pending SCC Review** olarak işaretlenmiştir.
     - Okula teslim edilecek belgelerde iç yönetim notları (göstermelik başkan vb.) kesinlikle yer almaz; resmi unvanlar, ıslak imza satırları ve okulun değerlendirme/kaşeleme yapacağı boş SCC kutuları mevcuttur.

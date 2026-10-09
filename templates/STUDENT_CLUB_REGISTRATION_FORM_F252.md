@@ -81,18 +81,14 @@ Through high-impact extracurricular workshops, software/AI bootcamps, multidisci
 | **2** | **Hasan Kaan Karabulut** | `hasankaankarabulut121@gmail.com` | **250302195** | FENS / 1st Year | ___________________________ |
 | **3** | **Mahmut İhsan Avcı** | `mahmut.ihsanavcii@gmail.com` | **250302233** | FENS / 1st Year | ___________________________ |
 | **4** | **Bekir Enes Çokbekler** | `becokbekler@student.ius.edu.ba` | **250302229** | FENS / 1st Year | ___________________________ |
-| **5** | Bilal Yusuf Şimşek | `Simsekbilal59@gmail.com` | 250302196 | FENS / 1st Year | ___________________________ |
-| **6** | Nazlıcan Cebeci | `nazlii.cebeci@gmail.com` | 250302243 | FENS / 1st Year | ___________________________ |
-| **7** | Muhammed Emin Tiryaki | `metiryaki@student.ius.edu.ba` | 250302247 | FENS / 2nd Year | ___________________________ |
-| **8** | Emin Efe Duman | `emnfdmn@gmail.com` | 250302211 | FENS / 1st Year | ___________________________ |
-| **9** | **Bakir Bašić** | `260302030@student.ius.edu.ba` | **260302030** | FENS / 1st Year | ___________________________ |
-| **10** | Ömer Arif Açıkel | `o.arifacikel@gmail.com` | 250302232 | FENS / 1st Year | ___________________________ |
-| **11** | Mert Çınar Atalay | `atalayss301@gmail.com` | 250302162 | FENS / 1st Year | ___________________________ |
-| **12** | Ferit Enes Seymenliler | `eenesseymenliler@gmail.com` | 240302180 | FENS / 2nd Year | ___________________________ |
-| **13** | Hüseyin Talha Seymenliler | `tseymenliler16@gmail.com` | 240302179 | FENS / 2nd Year | ___________________________ |
-| **14** | Muhammed Efe Ural | `uralefe10@gmail.com` | 240302169 | FENS / 2nd Year | ___________________________ |
-| **15** | Abdullah Uzun | `250201110@student.ius.edu.ba` | 250201110 | FBA / 1st Year | ___________________________ |
-| **16** | Ahmed Hadzimurati | `260302051@student.ius.edu.ba` | 260302051 | FENS / 1st Year | ___________________________ |
+| **5** | **Bakir Bašić** | `260302030@student.ius.edu.ba` | **260302030** | FENS / 1st Year | ___________________________ |
+| **6** | **Bilal Yusuf Şimşek** | `Simsekbilal59@gmail.com` | **250302196** | FENS / 1st Year | ___________________________ |
+| **7** | **Nazlıcan Cebeci** | `nazlii.cebeci@gmail.com` | **250302243** | FENS / 1st Year | ___________________________ |
+| **8** | **Muhammed Emin Tiryaki** | `metiryaki@student.ius.edu.ba` | **250302247** | FENS / 2nd Year | ___________________________ |
+| **9** | **Emin Efe Duman** | `emnfdmn@gmail.com` | **250302211** | FENS / 1st Year | ___________________________ |
+| **10**| **Ahmed Hadzimurati** | `260302051@student.ius.edu.ba` | **260302051** | FENS / 1st Year | ___________________________ |
+
+*(Reserve Pool / Yedek Havuz: Ömer Arif Açıkel, Mert Çınar Atalay, Ferit Enes Seymenliler, Hüseyin Talha Seymenliler, Muhammed Efe Ural, Abdullah Uzun)*
 
 ---
 

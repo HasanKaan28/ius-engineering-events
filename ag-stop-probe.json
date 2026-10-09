@@ -1,11 +1,11 @@
 {
-  "ts": "2026-10-08T10:39:10.660Z",
+  "ts": "2026-10-09T14:09:24.495Z",
   "source": "auto-on-generation-start",
   "contexts": [
     {
       "ctxId": "main",
       "frameUrl": "vscode-file://vscode-app/c:/Users/Kaan/AppData/Local/Programs/Antigravity%20IDE/resources/app/out/vs/code/electron-browser/workbench/workbench.html",
-      "totalBtns": 102,
+      "totalBtns": 90,
       "inputBoxFound": true,
       "inputBoxBtns": [
         {
@@ -21,8 +21,8 @@
           },
           "visible": true,
           "rect": {
-            "x": 1059,
-            "y": 1001,
+            "x": 1272,
+            "y": 1013,
             "w": 28,
             "h": 28
           }
@@ -41,8 +41,8 @@
           },
           "visible": true,
           "rect": {
-            "x": 1088,
-            "y": 1001,
+            "x": 1301,
+            "y": 1013,
             "w": 135,
             "h": 28
           }
@@ -59,27 +59,26 @@
           },
           "visible": true,
           "rect": {
-            "x": 1631,
-            "y": 1001,
+            "x": 1844,
+            "y": 1013,
             "w": 28,
             "h": 28
           }
         },
         {
-          "aria": "Send message",
+          "aria": "Cancel (Ctrl+D)",
           "title": "",
-          "cls": "flex items-center justify-center w-7 h-7 p-1.5 rounded-full transition-all duration-150 text-muted-f",
+          "cls": "bg-secondary hover:opacity-90 w-7 h-7 rounded-full cursor-pointer flex items-center justify-center t",
           "text": "",
-          "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 -960 960 960\" fill=\"currentColor\" class=\"w-4 h-4 text-muted-foreground\"><path d=\"M665.08-450H180v-60H665.08L437.23-737.85L480-",
-          "hasSvg": true,
+          "innerHTML": "<div class=\"bg-red-500 w-[0.625rem] h-[0.625rem] rounded-[1px]\"></div>",
+          "hasSvg": false,
           "dataAttrs": {
-            "data-testid": "send-button",
-            "data-tooltip-id": "input-send-button-send-tooltip"
+            "data-tooltip-id": "input-send-button-cancel-tooltip"
           },
           "visible": true,
           "rect": {
-            "x": 1663,
-            "y": 1001,
+            "x": 1876,
+            "y": 1013,
             "w": 28,
             "h": 28
           }
@@ -96,7 +95,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1345,
+            "x": 1558,
             "y": 6,
             "w": 22,
             "h": 22
@@ -144,7 +143,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1441,
+            "x": 1654,
             "y": 6,
             "w": 22,
             "h": 22
@@ -160,7 +159,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1474,
+            "x": 1687,
             "y": 6,
             "w": 22,
             "h": 22
@@ -176,7 +175,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1498,
+            "x": 1711,
             "y": 6,
             "w": 22,
             "h": 22
@@ -192,16 +191,16 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1522,
+            "x": 1735,
             "y": 4,
             "w": 43,
             "h": 26
           }
         },
         {
-          "aria": "Give feedback",
+          "aria": "About",
           "title": "",
-          "cls": "action-label codicon codicon-feedback",
+          "cls": "action-label codicon codicon-info",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -215,7 +214,7 @@
           }
         },
         {
-          "aria": "Settings",
+          "aria": "Open Settings",
           "title": "",
           "cls": "action-label codicon codicon-settings-gear",
           "text": "",
@@ -231,9 +230,9 @@
           }
         },
         {
-          "aria": "Logout",
+          "aria": "Refresh Quota",
           "title": "",
-          "cls": "action-label codicon codicon-sign-out",
+          "cls": "action-label codicon codicon-refresh",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -247,11 +246,11 @@
           }
         },
         {
-          "aria": "CodeRabbit Section",
+          "aria": "Antigravity Panel Section",
           "title": "",
           "cls": "pane-header expanded hidden",
-          "text": "CodeRabbit",
-          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon view-coderabbit-vscode-sidebar\" custom-hover=\"true\" aria-label=\"CodeRabbit\" style=\"background-color: v",
+          "text": "Antigravity Panel",
+          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon view-tfa-sidebar\" custom-hover=\"true\" aria-label=\"Antigravity Panel\" style=\"background-color: var(--vs",
           "hasSvg": false,
           "dataAttrs": {},
           "visible": false,
@@ -263,9 +262,9 @@
           }
         },
         {
-          "aria": "Give feedback",
+          "aria": "About",
           "title": "",
-          "cls": "action-label codicon codicon-feedback",
+          "cls": "action-label codicon codicon-info",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -279,7 +278,7 @@
           }
         },
         {
-          "aria": "Settings",
+          "aria": "Open Settings",
           "title": "",
           "cls": "action-label codicon codicon-settings-gear",
           "text": "",
@@ -295,9 +294,9 @@
           }
         },
         {
-          "aria": "Logout",
+          "aria": "Refresh Quota",
           "title": "",
-          "cls": "action-label codicon codicon-sign-out",
+          "cls": "action-label codicon codicon-refresh",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -336,7 +335,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 687,
+            "x": 765,
             "y": 40,
             "w": 20,
             "h": 20
@@ -352,7 +351,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 889,
+            "x": 985,
             "y": 40,
             "w": 20,
             "h": 20
@@ -368,7 +367,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1160,
+            "x": 1173,
             "y": 40,
             "w": 20,
             "h": 20
@@ -384,7 +383,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1438,
+            "x": 1315,
             "y": 40,
             "w": 20,
             "h": 20
@@ -400,7 +399,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1778,
+            "x": 1595,
             "y": 40,
             "w": 20,
             "h": 20
@@ -416,7 +415,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1951,
+            "x": 1948,
             "y": 40,
             "w": 20,
             "h": 20
@@ -432,7 +431,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2200,
+            "x": 2224,
             "y": 40,
             "w": 20,
             "h": 20
@@ -448,7 +447,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2332,
+            "x": 2430,
             "y": 40,
             "w": 20,
             "h": 20
@@ -464,7 +463,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2575,
+            "x": 2629,
             "y": 40,
             "w": 20,
             "h": 20
@@ -480,119 +479,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2757,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 2952,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3129,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3305,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3561,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3687,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3945,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 4205,
+            "x": 2802,
             "y": 40,
             "w": 20,
             "h": 20
@@ -608,7 +495,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 905,
+            "x": 1118,
             "y": 39,
             "w": 22,
             "h": 22
@@ -624,7 +511,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 931,
+            "x": 1144,
             "y": 39,
             "w": 22,
             "h": 22
@@ -640,7 +527,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 957,
+            "x": 1170,
             "y": 39,
             "w": 22,
             "h": 22
@@ -656,7 +543,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 983,
+            "x": 1196,
             "y": 39,
             "w": 22,
             "h": 22
@@ -672,7 +559,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1009,
+            "x": 1222,
             "y": 39,
             "w": 22,
             "h": 22
@@ -724,6 +611,118 @@
             "y": 0,
             "w": 0,
             "h": 0
+          }
+        },
+        {
+          "aria": "Agent Section",
+          "title": "",
+          "cls": "pane-header expanded hidden",
+          "text": "Agent",
+          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon codicon codicon-default-view-icon\" custom-hover=\"true\" aria-label=\"Agent\" style=\"color: var(--vscode-s",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "aria": "remote",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "",
+          "innerHTML": "<span class=\"codicon codicon-remote\"></span>",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 7,
+            "y": 1056,
+            "w": 32,
+            "h": 22
+          }
+        },
+        {
+          "aria": "ius-engineering-events (Git) - main*, Checkout Branch/Tag...",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "main*",
+          "innerHTML": "<span class=\"codicon codicon-git-branch-changes\"></span> main*",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 44,
+            "y": 1056,
+            "w": 40,
+            "h": 22
+          }
+        },
+        {
+          "aria": "ius-engineering-events (Git) - Synchronize Changes",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "",
+          "innerHTML": "<span class=\"codicon codicon-sync\"></span>",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 84,
+            "y": 1056,
+            "w": 22,
+            "h": 22
+          }
+        },
+        {
+          "aria": "dashboard Cockpit, Antigravity Cockpit & Dashboard v2.0",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "Cockpit",
+          "innerHTML": "<span class=\"codicon codicon-dashboard\"></span> Cockpit",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 114,
+            "y": 1056,
+            "w": 69,
+            "h": 22
+          }
+        },
+        {
+          "aria": "broadcast Link: 3000, Antigravity Link Server Running - Click to Show QR",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "Link: 3000",
+          "innerHTML": "<span class=\"codicon codicon-broadcast\"></span> Link: 3000",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 190,
+            "y": 1056,
+            "w": 82,
+            "h": 22
+          }
+        },
+        {
+          "aria": "No Problems",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "0 0",
+          "innerHTML": "<span class=\"codicon codicon-error\"></span> 0 <span class=\"codicon codicon-warning\"></span> 0",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 278,
+            "y": 1056,
+            "w": 65,
+            "h": 22
           }
         }
       ]
@@ -731,7 +730,7 @@
     {
       "ctxId": 2,
       "frameUrl": "vscode-file://vscode-app/c:/Users/Kaan/AppData/Local/Programs/Antigravity%20IDE/resources/app/out/vs/code/electron-browser/workbench/workbench.html",
-      "totalBtns": 102,
+      "totalBtns": 90,
       "inputBoxFound": true,
       "inputBoxBtns": [
         {
@@ -747,8 +746,8 @@
           },
           "visible": true,
           "rect": {
-            "x": 1059,
-            "y": 1001,
+            "x": 1272,
+            "y": 1013,
             "w": 28,
             "h": 28
           }
@@ -767,8 +766,8 @@
           },
           "visible": true,
           "rect": {
-            "x": 1088,
-            "y": 1001,
+            "x": 1301,
+            "y": 1013,
             "w": 135,
             "h": 28
           }
@@ -785,27 +784,26 @@
           },
           "visible": true,
           "rect": {
-            "x": 1631,
-            "y": 1001,
+            "x": 1844,
+            "y": 1013,
             "w": 28,
             "h": 28
           }
         },
         {
-          "aria": "Send message",
+          "aria": "Cancel (Ctrl+D)",
           "title": "",
-          "cls": "flex items-center justify-center w-7 h-7 p-1.5 rounded-full transition-all duration-150 text-muted-f",
+          "cls": "bg-secondary hover:opacity-90 w-7 h-7 rounded-full cursor-pointer flex items-center justify-center t",
           "text": "",
-          "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 -960 960 960\" fill=\"currentColor\" class=\"w-4 h-4 text-muted-foreground\"><path d=\"M665.08-450H180v-60H665.08L437.23-737.85L480-",
-          "hasSvg": true,
+          "innerHTML": "<div class=\"bg-red-500 w-[0.625rem] h-[0.625rem] rounded-[1px]\"></div>",
+          "hasSvg": false,
           "dataAttrs": {
-            "data-testid": "send-button",
-            "data-tooltip-id": "input-send-button-send-tooltip"
+            "data-tooltip-id": "input-send-button-cancel-tooltip"
           },
           "visible": true,
           "rect": {
-            "x": 1663,
-            "y": 1001,
+            "x": 1876,
+            "y": 1013,
             "w": 28,
             "h": 28
           }
@@ -822,7 +820,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1345,
+            "x": 1558,
             "y": 6,
             "w": 22,
             "h": 22
@@ -870,7 +868,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1441,
+            "x": 1654,
             "y": 6,
             "w": 22,
             "h": 22
@@ -886,7 +884,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1474,
+            "x": 1687,
             "y": 6,
             "w": 22,
             "h": 22
@@ -902,7 +900,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1498,
+            "x": 1711,
             "y": 6,
             "w": 22,
             "h": 22
@@ -918,16 +916,16 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1522,
+            "x": 1735,
             "y": 4,
             "w": 43,
             "h": 26
           }
         },
         {
-          "aria": "Give feedback",
+          "aria": "About",
           "title": "",
-          "cls": "action-label codicon codicon-feedback",
+          "cls": "action-label codicon codicon-info",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -941,7 +939,7 @@
           }
         },
         {
-          "aria": "Settings",
+          "aria": "Open Settings",
           "title": "",
           "cls": "action-label codicon codicon-settings-gear",
           "text": "",
@@ -957,9 +955,9 @@
           }
         },
         {
-          "aria": "Logout",
+          "aria": "Refresh Quota",
           "title": "",
-          "cls": "action-label codicon codicon-sign-out",
+          "cls": "action-label codicon codicon-refresh",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -973,11 +971,11 @@
           }
         },
         {
-          "aria": "CodeRabbit Section",
+          "aria": "Antigravity Panel Section",
           "title": "",
           "cls": "pane-header expanded hidden",
-          "text": "CodeRabbit",
-          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon view-coderabbit-vscode-sidebar\" custom-hover=\"true\" aria-label=\"CodeRabbit\" style=\"background-color: v",
+          "text": "Antigravity Panel",
+          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon view-tfa-sidebar\" custom-hover=\"true\" aria-label=\"Antigravity Panel\" style=\"background-color: var(--vs",
           "hasSvg": false,
           "dataAttrs": {},
           "visible": false,
@@ -989,9 +987,9 @@
           }
         },
         {
-          "aria": "Give feedback",
+          "aria": "About",
           "title": "",
-          "cls": "action-label codicon codicon-feedback",
+          "cls": "action-label codicon codicon-info",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -1005,7 +1003,7 @@
           }
         },
         {
-          "aria": "Settings",
+          "aria": "Open Settings",
           "title": "",
           "cls": "action-label codicon codicon-settings-gear",
           "text": "",
@@ -1021,9 +1019,9 @@
           }
         },
         {
-          "aria": "Logout",
+          "aria": "Refresh Quota",
           "title": "",
-          "cls": "action-label codicon codicon-sign-out",
+          "cls": "action-label codicon codicon-refresh",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -1062,7 +1060,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 687,
+            "x": 765,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1078,7 +1076,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 889,
+            "x": 985,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1094,7 +1092,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1160,
+            "x": 1173,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1110,7 +1108,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1438,
+            "x": 1315,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1126,7 +1124,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1778,
+            "x": 1595,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1142,7 +1140,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1951,
+            "x": 1948,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1158,7 +1156,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2200,
+            "x": 2224,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1174,7 +1172,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2332,
+            "x": 2430,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1190,7 +1188,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2575,
+            "x": 2629,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1206,119 +1204,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2757,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 2952,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3129,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3305,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3561,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3687,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3945,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 4205,
+            "x": 2802,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1334,7 +1220,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 905,
+            "x": 1118,
             "y": 39,
             "w": 22,
             "h": 22
@@ -1350,7 +1236,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 931,
+            "x": 1144,
             "y": 39,
             "w": 22,
             "h": 22
@@ -1366,7 +1252,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 957,
+            "x": 1170,
             "y": 39,
             "w": 22,
             "h": 22
@@ -1382,7 +1268,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 983,
+            "x": 1196,
             "y": 39,
             "w": 22,
             "h": 22
@@ -1398,7 +1284,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1009,
+            "x": 1222,
             "y": 39,
             "w": 22,
             "h": 22
@@ -1450,6 +1336,118 @@
             "y": 0,
             "w": 0,
             "h": 0
+          }
+        },
+        {
+          "aria": "Agent Section",
+          "title": "",
+          "cls": "pane-header expanded hidden",
+          "text": "Agent",
+          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon codicon codicon-default-view-icon\" custom-hover=\"true\" aria-label=\"Agent\" style=\"color: var(--vscode-s",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "aria": "remote",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "",
+          "innerHTML": "<span class=\"codicon codicon-remote\"></span>",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 7,
+            "y": 1056,
+            "w": 32,
+            "h": 22
+          }
+        },
+        {
+          "aria": "ius-engineering-events (Git) - main*, Checkout Branch/Tag...",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "main*",
+          "innerHTML": "<span class=\"codicon codicon-git-branch-changes\"></span> main*",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 44,
+            "y": 1056,
+            "w": 40,
+            "h": 22
+          }
+        },
+        {
+          "aria": "ius-engineering-events (Git) - Synchronize Changes",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "",
+          "innerHTML": "<span class=\"codicon codicon-sync\"></span>",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 84,
+            "y": 1056,
+            "w": 22,
+            "h": 22
+          }
+        },
+        {
+          "aria": "dashboard Cockpit, Antigravity Cockpit & Dashboard v2.0",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "Cockpit",
+          "innerHTML": "<span class=\"codicon codicon-dashboard\"></span> Cockpit",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 114,
+            "y": 1056,
+            "w": 69,
+            "h": 22
+          }
+        },
+        {
+          "aria": "broadcast Link: 3000, Antigravity Link Server Running - Click to Show QR",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "Link: 3000",
+          "innerHTML": "<span class=\"codicon codicon-broadcast\"></span> Link: 3000",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 190,
+            "y": 1056,
+            "w": 82,
+            "h": 22
+          }
+        },
+        {
+          "aria": "No Problems",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "0 0",
+          "innerHTML": "<span class=\"codicon codicon-error\"></span> 0 <span class=\"codicon codicon-warning\"></span> 0",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 278,
+            "y": 1056,
+            "w": 65,
+            "h": 22
           }
         }
       ]
@@ -1457,7 +1455,7 @@
     {
       "ctxId": 1,
       "frameUrl": "vscode-file://vscode-app/c:/Users/Kaan/AppData/Local/Programs/Antigravity%20IDE/resources/app/out/vs/code/electron-browser/workbench/workbench.html",
-      "totalBtns": 102,
+      "totalBtns": 90,
       "inputBoxFound": true,
       "inputBoxBtns": [
         {
@@ -1473,8 +1471,8 @@
           },
           "visible": true,
           "rect": {
-            "x": 1059,
-            "y": 1001,
+            "x": 1272,
+            "y": 1013,
             "w": 28,
             "h": 28
           }
@@ -1493,8 +1491,8 @@
           },
           "visible": true,
           "rect": {
-            "x": 1088,
-            "y": 1001,
+            "x": 1301,
+            "y": 1013,
             "w": 135,
             "h": 28
           }
@@ -1511,27 +1509,26 @@
           },
           "visible": true,
           "rect": {
-            "x": 1631,
-            "y": 1001,
+            "x": 1844,
+            "y": 1013,
             "w": 28,
             "h": 28
           }
         },
         {
-          "aria": "Send message",
+          "aria": "Cancel (Ctrl+D)",
           "title": "",
-          "cls": "flex items-center justify-center w-7 h-7 p-1.5 rounded-full transition-all duration-150 text-muted-f",
+          "cls": "bg-secondary hover:opacity-90 w-7 h-7 rounded-full cursor-pointer flex items-center justify-center t",
           "text": "",
-          "innerHTML": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 -960 960 960\" fill=\"currentColor\" class=\"w-4 h-4 text-muted-foreground\"><path d=\"M665.08-450H180v-60H665.08L437.23-737.85L480-",
-          "hasSvg": true,
+          "innerHTML": "<div class=\"bg-red-500 w-[0.625rem] h-[0.625rem] rounded-[1px]\"></div>",
+          "hasSvg": false,
           "dataAttrs": {
-            "data-testid": "send-button",
-            "data-tooltip-id": "input-send-button-send-tooltip"
+            "data-tooltip-id": "input-send-button-cancel-tooltip"
           },
           "visible": true,
           "rect": {
-            "x": 1663,
-            "y": 1001,
+            "x": 1876,
+            "y": 1013,
             "w": 28,
             "h": 28
           }
@@ -1548,7 +1545,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1345,
+            "x": 1558,
             "y": 6,
             "w": 22,
             "h": 22
@@ -1596,7 +1593,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1441,
+            "x": 1654,
             "y": 6,
             "w": 22,
             "h": 22
@@ -1612,7 +1609,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1474,
+            "x": 1687,
             "y": 6,
             "w": 22,
             "h": 22
@@ -1628,7 +1625,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1498,
+            "x": 1711,
             "y": 6,
             "w": 22,
             "h": 22
@@ -1644,16 +1641,16 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1522,
+            "x": 1735,
             "y": 4,
             "w": 43,
             "h": 26
           }
         },
         {
-          "aria": "Give feedback",
+          "aria": "About",
           "title": "",
-          "cls": "action-label codicon codicon-feedback",
+          "cls": "action-label codicon codicon-info",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -1667,7 +1664,7 @@
           }
         },
         {
-          "aria": "Settings",
+          "aria": "Open Settings",
           "title": "",
           "cls": "action-label codicon codicon-settings-gear",
           "text": "",
@@ -1683,9 +1680,9 @@
           }
         },
         {
-          "aria": "Logout",
+          "aria": "Refresh Quota",
           "title": "",
-          "cls": "action-label codicon codicon-sign-out",
+          "cls": "action-label codicon codicon-refresh",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -1699,11 +1696,11 @@
           }
         },
         {
-          "aria": "CodeRabbit Section",
+          "aria": "Antigravity Panel Section",
           "title": "",
           "cls": "pane-header expanded hidden",
-          "text": "CodeRabbit",
-          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon view-coderabbit-vscode-sidebar\" custom-hover=\"true\" aria-label=\"CodeRabbit\" style=\"background-color: v",
+          "text": "Antigravity Panel",
+          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon view-tfa-sidebar\" custom-hover=\"true\" aria-label=\"Antigravity Panel\" style=\"background-color: var(--vs",
           "hasSvg": false,
           "dataAttrs": {},
           "visible": false,
@@ -1715,9 +1712,9 @@
           }
         },
         {
-          "aria": "Give feedback",
+          "aria": "About",
           "title": "",
-          "cls": "action-label codicon codicon-feedback",
+          "cls": "action-label codicon codicon-info",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -1731,7 +1728,7 @@
           }
         },
         {
-          "aria": "Settings",
+          "aria": "Open Settings",
           "title": "",
           "cls": "action-label codicon codicon-settings-gear",
           "text": "",
@@ -1747,9 +1744,9 @@
           }
         },
         {
-          "aria": "Logout",
+          "aria": "Refresh Quota",
           "title": "",
-          "cls": "action-label codicon codicon-sign-out",
+          "cls": "action-label codicon codicon-refresh",
           "text": "",
           "innerHTML": "",
           "hasSvg": false,
@@ -1788,7 +1785,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 687,
+            "x": 765,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1804,7 +1801,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 889,
+            "x": 985,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1820,7 +1817,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1160,
+            "x": 1173,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1836,7 +1833,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1438,
+            "x": 1315,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1852,7 +1849,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1778,
+            "x": 1595,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1868,7 +1865,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1951,
+            "x": 1948,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1884,7 +1881,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2200,
+            "x": 2224,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1900,7 +1897,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2332,
+            "x": 2430,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1916,7 +1913,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2575,
+            "x": 2629,
             "y": 40,
             "w": 20,
             "h": 20
@@ -1932,119 +1929,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 2757,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 2952,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3129,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3305,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3561,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3687,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 3945,
-            "y": 40,
-            "w": 20,
-            "h": 20
-          }
-        },
-        {
-          "aria": "Close (Ctrl+F4)",
-          "title": "",
-          "cls": "action-label codicon codicon-close",
-          "text": "",
-          "innerHTML": "",
-          "hasSvg": false,
-          "dataAttrs": {},
-          "visible": true,
-          "rect": {
-            "x": 4205,
+            "x": 2802,
             "y": 40,
             "w": 20,
             "h": 20
@@ -2060,7 +1945,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 905,
+            "x": 1118,
             "y": 39,
             "w": 22,
             "h": 22
@@ -2076,7 +1961,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 931,
+            "x": 1144,
             "y": 39,
             "w": 22,
             "h": 22
@@ -2092,7 +1977,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 957,
+            "x": 1170,
             "y": 39,
             "w": 22,
             "h": 22
@@ -2108,7 +1993,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 983,
+            "x": 1196,
             "y": 39,
             "w": 22,
             "h": 22
@@ -2124,7 +2009,7 @@
           "dataAttrs": {},
           "visible": true,
           "rect": {
-            "x": 1009,
+            "x": 1222,
             "y": 39,
             "w": 22,
             "h": 22
@@ -2176,6 +2061,118 @@
             "y": 0,
             "w": 0,
             "h": 0
+          }
+        },
+        {
+          "aria": "Agent Section",
+          "title": "",
+          "cls": "pane-header expanded hidden",
+          "text": "Agent",
+          "innerHTML": "<div class=\"twisty-container codicon-view-pane-container-expanded codicon\"></div><div class=\"icon codicon codicon-default-view-icon\" custom-hover=\"true\" aria-label=\"Agent\" style=\"color: var(--vscode-s",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": false,
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "aria": "remote",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "",
+          "innerHTML": "<span class=\"codicon codicon-remote\"></span>",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 7,
+            "y": 1056,
+            "w": 32,
+            "h": 22
+          }
+        },
+        {
+          "aria": "ius-engineering-events (Git) - main*, Checkout Branch/Tag...",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "main*",
+          "innerHTML": "<span class=\"codicon codicon-git-branch-changes\"></span> main*",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 44,
+            "y": 1056,
+            "w": 40,
+            "h": 22
+          }
+        },
+        {
+          "aria": "ius-engineering-events (Git) - Synchronize Changes",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "",
+          "innerHTML": "<span class=\"codicon codicon-sync\"></span>",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 84,
+            "y": 1056,
+            "w": 22,
+            "h": 22
+          }
+        },
+        {
+          "aria": "dashboard Cockpit, Antigravity Cockpit & Dashboard v2.0",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "Cockpit",
+          "innerHTML": "<span class=\"codicon codicon-dashboard\"></span> Cockpit",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 114,
+            "y": 1056,
+            "w": 69,
+            "h": 22
+          }
+        },
+        {
+          "aria": "broadcast Link: 3000, Antigravity Link Server Running - Click to Show QR",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "Link: 3000",
+          "innerHTML": "<span class=\"codicon codicon-broadcast\"></span> Link: 3000",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 190,
+            "y": 1056,
+            "w": 82,
+            "h": 22
+          }
+        },
+        {
+          "aria": "No Problems",
+          "title": "",
+          "cls": "statusbar-item-label",
+          "text": "0 0",
+          "innerHTML": "<span class=\"codicon codicon-error\"></span> 0 <span class=\"codicon codicon-warning\"></span> 0",
+          "hasSvg": false,
+          "dataAttrs": {},
+          "visible": true,
+          "rect": {
+            "x": 278,
+            "y": 1056,
+            "w": 65,
+            "h": 22
           }
         }
       ]

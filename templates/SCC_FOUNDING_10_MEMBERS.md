@@ -22,22 +22,33 @@
 
 ---
 
-### PART B: FOUNDING MEMBERS ROSTER (MINIMUM 10 REGISTERED STUDENTS)
-*By affixing their signatures below, the undersigned students confirm their status as actively enrolled students at the International University of Sarajevo and declare their voluntary membership in the founding assembly of the IUS Engineering Club.*
+### PART B: FOUNDING MEMBERS & FORM F252 ACTIVE ROSTER (MINIMUM 10 STUDENTS)
+*Pursuant to SCC Regulations: A student club requires at least 10 enrolled students (including the Executive Board) with verified physical signatures.*
 
-| # | Full Name | Student ID | Faculty & Study Program | Year of Study | Physical Signature |
-| :-: | :--- | :---: | :--- | :---: | :---: |
-| **1** | Bilal Yusuf Şimşek | 250302196 | FENS | 1st Year | ___________________________ |
-| **2** | Nazlıcan Cebeci | 250302243 | FENS | 1st Year | ___________________________ |
-| **3** | Muhammed Emin Tiryaki | 250302247 | FENS | 2nd Year | ___________________________ |
-| **4** | Emin Efe Duman | 250302211 | FENS | 1st Year | ___________________________ |
-| **5** | Ömer Arif Açıkel | 250302232 | FENS | 1st Year | ___________________________ |
-| **6** | Mert Çınar Atalay | 250302162 | FENS | 1st Year | ___________________________ |
-| **7** | Ferit Enes Seymenliler | 240302180 | FENS | 2nd Year | ___________________________ |
-| **8** | Hüseyin Talha Seymenliler | 240302179 | FENS | 2nd Year | ___________________________ |
-| **9** | Muhammed Efe Ural | 240302169 | FENS | 2nd Year | ___________________________ |
-| **10**| Abdullah Uzun | 250201110 | FBA | 1st Year | ___________________________ |
-| **11**| Ahmed Hadzimurati | 260302051 | FENS | 1st Year | ___________________________ |
+#### 1. PRIMARY SIGNATORY ROSTER (FORM F252 TABLE 3 - ON-CAMPUS SIGNING MONDAY / TUESDAY)
+| # | Full Name | Student ID | Faculty / Study Program | Year | Role in Club | Signature Status |
+| :-: | :--- | :---: | :--- | :---: | :--- | :---: |
+| **1** | **Kaan Mete Şenyıldız** | **250302201** | FENS | **2nd Year** | **Club President** | ___________________________ |
+| **2** | **Hasan Kaan Karabulut** | **250302195** | FENS | 1st Year | **Co-Founder & Vice President** | ___________________________ |
+| **3** | **Mahmut İhsan Avcı** | **250302233** | FENS | 1st Year | **Co-Founder & Secretary** | ___________________________ |
+| **4** | **Bekir Enes Çokbekler** | **250302229** | FENS | 1st Year | **Club Treasurer** | ___________________________ |
+| **5** | **Bakir Bašić** | **260302030** | FENS | 1st Year | **PR & Media Lead** | ___________________________ |
+| **6** | **Bilal Yusuf Şimşek** | **250302196** | FENS (CE) | 1st Year | Founding Member | ___________________________ |
+| **7** | **Nazlıcan Cebeci** | **250302243** | FENS (CSE) | 1st Year | Founding Member | ___________________________ |
+| **8** | **Muhammed Emin Tiryaki** | **250302247** | FENS | 2nd Year | Founding Member | ___________________________ |
+| **9** | **Emin Efe Duman** | **250302211** | FENS | 1st Year | Founding Member | ___________________________ |
+| **10**| **Ahmed Hadzimurati** | **260302051** | FENS (SE) | 1st Year | Founding Member | ___________________________ |
+
+#### 2. RESERVE MEMBERS & ALTERNATE SIGNATORY POOL
+*Registered students available to substitute on Form F252 if any primary signatory is absent during campus signing sessions:*
+| # | Full Name | Student ID | Faculty / Study Program | Year | Contact Number |
+| :-: | :--- | :---: | :--- | :---: | :--- |
+| **11**| Ömer Arif Açıkel | 250302232 | FENS | 1st Year | +90 542 553 17 00 |
+| **12**| Mert Çınar Atalay | 250302162 | FENS | 1st Year | +90 542 357 27 33 |
+| **13**| Ferit Enes Seymenliler | 240302180 | FENS | 2nd Year | +90 543 940 82 66 |
+| **14**| Hüseyin Talha Seymenliler | 240302179 | FENS | 2nd Year | 0546 930 94 70 |
+| **15**| Muhammed Efe Ural | 240302169 | FENS | 2nd Year | 0537 560 66 08 |
+| **16**| Abdullah Uzun | 250201110 | FBA | 1st Year | 0536 220 92 36 |
 
 ---
 

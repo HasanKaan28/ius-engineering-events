@@ -1,9 +1,9 @@
 {
   "project": "IUS Engineering Club",
-  "generated_at": "2026-10-08T22:42:40.301652",
+  "generated_at": "2026-10-09T16:14:37.458013",
   "stats": {
-    "total_nodes": 35,
-    "total_edges": 72,
+    "total_nodes": 36,
+    "total_edges": 77,
     "linear_tasks": 10,
     "registered_members": 11,
     "board_members": 5
@@ -57,13 +57,13 @@
     },
     {
       "id": "advisor",
-      "label": "Prof. Dr. Leila Miller (Faculty Advisor)",
+      "label": "Prof. Dr. Leila Miller (Faculty Advisor - Onaylandı)",
       "cluster": "Governance",
       "isGodNode": true,
       "type": "Academic",
       "file": "templates/ACADEMIC_ADVISOR_INVITATION.md",
       "email": "lmiller@ius.edu.ba",
-      "details": "FENS Fakültesinden resmi kulüp akademik danışmanı (Full Professor Dr.). Rektörlük, dekanlık ve UCO nezdinde kurumsal akademik güvence sağlar. Asistan: Ilma Papić.",
+      "details": "FENS Fakültesinden resmi kulüp akademik danışmanı (Full Professor Dr.). Rektörlük, dekanlık ve SCC nezdinde kurumsal akademik güvence sağlar. Form F252 için tek fiziki ıslak imzası alınacaktır (Salı 11:50 Calculus çıkışı, A F2.14). Asistan: Ilma Papić (itarhanis-papic@ius.edu.ba).",
       "x": -740,
       "y": -200
     },
@@ -110,6 +110,17 @@
       "details": "Amfi rezervasyonları, mikrofon/projeksiyon ses sistemleri, akış kontrolü ve ikram lojistiği.",
       "x": -510,
       "y": 270
+    },
+    {
+      "id": "comm_social",
+      "label": "Social Life & Fun Eng (M. Efe Ural)",
+      "cluster": "Committees",
+      "isGodNode": false,
+      "type": "Committee",
+      "file": "organization/ROLE_DESCRIPTIONS.md",
+      "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Gaming turnuvaları, pizza & coding akşamları, lighthearted engineering meydan okumaları ve takım kaynaşması.",
+      "x": -510,
+      "y": 420
     },
     {
       "id": "comm_whatsapp",
@@ -357,19 +368,19 @@
     },
     {
       "id": "linear_task_IUS-5",
-      "label": "[IUS-5] Danışman Resmi Daveti",
+      "label": "[IUS-5] Danışman: Prof. Dr. Leila Miller (Done)",
       "cluster": "Linear Tasks",
-      "isGodNode": true,
+      "isGodNode": false,
       "type": "LinearTask",
       "task_ident": "IUS-5",
-      "task_state": "Todo",
+      "task_state": "Done",
       "task_priority": 1,
       "task_assignee": "Hasan Kaan",
-      "url": "https://linear.app/ius-engineering-events/issue/IUS-5/fens-akademik-danisman-resmi-daveti-ve-onayi",
+      "url": "https://linear.app/ius-engineering-events/issue/IUS-5/fens-akademik-danisman-belirlendi-prof-dr-leila-miller",
       "file": "scripts/linear_ops.py",
       "x": -760,
       "y": -505,
-      "details": "[IUS-5] FENS Akademik Danışman Resmi Daveti ve Onayı\nDurum: Todo | Sorumlu: Hasan Kaan\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-5/fens-akademik-danisman-resmi-daveti-ve-onayi\n\nÖzet: ### 🎯 Görev Amacı:\n\nKulübün arkasında duracak, FENS fakültesinden bir profesörü (Advisor) resmi olarak bağlamak.\n\n### 📄 Doğrudan Açılabilir Resmi Belge:\n\n👉 [**🔗 TIKLAYIN: FENS Akademik Danışman Resmi Davet Mektubu (Linear Dokümanı)**](<https://linear.app/ius-engineering-events/do..."
+      "details": "[IUS-5] 🎉 FENS Akademik Danışman Belirlendi: Prof. Dr. Leila Miller\nDurum: Done | Sorumlu: Hasan Kaan\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-5/fens-akademik-danisman-belirlendi-prof-dr-leila-miller\n\nÖzet: ### 🎯 Danışman Resmi Olarak Belirlendi: Prof. Dr. Leila Miller\n\nFENS fakültemizden resmi kulüp akademik danışmanı olarak **Prof. Dr. Leila Miller (Full Professor Dr.)** ile kesin olarak anlaşılmıştır.\n\n### 📋 Danışman Detayları & İletişim:\n\n* **Akademik Unvan:** Full Professor Dr...."
     },
     {
       "id": "linear_task_IUS-6",
@@ -389,7 +400,7 @@
     },
     {
       "id": "linear_task_IUS-7",
-      "label": "[IUS-7] Yönetim Kurulu Kadrosu",
+      "label": "[IUS-7] Yönetim Kurulu Kadrosu (Done)",
       "cluster": "Linear Tasks",
       "isGodNode": false,
       "type": "LinearTask",
@@ -405,7 +416,7 @@
     },
     {
       "id": "linear_task_IUS-8",
-      "label": "[IUS-8] 10 Üye Birebir Kayıt (2/10)",
+      "label": "[IUS-8] 10 Üye İmza Operasyonu (8/10)",
       "cluster": "Linear Tasks",
       "isGodNode": true,
       "type": "LinearTask",
@@ -655,6 +666,31 @@
       "relation": "COORDINATES_MEDIA"
     },
     {
+      "source": "board_hasan_kaan",
+      "target": "comm_social",
+      "relation": "DIRECTS_COMMITTEE"
+    },
+    {
+      "source": "advisor",
+      "target": "sks",
+      "relation": "RESMI_FAKULTE_ONAYI"
+    },
+    {
+      "source": "advisor",
+      "target": "doc_advisor_letter",
+      "relation": "TEK_ISLAK_IMZA"
+    },
+    {
+      "source": "board_hasan_kaan",
+      "target": "advisor",
+      "relation": "ACADEMIC_LIAISON"
+    },
+    {
+      "source": "advisor",
+      "target": "board_hasan_kaan",
+      "relation": "MENTORS_PRESIDENT"
+    },
+    {
       "source": "comm_software",
       "target": "event_hackathon",
       "relation": "LEADS_TECHNICAL"
@@ -682,7 +718,7 @@
     {
       "source": "board_hasan_kaan",
       "target": "linear_task_IUS-5",
-      "relation": "LEADS_TODO"
+      "relation": "LEADS_DONE"
     },
     {
       "source": "linear_task_IUS-5",

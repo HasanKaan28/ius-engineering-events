@@ -123,6 +123,7 @@ SECTOR_POSITIONS = {
     "comm_software": {"x": -510, "y": -90},
     "comm_multi": {"x": -510, "y": 100},
     "comm_ops": {"x": -510, "y": 270},
+    "comm_social": {"x": -510, "y": 420},
 
     # 📄 BOTTOM SHELF: ŞABLONLAR & RESMİ BELGELER (TEMPLATES ARCHIVE)
     "doc_advisor_letter": {"x": -680, "y": 520},
@@ -255,13 +256,13 @@ def build_observatory_graph():
     # 2. GOVERNANCE & ACADEMIC NODES
     add_node({
         "id": "advisor",
-        "label": "Prof. Dr. Leila Miller (Faculty Advisor)",
+        "label": "Prof. Dr. Leila Miller (Faculty Advisor - Onaylandı)",
         "cluster": "Governance",
         "isGodNode": True,
         "type": "Academic",
         "file": "templates/ACADEMIC_ADVISOR_INVITATION.md",
         "email": "lmiller@ius.edu.ba",
-        "details": "FENS Fakültesinden resmi kulüp akademik danışmanı (Full Professor Dr.). Rektörlük, dekanlık ve UCO nezdinde kurumsal akademik güvence sağlar. Asistan: Ilma Papić."
+        "details": "FENS Fakültesinden resmi kulüp akademik danışmanı (Full Professor Dr.). Rektörlük, dekanlık ve SCC nezdinde kurumsal akademik güvence sağlar. Form F252 için tek fiziki ıslak imzası alınacaktır (Salı 11:50 Calculus çıkışı, A F2.14). Asistan: Ilma Papić (itarhanis-papic@ius.edu.ba)."
     })
 
     add_node({
@@ -303,6 +304,16 @@ def build_observatory_graph():
         "type": "Committee",
         "file": "organization/ROLE_DESCRIPTIONS.md",
         "details": "Amfi rezervasyonları, mikrofon/projeksiyon ses sistemleri, akış kontrolü ve ikram lojistiği."
+    })
+
+    add_node({
+        "id": "comm_social",
+        "label": "Social Life & Fun Eng (M. Efe Ural)",
+        "cluster": "Committees",
+        "isGodNode": False,
+        "type": "Committee",
+        "file": "organization/ROLE_DESCRIPTIONS.md",
+        "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Gaming turnuvaları, pizza & coding akşamları, lighthearted engineering meydan okumaları ve takım kaynaşması."
     })
 
     # 4. COMMUNITY
@@ -459,6 +470,12 @@ def build_observatory_graph():
     edges.append({"source": "board_pr_lead", "target": "board_bekir_enes", "relation": "COLLABORATES_ON_PROMO"})
     edges.append({"source": "board_pr_lead", "target": "board_hasan_kaan", "relation": "COORDINATES_MEDIA"})
 
+    edges.append({"source": "board_hasan_kaan", "target": "comm_social", "relation": "DIRECTS_COMMITTEE"})
+    edges.append({"source": "advisor", "target": "sks", "relation": "RESMI_FAKULTE_ONAYI"})
+    edges.append({"source": "advisor", "target": "doc_advisor_letter", "relation": "TEK_ISLAK_IMZA"})
+    edges.append({"source": "board_hasan_kaan", "target": "advisor", "relation": "ACADEMIC_LIAISON"})
+    edges.append({"source": "advisor", "target": "board_hasan_kaan", "relation": "MENTORS_PRESIDENT"})
+
     # Committee / Event / External Edges
     edges.append({"source": "comm_software", "target": "event_hackathon", "relation": "LEADS_TECHNICAL"})
     edges.append({"source": "ext_industry", "target": "event_hackathon", "relation": "SPONSORS"})
@@ -474,10 +491,10 @@ def build_observatory_graph():
     total_tasks = len(sorted_issues)
 
     CLEAN_TASK_TITLES = {
-        "IUS-5": "Danışman Resmi Daveti",
+        "IUS-5": "Danışman: Prof. Dr. Leila Miller (Done)",
         "IUS-6": "SCC Faaliyet Planı & Bütçe",
-        "IUS-7": "Yönetim Kurulu Kadrosu",
-        "IUS-8": "10 Üye Birebir Kayıt (2/10)",
+        "IUS-7": "Yönetim Kurulu Kadrosu (Done)",
+        "IUS-8": "10 Üye İmza Operasyonu (8/10)",
         "IUS-9": "Kampüs Standı & Afişler",
         "IUS-10": "AI & Prompt Atölyeleri",
         "IUS-11": "Haftalık Online Tech-Talks",

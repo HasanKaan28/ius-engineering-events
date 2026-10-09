@@ -1,0 +1,60 @@
+{
+  "confirmed": [
+    {
+      "id": "250302211",
+      "name": "Emin Efe Duman",
+      "email": "emnfdmn@gmail.com",
+      "phone": "+905413216147",
+      "slot": "Pazartesi 14:50"
+    },
+    {
+      "id": "260302051",
+      "name": "Ahmed Hadzimurati",
+      "email": "260302051@student.ius.edu.ba",
+      "phone": "+38762667105",
+      "slot": "Pazartesi/Salı Kesin"
+    },
+    {
+      "id": "240302169",
+      "name": "Muhammed Efe Ural",
+      "email": "uralefe10@gmail.com",
+      "phone": "05375606608",
+      "slot": "Pazartesi/Salı Kesin"
+    },
+    {
+      "id": "240302179",
+      "name": "Hüseyin Talha Seymenliler",
+      "email": "tseymenliler16@gmail.com",
+      "phone": "05469309470",
+      "slot": "Pazartesi/Salı Kesin"
+    },
+    {
+      "id": "240302180",
+      "name": "Ferit Enes Seymenliler",
+      "email": "eenesseymenliler@gmail.com",
+      "phone": "+905439408266",
+      "slot": "Pazartesi/Salı Kesin"
+    },
+    {
+      "id": "250201110",
+      "name": "Abdullah Uzun",
+      "email": "250201110@student.ius.edu.ba",
+      "phone": "05362209236",
+      "slot": "Pazartesi 14:50 (15:00 öncesi)"
+    },
+    {
+      "id": "250302232",
+      "name": "Ömer Arif Açıkel",
+      "email": "o.arifacikel@gmail.com",
+      "phone": "+90 5425531700",
+      "slot": "Pazartesi 14:50"
+    },
+    {
+      "id": "250302243",
+      "name": "Nazlıcan Cebeci",
+      "email": "nazlii.cebeci@gmail.com",
+      "phone": "+387671491362",
+      "slot": "Salı 11:50 (Calculus çıkışı)"
+    }
+  ]
+}

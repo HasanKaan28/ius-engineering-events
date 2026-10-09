@@ -145,28 +145,47 @@ def fill_docx():
             if len(tcs) > 1:
                 set_cell_text(tcs[1], "lmiller@ius.edu.ba (Assistant: itarhanis-papic@ius.edu.ba)")
 
-    # TABLE 3: Member list (Rows 3..17)
-    members_data = [
-        ("Kaan Mete Şenyıldız", "kmsenyildiz@gmail.com", "250302201"),
-        ("Hasan Kaan Karabulut", "hasankaankarabulut121@gmail.com", "250302195"),
-        ("Mahmut İhsan Avcı", "mahmut.ihsanavcii@gmail.com", "250302233"),
-        ("Bekir Enes Çokbekler", "becokbekler@student.ius.edu.ba", "250302229"),
+    # TABLE 3: Member list (Rows 3..22) - 10 Normal Members (Excluding Executive Board)
+    confirmed_file = os.path.join(os.path.dirname(__file__), '..', 'data', 'confirmed_members.json')
+    active_confirmed = []
+    if os.path.exists(confirmed_file):
+        try:
+            import json
+            with open(confirmed_file, 'r', encoding='utf-8') as f:
+                cdata = json.load(f)
+                active_confirmed = cdata.get('confirmed', [])
+        except Exception:
+            pass
+
+    default_candidates = [
         ("Bilal Yusuf Şimşek", "Simsekbilal59@gmail.com", "250302196"),
         ("Nazlıcan Cebeci", "nazlii.cebeci@gmail.com", "250302243"),
         ("Muhammed Emin Tiryaki", "metiryaki@student.ius.edu.ba", "250302247"),
         ("Emin Efe Duman", "emnfdmn@gmail.com", "250302211"),
-        ("Bakir Bašić", "260302030@student.ius.edu.ba", "260302030"),
+        ("Ahmed Hadzimurati", "260302051@student.ius.edu.ba", "260302051"),
         ("Ömer Arif Açıkel", "o.arifacikel@gmail.com", "250302232"),
         ("Mert Çınar Atalay", "atalayss301@gmail.com", "250302162"),
         ("Ferit Enes Seymenliler", "eenesseymenliler@gmail.com", "240302180"),
         ("Hüseyin Talha Seymenliler", "tseymenliler16@gmail.com", "240302179"),
         ("Muhammed Efe Ural", "uralefe10@gmail.com", "240302169"),
         ("Abdullah Uzun", "250201110@student.ius.edu.ba", "250201110"),
-        ("Ahmed Hadzimurati", "260302051@student.ius.edu.ba", "260302051"),
     ]
+
+    members_data = []
+    seen_ids = set()
+    for c in active_confirmed:
+        members_data.append((c["name"], c["email"], c["id"]))
+        seen_ids.add(c["id"])
+    for cand in default_candidates:
+        if len(members_data) >= 10:
+            break
+        if cand[2] not in seen_ids:
+            members_data.append(cand)
+            seen_ids.add(cand[2])
 
     if len(tbls) > 3:
         rows = tbls[3].findall('w:tr', ns)
+        # Populate the 10 normal members
         for i, m in enumerate(members_data):
             row_idx = 3 + i
             if row_idx < len(rows):
@@ -176,6 +195,13 @@ def fill_docx():
                     set_cell_text(tcs[1], m[0])
                     set_cell_text(tcs[2], m[1])
                     set_cell_text(tcs[3], m[2])
+                    if len(tcs) > 4:
+                        set_cell_text(tcs[4], "")
+        # Clear any rows beyond the active member roster (rows 11 to 20)
+        for row_idx in range(3 + len(members_data), len(rows)):
+            tcs = rows[row_idx].findall('w:tc', ns)
+            for col_idx, tc in enumerate(tcs):
+                set_cell_text(tc, "")
 
     # TABLE 4: APPROVED BY DEAN
     if len(tbls) > 4:

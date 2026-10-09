@@ -68,3 +68,8 @@
 
 ### 6. PR, Branding & Corporate Partnerships
 * **Focus**: High-fidelity visual identity (Instagram, LinkedIn, YouTube), promotional teaser reels, sponsor acquisition decks, and company relations.
+
+### 7. Social Life & Fun Engineering Branch
+* **Lead**: Muhammed Efe Ural (FENS 2nd Year)
+* **Focus**: Campus social vibe, community cohesion, gaming tournaments (FIFA, CS2, board games), pizza & coding nights, and lighthearted engineering challenges (spaghetti bridge, egg-drop, robot-sumo).
+* **Key Formats**: Monthly gaming cups, weekend team dinners, semester social kickoffs.
