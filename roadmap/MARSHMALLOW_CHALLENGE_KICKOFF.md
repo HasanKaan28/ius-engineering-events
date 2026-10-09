@@ -1,7 +1,9 @@
 # IEC Grand Kickoff & Icebreaker: The Marshmallow Challenge
 ## "Build a Tower, Build a Team" — İlk Tanışma & Mühendislik Prototip Turnuvası
 
-**Organizasyon**: IUS Engineering Club (IEC)  
+![IEC Marshmallow Challenge - Team Collaboration](../assets/marshmallow_team.jpg)
+*Fotoğraf 1: Mühendislik öğrencilerinin spagetti kule prototip çalışması ve multidisipliner takım ruhu.*
+
 **Organizasyon**: IUS Engineering Club (IEC)  
 **Tarih / Saat**: Henüz Belli Değil (TBA / Resmi Onay Sonrası Duyurulacak)  
 **Konum**: IUS A-Blok Zemin Kat / Amfi / FENS Maker & Tasarım Alanı  
@@ -33,6 +35,10 @@ Geleneksel öğrenci kulübü tanışma toplantıları genellikle sıkıcı amfi
 ## 2. Resmi Yarışma Kuralları & Malzeme Kiti
 
 ### 📦 Takım Başına Malzeme Çantası (Zarf Kiti):
+
+![Marshmallow Challenge Malzeme Kiti](../assets/marshmallow_kit.jpg)
+*Fotoğraf 2: Takım başına kapalı zarf içinde verilecek standart 20 spagetti, kağıt bant, ip, makas ve marshmallow seti.*
+
 Her 4-5 kişilik masaya kapalı bir zarf içerisinde eksiksiz verilecek malzemeler:
 1. **20 adet** pişmemiş spagetti çubuğu
 2. **1 metre (1 yarda)** kağıt maskeleme bandı (masking tape)
@@ -113,6 +119,9 @@ Bu etkinlik, minimum bütçeyle maksimum öğrenci memnuniyeti sağlayan "Lean E
 ---
 
 ## 6. Ödül Kategorileri & Rozetler
+
+![Spagetti Kulesi ve Yükseklik Ölçümü](../assets/marshmallow_tower.jpg)
+*Fotoğraf 3: Serbest ayakta duran spagetti kafes kiriş kulesi ve şerit metre ile yapılan resmi yükseklik ölçümü.*
 
 Etkinlik sonunda yalnızca bir takımı değil, farklı mühendislik yaklaşımlarını ödüllendirerek herkesin motivasyonu artırılır:
 1. 🏆 **Apex Structural Award (Şampiyon Kule)**: Zeminden en yüksek serbest duran kuleyi yapan takım.

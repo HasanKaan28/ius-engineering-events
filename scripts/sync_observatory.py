@@ -175,8 +175,30 @@ def build_observatory_graph():
       }
     }
     """
-    raw_issues = graphql(issues_query).get("issues", {}).get("nodes", [])
-    print(f"    [✓] {len(raw_issues)} Linear görevi başarıyla alındı.")
+    try:
+        raw_issues = graphql(issues_query).get("issues", {}).get("nodes", [])
+        print(f"    [✓] {len(raw_issues)} Linear görevi başarıyla alındı.")
+    except Exception as e:
+        print(f"    [!] Linear API geçici zaman aşımı ({e}), önbellekten kurtarılıyor...")
+        raw_issues = []
+        if GRAPH_JSON_FILE.exists():
+            try:
+                old_data = json.loads(GRAPH_JSON_FILE.read_text(encoding="utf-8"))
+                for n in old_data.get("nodes", []):
+                    if n.get("type") == "LinearTask":
+                        raw_issues.append({
+                            "id": n["id"],
+                            "identifier": n.get("task_ident", "IUS-1"),
+                            "title": n["label"],
+                            "description": n.get("details", ""),
+                            "priority": n.get("task_priority", 1),
+                            "url": n.get("url", ""),
+                            "state": {"name": n.get("task_state", "Todo")},
+                            "assignee": {"name": n.get("task_assignee", "Hasan Kaan")}
+                        })
+            except Exception:
+                pass
+        print(f"    [✓] {len(raw_issues)} Linear görevi önbellekten yüklendi.")
 
     print("[*] 2/3 Canlı Google Sheets Yanıtları Çekiliyor...")
     sheet_rows = fetch_responses()
