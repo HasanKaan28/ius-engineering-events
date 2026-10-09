@@ -1,16 +1,15 @@
 # IUS Engineering Club: Sosyal Medya & Afiş Tasarım Rehberi
-## Muhammed Efe Ural (Social Media & Instagram Content Lead) Brifingi
+## Muhammed Efe Ural (Social Media & Corporate Sponsorship Lead) Brifingi
 
-Bu doküman, kulübümüzün resmi Instagram hesabı (`@ius.engineeringevents`) ve ilk büyük tanışma etkinliğimiz olan **The Marshmallow Challenge** afiş ve tanıtım kampanyası için hazırlanmış kreatif rehberdir.
+Bu doküman, kulübümüzün resmi Instagram hesabı (`@ius.engineeringevents`), şirket sponsorlukları ve ilk büyük tanışma etkinliğimiz olan **The Marshmallow Challenge** afiş/tanıtım kampanyası için hazırlanmış kreatif rehberdir.
 
 ---
 
 ## 1. Görev & Rol Ayrımı
 
-* **Muhammed Efe Ural (Sosyal Medya, Kreatif İçerik & Fun Engineering Lideri)**:
-  * Instagram hesabının doğrudan yönetimi ve içerik takvimi.
-  * Etkinlik afişi, Instagram Story ve Post tasarımları (Canva / Figma / Illustrator).
-  * Marshmallow Challenge ve benzeri eğlenceli mühendislik turnuvalarının organizasyonu.
+* **Muhammed Efe Ural (Sosyal Medya & Sponsorluk Lideri)**:
+  * **Instagram & Sosyal Medya**: Instagram hesabının (`@ius.engineeringevents`) doğrudan yönetimi, hikaye/reels içerik takvimi ve tüm etkinlik afişi tasarımları.
+  * **Sponsorluk & Kurumsal İlişkiler**: Bekir Enes Çokbekler (Sayman) ile birlikte yerel teknoloji şirketleriyle görüşmeler, kurumsal sponsorluk paketlerinin sunumu ve marka partnerlikleri.
 * **Bakir Bašić (PR & Dış Medya Lideri)**:
   * Kampüs içi afişlerin fiziki baskısı, A/B Blok duyuru panoları.
   * Boşnak öğrenci grupları ve yerel üniversite medyası ile iletişim.

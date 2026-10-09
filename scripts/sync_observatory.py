@@ -308,12 +308,12 @@ def build_observatory_graph():
 
     add_node({
         "id": "comm_social",
-        "label": "Social Media & Fun Eng (M. Efe Ural)",
+        "label": "Social Media & Sponsorship (M. Efe Ural)",
         "cluster": "Committees",
         "isGodNode": True,
         "type": "Committee",
         "file": "organization/ROLE_DESCRIPTIONS.md",
-        "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Resmi Instagram hesabı (@ius.engineeringevents) yönetimi, etkinlik afiş ve görsel tasarımları (Marshmallow Challenge posteri), viral reels, eğlenceli mühendislik yarışmaları ve topluluk enerjisi."
+        "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Resmi Instagram (@ius.engineeringevents) yönetimi, etkinlik afişi ve kreatif tasarımlar (Marshmallow Challenge posteri) ile şirket sponsorluk ilişkileri (Bekir Enes ile ortak koordinasyon)."
     })
 
     # 4. COMMUNITY
@@ -473,7 +473,10 @@ def build_observatory_graph():
     edges.append({"source": "board_pr_lead", "target": "comm_social", "relation": "PROVIDES_PR_ASSETS"})
 
     edges.append({"source": "board_hasan_kaan", "target": "comm_social", "relation": "DIRECTS_COMMITTEE"})
-    edges.append({"source": "comm_social", "target": "event_launch", "relation": "DESIGNS_POSTER_AND_HOSTS"})
+    edges.append({"source": "comm_social", "target": "event_launch", "relation": "DESIGNS_POSTER_PROMO"})
+    edges.append({"source": "comm_social", "target": "doc_sponsorship", "relation": "CO_LEADS_SPONSORSHIPS"})
+    edges.append({"source": "comm_social", "target": "board_bekir_enes", "relation": "COLLABORATES_ON_SPONSORS"})
+    edges.append({"source": "comm_social", "target": "ext_industry", "relation": "REACHES_TECH_COMPANIES"})
     edges.append({"source": "event_launch", "target": "advisor", "relation": "HONOR_JURY"})
     edges.append({"source": "advisor", "target": "sks", "relation": "RESMI_FAKULTE_ONAYI"})
     edges.append({"source": "advisor", "target": "doc_advisor_letter", "relation": "TEK_ISLAK_IMZA"})

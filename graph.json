@@ -1,9 +1,9 @@
 {
   "project": "IUS Engineering Club",
-  "generated_at": "2026-10-09T16:28:51.346373",
+  "generated_at": "2026-10-09T16:34:22.231786",
   "stats": {
     "total_nodes": 37,
-    "total_edges": 87,
+    "total_edges": 90,
     "linear_tasks": 11,
     "registered_members": 11,
     "board_members": 5
@@ -113,12 +113,12 @@
     },
     {
       "id": "comm_social",
-      "label": "Social Media & Fun Eng (M. Efe Ural)",
+      "label": "Social Media & Sponsorship (M. Efe Ural)",
       "cluster": "Committees",
       "isGodNode": true,
       "type": "Committee",
       "file": "organization/ROLE_DESCRIPTIONS.md",
-      "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Resmi Instagram hesabı (@ius.engineeringevents) yönetimi, etkinlik afiş ve görsel tasarımları (Marshmallow Challenge posteri), viral reels, eğlenceli mühendislik yarışmaları ve topluluk enerjisi.",
+      "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Resmi Instagram (@ius.engineeringevents) yönetimi, etkinlik afişi ve kreatif tasarımlar (Marshmallow Challenge posteri) ile şirket sponsorluk ilişkileri (Bekir Enes ile ortak koordinasyon).",
       "x": -510,
       "y": 420
     },
@@ -699,7 +699,22 @@
     {
       "source": "comm_social",
       "target": "event_launch",
-      "relation": "DESIGNS_POSTER_AND_HOSTS"
+      "relation": "DESIGNS_POSTER_PROMO"
+    },
+    {
+      "source": "comm_social",
+      "target": "doc_sponsorship",
+      "relation": "CO_LEADS_SPONSORSHIPS"
+    },
+    {
+      "source": "comm_social",
+      "target": "board_bekir_enes",
+      "relation": "COLLABORATES_ON_SPONSORS"
+    },
+    {
+      "source": "comm_social",
+      "target": "ext_industry",
+      "relation": "REACHES_TECH_COMPANIES"
     },
     {
       "source": "event_launch",

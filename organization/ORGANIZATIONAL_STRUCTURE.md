@@ -69,8 +69,8 @@
 ### 6. PR & External Media Lead (Bakir Bašić)
 * **Focus**: Institutional PR, external media relations, Bosnian student outreach, official notice boards, and university communications.
 
-### 7. Social Media, Creative Design & Fun Engineering Branch (Muhammed Efe Ural)
+### 7. Social Media & Sponsorship Branch (Muhammed Efe Ural)
 * **Lead**: Muhammed Efe Ural (FENS 2nd Year)
-* **Focus**: Direct ownership of Instagram account (`@ius.engineeringevents`), event poster/flyer graphic design (Marshmallow Challenge & Kickoff), viral video reels, social cohesion, and engineering icebreaker challenges.
-* **Key Formats**: Campus event flyers, Instagram countdowns, monthly gaming cups, fun engineering tournaments (Spaghetti towers, bridge battles).
+* **Focus**: Direct ownership of Instagram account (`@ius.engineeringevents`), event poster/flyer graphic design (Marshmallow Challenge & Kickoff), viral video reels, and corporate sponsorship outreach in coordination with the Treasurer.
+* **Key Formats**: Campus event flyers, Instagram countdowns, corporate sponsorship pitch decks, partner networking.
 

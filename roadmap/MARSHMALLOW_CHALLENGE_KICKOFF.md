@@ -6,7 +6,8 @@
 **Konum**: IUS A-Blok Zemin Kat / Amfi / FENS Maker & Tasarım Alanı  
 **Hedef Kitle**: Tüm FENS Mühendislik Öğrencileri (Hazırlık, 1., 2., 3. ve 4. Sınıflar)  
 **Format**: Eğlenceli, Rekabetçi, Hızlı Prototipleme & Multidisipliner Takım Mücadelesi  
-**Ev Sahibi & Moderatör**: Muhammed Efe Ural (*Social Life & Fun Engineering Lead*) & Hasan Kaan (*Kulüp Başkanı*)  
+**Ev Sahibi & Moderatör**: Hasan Kaan (*Kulüp Başkanı*) & Mahmut İhsan Avcı (*Kurucu Ortak & Sekreter*)  
+**Sosyal Medya & Tanıtım Lideri**: Muhammed Efe Ural (*Social Media & Sponsorship Lead*)  
 
 ---
 
@@ -24,7 +25,7 @@ Geleneksel öğrenci kulübü tanışma toplantıları genellikle sıkıcı amfi
 * 18 dakika boyunca sıfır resmiyetle ortak bir hedefe kilitlenerek buzlar anında erir.
 
 ### 📸 Medya & PR Patlaması:
-* Yıkılan kuleler, dev mezura ölçümleri ve kahkahalar, PR Lead **Bakir Bašić** için inanılmaz dinamik Instagram Reels ve LinkedIn lansman içerikleri üretir.
+* Yıkılan kuleler, dev mezura ölçümleri ve kahkahalar, **Muhammed Efe Ural** ve **Bakir Bašić** için inanılmaz dinamik Instagram Reels ve LinkedIn lansman içerikleri üretir.
 
 ---
 
@@ -54,7 +55,7 @@ timeline
     title IEC Kickoff: Marshmallow Challenge Akışı
     14:00 - 14:15 : Kapı Açılışı & Karşılama : Renkli kartlarla karma masa dağılımı
     14:15 - 14:25 : Vizyon & Hoş Geldiniz : Hasan Kaan & Prof. Dr. Leila Miller
-    14:25 - 14:32 : Kural Brifingi : Muhammed Efe Ural sahneye çıkar
+    14:25 - 14:32 : Kural Brifingi : Mahmut İhsan Avcı sahneye çıkar
     14:32 - 14:50 : ⚡ 18 Dakika Challenge : Müzik eşliğinde spagetti kule yarışı
     14:50 - 15:05 : Jüri Ölçümü & Ödül : Mezura şovu ve Şampiyon Takım ilanı
     15:05 - 15:30 : Çay/Kahve & Networking : Komite kayıtları ve toplu fotoğraf
@@ -64,10 +65,10 @@ timeline
 | :--- | :---: | :--- | :--- | :--- |
 | **14:00 – 14:15** | 15 dk | **Kapı Açılışı & Renkli Kura** | Mahmut İhsan & Bekir Enes | Girişte herkes rastgele renkli yaka kartı çeker; aynı renkteki 4-5 kişi aynı masaya oturur. |
 | **14:15 – 14:25** | 10 dk | **IEC Vizyon & Dönem Lansmanı** | Hasan Kaan & Prof. Leila Miller | Kulübün kuruluş vizyonu, DevHack 2027 duyurusu ve Danışman Profesörümüzün selamlama konuşması. |
-| **14:25 – 14:32** | 7 dk | **Meydan Okuma Başlıyor!** | Muhammed Efe Ural | Kuralların eğlenceli sunumu, malzeme çantalarının dağıtımı ve geri sayım hazırlığı. |
-| **14:32 – 14:50** | **18 dk** | **⚡ MARSHMALLOW CHALLENGE** | **Muhammed Efe Ural & Tüm Ekip** | Projeksiyonda 18:00 geri sayım, yüksek enerjili müzik (Mission Impossible / Rock beats), masalar arası canlı anonslar. |
+| **14:25 – 14:32** | 7 dk | **Meydan Okuma Başlıyor!** | Mahmut İhsan Avcı | Kuralların eğlenceli sunumu, malzeme çantalarının dağıtımı ve geri sayım hazırlığı. |
+| **14:32 – 14:50** | **18 dk** | **⚡ MARSHMALLOW CHALLENGE** | **Hasan Kaan & Mahmut İhsan** | Projeksiyonda 18:00 geri sayım, yüksek enerjili müzik (Mission Impossible / Rock beats), masalar arası canlı denetim. |
 | **14:50 – 15:05** | 15 dk | **Büyük Ölçüm & Ödül Töreni** | Prof. Leila Miller & Hasan Kaan | Resmi şerit metre ile en yüksek kule ölçülür. 1. Takıma "Master Prototyper" madalyası/çikolata sepeti verilir. |
-| **15:05 – 15:30** | 25 dk | **Networking, İkram & Kapanış** | Bakir Bašić & Mahmut İhsan | Müzik eşliğinde serbest sohbet, komitelere üye alım formları, WhatsApp daveti ve toplu aile fotoğrafı. |
+| **15:05 – 15:30** | 25 dk | **Networking, İkram & Kapanış** | Muhammed Efe & Bakir Bašić | Müzik eşliğinde serbest sohbet, komitelere üye alım formları, WhatsApp daveti ve toplu aile fotoğrafı. |
 
 ---
 
@@ -91,17 +92,17 @@ Bu etkinlik, minimum bütçeyle maksimum öğrenci memnuniyeti sağlayan "Lean E
 
 * 👑 **Hasan Kaan (Kulüp Başkanı)**:
   * 5 dakikalık kulüp vizyon sunumu (Kulübün hedefleri, teknik komiteler, DevHack 2027).
-  * Prof. Dr. Leila Miller'ı sahneye davet etme ve plaket/teşekkür takdimi.
-* 🚀 **Muhammed Efe Ural (Social Life & Fun Engineering Lead)**:
-  * Etkinliğin baş sunucusu ve moderatörü.
-  * 18 dakikalık geri sayım boyunca amfide elinde mikrofonla masaları gezip komik yorumlar yapma, rekabeti ve enerjiyi yüksek tutma.
+  * Prof. Dr. Leila Miller'ı sahneye davet etme ve açılış moderasyonu.
 * 📋 **Mahmut İhsan Avcı (Kurucu Ortak & Sekreter)**:
   * Girişte katılımcıların isim ve öğrenci numaralarını teyit etme.
-  * Masalara malzeme zarflarını dağıtma ve 18 dakika resmi süresini kronometreyle denetleme.
-* 📣 **Bakir Bašić (PR & Media Lead)**:
-  * Etkinlik afişini hazırlama ("Spagetti, Bant ve Marshmallow ile Mühendislik Başlıyor!").
+  * Masalara malzeme zarflarını dağıtma, kuralları anlatma ve 18 dakika resmi süresini kronometreyle yönetme.
+* 🎨 **Muhammed Efe Ural (Social Media & Corporate Sponsorship Lead)**:
+  * Resmi etkinlik afişini tasarlama ("The Marshmallow Challenge" - Instagram ve baskı flyer).
+  * Instagram geri sayım ve tanıtım kampanyasını yürütme (`@ius.engineeringevents`).
+  * Etkinlik için şirketlerden/kafelerden sembolik ikram ve çikolata/içecek desteği arayışı (Sponsorluk).
+* 📣 **Bakir Bašić (PR & External Media Lead)**:
+  * Afişlerin kampüste fiziki dağıtımı ve panolara asılması.
   * 18 dakikalık yarışma anlarını gimbal/telefonla video kaydına alma; kulelerin yıkılma ve ayakta kalma anlarını yakalama.
-  * Instagram Reels & LinkedIn gönderisi hazırlama.
 * 💰 **Bekir Enes Çokbekler (Sayman & Finans Lideri)**:
   * Market alışverişini yapıp zarfları hazırlama.
   * Kazanan 1. takıma takdim edilecek sembolik hediye/ödülü hazırlama.

@@ -83,15 +83,15 @@
 
 ---
 
-## 8. Social Media, Creative Content & Fun Engineering Lead — Muhammed Efe Ural
+## 8. Social Media & Corporate Sponsorship Lead — Muhammed Efe Ural
 * **Profile**: Student ID: 240302169 | FENS (2nd Year) | Phone: 0537 560 66 08 | Email: `uralefe10@gmail.com`
-* **Core Mission**: Lead the club's digital social media presence (direct ownership of Instagram), create viral and aesthetic promotional posters/reels, and drive fun engineering challenges and community cohesion.
+* **Core Mission**: Lead the club's digital social media presence (direct ownership of Instagram) and co-lead corporate sponsorship relations to fund club operations, workshops, and hackathons.
 * **Direct Responsibilities**:
   * **Instagram & Digital Social Media Hub**: Full direct ownership of official Instagram content creation, story schedules, engagement polls, and aesthetic curation (`@ius.engineeringevents`).
   * **Poster & Visual Design**: Design high-aesthetic event flyers, posters, and story announcements (Current Sprint: *Grand Kickoff & Marshmallow Challenge* poster).
-  * **Fun Engineering Challenges**: Organize interactive challenges (e.g. Marshmallow Challenge, Spaghetti Bridge, Egg Drop aerodynamics, robot-sumo).
-  * **Community Socials**: Coordinate informal social nights (Pizza & Coding, gaming LAN cups, team dinners).
+  * **Corporate Sponsorship Outreach**: Work in close partnership with Bekir Enes Çokbekler (Treasurer) to pitch corporate sponsorship packages (`SPONSORSHIP_PACKAGE.md`) to tech companies across Sarajevo and the region.
+  * **Brand Partnerships & Perks**: Secure brand perks, event refreshments, and student tech swag for club events and DevHack 2027.
 * **Key KPIs**:
   * Rapid Instagram audience growth (>500 active followers in Semester 1).
   * 100% on-time delivery of event posters and promotional stories before every club gathering.
-  * High student attendance and energy at interactive icebreaker events.
+  * Successful corporate sponsorship agreements and partner engagement.
