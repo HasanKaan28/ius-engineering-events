@@ -35,8 +35,8 @@ ius-engineering-events/
 2. **Software & Artificial Intelligence Committee**: CS/SE deep dives, modern web/cloud architecture, LLMs/GenAI, coding bootcamps.
 3. **Applied Engineering Projects**: Practical student development circles, prototypes, and semester showcases.
 4. **Operations & Event Logistics**: Venue reservation (IUS Amphitheater, A-Block, Labs), technical equipment, ticketing/registration.
-5. **PR, Media & Corporate Relations**: Branding, social media, photography, company sponsorships, and Sarajevo tech ecosystem outreach.
-6. **Social Life & Fun Engineering**: Muhammed Efe Ural (FENS 2nd Year) — Gaming tournaments, pizza & coding meetups, lighthearted engineering challenges, and team bonding.
+5. **PR & External Media Lead**: Bakir Bašić (FENS 1st Year) — Institutional PR, media relations, photography, university announcements, and Bosnian community outreach.
+6. **Social Media, Creative Design & Fun Engineering Lead**: Muhammed Efe Ural (FENS 2nd Year) — Direct ownership of Instagram (`@ius.engineeringevents`), visual poster designs (Marshmallow Challenge kickoff flyer), viral reels, pizza & coding meetups, lighthearted engineering challenges, and team bonding.
 
 ## 4. Operational Infrastructure & Integrations
 - **Management Team Application Form**: [https://forms.gle/v8c85MgFUmVvpzTH6](https://forms.gle/v8c85MgFUmVvpzTH6)

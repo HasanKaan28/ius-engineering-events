@@ -66,10 +66,11 @@
 ### 5. Event Operations & Logistics
 * **Focus**: Stage and venue management, sound/AV testing, guest speaker hospitality, badge distribution, and attendee flow control.
 
-### 6. PR, Branding & Corporate Partnerships
-* **Focus**: High-fidelity visual identity (Instagram, LinkedIn, YouTube), promotional teaser reels, sponsor acquisition decks, and company relations.
+### 6. PR & External Media Lead (Bakir Bašić)
+* **Focus**: Institutional PR, external media relations, Bosnian student outreach, official notice boards, and university communications.
 
-### 7. Social Life & Fun Engineering Branch
+### 7. Social Media, Creative Design & Fun Engineering Branch (Muhammed Efe Ural)
 * **Lead**: Muhammed Efe Ural (FENS 2nd Year)
-* **Focus**: Campus social vibe, community cohesion, gaming tournaments (FIFA, CS2, board games), pizza & coding nights, and lighthearted engineering challenges (spaghetti bridge, egg-drop, robot-sumo).
-* **Key Formats**: Monthly gaming cups, weekend team dinners, semester social kickoffs.
+* **Focus**: Direct ownership of Instagram account (`@ius.engineeringevents`), event poster/flyer graphic design (Marshmallow Challenge & Kickoff), viral video reels, social cohesion, and engineering icebreaker challenges.
+* **Key Formats**: Campus event flyers, Instagram countdowns, monthly gaming cups, fun engineering tournaments (Spaghetti towers, bridge battles).
+

@@ -69,26 +69,29 @@
 
 ---
 
-## 7. PR, Branding & Social Media Lead — Bakir Bašić
+## 7. PR & External Media Lead — Bakir Bašić
 * **Profile**: Student ID: 260302030 | FENS (1st Year) | Phone: +387-61-533-947
-* **Core Mission**: Create a vibrant, unmistakable brand presence that attracts students, sponsors, and faculty.
+* **Core Mission**: Establish strong institutional visibility, external media outreach, university public relations, and local Bosnian student community integration.
 * **Direct Responsibilities**:
-  * Design modern, sleek promotional visuals (posters, banners, Instagram stories/reels, LinkedIn posts).
-  * Run promotional campaigns across IUS campus and digital student groups.
-  * Capture high-quality photos and video recaps during all events.
+  * Oversee institutional PR campaigns, university notice boards, and Bosnian student community engagement.
+  * Coordinate with local press, student council (SCC), and external university media.
+  * Event day official photography and press release writing.
+  * Work in close synergy with Muhammed Efe Ural on visual campaigns and promotional drives.
 * **Key KPIs**:
-  * Follower growth and engagement (>500 active followers in Semester 1).
-  * Turnaround time for post-event recaps < 48 hours.
+  * Comprehensive campus coverage across all university buildings.
+  * Rapid post-event press and media release turnaround.
 
 ---
 
-## 8. Social Life & Fun Engineering Lead — Muhammed Efe Ural
+## 8. Social Media, Creative Content & Fun Engineering Lead — Muhammed Efe Ural
 * **Profile**: Student ID: 240302169 | FENS (2nd Year) | Phone: 0537 560 66 08 | Email: `uralefe10@gmail.com`
-* **Core Mission**: Drive campus social vibrancy, peer bonding, and entertaining engineering challenges so the club is both intellectually elite and culturally exciting.
+* **Core Mission**: Lead the club's digital social media presence (direct ownership of Instagram), create viral and aesthetic promotional posters/reels, and drive fun engineering challenges and community cohesion.
 * **Direct Responsibilities**:
-  * Organize informal community gatherings: Pizza & Coding nights, gaming/LAN tournaments (FIFA, CS2), and board game sessions.
-  * Plan fun engineering challenges (e.g. Spaghetti Bridge contests, egg-drop challenges, paper plane aerodynamics, robot-sumo).
-  * Coordinate off-campus social outings, coffee meetups, and team celebrations for club members.
+  * **Instagram & Digital Social Media Hub**: Full direct ownership of official Instagram content creation, story schedules, engagement polls, and aesthetic curation (`@ius.engineeringevents`).
+  * **Poster & Visual Design**: Design high-aesthetic event flyers, posters, and story announcements (Current Sprint: *Grand Kickoff & Marshmallow Challenge* poster).
+  * **Fun Engineering Challenges**: Organize interactive challenges (e.g. Marshmallow Challenge, Spaghetti Bridge, Egg Drop aerodynamics, robot-sumo).
+  * **Community Socials**: Coordinate informal social nights (Pizza & Coding, gaming LAN cups, team dinners).
 * **Key KPIs**:
-  * At least 2 major social / fun engineering events per semester.
-  * High member satisfaction and active social cohesion across cohorts.
+  * Rapid Instagram audience growth (>500 active followers in Semester 1).
+  * 100% on-time delivery of event posters and promotional stories before every club gathering.
+  * High student attendance and energy at interactive icebreaker events.

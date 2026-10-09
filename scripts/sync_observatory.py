@@ -308,12 +308,12 @@ def build_observatory_graph():
 
     add_node({
         "id": "comm_social",
-        "label": "Social Life & Fun Eng (M. Efe Ural)",
+        "label": "Social Media & Fun Eng (M. Efe Ural)",
         "cluster": "Committees",
-        "isGodNode": False,
+        "isGodNode": True,
         "type": "Committee",
         "file": "organization/ROLE_DESCRIPTIONS.md",
-        "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Gaming turnuvaları, pizza & coding akşamları, lighthearted engineering meydan okumaları ve takım kaynaşması."
+        "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Resmi Instagram hesabı (@ius.engineeringevents) yönetimi, etkinlik afiş ve görsel tasarımları (Marshmallow Challenge posteri), viral reels, eğlenceli mühendislik yarışmaları ve topluluk enerjisi."
     })
 
     # 4. COMMUNITY
@@ -469,9 +469,11 @@ def build_observatory_graph():
 
     edges.append({"source": "board_pr_lead", "target": "board_bekir_enes", "relation": "COLLABORATES_ON_PROMO"})
     edges.append({"source": "board_pr_lead", "target": "board_hasan_kaan", "relation": "COORDINATES_MEDIA"})
+    edges.append({"source": "comm_social", "target": "board_pr_lead", "relation": "COORDINATES_INSTAGRAM_PR"})
+    edges.append({"source": "board_pr_lead", "target": "comm_social", "relation": "PROVIDES_PR_ASSETS"})
 
     edges.append({"source": "board_hasan_kaan", "target": "comm_social", "relation": "DIRECTS_COMMITTEE"})
-    edges.append({"source": "comm_social", "target": "event_launch", "relation": "CO_HOSTS_CHALLENGE"})
+    edges.append({"source": "comm_social", "target": "event_launch", "relation": "DESIGNS_POSTER_AND_HOSTS"})
     edges.append({"source": "event_launch", "target": "advisor", "relation": "HONOR_JURY"})
     edges.append({"source": "advisor", "target": "sks", "relation": "RESMI_FAKULTE_ONAYI"})
     edges.append({"source": "advisor", "target": "doc_advisor_letter", "relation": "TEK_ISLAK_IMZA"})

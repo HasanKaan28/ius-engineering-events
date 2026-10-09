@@ -1,9 +1,9 @@
 {
   "project": "IUS Engineering Club",
-  "generated_at": "2026-10-09T16:26:13.211635",
+  "generated_at": "2026-10-09T16:28:51.346373",
   "stats": {
     "total_nodes": 37,
-    "total_edges": 85,
+    "total_edges": 87,
     "linear_tasks": 11,
     "registered_members": 11,
     "board_members": 5
@@ -113,12 +113,12 @@
     },
     {
       "id": "comm_social",
-      "label": "Social Life & Fun Eng (M. Efe Ural)",
+      "label": "Social Media & Fun Eng (M. Efe Ural)",
       "cluster": "Committees",
-      "isGodNode": false,
+      "isGodNode": true,
       "type": "Committee",
       "file": "organization/ROLE_DESCRIPTIONS.md",
-      "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Gaming turnuvaları, pizza & coding akşamları, lighthearted engineering meydan okumaları ve takım kaynaşması.",
+      "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Resmi Instagram hesabı (@ius.engineeringevents) yönetimi, etkinlik afiş ve görsel tasarımları (Marshmallow Challenge posteri), viral reels, eğlenceli mühendislik yarışmaları ve topluluk enerjisi.",
       "x": -510,
       "y": 420
     },
@@ -682,6 +682,16 @@
       "relation": "COORDINATES_MEDIA"
     },
     {
+      "source": "comm_social",
+      "target": "board_pr_lead",
+      "relation": "COORDINATES_INSTAGRAM_PR"
+    },
+    {
+      "source": "board_pr_lead",
+      "target": "comm_social",
+      "relation": "PROVIDES_PR_ASSETS"
+    },
+    {
       "source": "board_hasan_kaan",
       "target": "comm_social",
       "relation": "DIRECTS_COMMITTEE"
@@ -689,7 +699,7 @@
     {
       "source": "comm_social",
       "target": "event_launch",
-      "relation": "CO_HOSTS_CHALLENGE"
+      "relation": "DESIGNS_POSTER_AND_HOSTS"
     },
     {
       "source": "event_launch",
