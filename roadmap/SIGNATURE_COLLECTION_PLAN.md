@@ -27,9 +27,9 @@
 
 ---
 
-## 2. CANLI İMZA ONAY DURUMU (8 / 10 ONAYLANDI — %80 TAMAMLANDI! 🎯)
+## 2. CANLI İMZA ONAY DURUMU (9 / 10 ONAYLANDI — %90 TAMAMLANDI! 🎯)
 
-### ✅ KESİNLEŞEN ÜYELER (İLK 8 KİŞİ KİLİTLENDİ):
+### ✅ KESİNLEŞEN ÜYELER (9 KİŞİ KİLİTLENDİ):
 | # | İsim Soyisim | Öğrenci No | Bölüm / Sınıf | Uyruk | WhatsApp | Onay Durumu / Buluşma |
 | :-: | :--- | :---: | :---: | :---: | :--- | :--- |
 | **1** | **Emin Efe Duman** | 250302211 | FENS / 1. Sınıf | 🇹🇷 TR | `+90 541 321 6147` | **✅ ONAYLANDI** — Pazartesi 14:50 |
@@ -40,15 +40,15 @@
 | **6** | **Abdullah Uzun** | 250201110 | FBA / 1. Sınıf | 🇹🇷 TR | `0536 220 92 36` | **✅ ONAYLANDI** — Pazartesi 14:50 (15:00 öncesi) |
 | **7** | **Ömer Arif Açıkel** | 250302232 | FENS / 1. Sınıf | 🇹🇷 TR | `+90 542 553 17 00` | **✅ ONAYLANDI** — Pazartesi 14:50 |
 | **8** | **Nazlıcan Cebeci** | 250302243 | CSE / 1. Sınıf | 🇹🇷 TR | `+387 67 149 1362` | **✅ ONAYLANDI** — Salı 11:50 (Calculus çıkışı) |
+| **9** | **Bilal Yusuf Şimşek** | 250302196 | Bilgisayar Müh. / 1 | 🇹🇷 TR | `0551 078 9863` | **✅ ONAYLANDI** — Salı 14:50 (15:00 dersi öncesi) |
 
 ---
 
-### ⏳ YANIT BEKLENEN VE SON 2 KİŞİLİK KOTAYI DOLDURACAK ADAYLAR (3 KİŞİ):
-*Aşağıdaki 3 kişiden yanıt veren ilk 2 kişi doğrudan 10'luk listeyi doldurup tamamlayacaktır:*
+### ⏳ YANIT BEKLENEN VE SON 1 KİŞİLİK KOTAYI DOLDURACAK ADAYLAR (2 KİŞİ):
+*Aşağıdaki 2 kişiden yanıt veren İLK KİŞİ doğrudan 10'luk resmi listeyi kapatacaktır (%100 tamamlandı):*
 
 | # | İsim Soyisim | Öğrenci No | Bölüm / Sınıf | Uyruk | WhatsApp | Durum |
 | :-: | :--- | :---: | :---: | :---: | :--- | :--- |
-| **9** | **Bilal Yusuf Şimşek** | 250302196 | Bilgisayar Müh. / 1 | 🇹🇷 TR | `0551 078 9863` | ⏳ Mesaj Gönderildi / Bekleniyor |
 | **10**| **Muhammed Emin Tiryaki** | 250302247 | FENS / 2. Sınıf | 🇹🇷 TR | `0538 484 9161` | ⏳ Mesaj Gönderildi / Bekleniyor |
 | **11**| **Mert Çınar Atalay** | 250302162 | FENS / 1. Sınıf | 🇹🇷 TR | `+90 542 357 27 33` | ⏳ Mesaj Gönderildi / Bekleniyor |
 
