@@ -33,6 +33,8 @@ mutation UpdateIssue($id: String!, $input: IssueUpdateInput!) {
 description = """### 🎪 Etkinlik Amacı & Konsept:
 IUS Engineering Club (IEC) resmi kuruluş lansmanı ve tüm FENS öğrencileri için ilk büyük tanışma toplantısı! Klasik ve sıkıcı amfi sunumları yerine, dünya çapında (Stanford, Google, TED) uygulanan **Marshmallow Challenge** ile mühendislik ruhunu aksiyonla başlatıyoruz.
 
+> ⏳ **Tarih & Saat:** **HENÜZ BELLİ DEĞİL (TBA)**. Kulüp resmi başvurusu ve amfi rezervasyonunun tamamlanmasının ardından ders programlarına en uygun saatte duyurulacaktır. Afişte tarih ve saat alanı şablon olarak bırakılacaktır.
+
 ---
 
 ### 📋 Etkinlik Mimarisi & Marshmallow Challenge Detayları:
@@ -43,7 +45,7 @@ IUS Engineering Club (IEC) resmi kuruluş lansmanı ve tüm FENS öğrencileri i
   - **Kural:** Kule serbest ayakta durmalı (free-standing), marshmallow tek parça halinde en tepede olmalı!
   - **Mühendislik Dersi:** Kindergarten vs MBA paradoksu — laf kalabalığı yerine hızlı iterasyon, kafes kiriş (truss) statiği ve stres testi.
 - [ ] **Moderatör & Salon Akışı:** **Hasan Kaan** & **Mahmut İhsan Avcı** (Kurucu Liderlik) — Geri sayım, kurallar, masalar arası canlı denetim ve enerji yönetimi.
-- [ ] **🎨 Sosyal Medya, Instagram & Afiş (Fiili Lider):** **Muhammed Efe Ural** (Sosyal Medya & Sponsorluk Lideri) — Resmi etkinlik afişi tasarımı, Instagram (`@ius.engineeringevents`) lansmanı, anlık story ve reels paylaşımları, şirket ikram/sponsorlukları.
+- [ ] **🎨 Sosyal Medya, Instagram & Afiş (Fiili Lider):** **Muhammed Efe Ural** (Sosyal Medya & Sponsorluk Lideri) — Resmi etkinlik afişi tasarımı (Tarih/saat ve Instagram kullanıcı adı TBA şablonlu), Instagram lansmanı (hesap açıldığında), anlık story ve reels paylaşımları, şirket ikram/sponsorlukları.
 - [ ] **📢 Resmi PR & Kampüs İletişimi:** **Bakir Bašić** (Resmi PR Lead - SCC Evrak Temsilcisi) — Üniversite duyuru panoları, afişlerin fiziksel asımı, resmi SCC ve Boşnak öğrenci iletişimi.
 - [ ] **Jüri Ölçümü & Ödüller:** Prof. Dr. Leila Miller ve Hasan Kaan tarafından şerit metreyle en yüksek kulenin ölçülmesi; *Apex Tower*, *Best Architecture* ve *Epic Crash* ödülleri.
 - [ ] **Lojistik & Malzeme:** Bekir Enes Çokbekler (Sayman) tarafından malzeme kitlerinin (~24 KM bütçe) hazırlanması.
@@ -59,7 +61,9 @@ IUS Engineering Club (IEC) resmi kuruluş lansmanı ve tüm FENS öğrencileri i
 res = graphql(mutation, {
     "id": ius15["id"],
     "input": {
+        "title": "🎪 [TBA / Tarih Belirlenecek] IEC Büyük Tanışma Toplantısı: The Marshmallow Challenge (Icebreaker & Spagetti Kuleleri)",
         "description": description
     }
 })
-print("[✓] Linear IUS-15 Açıklaması Güncellendi:", res)
+print("[✓] Linear IUS-15 Güncellendi (TBA):", res)
+

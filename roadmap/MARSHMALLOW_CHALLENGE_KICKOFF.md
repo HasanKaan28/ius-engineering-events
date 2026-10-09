@@ -98,7 +98,7 @@ Bu etkinlik, minimum bütçeyle maksimum öğrenci memnuniyeti sağlayan "Lean E
   * Masalara malzeme zarflarını dağıtma, kuralları anlatma ve 18 dakika resmi süresini kronometreyle yönetme.
 * 🎨 **Muhammed Efe Ural (Social Media & Corporate Sponsorship Lead)**:
   * Resmi etkinlik afişini tasarlama ("The Marshmallow Challenge" - Instagram ve baskı flyer).
-  * Instagram geri sayım ve tanıtım kampanyasını yürütme (`@ius.engineeringevents`).
+  * Instagram geri sayım ve tanıtım kampanyasını yürütme (hesap açıldığında).
   * Etkinlik için şirketlerden/kafelerden sembolik ikram ve çikolata/içecek desteği arayışı (Sponsorluk).
 * 📣 **Bakir Bašić (PR & External Media Lead)**:
   * Afişlerin kampüste fiziki dağıtımı ve panolara asılması.

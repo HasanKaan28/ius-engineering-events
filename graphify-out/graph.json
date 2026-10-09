@@ -1,6 +1,6 @@
 {
   "project": "IUS Engineering Club",
-  "generated_at": "2026-10-09T16:36:57.309891",
+  "generated_at": "2026-10-09T16:44:56.707155",
   "stats": {
     "total_nodes": 37,
     "total_edges": 90,
@@ -118,7 +118,7 @@
       "isGodNode": true,
       "type": "Committee",
       "file": "organization/ROLE_DESCRIPTIONS.md",
-      "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Resmi Instagram (@ius.engineeringevents) yönetimi, etkinlik afişi ve kreatif tasarımlar (Marshmallow Challenge posteri) ile şirket sponsorluk ilişkileri (Bekir Enes ile ortak koordinasyon).",
+      "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Kulübün açılacak resmi Instagram hesabı yönetimi, etkinlik afişi ve kreatif tasarımlar (Marshmallow Challenge posteri) ile şirket sponsorluk ilişkileri (Bekir Enes ile ortak koordinasyon).",
       "x": -510,
       "y": 420
     },
@@ -350,7 +350,7 @@
       "role_title": "📣 Resmi PR Lead (Statutory PR Representative)",
       "student_id": "260302030",
       "dept": "FENS (1. Sınıf)",
-      "duties": "SCC resmi başvurusundaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Üniversite duyuru panoları, resmi basın ve kurumsal iletişimi koordine eder. Kulübün fiili sosyal medya içerikleri, Instagram (@ius.engineeringevents), görsel afiş tasarımları ve reels paylaşımları doğrudan Muhammed Efe Ural tarafından yürütülür.",
+      "duties": "SCC resmi başvurusundaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Üniversite duyuru panoları, resmi basın ve kurumsal iletişimi koordine eder. Kulübün fiili sosyal medya içerikleri, açılacak resmi Instagram hesabı, görsel afiş tasarımları ve reels paylaşımları doğrudan Muhammed Efe Ural tarafından yürütülür.",
       "tools": [
         "Resmi Duyuru Panoları",
         "SCC Temsilcilik Evrakları",
@@ -363,7 +363,7 @@
         "Mahmut İhsan (İdari Duyurular)",
         "Bekir Enes (Bütçe)"
       ],
-      "details": "[📣 Resmi PR Lead (Statutory PR Representative)] FENS (1. Sınıf) - No: 260302030\nGörevler: SCC resmi başvurusundaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Üniversite duyuru panoları, resmi basın ve kurumsal iletişimi koordine eder. Kulübün fiili sosyal medya içerikleri, Instagram (@ius.engineeringevents), görsel afiş tasarımları ve reels paylaşımları doğrudan Muhammed Efe Ural tarafından yürütülür.",
+      "details": "[📣 Resmi PR Lead (Statutory PR Representative)] FENS (1. Sınıf) - No: 260302030\nGörevler: SCC resmi başvurusundaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Üniversite duyuru panoları, resmi basın ve kurumsal iletişimi koordine eder. Kulübün fiili sosyal medya içerikleri, açılacak resmi Instagram hesabı, görsel afiş tasarımları ve reels paylaşımları doğrudan Muhammed Efe Ural tarafından yürütülür.",
       "x": 140,
       "y": 180
     },
@@ -537,11 +537,11 @@
       "task_state": "Todo",
       "task_priority": 1,
       "task_assignee": "Hasan Kaan",
-      "url": "https://linear.app/ius-engineering-events/issue/IUS-15/kasim-1-hafta-iec-buyuk-tanisma-toplantisi-the-marshmallow-challenge",
+      "url": "https://linear.app/ius-engineering-events/issue/IUS-15/tba-tarih-belirlenecek-iec-buyuk-tanisma-toplantisi-the-marshmallow",
       "file": "scripts/linear_ops.py",
       "x": 760,
       "y": -505,
-      "details": "[IUS-15] 🎪 [Kasım 1. Hafta] IEC Büyük Tanışma Toplantısı: The Marshmallow Challenge (Icebreaker & Spagetti Kuleleri)\nDurum: Todo | Sorumlu: Hasan Kaan\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-15/kasim-1-hafta-iec-buyuk-tanisma-toplantisi-the-marshmallow-challenge\n\nÖzet: ### 🎪 Etkinlik Amacı & Konsept:\n\nIUS Engineering Club (IEC) resmi kuruluş lansmanı ve tüm FENS öğrencileri için ilk büyük tanışma toplantısı! Klasik ve sıkıcı amfi sunumları yerine, dünya çapında (Stanford, Google, TED) uygulanan **Marshmallow Challenge** ile mühendislik ruhunu a..."
+      "details": "[IUS-15] 🎪 [TBA / Tarih Belirlenecek] IEC Büyük Tanışma Toplantısı: The Marshmallow Challenge (Icebreaker & Spagetti Kuleleri)\nDurum: Todo | Sorumlu: Hasan Kaan\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-15/tba-tarih-belirlenecek-iec-buyuk-tanisma-toplantisi-the-marshmallow\n\nÖzet: ### 🎪 Etkinlik Amacı & Konsept:\n\nIUS Engineering Club (IEC) resmi kuruluş lansmanı ve tüm FENS öğrencileri için ilk büyük tanışma toplantısı! Klasik ve sıkıcı amfi sunumları yerine, dünya çapında (Stanford, Google, TED) uygulanan **Marshmallow Challenge** ile mühendislik ruhunu a..."
     },
     {
       "id": "members_cohort",

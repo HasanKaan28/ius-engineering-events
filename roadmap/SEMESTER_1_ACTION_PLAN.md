@@ -34,7 +34,7 @@ gantt
 * **Task 1.3**: Submit official registration package to IUS Student Affairs Office (SKS).
 * **Task 1.4**: Establish digital infrastructure:
   * Official Email / Google Workspace
-  * Linktree / Instagram (`@ius.engineeringevents`) / LinkedIn Page
+  * Linktree / Resmi Instagram Hesabı (Yakında Açılacak) / LinkedIn Page
   * Official WhatsApp Community Group for all engineering students
 
 ### Weeks 3–4: Campus Buzz & Grand Kickoff Launch

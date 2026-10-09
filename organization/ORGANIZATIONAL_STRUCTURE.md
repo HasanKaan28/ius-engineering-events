@@ -71,6 +71,6 @@
 
 ### 7. Social Media & Sponsorship Branch (Muhammed Efe Ural)
 * **Lead**: Muhammed Efe Ural (FENS 2nd Year)
-* **Focus**: Direct ownership of Instagram account (`@ius.engineeringevents`), event poster/flyer graphic design (Marshmallow Challenge & Kickoff), viral video reels, and corporate sponsorship outreach in coordination with the Treasurer.
+* **Focus**: Direct ownership of the club's upcoming official Instagram account, event poster/flyer graphic design (Marshmallow Challenge & Kickoff), viral video reels, and corporate sponsorship outreach in coordination with the Treasurer.
 * **Key Formats**: Campus event flyers, Instagram countdowns, corporate sponsorship pitch decks, partner networking.
 

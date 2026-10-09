@@ -87,7 +87,7 @@
 * **Profile**: Student ID: 240302169 | FENS (2nd Year) | Phone: 0537 560 66 08 | Email: `uralefe10@gmail.com`
 * **Core Mission**: Lead the club's digital social media presence (direct ownership of Instagram) and co-lead corporate sponsorship relations to fund club operations, workshops, and hackathons.
 * **Direct Responsibilities**:
-  * **Instagram & Digital Social Media Hub**: Full direct ownership of official Instagram content creation, story schedules, engagement polls, and aesthetic curation (`@ius.engineeringevents`).
+  * **Instagram & Digital Social Media Hub**: Full direct ownership of official Instagram content creation, story schedules, engagement polls, and aesthetic curation (resmi hesap açıldığında).
   * **Poster & Visual Design**: Design high-aesthetic event flyers, posters, and story announcements (Current Sprint: *Grand Kickoff & Marshmallow Challenge* poster).
   * **Corporate Sponsorship Outreach**: Work in close partnership with Bekir Enes Çokbekler (Treasurer) to pitch corporate sponsorship packages (`SPONSORSHIP_PACKAGE.md`) to tech companies across Sarajevo and the region.
   * **Brand Partnerships & Perks**: Secure brand perks, event refreshments, and student tech swag for club events and DevHack 2027.

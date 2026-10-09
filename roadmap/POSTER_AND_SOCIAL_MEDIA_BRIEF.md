@@ -1,25 +1,25 @@
 # IUS Engineering Club: Sosyal Medya & Afiş Tasarım Rehberi
 ## Muhammed Efe Ural (Social Media & Corporate Sponsorship Lead) Brifingi
 
-Bu doküman, kulübümüzün resmi Instagram hesabı (`@ius.engineeringevents`), şirket sponsorlukları ve ilk büyük tanışma etkinliğimiz olan **The Marshmallow Challenge** afiş/tanıtım kampanyası için hazırlanmış kreatif rehberdir.
+Bu doküman, kulübümüzün şirket sponsorlukları, yakında açılacak resmi Instagram hesabı ve ilk büyük tanışma etkinliğimiz olan **The Marshmallow Challenge** afiş/tanıtım hazırlıkları için oluşturulmuş kreatif rehberdir.
 
 ---
 
 ## 1. Görev & Rol Ayrımı
 
 * **Muhammed Efe Ural (Sosyal Medya & Sponsorluk Lideri)**:
-  * **Instagram & Sosyal Medya**: Instagram hesabının (`@ius.engineeringevents`) doğrudan yönetimi, hikaye/reels içerik takvimi ve tüm etkinlik afişi tasarımları.
+  * **Sosyal Medya & Tasarım**: Kulüp resmi Instagram hesabı açıldığında doğrudan yönetimi, hikaye/reels içerik takvimi ve tüm etkinlik afişi tasarımları.
   * **Sponsorluk & Kurumsal İlişkiler**: Bekir Enes Çokbekler (Sayman) ile birlikte yerel teknoloji şirketleriyle görüşmeler, kurumsal sponsorluk paketlerinin sunumu ve marka partnerlikleri.
 * **Bakir Bašić (PR & Dış Medya Lideri)**:
   * Kampüs içi afişlerin fiziki baskısı, A/B Blok duyuru panoları.
-  * Boşnak öğrenci grupları ve yerel üniversite medyası ile iletişim.
+  * Boşnak öğrenci grupları ve yerel üniversite medyası ile kurumsal iletişim.
   * Etkinlik günü yüksek kaliteli fotoğraf/video çekimi.
 
 ---
 
 ## 2. Marshmallow Challenge Afişi İçin Gerekli Bilgiler
 
-Efe'nin hazırlayacağı afişte yer alması gereken zorunlu metinler ve hiyerarşi:
+Efe'nin hazırlayacağı afişte yer alması gereken şablon metinler ve hiyerarşi:
 
 ### 🏷️ Başlıklar & Sloganlar:
 * **Kulüp Üst Başlığı**: `IUS ENGINEERING CLUB PRESENTS`
@@ -28,14 +28,15 @@ Efe'nin hazırlayacağı afişte yer alması gereken zorunlu metinler ve hiyerar
 * **Konsept Vurgusu**: 20 Spagetti, 1 Metre Bant, 1 Metre İp, 1 Marshmallow. 18 Dakika.
 
 ### 📅 Tarih, Saat & Konum Kutucuğu:
-* **Tarih**: Kasım 1. Hafta (Örn: Çarşamba / Perşembe)
-* **Saat**: 14:00 – 15:30 (Ders çıkış aralığına uygun)
-* **Konum**: IUS A-Blok Zemin Kat / Ana Amfi & Fuaye
+* ⚠️ **TARİH & SAAT: HENÜZ BELLİ DEĞİL (TBA)**
+  * *Not:* Kulüp resmi onayı ve amfi rezervasyonu tamamlanınca kesin gün ve saat eklenecektir.
+  * *Afişteki Şablon Metin:* `DATE & TIME: ANNOUNCING SOON / TBA`
+* **Konum**: IUS A-Blok Zemin Kat / Ana Amfi & Fuaye (TBA)
 * **Hedef Kitle**: Tüm FENS Mühendislik Bölümleri (CS, SE, EE, ME, IE) — Hazırlık & Tüm Sınıflar
 
 ### 🔗 Sosyal Medya & İletişim Bilgileri:
-* **Instagram**: `@ius.engineeringevents`
-* **WhatsApp Topluluk Grubu**: Katılım QR Kodu
+* **Instagram**: *(Hesap açıldığında kullanıcı adı buraya eklenecektir - şimdilik logo veya şablon kutusu)*
+* **WhatsApp Topluluk Grubu**: Katılım QR Kodu (Mevcut topluluk linki eklenebilir)
 * **Giriş**: Ücretsiz & Herkese Açık! (Malzemeler kulüp tarafından sağlanacaktır).
 
 ---

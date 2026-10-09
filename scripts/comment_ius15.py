@@ -25,7 +25,7 @@ mutation CreateComment($input: CommentCreateInput!) {
 """
 
 body = """🎨 **SOSYAL MEDYA & AFİŞ TASARIMI (MUHAMMED EFE URAL):**
-- Kulübün resmi Instagram içerik üretimi ve hesap yönetimi (`@ius.engineeringevents`) doğrudan **Muhammed Efe Ural**'a devredilmiştir.
+- Kulübün resmi Instagram içerik üretimi ve hesap yönetimi (açıldığında) doğrudan **Muhammed Efe Ural**'a devredilmiştir.
 - Efe şu anda **Büyük Tanışma Günü & The Marshmallow Challenge** için resmi tanıtım afişini ve Instagram duyuru görsellerini tasarlamaktadır.
 - Bakir Bašić ile koordineli olarak kampüs içi baskı ve dijital tanıtım yürütülecektir."""
 

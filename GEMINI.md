@@ -36,7 +36,7 @@ ius-engineering-events/
 3. **Applied Engineering Projects**: Practical student development circles, prototypes, and semester showcases.
 4. **Operations & Event Logistics**: Venue reservation (IUS Amphitheater, A-Block, Labs), technical equipment, ticketing/registration.
 5. **PR & External Media Lead**: Bakir Bašić (FENS 1st Year) — Institutional PR, media relations, photography, university announcements, and Bosnian community outreach.
-6. **Social Media & Sponsorship Lead**: Muhammed Efe Ural (FENS 2nd Year) — Direct ownership of Instagram (`@ius.engineeringevents`), visual poster designs (Marshmallow Challenge kickoff flyer), viral reels, and corporate tech sponsorships.
+6. **Social Media & Sponsorship Lead**: Muhammed Efe Ural (FENS 2nd Year) — Direct ownership of club Instagram (resmi hesap açıldığında duyurulacak / TBA), visual poster designs (Marshmallow Challenge kickoff flyer), viral reels, and corporate tech sponsorships.
 
 ## 4. Operational Infrastructure & Integrations
 - **Management Team Application Form**: [https://forms.gle/v8c85MgFUmVvpzTH6](https://forms.gle/v8c85MgFUmVvpzTH6)
@@ -57,7 +57,7 @@ ius-engineering-events/
     - 🚀 **Asıl Başkan Yardımcısı & Kurucu Ortak (Co-Founder & Vice President)**: Mahmut İhsan Avcı (Operasyonel sağ kol, üye alımları, bürokrasi ve toplantı kayıtları).
     - 🏛️ **Resmi / Göstermelik Başkan (Statutory President)**: Kaan Mete Şenyıldız (SCC mevzuatındaki "Kulüp başkanı en az 2. sınıf olmalıdır" kuralını karşılamak üzere resmi evraklardaki imza mercii ve okul nezdindeki temsilci).
     - 💰 **Sayman & Finans Lideri**: Bekir Enes Çokbekler (Bütçe yönetimi ve kurumsal sponsorluklar).
-    - 📣 **Resmi / Göstermelik PR Lead (Statutory PR Lead)**: Bakir Bašić (No: 260302030, FENS 1. Sınıf, Tel: `+387-61-533-947`). SCC resmi başvuru evraklarındaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Kulübün fiili sosyal medya içerikleri, Instagram (`@ius.engineeringevents`), afiş tasarımları ve reels paylaşımları doğrudan **Muhammed Efe Ural** tarafından yürütülür. 5/5 Tam Kadro Onaylandı! 🎯
+    - 📣 **Resmi / Göstermelik PR Lead (Statutory PR Lead)**: Bakir Bašić (No: 260302030, FENS 1. Sınıf, Tel: `+387-61-533-947`). SCC resmi başvuru evraklarındaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Kulübün fiili sosyal medya içerikleri, açılacak kulüp Instagram hesabı, afiş tasarımları ve reels paylaşımları doğrudan **Muhammed Efe Ural** tarafından yürütülür. 5/5 Tam Kadro Onaylandı! 🎯
   - **3 Katmanlı Sürdürülebilir Finansman Mimarisi (1.300 KM)**:
     - **Tier 1 (Şirket Sponsorlukları - 800 KM)**: Saraybosna teknoloji ekosistemi (Bit Alliance firmaları) ile seminer, hackathon ve zirve destekleri.
     - **Tier 2 (Üniversite / SCC Hibe Desteği - 300 KM)**: Öğrenci kulübü faaliyet ödeneği, afiş baskısı ve kampüs lojistiği için okul desteği.

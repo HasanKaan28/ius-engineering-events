@@ -96,7 +96,7 @@ BOARD_MEMBERS = {
         "dept": "FENS (1. Sınıf)",
         "phone": "+387-61-533-947",
         "email": "260302030@student.ius.edu.ba",
-        "duties": "SCC resmi başvurusundaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Üniversite duyuru panoları, resmi basın ve kurumsal iletişimi koordine eder. Kulübün fiili sosyal medya içerikleri, Instagram (@ius.engineeringevents), görsel afiş tasarımları ve reels paylaşımları doğrudan Muhammed Efe Ural tarafından yürütülür.",
+        "duties": "SCC resmi başvurusundaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Üniversite duyuru panoları, resmi basın ve kurumsal iletişimi koordine eder. Kulübün fiili sosyal medya içerikleri, açılacak resmi Instagram hesabı, görsel afiş tasarımları ve reels paylaşımları doğrudan Muhammed Efe Ural tarafından yürütülür.",
         "tools": ["Resmi Duyuru Panoları", "SCC Temsilcilik Evrakları", "Etkinlik Fotoğraf Arşivi", "Boşnak Topluluk İletişimi"],
         "collaborates": ["Hasan Kaan (Genel Lansman & Vizyon)", "Muhammed Efe Ural (Fiili Sosyal Medya & Tasarım)", "Mahmut İhsan (İdari Duyurular)", "Bekir Enes (Bütçe)"],
         "isGodNode": True,
@@ -313,7 +313,7 @@ def build_observatory_graph():
         "isGodNode": True,
         "type": "Committee",
         "file": "organization/ROLE_DESCRIPTIONS.md",
-        "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Resmi Instagram (@ius.engineeringevents) yönetimi, etkinlik afişi ve kreatif tasarımlar (Marshmallow Challenge posteri) ile şirket sponsorluk ilişkileri (Bekir Enes ile ortak koordinasyon)."
+        "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Kulübün açılacak resmi Instagram hesabı yönetimi, etkinlik afişi ve kreatif tasarımlar (Marshmallow Challenge posteri) ile şirket sponsorluk ilişkileri (Bekir Enes ile ortak koordinasyon)."
     })
 
     # 4. COMMUNITY
