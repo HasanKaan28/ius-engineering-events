@@ -1,6 +1,6 @@
 {
   "project": "IUS Engineering Club",
-  "generated_at": "2026-10-09T16:44:56.707155",
+  "generated_at": "2026-10-09T16:49:01.536023",
   "stats": {
     "total_nodes": 37,
     "total_edges": 90,
@@ -207,7 +207,7 @@
       "isGodNode": true,
       "type": "Milestone",
       "file": "roadmap/MARSHMALLOW_CHALLENGE_KICKOFF.md",
-      "details": "İlk büyük tanışma toplantısı! Moderatör: Muhammed Efe Ural & Hasan Kaan. 20 spagetti, ip, bant ve marshmallow ile 18 dakikalık kule inşa etme turnuvası (Icebreaker, Hızlı Prototipleme & Multidisipliner Mühendislik).",
+      "details": "İlk büyük tanışma toplantısı! Moderasyon: IEC Yönetim Kurulu & Kurucu Ekip (Kurul Üyeleri ile Birlikte). 20 spagetti, ip, bant ve marshmallow ile 18 dakikalık kule inşa etme turnuvası (Icebreaker, Hızlı Prototipleme & Multidisipliner Mühendislik).",
       "x": 750,
       "y": -250
     },
@@ -243,7 +243,7 @@
       "role_title": "👑 Asıl Başkan & Kurucu Ortak (Co-Founder & President)",
       "student_id": "250302195",
       "dept": "FENS (1. Sınıf)",
-      "duties": "Kulübün ASIL BAŞKANI, kurucu ortağı ve nihai karar mercii. Kulübün tüm vizyonunu, teknik ve idari yapılanmasını, Linear sprintlerini, yapay zeka atölyelerini, bütçe onaylarını ve DevHack 2027'yi yönetir.",
+      "duties": "Yönetim Kurulu üyeleri ile birlikte kulübün vizyonunu ve teknik yapılanmasını kolektif olarak koordine eder. Kurul üyeleriyle ortaklaşa Linear sprintlerini, atölyeleri ve DevHack 2027 hazırlıklarını yürütür; takım ruhunu ön planda tutar.",
       "tools": [
         "Linear.app Task Hub",
         "Antigravity IDE & Python Automation",
@@ -257,7 +257,7 @@
         "Bekir Enes (Sayman)",
         "Komiteler & Takımlar"
       ],
-      "details": "[👑 Asıl Başkan & Kurucu Ortak (Co-Founder & President)] FENS (1. Sınıf) - No: 250302195\nGörevler: Kulübün ASIL BAŞKANI, kurucu ortağı ve nihai karar mercii. Kulübün tüm vizyonunu, teknik ve idari yapılanmasını, Linear sprintlerini, yapay zeka atölyelerini, bütçe onaylarını ve DevHack 2027'yi yönetir.",
+      "details": "[👑 Asıl Başkan & Kurucu Ortak (Co-Founder & President)] FENS (1. Sınıf) - No: 250302195\nGörevler: Yönetim Kurulu üyeleri ile birlikte kulübün vizyonunu ve teknik yapılanmasını kolektif olarak koordine eder. Kurul üyeleriyle ortaklaşa Linear sprintlerini, atölyeleri ve DevHack 2027 hazırlıklarını yürütür; takım ruhunu ön planda tutar.",
       "x": 0,
       "y": 0
     },

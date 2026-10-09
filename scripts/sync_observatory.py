@@ -41,7 +41,7 @@ BOARD_MEMBERS = {
         "student_id": "250302195",
         "dept": "FENS (1. Sınıf)",
         "email": "ufukkarabulut35@gmail.com",
-        "duties": "Kulübün ASIL BAŞKANI, kurucu ortağı ve nihai karar mercii. Kulübün tüm vizyonunu, teknik ve idari yapılanmasını, Linear sprintlerini, yapay zeka atölyelerini, bütçe onaylarını ve DevHack 2027'yi yönetir.",
+        "duties": "Yönetim Kurulu üyeleri ile birlikte kulübün vizyonunu ve teknik yapılanmasını kolektif olarak koordine eder. Kurul üyeleriyle ortaklaşa Linear sprintlerini, atölyeleri ve DevHack 2027 hazırlıklarını yürütür; takım ruhunu ön planda tutar.",
         "tools": ["Linear.app Task Hub", "Antigravity IDE & Python Automation", "WhatsApp Community Hub", "AI/LLM Workshop Stacks", "Tüm Stratejik Kararlar"],
         "collaborates": ["Mahmut İhsan (Kurucu Ortak & Bşk. Yrd.)", "Kaan Mete (Resmi Temsilci)", "Bekir Enes (Sayman)", "Komiteler & Takımlar"],
         "isGodNode": True,
@@ -397,7 +397,7 @@ def build_observatory_graph():
         "isGodNode": True,
         "type": "Milestone",
         "file": "roadmap/MARSHMALLOW_CHALLENGE_KICKOFF.md",
-        "details": "İlk büyük tanışma toplantısı! Moderatör: Muhammed Efe Ural & Hasan Kaan. 20 spagetti, ip, bant ve marshmallow ile 18 dakikalık kule inşa etme turnuvası (Icebreaker, Hızlı Prototipleme & Multidisipliner Mühendislik)."
+        "details": "İlk büyük tanışma toplantısı! Moderasyon: IEC Yönetim Kurulu & Kurucu Ekip (Kurul Üyeleri ile Birlikte). 20 spagetti, ip, bant ve marshmallow ile 18 dakikalık kule inşa etme turnuvası (Icebreaker, Hızlı Prototipleme & Multidisipliner Mühendislik)."
     })
 
     add_node({

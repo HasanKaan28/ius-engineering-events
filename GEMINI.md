@@ -53,7 +53,7 @@ ius-engineering-events/
   - **Akademik Danışman (Academic Faculty Advisor)**:
     - 🎓 **Prof. Dr. Leila Miller** (Full Professor Dr., FENS, E-mail: `lmiller@ius.edu.ba`, Tel: `033 957 -`, Asistan: Ilma Papić `itarhanis-papic@ius.edu.ba`). Kulübün resmi akademik danışmanı olarak belirlendi ve tüm başvuru evraklarına işlendi.
   - **Yönetim Kurulu (5 Kişi)**: 
-    - 👑 **Asıl Kulüp Başkanı & Kurucu Ortak (Co-Founder & President)**: Hasan Kaan (Tüm operasyonel, teknik ve idari kararların lideri, nihai karar mercii).
+    - 👑 **Asıl Kulüp Başkanı & Kurucu Ortak (Co-Founder & President)**: Hasan Kaan (Yönetim Kurulu üyeleri ile birlikte vizyon, teknik yapılanma ve kararları kolektif olarak koordine eden kurucu ortak; takım ruhunu ön planda tutar).
     - 🚀 **Asıl Başkan Yardımcısı & Kurucu Ortak (Co-Founder & Vice President)**: Mahmut İhsan Avcı (Operasyonel sağ kol, üye alımları, bürokrasi ve toplantı kayıtları).
     - 🏛️ **Resmi / Göstermelik Başkan (Statutory President)**: Kaan Mete Şenyıldız (SCC mevzuatındaki "Kulüp başkanı en az 2. sınıf olmalıdır" kuralını karşılamak üzere resmi evraklardaki imza mercii ve okul nezdindeki temsilci).
     - 💰 **Sayman & Finans Lideri**: Bekir Enes Çokbekler (Bütçe yönetimi ve kurumsal sponsorluklar).

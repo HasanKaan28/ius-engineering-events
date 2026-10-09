@@ -2,11 +2,12 @@
 ## "Build a Tower, Build a Team" — İlk Tanışma & Mühendislik Prototip Turnuvası
 
 **Organizasyon**: IUS Engineering Club (IEC)  
-**Tarih / Hedef Hafta**: Kasım 1. Hafta (Dönem Açılış Haftası)  
+**Organizasyon**: IUS Engineering Club (IEC)  
+**Tarih / Saat**: Henüz Belli Değil (TBA / Resmi Onay Sonrası Duyurulacak)  
 **Konum**: IUS A-Blok Zemin Kat / Amfi / FENS Maker & Tasarım Alanı  
 **Hedef Kitle**: Tüm FENS Mühendislik Öğrencileri (Hazırlık, 1., 2., 3. ve 4. Sınıflar)  
 **Format**: Eğlenceli, Rekabetçi, Hızlı Prototipleme & Multidisipliner Takım Mücadelesi  
-**Ev Sahibi & Moderatör**: Hasan Kaan (*Kulüp Başkanı*) & Mahmut İhsan Avcı (*Kurucu Ortak & Sekreter*)  
+**Ev Sahibi & Moderatör**: IEC Yönetim Kurulu & Kurucu Ekip (Kurul Üyeleri ile Birlikte)  
 **Sosyal Medya & Tanıtım Lideri**: Muhammed Efe Ural (*Social Media & Sponsorship Lead*)  
 
 ---
@@ -25,7 +26,7 @@ Geleneksel öğrenci kulübü tanışma toplantıları genellikle sıkıcı amfi
 * 18 dakika boyunca sıfır resmiyetle ortak bir hedefe kilitlenerek buzlar anında erir.
 
 ### 📸 Medya & PR Patlaması:
-* Yıkılan kuleler, dev mezura ölçümleri ve kahkahalar, **Muhammed Efe Ural** ve **Bakir Bašić** için inanılmaz dinamik Instagram Reels ve LinkedIn lansman içerikleri üretir.
+* Yıkılan kuleler, dev mezura ölçümleri ve kahkahalar, **Muhammed Efe Ural** ve **Bakir Bašić** için dinamik Instagram Reels ve tanıtım içerikleri üretir.
 
 ---
 
@@ -52,23 +53,23 @@ Her 4-5 kişilik masaya kapalı bir zarf içerisinde eksiksiz verilecek malzemel
 
 ```mermaid
 timeline
-    title IEC Kickoff: Marshmallow Challenge Akışı
-    14:00 - 14:15 : Kapı Açılışı & Karşılama : Renkli kartlarla karma masa dağılımı
-    14:15 - 14:25 : Vizyon & Hoş Geldiniz : Hasan Kaan & Prof. Dr. Leila Miller
-    14:25 - 14:32 : Kural Brifingi : Mahmut İhsan Avcı sahneye çıkar
-    14:32 - 14:50 : ⚡ 18 Dakika Challenge : Müzik eşliğinde spagetti kule yarışı
-    14:50 - 15:05 : Jüri Ölçümü & Ödül : Mezura şovu ve Şampiyon Takım ilanı
-    15:05 - 15:30 : Çay/Kahve & Networking : Komite kayıtları ve toplu fotoğraf
+    title IEC Kickoff: Marshmallow Challenge Akışı (Yönetim Kurulu ile Birlikte)
+    Kapı Açılışı & Karşılama : Renkli kartlarla karma masa dağılımı
+    Vizyon & Hoş Geldiniz : Yönetim Kurulu Üyeleri & Prof. Dr. Leila Miller
+    Kural Brifingi : Kurul üyeleri eşliğinde malzeme dağıtımı
+    ⚡ 18 Dakika Challenge : Müzik eşliğinde spagetti kule yarışı
+    Jüri Ölçümü & Ödül : Mezura şovu ve Şampiyon Takım ilanı
+    Çay/Kahve & Networking : Komite kayıtları ve toplu fotoğraf
 ```
 
 | Zaman Aralığı | Süre | Program Maddesi | Sorumlu | Detay & Sahne Akışı |
 | :--- | :---: | :--- | :--- | :--- |
-| **14:00 – 14:15** | 15 dk | **Kapı Açılışı & Renkli Kura** | Mahmut İhsan & Bekir Enes | Girişte herkes rastgele renkli yaka kartı çeker; aynı renkteki 4-5 kişi aynı masaya oturur. |
-| **14:15 – 14:25** | 10 dk | **IEC Vizyon & Dönem Lansmanı** | Hasan Kaan & Prof. Leila Miller | Kulübün kuruluş vizyonu, DevHack 2027 duyurusu ve Danışman Profesörümüzün selamlama konuşması. |
-| **14:25 – 14:32** | 7 dk | **Meydan Okuma Başlıyor!** | Mahmut İhsan Avcı | Kuralların eğlenceli sunumu, malzeme çantalarının dağıtımı ve geri sayım hazırlığı. |
-| **14:32 – 14:50** | **18 dk** | **⚡ MARSHMALLOW CHALLENGE** | **Hasan Kaan & Mahmut İhsan** | Projeksiyonda 18:00 geri sayım, yüksek enerjili müzik (Mission Impossible / Rock beats), masalar arası canlı denetim. |
-| **14:50 – 15:05** | 15 dk | **Büyük Ölçüm & Ödül Töreni** | Prof. Leila Miller & Hasan Kaan | Resmi şerit metre ile en yüksek kule ölçülür. 1. Takıma "Master Prototyper" madalyası/çikolata sepeti verilir. |
-| **15:05 – 15:30** | 25 dk | **Networking, İkram & Kapanış** | Muhammed Efe & Bakir Bašić | Müzik eşliğinde serbest sohbet, komitelere üye alım formları, WhatsApp daveti ve toplu aile fotoğrafı. |
+| **00:00 – 00:15** | 15 dk | **Kapı Açılışı & Renkli Kura** | Yönetim Kurulu (Mahmut İhsan, Bekir Enes) | Girişte herkes rastgele renkli yaka kartı çeker; aynı renkteki 4-5 kişi aynı masaya oturur. |
+| **00:15 – 00:25** | 10 dk | **IEC Vizyon & Dönem Lansmanı** | Yönetim Kurulu Üyeleri ile Birlikte & Prof. Leila Miller | Kulübün kuruluş vizyonu, DevHack 2027 duyurusu ve Danışman Profesörümüzün selamlama konuşması (Ortak sunum). |
+| **00:25 – 00:32** | 7 dk | **Meydan Okuma Başlıyor!** | Yönetim Kurulu Üyeleri | Kuralların eğlenceli sunumu, malzeme çantalarının dağıtımı ve geri sayım hazırlığı. |
+| **00:32 – 00:50** | **18 dk** | **⚡ MARSHMALLOW CHALLENGE** | **Yönetim Kurulu & Moderatör Ekip** | Projeksiyonda 18:00 geri sayım, yüksek enerjili müzik, masalar arası canlı denetim ve interaktif destek. |
+| **00:50 – 01:05** | 15 dk | **Büyük Ölçüm & Ödül Töreni** | Prof. Leila Miller & Yönetim Kurulu | Resmi şerit metre ile en yüksek kule ölçülür. 1. Takıma "Master Prototyper" ödülü verilir. |
+| **01:05 – 01:30** | 25 dk | **Networking, İkram & Kapanış** | Tüm Ekip & Kurul Üyeleri | Müzik eşliğinde serbest sohbet, komite tanıtımları, WhatsApp daveti ve toplu aile fotoğrafı. |
 
 ---
 
@@ -88,21 +89,21 @@ Bu etkinlik, minimum bütçeyle maksimum öğrenci memnuniyeti sağlayan "Lean E
 
 ---
 
-## 5. Ekip İçi Görev Dağılımı & Rol Matrisi
+## 5. Ekip İçi Görev Dağılımı & Kurul Sinerjisi
 
-* 👑 **Hasan Kaan (Kulüp Başkanı)**:
-  * 5 dakikalık kulüp vizyon sunumu (Kulübün hedefleri, teknik komiteler, DevHack 2027).
-  * Prof. Dr. Leila Miller'ı sahneye davet etme ve açılış moderasyonu.
+* 🤝 **Yönetim Kurulu & Kurucu Ekip (Kolektif Yönetim)**:
+  * Etkinliğin genel ev sahipliği ve moderasyonu Kurul üyeleri ile birlikte yürütülür; hiçbir kişi tek başına öne çıkmaz, birliktelik ve takım ruhu yansıtılır.
+  * Açılış konuşması ve kulüp vizyonu Prof. Dr. Leila Miller ile birlikte sahneden ortaklaşa aktarılır.
 * 📋 **Mahmut İhsan Avcı (Kurucu Ortak & Sekreter)**:
   * Girişte katılımcıların isim ve öğrenci numaralarını teyit etme.
-  * Masalara malzeme zarflarını dağıtma, kuralları anlatma ve 18 dakika resmi süresini kronometreyle yönetme.
+  * Masalara malzeme zarflarını dağıtma, kuralları anlatma ve kronometre yönetimi.
 * 🎨 **Muhammed Efe Ural (Social Media & Corporate Sponsorship Lead)**:
-  * Resmi etkinlik afişini tasarlama ("The Marshmallow Challenge" - Instagram ve baskı flyer).
-  * Instagram geri sayım ve tanıtım kampanyasını yürütme (hesap açıldığında).
-  * Etkinlik için şirketlerden/kafelerden sembolik ikram ve çikolata/içecek desteği arayışı (Sponsorluk).
+  * Resmi etkinlik afişini tasarlama ("The Marshmallow Challenge" tanıtım görselleri).
+  * Açılacak Instagram hesabı için geri sayım içeriklerini hazırlama.
+  * Etkinlik için kafelerden/şirketlerden sembolik ikram ve çikolata/içecek desteği arayışı (Sponsorluk).
 * 📣 **Bakir Bašić (PR & External Media Lead)**:
   * Afişlerin kampüste fiziki dağıtımı ve panolara asılması.
-  * 18 dakikalık yarışma anlarını gimbal/telefonla video kaydına alma; kulelerin yıkılma ve ayakta kalma anlarını yakalama.
+  * 18 dakikalık yarışma anlarını telefonla video kaydına alma; kulelerin yıkılma ve ayakta kalma anlarını yakalama.
 * 💰 **Bekir Enes Çokbekler (Sayman & Finans Lideri)**:
   * Market alışverişini yapıp zarfları hazırlama.
   * Kazanan 1. takıma takdim edilecek sembolik hediye/ödülü hazırlama.

@@ -66,8 +66,8 @@ Efe'nin hazırlayacağı afişte yer alması gereken şablon metinler ve hiyerar
 > 
 > 🎯 **Görev basit ama zorlu:** 4-5 kişilik karma mühendislik takımları, 20 çiğ spagetti, 1 metre bant ve sadece 18 dakika. Bakalım marshmallow'u en tepeye kim yıkılmadan dikecek?
 > 
-> 📍 **Yer:** A-Blok Zemin Kat / Amfi  
-> ⏰ **Saat:** 14:00  
+> 📍 **Yer:** A-Blok Zemin Kat / Amfi (TBA)  
+> ⏰ **Tarih & Saat:** Yakında Duyurulacak (TBA)  
 > 🍕 **İkram & Ödüller:** Şampiyon kuleye sürpriz ödül, bol kahkaha ve networking!
 > 
 > 💬 Bireysel gelebilirsin, takımları kapıda kura ile kuruyoruz. Arkadaşını kap gel!

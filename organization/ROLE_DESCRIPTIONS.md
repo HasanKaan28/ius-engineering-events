@@ -1,13 +1,13 @@
 # Role Descriptions & Operational Responsibilities
 
 ## 1. Executive Club President & Founder (Asıl Kulüp Başkanı) — Hasan Kaan
-* **Core Mission**: Set the club's comprehensive vision, architect all technical, logistical, and operational workflows, and act as the ultimate decision-maker across all committees.
+* **Core Mission**: Guide the club's vision in close synergy with the Board of Directors, coordinating technical and operational workflows together with board members, fostering collective leadership without excessive personal prominence.
 * **Direct Responsibilities**:
-  * Direct Linear sprint planning, IDE automations, AI/LLM workshop curriculum, and DevHack 2027 hackathon architecture.
-  * Oversee budget approvals, committee chairs, team leads, and internal governance.
-  * Lead executive syncs and delegate external/statutory mandates.
+  * Facilitate sprint planning, IDE automations, AI/LLM workshop curricula, and DevHack 2027 hackathon architecture alongside the board members.
+  * Coordinate with Mahmut İhsan, Kaan Mete, Bekir Enes, Bakir Bašić, and Muhammed Efe Ural across all strategic initiatives.
+  * Champion a shared, team-first culture where all achievements and public engagements represent the entire IEC Board & community.
 * **Key KPIs**:
-  * Delivery of premier workshops, hackathon execution, high engagement across CS/SE/EE/ME disciplines.
+  * Seamless board collaboration, high workshop quality, collective team alignment across all FENS engineering disciplines.
 
 ---
 
