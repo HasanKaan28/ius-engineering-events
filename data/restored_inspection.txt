@@ -1,0 +1,73 @@
+=== TABLE 0 ===
+R0: STUDENT CLUB NAME | STUDENT CLUB NAME | STUDENT CLUB NAME
+R1: IUS Engineering Club (IEC) | IUS Engineering Club (IEC) | IUS Engineering Club (IEC)
+R2: Status of the Student Club? | [ X ] NEW | RENEWAL
+R3: Academic Year | 2026 / 2027 | 2026 / 2027
+=== TABLE 1 ===
+R0: PURPOSE STATEMENT OF THE STUDENT CLUB | PURPOSE STATEMENT OF THE STUDENT CLUB
+R1: The IUS Engineering Club (IEC) is established as an Academic and Educational Club (AEC) under the Faculty of Engineering and Natural Sciences (FENS) to bridge university engineering education with real-world industrial practice through technical workshops, AI bootcamps, multidisciplinary student engineering project teams, and tech industry networking. | The IUS Engineering Club (IEC) is established as an Academic and Educational Club (AEC) under the Faculty of Engineering and Natural Sciences (FENS) to bridge university engineering education with real-world industrial practice through technical workshops, AI bootcamps, multidisciplinary student engineering project teams, and tech industry networking.
+R2: MANAGEMENT BOARD INFORMATION | MANAGEMENT BOARD INFORMATION
+R3:  | 
+R4: TITLE | NAME AND SURNAME
+R5: Student Club Advisor | Prof. Dr. Leila Miller
+R6: President | Kaan Mete Şenyıldız
+R7: Vice President | Hasan Kaan Karabulut
+R8: Secretary | Mahmut İhsan Avcı
+R9: Treasurer | Bekir Enes Çokbekler
+R10: Public Relations (PR) | Bakir Bašić
+R11:  | 
+=== TABLE 2 ===
+R0: CONTACT INFORMATION | CONTACT INFORMATION
+R1: STUDENT CLUB PRESIDENT | STUDENT CLUB PRESIDENT
+R2: Name and Surname | Kaan Mete Şenyıldız
+R3: Phone Number | +90 552 475 47 11
+R4: E-mail | hasankaankarabulut121@gmail.com
+R5: STUDENT CLUB ADVISOR | STUDENT CLUB ADVISOR
+R6: Name and Surname | Prof. Dr. Leila Miller
+R7: Phone Number | 
+R8: E-mail | lmiller@ius.edu.ba (Assistant: itarhanis-papic@ius.edu.ba)
+R9: Signature | 
+=== TABLE 3 ===
+R0: INFORMATION ON THE CLUB MEMBERS | INFORMATION ON THE CLUB MEMBERS | INFORMATION ON THE CLUB MEMBERS | INFORMATION ON THE CLUB MEMBERS | INFORMATION ON THE CLUB MEMBERS
+R1: Note: In order to establish a student club, you need at least 10 students, including the Management board | Note: In order to establish a student club, you need at least 10 students, including the Management board | Note: In order to establish a student club, you need at least 10 students, including the Management board | Note: In order to establish a student club, you need at least 10 students, including the Management board | Note: In order to establish a student club, you need at least 10 students, including the Management board
+R2: No. | Name and Surname | Email | Student ID | Signature
+R3: 1 | Kaan Mete Şenyıldız | kmsenyildiz@gmail.com | 250302201 | 
+R4: 2 | Hasan Kaan Karabulut | hasankaankarabulut121@gmail.com | 250302195 | 
+R5: 3 | Mahmut İhsan Avcı | mahmut.ihsanavcii@gmail.com | 250302233 | 
+R6: 4 | Bekir Enes Çokbekler | becokbekler@student.ius.edu.ba | 250302229 | 
+R7: 5 | Bakir Bašić | 260302030@student.ius.edu.ba | 260302030 | 
+R8: 6 |  |  |  | 
+R9: 7 |  |  |  | 
+R10: 8 |  |  |  | 
+R11: 9 |  |  |  | 
+R12: 10 |  |  |  | 
+R13: 11 |  |  |  | 
+R14: 12 |  |  |  | 
+R15: 13 |  |  |  | 
+R16: 14 |  |  |  | 
+R17: 15 |  |  |  | 
+=== TABLE 4 ===
+R0: 16 |  |  |  | 
+R1: 17 |  |  |  | 
+R2: 18 |  |  |  | 
+R3: 19 |  |  |  | 
+R4: 20 |  |  |  | 
+R5: 21 |  |  |  | 
+R6: 22 |  |  |  | 
+R7: 23 |  |  |  | 
+R8: 24 |  |  |  | 
+R9: 25 |  |  |  | 
+=== TABLE 5 ===
+R0: APPROVED BY | APPROVED BY
+R1:  | 
+R2: DEAN OF THE RELEVANT FACULTY (FOR CLUBS RELATED TO STUDY PROGRAMS) | DEAN OF THE RELEVANT FACULTY (FOR CLUBS RELATED TO STUDY PROGRAMS)
+R3: Name and Surname | Assoc. Prof. Dr. Altijana Hromić-Jahjefendić
+R4: Signature | 
+=== TABLE 6 ===
+R0: STUDENT CLUB COMMITTEE | STUDENT CLUB COMMITTEE | STUDENT CLUB COMMITTEE
+R1: No. | Name and Surname | Signature
+R2: 1 | Velida Handžić-Mirica, UCO Manager | 
+R3: 2 | Asst. Prof. Dr. Özge Büyükdağlı | 
+R4: 3 | Asst. Prof. Roman Slulejmanpašić | 
+R5: 4 | Assoc. Prof. Dr. Ena Kazić-Çakar | 
+R6: 5 | Asst. Prof. Dr. Mustafa Krupalija | 
