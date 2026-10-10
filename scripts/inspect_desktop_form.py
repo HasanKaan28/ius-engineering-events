@@ -1,6 +1,11 @@
+import os
 import docx
 
-doc = docx.Document(r'C:\Users\Kaan\Desktop\student_club_registration_form_f252.docx')
+docx_path = r'C:\Users\Kaan\Desktop\IEC\student_club_registration_form_f252.docx'
+if not os.path.exists(docx_path):
+    docx_path = r'C:\Users\Kaan\Desktop\student_club_registration_form_f252.docx'
+
+doc = docx.Document(docx_path)
 with open(r'scripts\inspect_desktop_form.txt', 'w', encoding='utf-8') as f:
     f.write(f'PARAGRAPHS COUNT: {len(doc.paragraphs)}\n')
     for i, p in enumerate(doc.paragraphs):

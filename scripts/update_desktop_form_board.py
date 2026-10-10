@@ -4,13 +4,17 @@ import zipfile
 import xml.etree.ElementTree as ET
 
 def update_board_in_desktop_form():
-    src_docx = r'C:\Users\Kaan\Desktop\student_club_registration_form_f252.docx'
+    src_docx = r'C:\Users\Kaan\Desktop\IEC\student_club_registration_form_f252.docx'
     backup_docx = r'C:\Users\Kaan\.gemini\antigravity-ide\scratch\ius-engineering-events\data\student_club_registration_form_f252_USER_EDITED_BEFORE_BOARD_UPDATE.docx'
     export_copy = r'C:\Users\Kaan\.gemini\antigravity-ide\scratch\ius-engineering-events\export_documents\student_club_registration_form_f252_FILLED.docx'
 
     if not os.path.exists(src_docx):
-        print(f"Error: Desktop file not found at {src_docx}")
-        return
+        alt_docx = r'C:\Users\Kaan\Desktop\student_club_registration_form_f252.docx'
+        if os.path.exists(alt_docx):
+            src_docx = alt_docx
+        else:
+            print(f"Error: Desktop file not found at {src_docx}")
+            return
 
     # 1. Accidental data loss prevention: backup the user-edited file
     shutil.copy2(src_docx, backup_docx)

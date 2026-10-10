@@ -1,4 +1,4 @@
-PARAGRAPHS COUNT: 22
+PARAGRAPHS COUNT: 35
 P[0]: STUDENT CLUB REGISTRATION FORM
 P[1]: Please complete this form if you are interested in starting a new or renewing an already existing Student Club. Submit this form to the University Communications Office (UCO) and the president or student club advisor will be informed about the final decision on establishing a student club. If you have any further questions, visit us at the University Communications Office (A G.16).
 P[4]: Please choose the type of your Student Club:
@@ -8,12 +8,12 @@ P[8]: [   ] SRC (Spiritual and Religious Club): faith-based societies formed by 
 P[9]: [   ] CC (Cultural Club): student groups that exist to network with people coming from the same parts of the world, same background, and share a similar culture. The aim is to represent their tradition to other people.
 P[10]: [   ] RSC (Recreation and Sports Club): activities are organized so students can stay fit, healthy and spend time on their hobbies, sports competitions or in nature.
 P[11]: MAC (Media and Art Club): offer a variety of interesting activities, projects and content for students who would like to exercise and improve their creative skills.
-P[18]: IMPORTANT NOTES:
-P[19]: Student Club can't start with its activities before Rector signs his approval.
-P[20]: Report on semiannual activities must be submitted to the University Communications Office (UCO) before the end of each semester.
-P[21]: Student Club must have all documentation on activities and all Reports on semiannual activities.
+P[31]: IMPORTANT NOTES:
+P[32]: Student Club can't start with its activities before Rector signs his approval.
+P[33]: Report on semiannual activities must be submitted to the University Communications Office (UCO) before the end of each semester.
+P[34]: Student Club must have all documentation on activities and all Reports on semiannual activities.
 
-TABLES COUNT: 6
+TABLES COUNT: 7
 
 === TABLE 0 (rows: 4, cols: 3) ===
   R[0]: C0: "STUDENT CLUB NAME" | C1: "STUDENT CLUB NAME" | C2: "STUDENT CLUB NAME"
@@ -47,39 +47,46 @@ TABLES COUNT: 6
   R[8]: C0: "E-mail" | C1: "lmiller@ius.edu.ba (Assistant: itarhanis-papic@ius.edu.ba)"
   R[9]: C0: "Signature" | C1: ""
 
-=== TABLE 3 (rows: 23, cols: 5) ===
+=== TABLE 3 (rows: 18, cols: 5) ===
   R[0]: C0: "INFORMATION ON THE CLUB MEMBERS" | C1: "INFORMATION ON THE CLUB MEMBERS" | C2: "INFORMATION ON THE CLUB MEMBERS" | C3: "INFORMATION ON THE CLUB MEMBERS" | C4: "INFORMATION ON THE CLUB MEMBERS"
   R[1]: C0: "Note: In order to establish a student club, you need at least 10 students, including the Management board" | C1: "Note: In order to establish a student club, you need at least 10 students, including the Management board" | C2: "Note: In order to establish a student club, you need at least 10 students, including the Management board" | C3: "Note: In order to establish a student club, you need at least 10 students, including the Management board" | C4: "Note: In order to establish a student club, you need at least 10 students, including the Management board"
   R[2]: C0: "No." | C1: "Name and Surname" | C2: "Email" | C3: "Student ID" | C4: "Signature"
-  R[3]: C0: "1" | C1: "Kaan Mete Şenyıldız" | C2: "kmsenyildiz@gmail.com" | C3: "250302201" | C4: ""
-  R[4]: C0: "2" | C1: "Hasan Kaan Karabulut" | C2: "hasankaankarabulut121@gmail.com" | C3: "250302195" | C4: ""
-  R[5]: C0: "3" | C1: "Mahmut İhsan Avcı" | C2: "mahmut.ihsanavcii@gmail.com" | C3: "250302233" | C4: ""
-  R[6]: C0: "4" | C1: "Bekir Enes Çokbekler" | C2: "becokbekler@student.ius.edu.ba" | C3: "250302229" | C4: ""
-  R[7]: C0: "5" | C1: "Bakir Bašić" | C2: "260302030@student.ius.edu.ba" | C3: "260302030" | C4: ""
-  R[8]: C0: "6" | C1: "Emin Efe Duman" | C2: "emnfdmn@gmail.com" | C3: "250302211" | C4: ""
-  R[9]: C0: "7" | C1: "Ahmed Hadzimurati" | C2: "260302051@student.ius.edu.ba" | C3: "260302051" | C4: ""
-  R[10]: C0: "8" | C1: "Muhammed Efe Ural" | C2: "uralefe10@gmail.com" | C3: "240302169" | C4: ""
-  R[11]: C0: "9" | C1: "Hüseyin Talha Seymenliler" | C2: "tseymenliler16@gmail.com" | C3: "240302179" | C4: ""
-  R[12]: C0: "10" | C1: "Ferit Enes Seymenliler" | C2: "eenesseymenliler@gmail.com" | C3: "240302180" | C4: ""
-  R[13]: C0: "11" | C1: "Abdullah Uzun" | C2: "250201110@student.ius.edu.ba" | C3: "250201110" | C4: ""
-  R[14]: C0: "12" | C1: "Ömer Arif Açıkel" | C2: "o.arifacikel@gmail.com" | C3: "250302232" | C4: ""
-  R[15]: C0: "13" | C1: "Nazlıcan Cebeci" | C2: "nazlii.cebeci@gmail.com" | C3: "250302243" | C4: ""
-  R[16]: C0: "14" | C1: "Bilal Yusuf Şimşek" | C2: "Simsekbilal59@gmail.com" | C3: "250302196" | C4: ""
-  R[17]: C0: "15" | C1: "Muhammed Emin Tiryaki" | C2: "metiryaki@student.ius.edu.ba" | C3: "250302247" | C4: ""
-  R[18]: C0: "16" | C1: "Işıl Irmak Cihan" | C2: "irmaksecil1@gmail.com" | C3: "240302254" | C4: ""
-  R[19]: C0: "17" | C1: "" | C2: "" | C3: "" | C4: ""
-  R[20]: C0: "18" | C1: "" | C2: "" | C3: "" | C4: ""
-  R[21]: C0: "19" | C1: "" | C2: "" | C3: "" | C4: ""
-  R[22]: C0: "20" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[3]: C0: "1" | C1: "Emin Efe Duman" | C2: "emnfdmn@gmail.com" | C3: "250302211" | C4: ""
+  R[4]: C0: "2" | C1: "Ahmed Hadzimurati" | C2: "260302051@student.ius.edu.ba" | C3: "260302051" | C4: ""
+  R[5]: C0: "3" | C1: "Muhammed Efe Ural" | C2: "uralefe10@gmail.com" | C3: "240302169" | C4: ""
+  R[6]: C0: "4" | C1: "Hüseyin Talha Seymenliler" | C2: "tseymenliler16@gmail.com" | C3: "240302179" | C4: ""
+  R[7]: C0: "5" | C1: "Ferit Enes Seymenliler" | C2: "eenesseymenliler@gmail.com" | C3: "240302180" | C4: ""
+  R[8]: C0: "6" | C1: "Abdullah Uzun" | C2: "250201110@student.ius.edu.ba" | C3: "250201110" | C4: ""
+  R[9]: C0: "7" | C1: "Ömer Arif Açıkel" | C2: "o.arifacikel@gmail.com" | C3: "250302232" | C4: ""
+  R[10]: C0: "8" | C1: "Nazlıcan Cebeci" | C2: "nazlii.cebeci@gmail.com" | C3: "250302243" | C4: ""
+  R[11]: C0: "9" | C1: "Bilal Yusuf Şimşek" | C2: "Simsekbilal59@gmail.com" | C3: "250302196" | C4: ""
+  R[12]: C0: "10" | C1: "Muhammed Emin Tiryaki" | C2: "metiryaki@student.ius.edu.ba" | C3: "250302247" | C4: ""
+  R[13]: C0: "" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[14]: C0: "" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[15]: C0: "" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[16]: C0: "" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[17]: C0: "" | C1: "" | C2: "" | C3: "" | C4: ""
 
-=== TABLE 4 (rows: 5, cols: 2) ===
+=== TABLE 4 (rows: 10, cols: 5) ===
+  R[0]: C0: "16" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[1]: C0: "17" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[2]: C0: "18" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[3]: C0: "19" | C1: "Assoc. Prof. Dr. Altijana Hromić-Jahjefendić" | C2: "" | C3: "" | C4: ""
+  R[4]: C0: "20" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[5]: C0: "21" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[6]: C0: "22" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[7]: C0: "23" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[8]: C0: "24" | C1: "" | C2: "" | C3: "" | C4: ""
+  R[9]: C0: "25" | C1: "" | C2: "" | C3: "" | C4: ""
+
+=== TABLE 5 (rows: 5, cols: 2) ===
   R[0]: C0: "APPROVED BY" | C1: "APPROVED BY"
   R[1]: C0: "" | C1: ""
   R[2]: C0: "DEAN OF THE RELEVANT FACULTY (FOR CLUBS RELATED TO STUDY PROGRAMS)" | C1: "DEAN OF THE RELEVANT FACULTY (FOR CLUBS RELATED TO STUDY PROGRAMS)"
   R[3]: C0: "Name and Surname" | C1: "Assoc. Prof. Dr. Altijana Hromić-Jahjefendić"
   R[4]: C0: "Signature" | C1: ""
 
-=== TABLE 5 (rows: 7, cols: 3) ===
+=== TABLE 6 (rows: 7, cols: 3) ===
   R[0]: C0: "STUDENT CLUB COMMITTEE" | C1: "STUDENT CLUB COMMITTEE" | C2: "STUDENT CLUB COMMITTEE"
   R[1]: C0: "No." | C1: "Name and Surname" | C2: "Signature"
   R[2]: C0: "1" | C1: "Velida Handžić-Mirica, UCO Manager" | C2: ""

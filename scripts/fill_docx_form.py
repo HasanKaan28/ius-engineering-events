@@ -1,10 +1,15 @@
 import os, sys, shutil, zipfile, xml.etree.ElementTree as ET
 
 def fill_docx():
-    src_docx = r'C:\Users\Kaan\Desktop\student_club_registration_form_f252.docx'
+    src_docx = r'C:\Users\Kaan\Desktop\IEC\student_club_registration_form_f252.docx'
     if not os.path.exists(src_docx):
-        print(f"File not found: {src_docx}")
-        return
+        # Fallback to Desktop root if ever placed there
+        alt_docx = r'C:\Users\Kaan\Desktop\student_club_registration_form_f252.docx'
+        if os.path.exists(alt_docx):
+            src_docx = alt_docx
+        else:
+            print(f"File not found: {src_docx}")
+            return
 
     # Extract all files
     extract_dir = r'C:\Users\Kaan\.gemini\antigravity-ide\scratch\ius-engineering-events\data\docx_temp'

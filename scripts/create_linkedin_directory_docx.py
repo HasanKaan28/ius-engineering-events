@@ -347,8 +347,10 @@ def create_directory_document():
     r_ft.font.size = Pt(8.5)
     r_ft.font.color.rgb = RGBColor(140, 140, 140)
 
-    # Save to Desktop
-    desktop_path = r"C:\Users\Kaan\Desktop\IUS_Engineering_Club_LinkedIn_Rehberi.docx"
+    # Save to Desktop IEC
+    desktop_dir = r"C:\Users\Kaan\Desktop\IEC"
+    os.makedirs(desktop_dir, exist_ok=True)
+    desktop_path = os.path.join(desktop_dir, "IUS_Engineering_Club_LinkedIn_Rehberi.docx")
     doc.save(desktop_path)
     print(f"Document successfully created at: {desktop_path}")
 

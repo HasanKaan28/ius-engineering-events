@@ -116,7 +116,7 @@ def confirm_student(identifier, slot="Salı 11:50"):
     sys.path.insert(0, str(WORKSPACE_ROOT / "scripts"))
     import fill_docx_form
     fill_docx_form.fill_docx()
-    print("[✓] Masaüstündeki Form F252 otomatik güncellendi!")
+    print("[✓] Masaüstü IEC klasöründeki Form F252 otomatik güncellendi!")
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "confirm":
