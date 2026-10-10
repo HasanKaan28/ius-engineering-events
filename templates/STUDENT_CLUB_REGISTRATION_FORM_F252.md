@@ -88,7 +88,7 @@ Through high-impact extracurricular workshops, software/AI bootcamps, multidisci
 | **9** | **Emin Efe Duman** | `emnfdmn@gmail.com` | **250302211** | FENS / 1st Year | ___________________________ |
 | **10**| **Ahmed Hadzimurati** | `260302051@student.ius.edu.ba` | **260302051** | FENS / 1st Year | ___________________________ |
 
-*(Reserve Pool / Yedek Havuz: Ömer Arif Açıkel, Mert Çınar Atalay, Ferit Enes Seymenliler, Hüseyin Talha Seymenliler, Muhammed Efe Ural, Abdullah Uzun)*
+*(Reserve Pool / Yedek Havuz: Ömer Arif Açıkel, Mert Çınar Atalay, Ferit Enes Seymenliler, Hüseyin Talha Seymenliler, Muhammed Efe Ural, Abdullah Uzun, Işıl Irmak Cihan)*
 
 ---
 

@@ -23,6 +23,9 @@ ius-engineering-events/
 │   ├── ACADEMIC_ADVISOR_INVITATION.md# Formal invitation for FENS Professors
 │   ├── IUS_SKS_APPLICATION_PETITION.md# SKS / Student Affairs registration form
 │   └── EVENT_PROPOSAL_FORM.md        # Standard university event petition
+├── pr_and_branding/
+│   ├── LINKEDIN_PAGE_SETUP.md        # LinkedIn Company Page blueprint & copy
+│   └── SOCIAL_MEDIA_LAUNCH_KIT.md    # Instagram & multi-channel PR playbook
 ├── graphify-out/
 │   ├── graph.json                    # Interactive ecosystem graph dataset
 │   └── graph.html                    # Cyberpunk Observatory Interactive Visualizer
@@ -63,8 +66,8 @@ ius-engineering-events/
     - **Tier 2 (Üniversite / SCC Hibe Desteği - 300 KM)**: Öğrenci kulübü faaliyet ödeneği, afiş baskısı ve kampüs lojistiği için okul desteği.
     - **Tier 3 (Yedek Güvence / Katılımcı Cüzi Katkı Payı - 200 KM)**: Sadece büyük ölçekli ve yüksek maliyetli amiral gemisi etkinliklerde (örneğin 24 saatlik yatılı DevHack maratonunda catering/materyal giderleri), sponsorluk ve okul bütçesi yetersiz kaldığı takdirde katılımcılardan toplanacak sembolik ~5 KM cüzi pay. Normal haftalık AI atölyeleri ve tech-talklar tüm IUS öğrencilerine **%100 ücretsizdir**.
     - **Toplam Bütçe**: 1.300 KM dengeli taslak teklif (Prijedlog).
-  - **Normal Üyeler (10 Kişi Hedefi)**: 11/10 kayıtlı tam kadro: Bilal Yusuf Şimşek, Nazlıcan Cebeci, Muhammed Emin Tiryaki, Emin Efe Duman, Ömer Arif Açıkel, Mert Çınar Atalay, Ferit Enes Seymenliler, Hüseyin Talha Seymenliler, Muhammed Efe Ural, Abdullah Uzun, Ahmed Hadzimurati. Tüzük 10 Kurucu Üye kotası %110 ile aşıldı! 🎯
-    - **Pazartesi & Salı İmza Toplama Operasyonu (12-13 Ekim 2026)**: Masaüstündeki `student_club_registration_form_f252.docx` Tablo 3 için SCC şartı olan en az 10 ıslak imza toplanmaktadır. Asil 10 kadro: Kaan Mete Şenyıldız (Bşk), Hasan Kaan Karabulut (Bşk Yrd), Mahmut İhsan Avcı (Sekreter), Bekir Enes Çokbekler (Sayman), Bakir Bašić (PR Lead), Bilal Yusuf Şimşek, Nazlıcan Cebeci, Muhammed Emin Tiryaki, Emin Efe Duman, Ahmed Hadzimurati. 6 kişilik yedek havuz hazır tutulmaktadır.
+  - **Normal Üyeler (10 Kişi Hedefi)**: 12/10 kayıtlı tam kadro: Bilal Yusuf Şimşek, Nazlıcan Cebeci, Muhammed Emin Tiryaki, Emin Efe Duman, Ömer Arif Açıkel, Mert Çınar Atalay, Ferit Enes Seymenliler, Hüseyin Talha Seymenliler, Muhammed Efe Ural, Abdullah Uzun, Ahmed Hadzimurati, Işıl Irmak Cihan. Tüzük 10 Kurucu Üye kotası %120 ile aşıldı! 🎯
+    - **Pazartesi & Salı İmza Toplama Operasyonu (12-13 Ekim 2026)**: Masaüstündeki `student_club_registration_form_f252.docx` Tablo 3 için SCC şartı olan en az 10 ıslak imza toplanmaktadır. Asil 10 kadro: Kaan Mete Şenyıldız (Bşk), Hasan Kaan Karabulut (Bşk Yrd), Mahmut İhsan Avcı (Sekreter), Bekir Enes Çokbekler (Sayman), Bakir Bašić (PR Lead), Bilal Yusuf Şimşek, Nazlıcan Cebeci, Muhammed Emin Tiryaki, Emin Efe Duman, Ahmed Hadzimurati. 7 kişilik yedek havuz hazır tutulmaktadır (Işıl Irmak Cihan ile birlikte).
     - Tüm başvuru evrakları (`templates/` ve `export_documents/`) okula sunulacak resmi **Prijedlog (Proposal)** formatındadır.
     - Hiçbir bütçe kalemi, üyelik veya izin "Onaylandı" olarak doldurulmaz; tüm kalemler **Projekcija / Planirano / Pending SCC Review** olarak işaretlenmiştir.
     - Okula teslim edilecek belgelerde iç yönetim notları (göstermelik başkan vb.) kesinlikle yer almaz; resmi unvanlar, ıslak imza satırları ve okulun değerlendirme/kaşeleme yapacağı boş SCC kutuları mevcuttur.

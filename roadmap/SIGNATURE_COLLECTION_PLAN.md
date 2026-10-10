@@ -51,6 +51,7 @@
 | # | İsim Soyisim | Öğrenci No | Bölüm / Sınıf | Uyruk | WhatsApp | Durum |
 | :-: | :--- | :---: | :--- | :---: | :--- | :--- |
 | **11**| **Muhammed Emin Tiryaki** | 250302247 | FENS / 2. Sınıf | 🇹🇷 TR | `0538 484 9161` | 🛡️ Yedek Güvence Havuzunda (Kota Doldu) |
+| **12**| **Işıl Irmak Cihan** | 240302254 | FENS / 3. Sınıf | 🇹🇷 TR | `+90 538 648 1433` | 🛡️ Yedek Güvence Havuzunda (Yeni Form Başvurusu) |
 
 ---
 

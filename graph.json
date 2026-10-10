@@ -1,11 +1,11 @@
 {
   "project": "IUS Engineering Club",
-  "generated_at": "2026-10-09T18:56:14.818603",
+  "generated_at": "2026-10-10T02:23:02.381184",
   "stats": {
-    "total_nodes": 37,
-    "total_edges": 90,
-    "linear_tasks": 11,
-    "registered_members": 11,
+    "total_nodes": 39,
+    "total_edges": 104,
+    "linear_tasks": 13,
+    "registered_members": 12,
     "board_members": 5
   },
   "nodes": [
@@ -17,7 +17,7 @@
       "type": "Software",
       "file": "scripts/linear_manager.py",
       "url": "https://linear.app/ius-engineering-events",
-      "details": "Merkezi görev ve sprint motoru. Antigravity IDE ile çift yönlü GraphQL API senkronizasyonu (11 aktif görev kayıtlı).",
+      "details": "Merkezi görev ve sprint motoru. Antigravity IDE ile çift yönlü GraphQL API senkronizasyonu (13 aktif görev kayıtlı).",
       "x": 0,
       "y": -220
     },
@@ -34,13 +34,13 @@
     },
     {
       "id": "sheet_responses",
-      "label": "Google Sheets (15 Kayıt / 11 Normal Üye)",
+      "label": "Google Sheets (16 Kayıt / 12 Normal Üye)",
       "cluster": "Data",
       "isGodNode": false,
       "type": "Dataset",
       "file": "data/form_responses.csv",
       "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
-      "details": "Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. 11 onaylı normal üye kayıtlı.",
+      "details": "Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. 12 onaylı normal üye kayıtlı.",
       "x": 520,
       "y": -60
     },
@@ -147,12 +147,12 @@
     },
     {
       "id": "doc_founding",
-      "label": "📄 SCC 10 Kurucu Üye Listesi (11/10)",
+      "label": "📄 SCC 10 Kurucu Üye Listesi (12/10)",
       "cluster": "Documents",
       "isGodNode": true,
       "type": "Doc",
       "file": "templates/SCC_FOUNDING_10_MEMBERS.md",
-      "details": "Resmi kuruluş evrağı: 5 Yönetim Kurulu Onaylı (5/5 Tam Kadro - PR Lead: Bakir Bašić) | 11 Kurucu Normal Üye Onaylı (10/10 Kotası %100 Tamamlandı).",
+      "details": "Resmi kuruluş evrağı: 5 Yönetim Kurulu Onaylı (5/5 Tam Kadro - PR Lead: Bakir Bašić) | 12 Kurucu Normal Üye Onaylı (10/10 Kotası %100 Tamamlandı).",
       "x": -140,
       "y": 570
     },
@@ -190,15 +190,16 @@
       "y": 520
     },
     {
-      "id": "doc_advisor_letter",
-      "label": "📄 Danışman Davet Mektubu",
-      "cluster": "Documents",
-      "isGodNode": false,
-      "type": "Doc",
-      "file": "templates/ACADEMIC_ADVISOR_INVITATION.md",
-      "details": "FENS Profesörlerine takdim edilen resmi kulüp vizyonu ve danışmanlık davet mektubu.",
-      "x": -680,
-      "y": 520
+      "id": "platform_linkedin",
+      "label": "LinkedIn Şirket Sayfası (Canlı)",
+      "cluster": "PR & Media",
+      "isGodNode": true,
+      "type": "Platform",
+      "url": "https://www.linkedin.com/company/ius-engineering-club",
+      "file": "pr_and_branding/LINKEDIN_PAGE_SETUP.md",
+      "details": "Resmi kurumsal LinkedIn şirketi. Logo, 1128x191 banner, FENS kampüs konumu (Hrasnička Cesta 15) ve About metni ile canlıda. 6 kişilik yönetim kurulu ve kişisel profil rozetleri bağlı.",
+      "x": 260,
+      "y": -220
     },
     {
       "id": "event_launch",
@@ -395,8 +396,8 @@
       "task_assignee": "Bekir Enes",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-6/scc-yillik-faaliyet-plani-ve-taslak-butce-dosyalamasi",
       "file": "scripts/linear_ops.py",
-      "x": -608,
-      "y": -514,
+      "x": -633,
+      "y": -513,
       "details": "[IUS-6] SCC Yıllık Faaliyet Planı ve Taslak Bütçe Dosyalaması\nDurum: Todo | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-6/scc-yillik-faaliyet-plani-ve-taslak-butce-dosyalamasi\n\nÖzet: ### 🎯 Görev Amacı:\n\nSCC'nin istediği faaliyet planı ve tahmini bütçe evraklarını eksiksiz hazır hale getirmek.\n\n### 📄 Doğrudan Açılabilir Resmi Belgeler:\n\n1. 👉 [**🔗 TIKLAYIN: SCC Yıllık Faaliyet Planı (2026/2027)**](<https://linear.app/ius-engineering-events/document/scc-yillik-f..."
     },
     {
@@ -411,8 +412,8 @@
       "task_assignee": "Bekir Enes",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-7/resmi-yonetim-kurulu-kadrosu-55-tam-kadro-pr-lead-bakir-basic",
       "file": "scripts/linear_ops.py",
-      "x": -456,
-      "y": -523,
+      "x": -506,
+      "y": -520,
       "details": "[IUS-7] 🎉 Resmi Yönetim Kurulu Kadrosu (5/5 Tam Kadro - PR Lead: Bakir Bašić)\nDurum: Done | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-7/resmi-yonetim-kurulu-kadrosu-55-tam-kadro-pr-lead-bakir-basic\n\nÖzet: ### 🎯 Resmi Yönetim Kurulu Kadrosu (5/5 Tam Kadro Onaylandı):\n\nSCC resmi kulüp yönergesi ve Form F252 uyarınca 5 kişilik yönetim kadrosu eksiksiz tamamlanmıştır:\n\n* 👑 **Club President (Başkan):** Kaan Mete Şenyıldız (2. Sınıf, No: 250302201 - FENS)\n* 🚀 **Vice President (Kurucu Or..."
     },
     {
@@ -427,8 +428,8 @@
       "task_assignee": "Mahmut ihsan avcı",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-8/scc-uye-listesi-1010-kurucu-normal-uye-kotasi-tamamlandi",
       "file": "scripts/linear_ops.py",
-      "x": -304,
-      "y": -532,
+      "x": -380,
+      "y": -528,
       "details": "[IUS-8] 🎉 SCC Üye Listesi: 10/10 Kurucu Normal Üye Kotası Tamamlandı!\nDurum: Todo | Sorumlu: Mahmut ihsan avcı\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-8/scc-uye-listesi-1010-kurucu-normal-uye-kotasi-tamamlandi\n\nÖzet: ### 🤫 STRATEJİ: STEALTH MODE (SESSİZ VE BİREBİR)\n\n⚠️ **Önemli Kural:** Üniversite resmi onayı öncesi dikkat çekmemek için kalabalık sınıf gruplarına duyuru atılmayacak, **birebir (DM veya yüz yüze)** güvendiğimiz arkadaşlarımıza ulaşılarak 10 üye tamamlanacaktır.\n📌 **Rol Kuralı:*..."
     },
     {
@@ -443,8 +444,8 @@
       "task_assignee": "Bekir Enes",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-9/aralik-1-hafta-promotion-day-kampus-standi-ve-afis-hazirligi",
       "file": "scripts/linear_ops.py",
-      "x": -152,
-      "y": -541,
+      "x": -253,
+      "y": -535,
       "details": "[IUS-9] ⏸️ [Aralık 1. Hafta] Promotion Day: Kampüs Standı ve Afiş Hazırlığı\nDurum: Todo | Sorumlu: Bekir Enes\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-9/aralik-1-hafta-promotion-day-kampus-standi-ve-afis-hazirligi\n\nÖzet: ### 🛑 DURUM: BEKLEMEDE (ONAY SONRASINA ERTELENDİ)\n\n⚠️ **Kural:** IUS SCC resmi kulüp onayı çıkana kadar kampüste veya sosyal medyada **kamuya açık hiçbir paylaşım yapılmayacaktır**.\n\n### 🎯 Görev Amacı:\n\nKulüp resmiyet kazandıktan sonra (Kasım sonu / Aralık başı) yapılacak \"Studen..."
     },
     {
@@ -459,8 +460,8 @@
       "task_assignee": "Hasan Kaan",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-10/aralik-2-hafta-haftalik-yapay-zeka-and-prompt-atolyeleri-mufredat-ve",
       "file": "scripts/linear_ops.py",
-      "x": 0,
-      "y": -550,
+      "x": -126,
+      "y": -543,
       "details": "[IUS-10] 🤖 [Aralık 2. Hafta] Haftalık Yapay Zeka & Prompt Atölyeleri: Müfredat ve Eğitmen Ağı\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 2\nURL: https://linear.app/ius-engineering-events/issue/IUS-10/aralik-2-hafta-haftalik-yapay-zeka-and-prompt-atolyeleri-mufredat-ve\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\nÖğrencilere pratik yapay zeka kullanımı, prompt mühendisliği ve modern AI araçları (Cursor, Claude, Copilot) üzerine **her hafta düzenli atölye** sunmak. Taze bir kulüp yapısı olduğumuz için süreci sürdürülebilir kılmak adına akran eğitimi ve gönüllü eğitme..."
     },
     {
@@ -475,8 +476,8 @@
       "task_assignee": "Hasan Kaan",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-11/aralik-3-hafta-haftalik-online-tech-talks-google-meet-format-ve-konuk",
       "file": "scripts/linear_ops.py",
-      "x": 152,
-      "y": -541,
+      "x": 0,
+      "y": -550,
       "details": "[IUS-11] 🌐 [Aralık 3. Hafta] Haftalık Online Tech-Talks (Google Meet): Format ve Konuk Daveti\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 2\nURL: https://linear.app/ius-engineering-events/issue/IUS-11/aralik-3-hafta-haftalik-online-tech-talks-google-meet-format-ve-konuk\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\nHer hafta tanınmış, sektörde deneyimli yerli ve yabancı teknoloji uzmanları ile Google Meet webinar formatında samimi, interaktif online söyleşi (fireside chat) ve mentorluk seansları yapmak.\n\n### 📋 Yapılacaklar:\n\n- [ ] **Topluluk Platformu:** Google Meet w..."
     },
     {
@@ -491,8 +492,8 @@
       "task_assignee": "Mahmut ihsan avcı",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-12/aralik-4-hafta-aylik-kampus-teknoloji-konusmacilari-konuk-havuzu-ve",
       "file": "scripts/linear_ops.py",
-      "x": 304,
-      "y": -532,
+      "x": 126,
+      "y": -543,
       "details": "[IUS-12] 🎙️ [Aralık 4. Hafta] Aylık Kampüs Teknoloji Konuşmacıları: Konuk Havuzu ve Salon\nDurum: Backlog | Sorumlu: Mahmut ihsan avcı\nÖncelik: 3\nURL: https://linear.app/ius-engineering-events/issue/IUS-12/aralik-4-hafta-aylik-kampus-teknoloji-konusmacilari-konuk-havuzu-ve\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\n**Minimum ayda 1 kez** teknoloji alanında öncü bir ismi, yazılım mimarını veya şirket kurucusunu IUS kampüsüne davet edip amfide yüz yüze seminer ve networking düzenlemek.\n\n### 📋 Yapılacaklar:\n\n- [ ] **Potansiyel Şirket & Konuk Listesi:** Sarajevo'daki tekn..."
     },
     {
@@ -507,8 +508,8 @@
       "task_assignee": "Hasan Kaan",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-13/bahar-2027-nisan-ius-yillik-kampus-hackathonu-devhack-konsept-ve",
       "file": "scripts/linear_ops.py",
-      "x": 456,
-      "y": -523,
+      "x": 253,
+      "y": -535,
       "details": "[IUS-13] ⚡ [Bahar 2027 / Nisan] IUS Yıllık Kampüs Hackathonu (DevHack): Konsept ve Sponsorluk\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 4\nURL: https://linear.app/ius-engineering-events/issue/IUS-13/bahar-2027-nisan-ius-yillik-kampus-hackathonu-devhack-konsept-ve\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\nBu yıl içinde IUS kampüsünde gerçekleştireceğimiz **24 saatlik büyük yazılım ve mühendislik hackathonunu (IUS DevHack)** planlamak.\n\n### 📋 Yapılacaklar:\n\n- [ ] **Hedef Dönem:** Bahar 2027 (Nisan 2. haftası - vize sonrası, finaller öncesi).\n- [ ] **Gece Kalm..."
     },
     {
@@ -523,8 +524,8 @@
       "task_assignee": "Hasan Kaan",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-14/bahar-2027-mayis-ius-yillik-teknoloji-zirvesi-ius-techsummit-2027",
       "file": "scripts/linear_ops.py",
-      "x": 608,
-      "y": -514,
+      "x": 380,
+      "y": -528,
       "details": "[IUS-14] 🏛️ [Bahar 2027 / Mayıs] IUS Yıllık Teknoloji Zirvesi (IUS TechSummit 2027): Konsept, Konuşmacılar ve Stantlar\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 2\nURL: https://linear.app/ius-engineering-events/issue/IUS-14/bahar-2027-mayis-ius-yillik-teknoloji-zirvesi-ius-techsummit-2027\n\nÖzet: ### 🎯 Faaliyet Amacı:\n\nBahar döneminde (Mayıs ayı 2. haftası) IUS kampüsünde tüm üniversiteyi ve Saraybosna teknoloji ekosistemini bir araya getirecek tam günlük **Yıllık Teknoloji Zirvesini (IUS TechSummit 2027)** organize etmek.\n\n---\n\n### 📋 Zirve Mimarisi ve Yapılacaklar:\n\n- [ ..."
     },
     {
@@ -539,19 +540,51 @@
       "task_assignee": "Hasan Kaan",
       "url": "https://linear.app/ius-engineering-events/issue/IUS-15/tba-tarih-belirlenecek-iec-buyuk-tanisma-toplantisi-the-marshmallow",
       "file": "scripts/linear_ops.py",
-      "x": 760,
-      "y": -505,
+      "x": 506,
+      "y": -520,
       "details": "[IUS-15] 🎪 [TBA / Tarih Belirlenecek] IEC Büyük Tanışma Toplantısı: The Marshmallow Challenge (Icebreaker & Spagetti Kuleleri)\nDurum: Todo | Sorumlu: Hasan Kaan\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-15/tba-tarih-belirlenecek-iec-buyuk-tanisma-toplantisi-the-marshmallow\n\nÖzet: ### 🎪 Etkinlik Amacı & Konsept:\n\nIUS Engineering Club (IEC) resmi kuruluş lansmanı ve tüm FENS öğrencileri için ilk büyük tanışma toplantısı! Klasik ve sıkıcı amfi sunumları yerine, dünya çapında (Stanford, Google, TED) uygulanan **Marshmallow Challenge** ile mühendislik ruhunu a..."
     },
     {
+      "id": "linear_task_IUS-16",
+      "label": "[IUS-16] 🎉 LinkedIn Sayfası (Done)",
+      "cluster": "Linear Tasks",
+      "isGodNode": false,
+      "type": "LinearTask",
+      "task_ident": "IUS-16",
+      "task_state": "Done",
+      "task_priority": 1,
+      "task_assignee": "Hasan Kaan",
+      "url": "https://linear.app/ius-engineering-events/issue/IUS-16/resmi-linkedin-sirket-sayfasi-kurulumu-tamamlandi",
+      "file": "scripts/linear_ops.py",
+      "x": 633,
+      "y": -513,
+      "details": "[IUS-16] 🎉 Resmi LinkedIn Şirket Sayfası Kurulumu (Tamamlandı)\nDurum: Done | Sorumlu: Hasan Kaan\nÖncelik: 1\nURL: https://linear.app/ius-engineering-events/issue/IUS-16/resmi-linkedin-sirket-sayfasi-kurulumu-tamamlandi\n\nÖzet: ### 🌐 IUS Engineering Club — Resmi LinkedIn Şirket Sayfası (Tamamlandı)\n\nKulübün uluslararası ve kurumsal temsili, sponsorluk ilişkileri (Bit Alliance vb.) ve yönetim kurulu üyelerinin profillerinde logolu deneyim gösterebilmesi için resmi LinkedIn Şirket Sayfası başarıyla açıldı..."
+    },
+    {
+      "id": "linear_task_IUS-17",
+      "label": "[IUS-17] 🤫 Instagram Lansmanı (Stealth)",
+      "cluster": "Linear Tasks",
+      "isGodNode": false,
+      "type": "LinearTask",
+      "task_ident": "IUS-17",
+      "task_state": "Backlog",
+      "task_priority": 2,
+      "task_assignee": "Hasan Kaan",
+      "url": "https://linear.app/ius-engineering-events/issue/IUS-17/resmi-onay-sonrasi-resmi-kulup-instagram-and-ortak-e-posta-lansmani",
+      "file": "scripts/linear_ops.py",
+      "x": 760,
+      "y": -505,
+      "details": "[IUS-17] 🤫 [Resmi Onay Sonrası] Resmi Kulüp Instagram & Ortak E-posta Lansmanı (Stealth Mod - M. Efe Ural)\nDurum: Backlog | Sorumlu: Hasan Kaan\nÖncelik: 2\nURL: https://linear.app/ius-engineering-events/issue/IUS-17/resmi-onay-sonrasi-resmi-kulup-instagram-and-ortak-e-posta-lansmani\n\nÖzet: ### 🤫 Resmi Kulüp Instagram & Ortak E-posta Lansmanı (Stealth Mod - M. Efe Ural)\n\nKulüp için Instagram hesabının oluşturulması, stratejik olarak **resmi SCC ve Rektörlük onayı çıkana kadar dondurulmuştur (Stealth Mod Embargo)**.\n\n#### 🎯 Stratejik Kararlar:\n\n1. **Şahsi E-posta / T..."
+    },
+    {
       "id": "members_cohort",
-      "label": "👥 Kayıtlı Üye Topluluğu (11 Öğrenci)",
+      "label": "👥 Kayıtlı Üye Topluluğu (12 Öğrenci)",
       "cluster": "Community",
       "isGodNode": false,
       "type": "CommunityBase",
       "file": "data/form_responses.csv",
       "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
-      "details": "Kulübün kayıtlı üye topluluğu (11 onaylı başvuru).\nGoogle Form üzerinden kayıt olmuş ve WhatsApp komünitesine dahil edilmiştir.\nTüzük 10 kurucu üye kotası (%100 tamamlandı).\nFENS (CSE, EE, Makine vb.) ve diğer fakültelerden çok disiplinli mühendislik öğrencileri.",
+      "details": "Kulübün kayıtlı üye topluluğu (12 onaylı başvuru).\nGoogle Form üzerinden kayıt olmuş ve WhatsApp komünitesine dahil edilmiştir.\nTüzük 10 kurucu üye kotası (%100 tamamlandı).\nFENS (CSE, EE, Makine vb.) ve diğer fakültelerden çok disiplinli mühendislik öğrencileri.",
       "x": 750,
       "y": 110
     }
@@ -729,7 +762,7 @@
     },
     {
       "source": "advisor",
-      "target": "doc_advisor_letter",
+      "target": "doc_founding",
       "relation": "TEK_ISLAK_IMZA"
     },
     {
@@ -741,6 +774,31 @@
       "source": "advisor",
       "target": "board_hasan_kaan",
       "relation": "MENTORS_PRESIDENT"
+    },
+    {
+      "source": "board_hasan_kaan",
+      "target": "platform_linkedin",
+      "relation": "FOUNDER_AND_SUPER_ADMIN"
+    },
+    {
+      "source": "board_mahmut_ihsan",
+      "target": "platform_linkedin",
+      "relation": "SUPER_ADMIN"
+    },
+    {
+      "source": "comm_social",
+      "target": "platform_linkedin",
+      "relation": "CONTENT_ADMIN"
+    },
+    {
+      "source": "board_pr_lead",
+      "target": "platform_linkedin",
+      "relation": "CONTENT_ADMIN"
+    },
+    {
+      "source": "platform_linkedin",
+      "target": "ext_industry",
+      "relation": "CORPORATE_BRIDGE"
     },
     {
       "source": "comm_software",
@@ -986,6 +1044,51 @@
       "source": "linear_task_IUS-15",
       "target": "doc_advisor_letter",
       "relation": "USES_OFFICIAL_LETTER"
+    },
+    {
+      "source": "linear_task_IUS-16",
+      "target": "platform_linear",
+      "relation": "TRACKED_IN"
+    },
+    {
+      "source": "board_hasan_kaan",
+      "target": "linear_task_IUS-16",
+      "relation": "LEADS_DONE"
+    },
+    {
+      "source": "linear_task_IUS-16",
+      "target": "doc_annual_plan",
+      "relation": "DELIVERS_PLAN"
+    },
+    {
+      "source": "linear_task_IUS-16",
+      "target": "doc_budget",
+      "relation": "DELIVERS_BUDGET"
+    },
+    {
+      "source": "linear_task_IUS-16",
+      "target": "sks",
+      "relation": "SUBMITS_TO"
+    },
+    {
+      "source": "linear_task_IUS-17",
+      "target": "platform_linear",
+      "relation": "TRACKED_IN"
+    },
+    {
+      "source": "board_hasan_kaan",
+      "target": "linear_task_IUS-17",
+      "relation": "LEADS_BACKLOG"
+    },
+    {
+      "source": "linear_task_IUS-17",
+      "target": "board_pr_lead",
+      "relation": "RECRUITS_FOR"
+    },
+    {
+      "source": "linear_task_IUS-17",
+      "target": "doc_founding",
+      "relation": "COMPLETES_BOARD"
     },
     {
       "source": "sheet_responses",

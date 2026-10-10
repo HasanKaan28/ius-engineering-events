@@ -35,11 +35,12 @@ ALL_APPLICANTS = [
     {"name": "Hüseyin Talha Seymenliler", "email": "tseymenliler16@gmail.com", "id": "240302179", "role": "Member (Reserve)", "lang": "TR", "phone": "05469309470"},
     {"name": "Muhammed Efe Ural", "email": "uralefe10@gmail.com", "id": "240302169", "role": "Member (Reserve)", "lang": "TR", "phone": "05375606608"},
     {"name": "Abdullah Uzun", "email": "250201110@student.ius.edu.ba", "id": "250201110", "role": "Member (Reserve)", "lang": "TR", "phone": "05362209236"},
+    {"name": "Işıl Irmak Cihan", "email": "irmaksecil1@gmail.com", "id": "240302254", "role": "Member (Reserve)", "lang": "TR", "phone": "+905386481433"},
 ]
 
 def list_roster():
     print("=" * 65)
-    print("📋 TÜM ADAYLAR VE İMZA HAVUZU (16 KİŞİ)")
+    print("📋 TÜM ADAYLAR VE İMZA HAVUZU (17 KİŞİ)")
     print("=" * 65)
     for i, a in enumerate(ALL_APPLICANTS, 1):
         status = "✅ ASİL (İlk 10)" if i <= 10 else "⏳ YEDEK HAVUZ"

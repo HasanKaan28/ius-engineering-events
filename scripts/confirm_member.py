@@ -33,6 +33,7 @@ CANDIDATES = [
     {"id": "240302179", "name": "Hüseyin Talha Seymenliler", "email": "tseymenliler16@gmail.com", "phone": "05469309470", "dept": "FENS", "year": "2", "lang": "TR"},
     {"id": "240302169", "name": "Muhammed Efe Ural", "email": "uralefe10@gmail.com", "phone": "05375606608", "dept": "FENS", "year": "2", "lang": "TR"},
     {"id": "250201110", "name": "Abdullah Uzun", "email": "250201110@student.ius.edu.ba", "phone": "05362209236", "dept": "FBA", "year": "1", "lang": "TR"},
+    {"id": "240302254", "name": "Işıl Irmak Cihan", "email": "irmaksecil1@gmail.com", "phone": "+905386481433", "dept": "FENS", "year": "3", "lang": "TR"},
 ]
 
 def load_data():

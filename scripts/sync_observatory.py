@@ -126,12 +126,12 @@ SECTOR_POSITIONS = {
     "comm_social": {"x": -510, "y": 420},
 
     # 📄 BOTTOM SHELF: ŞABLONLAR & RESMİ BELGELER (TEMPLATES ARCHIVE)
-    "doc_advisor_letter": {"x": -680, "y": 520},
     "doc_constitution": {"x": -410, "y": 550},
     "doc_founding": {"x": -140, "y": 570},
     "doc_annual_plan": {"x": 140, "y": 570},
     "doc_budget": {"x": 410, "y": 550},
     "doc_sponsorship": {"x": 680, "y": 520},
+    "platform_linkedin": {"x": 260, "y": -220},
 
     # 👥 RIGHT FLANK: COMMUNITY & DATA INGESTION
     "sheet_responses": {"x": 520, "y": -60},
@@ -402,13 +402,14 @@ def build_observatory_graph():
     })
 
     add_node({
-        "id": "doc_advisor_letter",
-        "label": "📄 Danışman Davet Mektubu",
-        "cluster": "Documents",
-        "isGodNode": False,
-        "type": "Doc",
-        "file": "templates/ACADEMIC_ADVISOR_INVITATION.md",
-        "details": "FENS Profesörlerine takdim edilen resmi kulüp vizyonu ve danışmanlık davet mektubu."
+        "id": "platform_linkedin",
+        "label": "LinkedIn Şirket Sayfası (Canlı)",
+        "cluster": "PR & Media",
+        "isGodNode": True,
+        "type": "Platform",
+        "url": "https://www.linkedin.com/company/ius-engineering-club",
+        "file": "pr_and_branding/LINKEDIN_PAGE_SETUP.md",
+        "details": "Resmi kurumsal LinkedIn şirketi. Logo, 1128x191 banner, FENS kampüs konumu (Hrasnička Cesta 15) ve About metni ile canlıda. 6 kişilik yönetim kurulu ve kişisel profil rozetleri bağlı."
     })
 
     # 6. FLAGSHIP EVENTS & EXTERNAL
@@ -501,9 +502,16 @@ def build_observatory_graph():
     edges.append({"source": "comm_social", "target": "ext_industry", "relation": "REACHES_TECH_COMPANIES"})
     edges.append({"source": "event_launch", "target": "advisor", "relation": "HONOR_JURY"})
     edges.append({"source": "advisor", "target": "sks", "relation": "RESMI_FAKULTE_ONAYI"})
-    edges.append({"source": "advisor", "target": "doc_advisor_letter", "relation": "TEK_ISLAK_IMZA"})
+    edges.append({"source": "advisor", "target": "doc_founding", "relation": "TEK_ISLAK_IMZA"})
     edges.append({"source": "board_hasan_kaan", "target": "advisor", "relation": "ACADEMIC_LIAISON"})
     edges.append({"source": "advisor", "target": "board_hasan_kaan", "relation": "MENTORS_PRESIDENT"})
+
+    # LinkedIn Company & PR Edges
+    edges.append({"source": "board_hasan_kaan", "target": "platform_linkedin", "relation": "FOUNDER_AND_SUPER_ADMIN"})
+    edges.append({"source": "board_mahmut_ihsan", "target": "platform_linkedin", "relation": "SUPER_ADMIN"})
+    edges.append({"source": "comm_social", "target": "platform_linkedin", "relation": "CONTENT_ADMIN"})
+    edges.append({"source": "board_pr_lead", "target": "platform_linkedin", "relation": "CONTENT_ADMIN"})
+    edges.append({"source": "platform_linkedin", "target": "ext_industry", "relation": "CORPORATE_BRIDGE"})
 
     # Committee / Event / External Edges
     edges.append({"source": "comm_software", "target": "event_hackathon", "relation": "LEADS_TECHNICAL"})
@@ -531,6 +539,8 @@ def build_observatory_graph():
         "IUS-13": "DevHack 2027 Hackathonu",
         "IUS-14": "TechSummit 2027 Zirvesi",
         "IUS-15": "🎪 Kickoff: Marshmallow Challenge",
+        "IUS-16": "🎉 LinkedIn Sayfası (Done)",
+        "IUS-17": "🤫 Instagram Lansmanı (Stealth)",
     }
 
     for idx, issue in enumerate(sorted_issues):
