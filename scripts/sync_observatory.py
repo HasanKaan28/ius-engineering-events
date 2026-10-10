@@ -519,12 +519,17 @@ def build_observatory_graph():
     edges.append({"source": "doc_founding", "target": "sks", "relation": "SUBMITTED_TO"})
     edges.append({"source": "comm_whatsapp", "target": "sheet_responses", "relation": "FUNNELS_REGISTRATIONS"})
 
-    # 8. LINEAR TASK NODES & EDGES (LIVE)
+    # 8. LINEAR TASK NODES & EDGES (ACTIVE ONLY - COMPLETED TASKS EXCLUDED FOR CLARITY)
     def get_ident_num(x):
         m = re.search(r'\d+', x.get("identifier", ""))
         return int(m.group()) if m else 999
     
-    sorted_issues = sorted(raw_issues, key=get_ident_num)
+    # Filter out completed or canceled tasks to keep graph clean and readable
+    active_issues = [
+        iss for iss in raw_issues 
+        if iss.get("state", {}).get("name") not in ("Done", "Canceled", "Duplicate")
+    ]
+    sorted_issues = sorted(active_issues, key=get_ident_num)
     total_tasks = len(sorted_issues)
 
     CLEAN_TASK_TITLES = {
@@ -668,7 +673,8 @@ def build_observatory_graph():
         "stats": {
             "total_nodes": len(nodes),
             "total_edges": len(edges),
-            "linear_tasks": len(raw_issues),
+            "linear_tasks": len(active_issues),
+            "completed_tasks": len(raw_issues) - len(active_issues),
             "registered_members": len(normal_member_rows),
             "board_members": 5
         },
