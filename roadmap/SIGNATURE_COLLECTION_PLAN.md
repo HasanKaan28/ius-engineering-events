@@ -6,6 +6,7 @@
 * 🎯 **Pazartesi:** **14:50 sonrası** (CS103 Programlama çıkışı) veya **11:50 - 12:00** (Physics arası)  
 **Buluşma Noktaları:** IUS A/B Blok Koridorları (F1/F2), FENS Binası, Kütüphane veya Kampüs Kafeteryası  
 **Masaüstü Dosyası:** `C:\Users\Kaan\Desktop\IEC\student_club_registration_form_f252.docx`  
+**Baskı Durumu:** 🖨️ **Okul Baskı Birimine Gönderildi** (10 Ekim 2026). Pazartesi sabahı (12 Ekim 2026) fiziki renkli çıktı teslim alınacak ve doğrudan imza operasyonu başlayacak.  
 **Hedef:** Üniversite ve SCC kuralı gereği ("At least 10 students, including Management Board") **en az 10 ıslak imzanın eksiksiz tamamlanması**.
 
 ---
