@@ -52,7 +52,15 @@ ius-engineering-events/
 - **GitHub Repository & 7/24 Cloud Host**: [https://github.com/HasanKaan28/ius-engineering-events](https://github.com/HasanKaan28/ius-engineering-events)
 - **Permanent 7/24 Live Observatory (GitHub Pages)**: [https://hasankaan28.github.io/ius-engineering-events/](https://hasankaan28.github.io/ius-engineering-events/) (Kalıcı, bilgisayar kapalıyken bile 7/24 aktif, sınırsız global CDN).
 - **Interactive Cyberpunk Observatory**: [`graphify-out/graph.html`](file:///C:/Users/Kaan/.gemini/antigravity-ide/scratch/ius-engineering-events/graphify-out/graph.html) (Local `http://localhost:8085/`).
-- **Masaüstü IEC Klasörü (Desktop IEC Hub)**: `C:\Users\Kaan\Desktop\IEC` — Kulüple ilgili tüm resmi başvuru formları (`student_club_registration_form_f252.docx`), dekanlık sunumları, LinkedIn rehberleri, afişler ve görseller masaüstündeki bu özel `IEC` klasöründe tutulur. Tüm Python scriptleri ve otomatik exportlar çıktılarını doğrudan buraya kaydeder.
+- **Masaüstü IEC Klasörü & Kategorileri (Desktop IEC Hub)**: `C:\Users\Kaan\Desktop\IEC` — Kulüple ilgili tüm belgeler, formlar, sunumlar ve indirmeler 7 resmi kategoride depolanır:
+  1. `01_Resmi_Basvuru_Formlari`: Resmi Form F252, dilekçeler ve kurucu üye listeleri.
+  2. `02_Dekanlik_ve_Akademik_Danisman`: Dekanlık sunumu (PDF/HTML) ve danışman davetiyesi.
+  3. `03_Tuzuk_Butce_ve_Planlar`: Tüzük, 1.300 KM taslak bütçe ve 12 haftalık faaliyet planları.
+  4. `04_Marka_Logo_ve_Tasarim`: Yüksek çözünürlüklü logolar, bannerlar ve afişler.
+  5. `05_LinkedIn_ve_Sosyal_Medya`: LinkedIn şirket sayfası ve yönetici profil rehberleri, medya kitleri.
+  6. `06_Etkinlikler_ve_Workshoplar`: Marshmallow Challenge, DevHack, atölye ve imza operasyonu planları.
+  7. `07_Indirilenler_Downloads`: Kulüp için internetten veya harici kaynaklardan indirilen tüm sponsorluk dosyaları, CV'ler, formlar ve geçici veriler.
+  *(ZORUNLU KURAL: Bilgisayara kulüp için herhangi bir dosya indirileceğinde, üretileceğinde veya dışarıdan aktarılacağında HER SEFERİNDE doğrudan bu klasör ve ilgili kategorisi kullanılır).*
 - **Founding & Member Status**: 
   - **Akademik Danışman (Academic Faculty Advisor)**:
     - 🎓 **Prof. Dr. Leila Miller** (Full Professor Dr., FENS, E-mail: `lmiller@ius.edu.ba`, Tel: `033 957 -`, Asistan: Ilma Papić `itarhanis-papic@ius.edu.ba`). Kulübün resmi akademik danışmanı olarak belirlendi ve tüm başvuru evraklarına işlendi.

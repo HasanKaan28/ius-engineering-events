@@ -4,17 +4,21 @@ import zipfile
 import xml.etree.ElementTree as ET
 
 def update_board_in_desktop_form():
-    src_docx = r'C:\Users\Kaan\Desktop\IEC\student_club_registration_form_f252.docx'
+    cat_docx = r'C:\Users\Kaan\Desktop\IEC\01_Resmi_Basvuru_Formlari\student_club_registration_form_f252.docx'
+    root_docx = r'C:\Users\Kaan\Desktop\IEC\student_club_registration_form_f252.docx'
+    desk_docx = r'C:\Users\Kaan\Desktop\student_club_registration_form_f252.docx'
     backup_docx = r'C:\Users\Kaan\.gemini\antigravity-ide\scratch\ius-engineering-events\data\student_club_registration_form_f252_USER_EDITED_BEFORE_BOARD_UPDATE.docx'
     export_copy = r'C:\Users\Kaan\.gemini\antigravity-ide\scratch\ius-engineering-events\export_documents\student_club_registration_form_f252_FILLED.docx'
 
-    if not os.path.exists(src_docx):
-        alt_docx = r'C:\Users\Kaan\Desktop\student_club_registration_form_f252.docx'
-        if os.path.exists(alt_docx):
-            src_docx = alt_docx
-        else:
-            print(f"Error: Desktop file not found at {src_docx}")
-            return
+    if os.path.exists(cat_docx):
+        src_docx = cat_docx
+    elif os.path.exists(root_docx):
+        src_docx = root_docx
+    elif os.path.exists(desk_docx):
+        src_docx = desk_docx
+    else:
+        print(f"Error: Desktop file not found at {cat_docx}")
+        return
 
     # 1. Accidental data loss prevention: backup the user-edited file
     shutil.copy2(src_docx, backup_docx)
@@ -122,12 +126,14 @@ def update_board_in_desktop_form():
                     arcname = os.path.relpath(filepath, extract_dir)
                     zip_out.write(filepath, arcname)
 
-    make_zip(src_docx)
+    make_zip(cat_docx)
+    make_zip(root_docx)
     make_zip(export_copy)
     shutil.rmtree(extract_dir)
 
     print("SUCCESS: Table 3 updated with Executive Board (1-5) and Members (6-15)!")
-    print(f"Desktop file updated: {src_docx}")
+    print(f"Primary file updated: {cat_docx}")
+    print(f"Quick Access file updated: {root_docx}")
     print(f"Export copy updated: {export_copy}")
 
 if __name__ == '__main__':

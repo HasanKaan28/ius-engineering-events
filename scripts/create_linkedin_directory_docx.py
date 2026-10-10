@@ -347,8 +347,8 @@ def create_directory_document():
     r_ft.font.size = Pt(8.5)
     r_ft.font.color.rgb = RGBColor(140, 140, 140)
 
-    # Save to Desktop IEC
-    desktop_dir = r"C:\Users\Kaan\Desktop\IEC"
+    # Save to Desktop IEC - 05_LinkedIn_ve_Sosyal_Medya
+    desktop_dir = r"C:\Users\Kaan\Desktop\IEC\05_LinkedIn_ve_Sosyal_Medya"
     os.makedirs(desktop_dir, exist_ok=True)
     desktop_path = os.path.join(desktop_dir, "IUS_Engineering_Club_LinkedIn_Rehberi.docx")
     doc.save(desktop_path)

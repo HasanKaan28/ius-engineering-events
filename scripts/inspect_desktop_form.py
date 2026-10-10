@@ -1,7 +1,9 @@
 import os
 import docx
 
-docx_path = r'C:\Users\Kaan\Desktop\IEC\student_club_registration_form_f252.docx'
+docx_path = r'C:\Users\Kaan\Desktop\IEC\01_Resmi_Basvuru_Formlari\student_club_registration_form_f252.docx'
+if not os.path.exists(docx_path):
+    docx_path = r'C:\Users\Kaan\Desktop\IEC\student_club_registration_form_f252.docx'
 if not os.path.exists(docx_path):
     docx_path = r'C:\Users\Kaan\Desktop\student_club_registration_form_f252.docx'
 

@@ -1,15 +1,19 @@
 import os, sys, shutil, zipfile, xml.etree.ElementTree as ET
 
 def fill_docx():
-    src_docx = r'C:\Users\Kaan\Desktop\IEC\student_club_registration_form_f252.docx'
-    if not os.path.exists(src_docx):
-        # Fallback to Desktop root if ever placed there
-        alt_docx = r'C:\Users\Kaan\Desktop\student_club_registration_form_f252.docx'
-        if os.path.exists(alt_docx):
-            src_docx = alt_docx
-        else:
-            print(f"File not found: {src_docx}")
-            return
+    cat_docx = r'C:\Users\Kaan\Desktop\IEC\01_Resmi_Basvuru_Formlari\student_club_registration_form_f252.docx'
+    root_docx = r'C:\Users\Kaan\Desktop\IEC\student_club_registration_form_f252.docx'
+    desk_docx = r'C:\Users\Kaan\Desktop\student_club_registration_form_f252.docx'
+
+    if os.path.exists(cat_docx):
+        src_docx = cat_docx
+    elif os.path.exists(root_docx):
+        src_docx = root_docx
+    elif os.path.exists(desk_docx):
+        src_docx = desk_docx
+    else:
+        print(f"File not found: {cat_docx}")
+        return
 
     # Extract all files
     extract_dir = r'C:\Users\Kaan\.gemini\antigravity-ide\scratch\ius-engineering-events\data\docx_temp'
@@ -229,12 +233,14 @@ def fill_docx():
                     zip_out.write(filepath, arcname)
 
     make_zip(out_export_filled)
-    # Overwrite the exact desktop file cleanly
-    make_zip(src_docx)
+    # Overwrite the exact categorized and root desktop files cleanly
+    make_zip(cat_docx)
+    make_zip(root_docx)
 
     shutil.rmtree(extract_dir)
-    print("SUCCESS: Exact school form filled cleanly on Desktop without any extra files!")
-    print(f"Updated Desktop file: {src_docx}")
+    print("SUCCESS: Exact school form filled cleanly in Desktop/IEC and 01_Resmi_Basvuru_Formlari!")
+    print(f"Updated Primary: {cat_docx}")
+    print(f"Updated Quick Access: {root_docx}")
 
 if __name__ == '__main__':
     fill_docx()
