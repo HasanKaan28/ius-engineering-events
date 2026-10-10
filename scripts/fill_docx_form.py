@@ -235,12 +235,15 @@ def fill_docx():
     make_zip(out_export_filled)
     # Overwrite the exact categorized and root desktop files cleanly
     make_zip(cat_docx)
-    make_zip(root_docx)
+    try:
+        make_zip(root_docx)
+        print(f"Updated Quick Access: {root_docx}")
+    except PermissionError:
+        print(f"Notice: Quick Access {root_docx} is open in Word. Primary file in 01_Resmi_Basvuru_Formlari updated cleanly!")
 
     shutil.rmtree(extract_dir)
     print("SUCCESS: Exact school form filled cleanly in Desktop/IEC and 01_Resmi_Basvuru_Formlari!")
     print(f"Updated Primary: {cat_docx}")
-    print(f"Updated Quick Access: {root_docx}")
 
 if __name__ == '__main__':
     fill_docx()

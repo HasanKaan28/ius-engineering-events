@@ -127,13 +127,16 @@ def update_board_in_desktop_form():
                     zip_out.write(filepath, arcname)
 
     make_zip(cat_docx)
-    make_zip(root_docx)
+    try:
+        make_zip(root_docx)
+        print(f"Quick Access file updated: {root_docx}")
+    except PermissionError:
+        print(f"Notice: Quick Access {root_docx} is open in Word. Primary file in 01_Resmi_Basvuru_Formlari updated cleanly!")
     make_zip(export_copy)
     shutil.rmtree(extract_dir)
 
     print("SUCCESS: Table 3 updated with Executive Board (1-5) and Members (6-15)!")
     print(f"Primary file updated: {cat_docx}")
-    print(f"Quick Access file updated: {root_docx}")
     print(f"Export copy updated: {export_copy}")
 
 if __name__ == '__main__':
