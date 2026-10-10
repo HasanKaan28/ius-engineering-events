@@ -1,13 +1,13 @@
 {
   "project": "IUS Engineering Club",
-  "generated_at": "2026-10-10T02:40:11.039631",
+  "generated_at": "2026-10-10T02:54:46.421429",
   "stats": {
-    "total_nodes": 36,
-    "total_edges": 91,
+    "total_nodes": 34,
+    "total_edges": 86,
     "linear_tasks": 10,
     "completed_tasks": 3,
-    "registered_members": 12,
-    "board_members": 5
+    "registered_members": 10,
+    "board_members": 4
   },
   "nodes": [
     {
@@ -35,25 +35,14 @@
     },
     {
       "id": "sheet_responses",
-      "label": "Google Sheets (16 Kayıt / 12 Normal Üye)",
+      "label": "Google Sheets (16 Kayıt / 10 Normal Üye)",
       "cluster": "Data",
       "isGodNode": false,
       "type": "Dataset",
       "file": "data/form_responses.csv",
       "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
-      "details": "Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. 12 onaylı normal üye kayıtlı.",
+      "details": "Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. 10 onaylı aktif üye kayıtlı.",
       "x": 520,
-      "y": -60
-    },
-    {
-      "id": "fetch_tool",
-      "label": "Google Sheet Live Fetcher",
-      "cluster": "Infrastructure",
-      "isGodNode": false,
-      "type": "Script",
-      "file": "scripts/fetch_google_sheet.py",
-      "details": "CSV formatında canlı tabloyu IDE içerisine indiren otomatik köprü.",
-      "x": 750,
       "y": -60
     },
     {
@@ -114,12 +103,12 @@
     },
     {
       "id": "comm_social",
-      "label": "Social Media & Sponsorship (M. Efe Ural)",
+      "label": "PR & Social Media Committee",
       "cluster": "Committees",
       "isGodNode": true,
       "type": "Committee",
       "file": "organization/ROLE_DESCRIPTIONS.md",
-      "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Kulübün açılacak resmi Instagram hesabı yönetimi, etkinlik afişi ve kreatif tasarımlar (Marshmallow Challenge posteri) ile şirket sponsorluk ilişkileri (Bekir Enes ile ortak koordinasyon).",
+      "details": "Lider: Muhammed Efe Ural (PR & Medya Lideri). Kulübün açılacak resmi Instagram hesabı yönetimi, etkinlik afişi ve kreatif tasarımlar (Marshmallow Challenge posteri) ile şirket sponsorluk ilişkileri (Bekir Enes ile ortak koordinasyon).",
       "x": -510,
       "y": 420
     },
@@ -148,12 +137,12 @@
     },
     {
       "id": "doc_founding",
-      "label": "📄 SCC 10 Kurucu Üye Listesi (12/10)",
+      "label": "📄 SCC Kurucu Üye Listesi (10/10)",
       "cluster": "Documents",
       "isGodNode": true,
       "type": "Doc",
       "file": "templates/SCC_FOUNDING_10_MEMBERS.md",
-      "details": "Resmi kuruluş evrağı: 5 Yönetim Kurulu Onaylı (5/5 Tam Kadro - PR Lead: Bakir Bašić) | 12 Kurucu Normal Üye Onaylı (10/10 Kotası %100 Tamamlandı).",
+      "details": "Resmi yönetim kadrosu: 4 Asil Lider (Başkan: Hasan Kaan, Bşk Yrd: Mahmut İhsan, Sayman: Bekir Enes, PR Lead: Muhammed Efe Ural) | 10 Kurucu Normal Üye Kayıtlı (10/10 Kotası Tamamlandı).",
       "x": -140,
       "y": 570
     },
@@ -237,15 +226,15 @@
     },
     {
       "id": "board_hasan_kaan",
-      "label": "Hasan Kaan (👑 Asıl Başkan & Kurucu Ortak)",
+      "label": "Hasan Kaan (👑 Kurucu Ortak & Başkan)",
       "cluster": "Leadership",
       "isGodNode": true,
       "type": "BoardMember",
       "file": "organization/ROLE_DESCRIPTIONS.md",
-      "role_title": "👑 Asıl Başkan & Kurucu Ortak (Co-Founder & President)",
+      "role_title": "👑 Kurucu Ortak & Başkan (Co-Founder & President)",
       "student_id": "250302195",
       "dept": "FENS (1. Sınıf)",
-      "duties": "Yönetim Kurulu üyeleri ile birlikte kulübün vizyonunu ve teknik yapılanmasını kolektif olarak koordine eder. Kurul üyeleriyle ortaklaşa Linear sprintlerini, atölyeleri ve DevHack 2027 hazırlıklarını yürütür; takım ruhunu ön planda tutar.",
+      "duties": "Kulübün kurucu ortağı ve başkanı. Yönetim Kurulu üyeleri ile birlikte kulübün vizyonunu, teknik yapılanmasını, Linear sprintlerini, atölyeleri ve DevHack 2027 maratonunu koordine eder; takım ruhunu ön planda tutar.",
       "tools": [
         "Linear.app Task Hub",
         "Antigravity IDE & Python Automation",
@@ -255,65 +244,40 @@
       ],
       "collaborates": [
         "Mahmut İhsan (Kurucu Ortak & Bşk. Yrd.)",
-        "Kaan Mete (Resmi Temsilci)",
         "Bekir Enes (Sayman)",
+        "Muhammed Efe Ural (PR & Medya Lideri)",
         "Komiteler & Takımlar"
       ],
-      "details": "[👑 Asıl Başkan & Kurucu Ortak (Co-Founder & President)] FENS (1. Sınıf) - No: 250302195\nGörevler: Yönetim Kurulu üyeleri ile birlikte kulübün vizyonunu ve teknik yapılanmasını kolektif olarak koordine eder. Kurul üyeleriyle ortaklaşa Linear sprintlerini, atölyeleri ve DevHack 2027 hazırlıklarını yürütür; takım ruhunu ön planda tutar.",
+      "details": "[👑 Kurucu Ortak & Başkan (Co-Founder & President)] FENS (1. Sınıf) - No: 250302195\nGörevler: Kulübün kurucu ortağı ve başkanı. Yönetim Kurulu üyeleri ile birlikte kulübün vizyonunu, teknik yapılanmasını, Linear sprintlerini, atölyeleri ve DevHack 2027 maratonunu koordine eder; takım ruhunu ön planda tutar.",
       "x": 0,
-      "y": 0
+      "y": -40
     },
     {
       "id": "board_mahmut_ihsan",
-      "label": "Mahmut İhsan Avcı (🚀 Asıl Başkan Yrd. & Kurucu Ortak)",
+      "label": "Mahmut İhsan Avcı (🚀 Kurucu Ortak & Başkan Yrd.)",
       "cluster": "Leadership",
       "isGodNode": true,
       "type": "BoardMember",
       "file": "organization/ROLE_DESCRIPTIONS.md",
-      "role_title": "🚀 Asıl Başkan Yrd. & Kurucu Ortak (Co-Founder & Vice President)",
+      "role_title": "🚀 Kurucu Ortak & Başkan Yrd. (Co-Founder & Vice President)",
       "student_id": "250302233",
       "dept": "FENS (1. Sınıf)",
-      "duties": "Kulübün ASIL BAŞKAN YARDIMCISI ve operasyonel sağ kolu. Üye alımları, bürokrasi, toplantı tutanakları ve idari/lojistik operasyonların yöneticisi. Hasan Kaan ile birlikte kulübü fiilen yönetir.",
+      "duties": "Kulübün kurucu ortağı, başkan yardımcısı ve operasyonel sağ kolu. Üye alımları, topluluk moderasyonu, resmi toplantı kayıtları ve idari/lojistik operasyonların yöneticisi.",
       "tools": [
         "Google Sheets Live Ingestion",
         "WhatsApp Community Hub",
         "Resmi Toplantı Tutanakları",
-        "SCC 10-Üye Resmi Listesi"
+        "Üye Kayıt Takibi"
       ],
       "collaborates": [
-        "Hasan Kaan (Asıl Başkan)",
-        "Kaan Mete (Resmi Temsilci)",
+        "Hasan Kaan (Başkan)",
         "Bekir Enes (Sayman)",
-        "Kurucu Üyeler"
+        "Muhammed Efe Ural (PR Lead)",
+        "Kayıtlı Üyeler"
       ],
-      "details": "[🚀 Asıl Başkan Yrd. & Kurucu Ortak (Co-Founder & Vice President)] FENS (1. Sınıf) - No: 250302233\nGörevler: Kulübün ASIL BAŞKAN YARDIMCISI ve operasyonel sağ kolu. Üye alımları, bürokrasi, toplantı tutanakları ve idari/lojistik operasyonların yöneticisi. Hasan Kaan ile birlikte kulübü fiilen yönetir.",
-      "x": -280,
-      "y": 0
-    },
-    {
-      "id": "board_kaan_mete",
-      "label": "Kaan Mete Şenyıldız (🏛️ Resmi / Göstermelik Başkan)",
-      "cluster": "Leadership",
-      "isGodNode": true,
-      "type": "BoardMember",
-      "file": "organization/ROLE_DESCRIPTIONS.md",
-      "role_title": "🏛️ Resmi / Göstermelik Başkan (SCC 2. Sınıf Temsilcisi)",
-      "student_id": "250302201",
-      "dept": "FENS (2. Sınıf)",
-      "duties": "SCC mevzuatındaki 'Kulüp başkanı en az 2. sınıf olmalıdır' kuralını karşılamak üzere resmi evraklardaki imza mercii ve üniversite nezdindeki biçimsel temsilci. Fiili kulüp yönetimi ve kararlar Hasan Kaan ve Mahmut İhsan tarafından yürütülür.",
-      "tools": [
-        "Resmi Dilekçe İmzaları",
-        "SCC Temsilcilik Evrakları",
-        "Town Hall Katılımı"
-      ],
-      "collaborates": [
-        "Hasan Kaan (Asıl Başkan)",
-        "Mahmut İhsan (Asıl Bşk. Yrd.)",
-        "FENS Academic Advisor"
-      ],
-      "details": "[🏛️ Resmi / Göstermelik Başkan (SCC 2. Sınıf Temsilcisi)] FENS (2. Sınıf) - No: 250302201\nGörevler: SCC mevzuatındaki 'Kulüp başkanı en az 2. sınıf olmalıdır' kuralını karşılamak üzere resmi evraklardaki imza mercii ve üniversite nezdindeki biçimsel temsilci. Fiili kulüp yönetimi ve kararlar Hasan Kaan ve Mahmut İhsan tarafından yürütülür.",
-      "x": 280,
-      "y": 0
+      "details": "[🚀 Kurucu Ortak & Başkan Yrd. (Co-Founder & Vice President)] FENS (1. Sınıf) - No: 250302233\nGörevler: Kulübün kurucu ortağı, başkan yardımcısı ve operasyonel sağ kolu. Üye alımları, topluluk moderasyonu, resmi toplantı kayıtları ve idari/lojistik operasyonların yöneticisi.",
+      "x": -220,
+      "y": 40
     },
     {
       "id": "board_bekir_enes",
@@ -322,52 +286,51 @@
       "isGodNode": true,
       "type": "BoardMember",
       "file": "organization/ROLE_DESCRIPTIONS.md",
-      "role_title": "💰 Sayman & Finans Lideri (Treasurer & Finance)",
+      "role_title": "💰 Sayman & Finans Lideri (Treasurer & Finance Lead)",
       "student_id": "250302229",
       "dept": "FENS (1. Sınıf)",
-      "duties": "Bütçe ve finans lideri. SCC 1.300 KM taslak bütçe ve 3 katmanlı sürdürülebilir finans modelini (Şirket sponsorlukları 800 KM, Üniversite/SCC hibe desteği 300 KM, DevHack cüzi katılım payı 200 KM) yönetir. Saraybosna teknoloji ekosistemi şirketleriyle görüşmeler yürütür. Hasan Kaan ve Mahmut İhsan'a rapor verir.",
+      "duties": "Bütçe ve finans lideri. SCC 1.300 KM taslak bütçe ve 3 katmanlı sürdürülebilir finans modelini (Şirket sponsorlukları 800 KM, Üniversite/SCC hibe desteği 300 KM, DevHack cüzi katılım payı 200 KM) yönetir. Saraybosna teknoloji ekosistemi şirketleriyle görüşmeler yürütür. Muhammed Efe Ural ile sponsorluk paketlerini koordine eder.",
       "tools": [
         "Corporate Sponsorship Package",
         "1.300 KM 3-Katmanlı Bütçe Tablosu",
         "Promotion Day Afiş & Roll-up Materyalleri"
       ],
       "collaborates": [
-        "Hasan Kaan (Asıl Başkan)",
-        "Mahmut İhsan (Asıl Bşk. Yrd.)",
-        "Saraybosna Şirketleri",
-        "SCC / Üniversite",
-        "PR Lead"
+        "Hasan Kaan (Başkan)",
+        "Mahmut İhsan (Bşk. Yrd.)",
+        "Muhammed Efe Ural (PR & Medya)",
+        "Saraybosna Şirketleri"
       ],
-      "details": "[💰 Sayman & Finans Lideri (Treasurer & Finance)] FENS (1. Sınıf) - No: 250302229\nGörevler: Bütçe ve finans lideri. SCC 1.300 KM taslak bütçe ve 3 katmanlı sürdürülebilir finans modelini (Şirket sponsorlukları 800 KM, Üniversite/SCC hibe desteği 300 KM, DevHack cüzi katılım payı 200 KM) yönetir. Saraybosna teknoloji ekosistemi şirketleriyle görüşmeler yürütür. Hasan Kaan ve Mahmut İhsan'a rapor verir.",
-      "x": -140,
-      "y": 180
+      "details": "[💰 Sayman & Finans Lideri (Treasurer & Finance Lead)] FENS (1. Sınıf) - No: 250302229\nGörevler: Bütçe ve finans lideri. SCC 1.300 KM taslak bütçe ve 3 katmanlı sürdürülebilir finans modelini (Şirket sponsorlukları 800 KM, Üniversite/SCC hibe desteği 300 KM, DevHack cüzi katılım payı 200 KM) yönetir. Saraybosna teknoloji ekosistemi şirketleriyle görüşmeler yürütür. Muhammed Efe Ural ile sponsorluk paketlerini koordine eder.",
+      "x": 0,
+      "y": 140
     },
     {
-      "id": "board_pr_lead",
-      "label": "Bakir Bašić (📣 Resmi PR Lead)",
+      "id": "board_efe_ural",
+      "label": "Muhammed Efe Ural (📣 PR & Medya / Sponsorluk Lideri)",
       "cluster": "Leadership",
       "isGodNode": true,
       "type": "BoardMember",
       "file": "organization/ROLE_DESCRIPTIONS.md",
-      "role_title": "📣 Resmi PR Lead (Statutory PR Representative)",
-      "student_id": "260302030",
-      "dept": "FENS (1. Sınıf)",
-      "duties": "SCC resmi başvurusundaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Üniversite duyuru panoları, resmi basın ve kurumsal iletişimi koordine eder. Kulübün fiili sosyal medya içerikleri, açılacak resmi Instagram hesabı, görsel afiş tasarımları ve reels paylaşımları doğrudan Muhammed Efe Ural tarafından yürütülür.",
+      "role_title": "📣 PR & Medya / Sponsorluk Lideri (PR & Media Lead)",
+      "student_id": "240302169",
+      "dept": "FENS (2. Sınıf)",
+      "duties": "Kulübün ASIL PR ve Medya Lideri. Kulübün açılacak resmi Instagram hesabının tam mülkiyeti, görsel tasarım & afiş hazırlığı (Marshmallow Challenge & etkinlik posterleri), LinkedIn şirket içerikleri, viral reels paylaşımları ve Bekir Enes ile şirket kurumsal sponsorluk ortaklığı.",
       "tools": [
-        "Resmi Duyuru Panoları",
-        "SCC Temsilcilik Evrakları",
-        "Etkinlik Fotoğraf Arşivi",
-        "Boşnak Topluluk İletişimi"
+        "Instagram Resmi Hesabı (Stealth/Lansman)",
+        "Etkinlik Afişi & Grafik Tasarım",
+        "LinkedIn Şirket Sayfası",
+        "Sponsorluk Ortaklıkları"
       ],
       "collaborates": [
-        "Hasan Kaan (Genel Lansman & Vizyon)",
-        "Muhammed Efe Ural (Fiili Sosyal Medya & Tasarım)",
-        "Mahmut İhsan (İdari Duyurular)",
-        "Bekir Enes (Bütçe)"
+        "Hasan Kaan (Başkan)",
+        "Mahmut İhsan (Bşk. Yrd.)",
+        "Bekir Enes (Sayman)",
+        "Tüm Komiteler"
       ],
-      "details": "[📣 Resmi PR Lead (Statutory PR Representative)] FENS (1. Sınıf) - No: 260302030\nGörevler: SCC resmi başvurusundaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Üniversite duyuru panoları, resmi basın ve kurumsal iletişimi koordine eder. Kulübün fiili sosyal medya içerikleri, açılacak resmi Instagram hesabı, görsel afiş tasarımları ve reels paylaşımları doğrudan Muhammed Efe Ural tarafından yürütülür.",
-      "x": 140,
-      "y": 180
+      "details": "[📣 PR & Medya / Sponsorluk Lideri (PR & Media Lead)] FENS (2. Sınıf) - No: 240302169\nGörevler: Kulübün ASIL PR ve Medya Lideri. Kulübün açılacak resmi Instagram hesabının tam mülkiyeti, görsel tasarım & afiş hazırlığı (Marshmallow Challenge & etkinlik posterleri), LinkedIn şirket içerikleri, viral reels paylaşımları ve Bekir Enes ile şirket kurumsal sponsorluk ortaklığı.",
+      "x": 220,
+      "y": 40
     },
     {
       "id": "linear_task_IUS-6",
@@ -531,13 +494,13 @@
     },
     {
       "id": "members_cohort",
-      "label": "👥 Kayıtlı Üye Topluluğu (12 Öğrenci)",
+      "label": "👥 Kayıtlı Üye Topluluğu (10 Öğrenci)",
       "cluster": "Community",
       "isGodNode": false,
       "type": "CommunityBase",
       "file": "data/form_responses.csv",
       "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
-      "details": "Kulübün kayıtlı üye topluluğu (12 onaylı başvuru).\nGoogle Form üzerinden kayıt olmuş ve WhatsApp komünitesine dahil edilmiştir.\nTüzük 10 kurucu üye kotası (%100 tamamlandı).\nFENS (CSE, EE, Makine vb.) ve diğer fakültelerden çok disiplinli mühendislik öğrencileri.",
+      "details": "Kulübün kayıtlı üye topluluğu (10 onaylı başvuru).\nGoogle Form üzerinden kayıt olmuş ve WhatsApp komünitesine dahil edilmiştir.\nTüzük 10 kurucu üye kotası (%100 tamamlandı).\nFENS (CSE, EE, Makine vb.) ve diğer fakültelerden çok disiplinli mühendislik öğrencileri.",
       "x": 750,
       "y": 110
     }
@@ -551,42 +514,57 @@
     {
       "source": "board_hasan_kaan",
       "target": "board_mahmut_ihsan",
-      "relation": "ASIL_BASKAN_YARDIMCISI"
+      "relation": "KURUCU_ORTAKLAR"
     },
     {
       "source": "board_mahmut_ihsan",
       "target": "board_hasan_kaan",
-      "relation": "REPORTS_TO_ASIL_BASKAN"
-    },
-    {
-      "source": "board_hasan_kaan",
-      "target": "board_kaan_mete",
-      "relation": "GOREVLENDIRIR_RESMI_TEMSILCI"
-    },
-    {
-      "source": "board_kaan_mete",
-      "target": "board_hasan_kaan",
-      "relation": "RAPORLAR_ASIL_BASKANA"
+      "relation": "BASKAN_YARDIMCISI"
     },
     {
       "source": "board_bekir_enes",
       "target": "board_hasan_kaan",
-      "relation": "REPORTS_FINANCE_TO"
+      "relation": "FINANS_KOORDINASYONU"
     },
     {
-      "source": "board_kaan_mete",
-      "target": "sks",
-      "relation": "SCC_2_SINIF_RESMI_IMZACI"
+      "source": "board_efe_ural",
+      "target": "board_hasan_kaan",
+      "relation": "PR_VE_MEDYA_LIDERI"
     },
     {
-      "source": "board_kaan_mete",
+      "source": "board_efe_ural",
+      "target": "board_bekir_enes",
+      "relation": "SPONSORLUK_ORTAKLIGI"
+    },
+    {
+      "source": "board_efe_ural",
+      "target": "board_mahmut_ihsan",
+      "relation": "DUYURU_VE_ILETISIM"
+    },
+    {
+      "source": "board_bekir_enes",
+      "target": "board_mahmut_ihsan",
+      "relation": "BUTCE_VE_OPERASYON"
+    },
+    {
+      "source": "board_hasan_kaan",
       "target": "advisor",
-      "relation": "RESMI_OGRENCI_TEMSILCISI"
+      "relation": "ACADEMIC_LIAISON"
     },
     {
-      "source": "board_kaan_mete",
+      "source": "advisor",
+      "target": "board_hasan_kaan",
+      "relation": "MENTORS_PRESIDENT"
+    },
+    {
+      "source": "board_hasan_kaan",
+      "target": "sks",
+      "relation": "OFFICIAL_PRESIDENT_LIAISON"
+    },
+    {
+      "source": "board_hasan_kaan",
       "target": "doc_constitution",
-      "relation": "RESMI_EVRAKTA_IMZACI"
+      "relation": "LEAD_AUTHOR"
     },
     {
       "source": "board_hasan_kaan",
@@ -626,12 +604,7 @@
     {
       "source": "board_mahmut_ihsan",
       "target": "doc_founding",
-      "relation": "COMPILES_10_MEMBERS"
-    },
-    {
-      "source": "board_bekir_enes",
-      "target": "board_mahmut_ihsan",
-      "relation": "KOORDINE_OLUR"
+      "relation": "COMPILES_ROSTER"
     },
     {
       "source": "board_bekir_enes",
@@ -659,49 +632,34 @@
       "relation": "SPONSORS_800KM"
     },
     {
-      "source": "board_pr_lead",
-      "target": "board_bekir_enes",
-      "relation": "COLLABORATES_ON_PROMO"
+      "source": "board_efe_ural",
+      "target": "platform_linkedin",
+      "relation": "CONTENT_ADMIN"
     },
     {
-      "source": "board_pr_lead",
-      "target": "board_hasan_kaan",
-      "relation": "COORDINATES_MEDIA"
-    },
-    {
-      "source": "comm_social",
-      "target": "board_pr_lead",
-      "relation": "COORDINATES_INSTAGRAM_PR"
-    },
-    {
-      "source": "board_pr_lead",
-      "target": "comm_social",
-      "relation": "PROVIDES_PR_ASSETS"
-    },
-    {
-      "source": "board_hasan_kaan",
-      "target": "comm_social",
-      "relation": "DIRECTS_COMMITTEE"
-    },
-    {
-      "source": "comm_social",
+      "source": "board_efe_ural",
       "target": "event_launch",
       "relation": "DESIGNS_POSTER_PROMO"
     },
     {
-      "source": "comm_social",
+      "source": "board_efe_ural",
+      "target": "comm_social",
+      "relation": "DIRECTS_COMMITTEE"
+    },
+    {
+      "source": "board_efe_ural",
       "target": "doc_sponsorship",
-      "relation": "CO_LEADS_SPONSORSHIPS"
+      "relation": "CO_AUTHORS_SPONSORSHIP"
     },
     {
-      "source": "comm_social",
-      "target": "board_bekir_enes",
-      "relation": "COLLABORATES_ON_SPONSORS"
-    },
-    {
-      "source": "comm_social",
+      "source": "board_efe_ural",
       "target": "ext_industry",
-      "relation": "REACHES_TECH_COMPANIES"
+      "relation": "CORPORATE_MEDIA_REACH"
+    },
+    {
+      "source": "comm_social",
+      "target": "event_launch",
+      "relation": "PROMOTES_KICKOFF"
     },
     {
       "source": "event_launch",
@@ -720,16 +678,6 @@
     },
     {
       "source": "board_hasan_kaan",
-      "target": "advisor",
-      "relation": "ACADEMIC_LIAISON"
-    },
-    {
-      "source": "advisor",
-      "target": "board_hasan_kaan",
-      "relation": "MENTORS_PRESIDENT"
-    },
-    {
-      "source": "board_hasan_kaan",
       "target": "platform_linkedin",
       "relation": "FOUNDER_AND_SUPER_ADMIN"
     },
@@ -737,16 +685,6 @@
       "source": "board_mahmut_ihsan",
       "target": "platform_linkedin",
       "relation": "SUPER_ADMIN"
-    },
-    {
-      "source": "comm_social",
-      "target": "platform_linkedin",
-      "relation": "CONTENT_ADMIN"
-    },
-    {
-      "source": "board_pr_lead",
-      "target": "platform_linkedin",
-      "relation": "CONTENT_ADMIN"
     },
     {
       "source": "platform_linkedin",
@@ -840,7 +778,7 @@
     },
     {
       "source": "linear_task_IUS-9",
-      "target": "board_pr_lead",
+      "target": "board_efe_ural",
       "relation": "DELEGATES_PROMO"
     },
     {
@@ -970,8 +908,8 @@
     },
     {
       "source": "linear_task_IUS-17",
-      "target": "board_pr_lead",
-      "relation": "RECRUITS_FOR"
+      "target": "board_efe_ural",
+      "relation": "CONFIRMS_LEADERSHIP"
     },
     {
       "source": "linear_task_IUS-17",

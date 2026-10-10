@@ -55,12 +55,11 @@ ius-engineering-events/
 - **Founding & Member Status**: 
   - **Akademik Danışman (Academic Faculty Advisor)**:
     - 🎓 **Prof. Dr. Leila Miller** (Full Professor Dr., FENS, E-mail: `lmiller@ius.edu.ba`, Tel: `033 957 -`, Asistan: Ilma Papić `itarhanis-papic@ius.edu.ba`). Kulübün resmi akademik danışmanı olarak belirlendi ve tüm başvuru evraklarına işlendi.
-  - **Yönetim Kurulu (5 Kişi)**: 
-    - 👑 **Asıl Kulüp Başkanı & Kurucu Ortak (Co-Founder & President)**: Hasan Kaan (Yönetim Kurulu üyeleri ile birlikte vizyon, teknik yapılanma ve kararları kolektif olarak koordine eden kurucu ortak; takım ruhunu ön planda tutar).
-    - 🚀 **Asıl Başkan Yardımcısı & Kurucu Ortak (Co-Founder & Vice President)**: Mahmut İhsan Avcı (Operasyonel sağ kol, üye alımları, bürokrasi ve toplantı kayıtları).
-    - 🏛️ **Resmi / Göstermelik Başkan (Statutory President)**: Kaan Mete Şenyıldız (SCC mevzuatındaki "Kulüp başkanı en az 2. sınıf olmalıdır" kuralını karşılamak üzere resmi evraklardaki imza mercii ve okul nezdindeki temsilci).
-    - 💰 **Sayman & Finans Lideri**: Bekir Enes Çokbekler (Bütçe yönetimi ve kurumsal sponsorluklar).
-    - 📣 **Resmi / Göstermelik PR Lead (Statutory PR Lead)**: Bakir Bašić (No: 260302030, FENS 1. Sınıf, Tel: `+387-61-533-947`). SCC resmi başvuru evraklarındaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Kulübün fiili sosyal medya içerikleri, açılacak kulüp Instagram hesabı, afiş tasarımları ve reels paylaşımları doğrudan **Muhammed Efe Ural** tarafından yürütülür. 5/5 Tam Kadro Onaylandı! 🎯
+  - **Yönetim Kurulu (4 Kişi)**: 
+    - 👑 **Kurucu Ortak & Başkan (Co-Founder & President)**: Hasan Kaan (Yönetim Kurulu üyeleri ile birlikte vizyon, teknik yapılanma ve kararları kolektif olarak koordine eden kurucu başkan; takım ruhunu ön planda tutar).
+    - 🚀 **Kurucu Ortak & Başkan Yardımcısı (Co-Founder & Vice President)**: Mahmut İhsan Avcı (Operasyonel sağ kol, üye alımları, bürokrasi, topluluk moderasyonu ve toplantı kayıtları).
+    - 💰 **Sayman & Finans Lideri (Treasurer & Finance Lead)**: Bekir Enes Çokbekler (Bütçe yönetimi, 1.300 KM finansal mimari ve kurumsal sponsorluklar).
+    - 📣 **PR & Medya / Sponsorluk Lideri (PR & Media Lead)**: Muhammed Efe Ural (Kulübün ASIL PR ve medya lideri; resmi kulüp Instagram hesabının tam mülkiyeti, afiş ve görsel tasarımlar, LinkedIn şirket içerikleri, viral reels paylaşımları ve şirket kurumsal sponsorluk ortaklığı). 4/4 Asil Kadro Onaylandı! 🎯
   - **3 Katmanlı Sürdürülebilir Finansman Mimarisi (1.300 KM)**:
     - **Tier 1 (Şirket Sponsorlukları - 800 KM)**: Saraybosna teknoloji ekosistemi (Bit Alliance firmaları) ile seminer, hackathon ve zirve destekleri.
     - **Tier 2 (Üniversite / SCC Hibe Desteği - 300 KM)**: Öğrenci kulübü faaliyet ödeneği, afiş baskısı ve kampüs lojistiği için okul desteği.

@@ -28,7 +28,7 @@ Geleneksel öğrenci kulübü tanışma toplantıları genellikle sıkıcı amfi
 * 18 dakika boyunca sıfır resmiyetle ortak bir hedefe kilitlenerek buzlar anında erir.
 
 ### 📸 Medya & PR Patlaması:
-* Yıkılan kuleler, dev mezura ölçümleri ve kahkahalar, **Muhammed Efe Ural** ve **Bakir Bašić** için dinamik Instagram Reels ve tanıtım içerikleri üretir.
+* Yıkılan kuleler, dev mezura ölçümleri ve kahkahalar, **Muhammed Efe Ural** (PR & Medya Lideri) için dinamik Instagram Reels ve tanıtım içerikleri üretir.
 
 ---
 
@@ -103,13 +103,11 @@ Bu etkinlik, minimum bütçeyle maksimum öğrenci memnuniyeti sağlayan "Lean E
 * 📋 **Mahmut İhsan Avcı (Kurucu Ortak & Sekreter)**:
   * Girişte katılımcıların isim ve öğrenci numaralarını teyit etme.
   * Masalara malzeme zarflarını dağıtma, kuralları anlatma ve kronometre yönetimi.
-* 🎨 **Muhammed Efe Ural (Social Media & Corporate Sponsorship Lead)**:
+* 🎨 **Muhammed Efe Ural (PR & Medya / Sponsorluk Lideri)**:
   * Resmi etkinlik afişini tasarlama ("The Marshmallow Challenge" tanıtım görselleri).
-  * Açılacak Instagram hesabı için geri sayım içeriklerini hazırlama.
-  * Etkinlik için kafelerden/şirketlerden sembolik ikram ve çikolata/içecek desteği arayışı (Sponsorluk).
-* 📣 **Bakir Bašić (PR & External Media Lead)**:
-  * Afişlerin kampüste fiziki dağıtımı ve panolara asılması.
-  * 18 dakikalık yarışma anlarını telefonla video kaydına alma; kulelerin yıkılma ve ayakta kalma anlarını yakalama.
+  * Açılacak Instagram hesabı için geri sayım içeriklerini ve reels çekimlerini koordine etme.
+  * Etkinlik anlarını video kaydına alma; kulelerin yıkılma ve ayakta kalma anlarını ölümsüzleştirme.
+  * Bekir Enes ile kafelerden/şirketlerden sembolik ikram ve çikolata/içecek desteği arayışı (Sponsorluk).
 * 💰 **Bekir Enes Çokbekler (Sayman & Finans Lideri)**:
   * Market alışverişini yapıp zarfları hazırlama.
   * Kazanan 1. takıma takdim edilecek sembolik hediye/ödülü hazırlama.

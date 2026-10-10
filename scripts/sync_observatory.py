@@ -37,83 +37,70 @@ BOARD_MEMBERS = {
     "hasan_kaan": {
         "id": "board_hasan_kaan",
         "name": "Hasan Kaan",
-        "role": "👑 Asıl Başkan & Kurucu Ortak (Co-Founder & President)",
+        "role": "👑 Kurucu Ortak & Başkan (Co-Founder & President)",
         "student_id": "250302195",
         "dept": "FENS (1. Sınıf)",
         "email": "ufukkarabulut35@gmail.com",
-        "duties": "Yönetim Kurulu üyeleri ile birlikte kulübün vizyonunu ve teknik yapılanmasını kolektif olarak koordine eder. Kurul üyeleriyle ortaklaşa Linear sprintlerini, atölyeleri ve DevHack 2027 hazırlıklarını yürütür; takım ruhunu ön planda tutar.",
+        "duties": "Kulübün kurucu ortağı ve başkanı. Yönetim Kurulu üyeleri ile birlikte kulübün vizyonunu, teknik yapılanmasını, Linear sprintlerini, atölyeleri ve DevHack 2027 maratonunu koordine eder; takım ruhunu ön planda tutar.",
         "tools": ["Linear.app Task Hub", "Antigravity IDE & Python Automation", "WhatsApp Community Hub", "AI/LLM Workshop Stacks", "Tüm Stratejik Kararlar"],
-        "collaborates": ["Mahmut İhsan (Kurucu Ortak & Bşk. Yrd.)", "Kaan Mete (Resmi Temsilci)", "Bekir Enes (Sayman)", "Komiteler & Takımlar"],
+        "collaborates": ["Mahmut İhsan (Kurucu Ortak & Bşk. Yrd.)", "Bekir Enes (Sayman)", "Muhammed Efe Ural (PR & Medya Lideri)", "Komiteler & Takımlar"],
         "isGodNode": True,
         "aliases": ["hasan kaan", "hasankaan", "hasan"]
     },
     "mahmut_ihsan": {
         "id": "board_mahmut_ihsan",
         "name": "Mahmut İhsan Avcı",
-        "role": "🚀 Asıl Başkan Yrd. & Kurucu Ortak (Co-Founder & Vice President)",
+        "role": "🚀 Kurucu Ortak & Başkan Yrd. (Co-Founder & Vice President)",
         "student_id": "250302233",
         "dept": "FENS (1. Sınıf)",
         "phone": "540 002 0571",
         "email": "mahmut.ihsanavcii@gmail.com",
-        "duties": "Kulübün ASIL BAŞKAN YARDIMCISI ve operasyonel sağ kolu. Üye alımları, bürokrasi, toplantı tutanakları ve idari/lojistik operasyonların yöneticisi. Hasan Kaan ile birlikte kulübü fiilen yönetir.",
-        "tools": ["Google Sheets Live Ingestion", "WhatsApp Community Hub", "Resmi Toplantı Tutanakları", "SCC 10-Üye Resmi Listesi"],
-        "collaborates": ["Hasan Kaan (Asıl Başkan)", "Kaan Mete (Resmi Temsilci)", "Bekir Enes (Sayman)", "Kurucu Üyeler"],
+        "duties": "Kulübün kurucu ortağı, başkan yardımcısı ve operasyonel sağ kolu. Üye alımları, topluluk moderasyonu, resmi toplantı kayıtları ve idari/lojistik operasyonların yöneticisi.",
+        "tools": ["Google Sheets Live Ingestion", "WhatsApp Community Hub", "Resmi Toplantı Tutanakları", "Üye Kayıt Takibi"],
+        "collaborates": ["Hasan Kaan (Başkan)", "Bekir Enes (Sayman)", "Muhammed Efe Ural (PR Lead)", "Kayıtlı Üyeler"],
         "isGodNode": True,
         "aliases": ["mahmut ihsan avcı", "mahmut ihsan", "mahmut.ihsanavcii"]
-    },
-    "kaan_mete": {
-        "id": "board_kaan_mete",
-        "name": "Kaan Mete Şenyıldız",
-        "role": "🏛️ Resmi / Göstermelik Başkan (SCC 2. Sınıf Temsilcisi)",
-        "student_id": "250302201",
-        "dept": "FENS (2. Sınıf)",
-        "phone": "+90 553 113 11 98",
-        "duties": "SCC mevzuatındaki 'Kulüp başkanı en az 2. sınıf olmalıdır' kuralını karşılamak üzere resmi evraklardaki imza mercii ve üniversite nezdindeki biçimsel temsilci. Fiili kulüp yönetimi ve kararlar Hasan Kaan ve Mahmut İhsan tarafından yürütülür.",
-        "tools": ["Resmi Dilekçe İmzaları", "SCC Temsilcilik Evrakları", "Town Hall Katılımı"],
-        "collaborates": ["Hasan Kaan (Asıl Başkan)", "Mahmut İhsan (Asıl Bşk. Yrd.)", "FENS Academic Advisor"],
-        "isGodNode": True,
-        "aliases": ["kaan mete", "kaan mete şenyıldız", "kaan"]
     },
     "bekir_enes": {
         "id": "board_bekir_enes",
         "name": "Bekir Enes Çokbekler",
-        "role": "💰 Sayman & Finans Lideri (Treasurer & Finance)",
+        "role": "💰 Sayman & Finans Lideri (Treasurer & Finance Lead)",
         "student_id": "250302229",
         "dept": "FENS (1. Sınıf)",
         "phone": "05523822006",
         "email": "46bekir70@gmail.com",
-        "duties": "Bütçe ve finans lideri. SCC 1.300 KM taslak bütçe ve 3 katmanlı sürdürülebilir finans modelini (Şirket sponsorlukları 800 KM, Üniversite/SCC hibe desteği 300 KM, DevHack cüzi katılım payı 200 KM) yönetir. Saraybosna teknoloji ekosistemi şirketleriyle görüşmeler yürütür. Hasan Kaan ve Mahmut İhsan'a rapor verir.",
+        "duties": "Bütçe ve finans lideri. SCC 1.300 KM taslak bütçe ve 3 katmanlı sürdürülebilir finans modelini (Şirket sponsorlukları 800 KM, Üniversite/SCC hibe desteği 300 KM, DevHack cüzi katılım payı 200 KM) yönetir. Saraybosna teknoloji ekosistemi şirketleriyle görüşmeler yürütür. Muhammed Efe Ural ile sponsorluk paketlerini koordine eder.",
         "tools": ["Corporate Sponsorship Package", "1.300 KM 3-Katmanlı Bütçe Tablosu", "Promotion Day Afiş & Roll-up Materyalleri"],
-        "collaborates": ["Hasan Kaan (Asıl Başkan)", "Mahmut İhsan (Asıl Bşk. Yrd.)", "Saraybosna Şirketleri", "SCC / Üniversite", "PR Lead"],
+        "collaborates": ["Hasan Kaan (Başkan)", "Mahmut İhsan (Bşk. Yrd.)", "Muhammed Efe Ural (PR & Medya)", "Saraybosna Şirketleri"],
         "isGodNode": True,
         "aliases": ["bekir enes çokbekler", "bekir enes", "46bekir70"]
     },
-    "pr_lead": {
-        "id": "board_pr_lead",
-        "name": "Bakir Bašić",
-        "role": "📣 Resmi PR Lead (Statutory PR Representative)",
-        "student_id": "260302030",
-        "dept": "FENS (1. Sınıf)",
-        "phone": "+387-61-533-947",
-        "email": "260302030@student.ius.edu.ba",
-        "duties": "SCC resmi başvurusundaki 5. Yönetim Kurulu imza mercii ve yerel Boşnak temsilcisi. Üniversite duyuru panoları, resmi basın ve kurumsal iletişimi koordine eder. Kulübün fiili sosyal medya içerikleri, açılacak resmi Instagram hesabı, görsel afiş tasarımları ve reels paylaşımları doğrudan Muhammed Efe Ural tarafından yürütülür.",
-        "tools": ["Resmi Duyuru Panoları", "SCC Temsilcilik Evrakları", "Etkinlik Fotoğraf Arşivi", "Boşnak Topluluk İletişimi"],
-        "collaborates": ["Hasan Kaan (Genel Lansman & Vizyon)", "Muhammed Efe Ural (Fiili Sosyal Medya & Tasarım)", "Mahmut İhsan (İdari Duyurular)", "Bekir Enes (Bütçe)"],
+    "efe_ural": {
+        "id": "board_efe_ural",
+        "name": "Muhammed Efe Ural",
+        "role": "📣 PR & Medya / Sponsorluk Lideri (PR & Media Lead)",
+        "student_id": "240302169",
+        "dept": "FENS (2. Sınıf)",
+        "phone": "0537 560 66 08",
+        "email": "uralefe10@gmail.com",
+        "duties": "Kulübün ASIL PR ve Medya Lideri. Kulübün açılacak resmi Instagram hesabının tam mülkiyeti, görsel tasarım & afiş hazırlığı (Marshmallow Challenge & etkinlik posterleri), LinkedIn şirket içerikleri, viral reels paylaşımları ve Bekir Enes ile şirket kurumsal sponsorluk ortaklığı.",
+        "tools": ["Instagram Resmi Hesabı (Stealth/Lansman)", "Etkinlik Afişi & Grafik Tasarım", "LinkedIn Şirket Sayfası", "Sponsorluk Ortaklıkları"],
+        "collaborates": ["Hasan Kaan (Başkan)", "Mahmut İhsan (Bşk. Yrd.)", "Bekir Enes (Sayman)", "Tüm Komiteler"],
         "isGodNode": True,
-        "aliases": ["bakir basic", "bakir basic", "bakir bašić", "bakir", "260302030", "pr lead", "pr"]
+        "aliases": ["muhammed efe ural", "efe ural", "efe", "uralefe10", "pr lead", "pr", "240302169"]
     }
 }
 
 # SECTOR COORDINATES MAP (Clean Spatial Architecture)
 SECTOR_POSITIONS = {
-    # 👑 CENTER: LEADERSHIP NEXUS
-    "board_hasan_kaan": {"x": 0, "y": 0},
-    "board_mahmut_ihsan": {"x": -280, "y": 0},
-    "board_kaan_mete": {"x": 280, "y": 0},
-    "board_bekir_enes": {"x": -140, "y": 180},
-    "board_pr_lead": {"x": 140, "y": 180},
+    # 👑 CENTER: LEADERSHIP QUAD (SECTOR 02)
+    "board_hasan_kaan": {"x": 0, "y": -40},
+    "board_mahmut_ihsan": {"x": -220, "y": 40},
+    "board_efe_ural": {"x": 220, "y": 40},
+    "board_bekir_enes": {"x": 0, "y": 140},
     "platform_linear": {"x": 0, "y": -220},
     "tool_ide": {"x": -260, "y": -220},
+    "platform_linkedin": {"x": 260, "y": -220},
 
     # 🏛️ LEFT FLANK: GOVERNANCE & ACADEMICS
     "advisor": {"x": -740, "y": -200},
@@ -131,7 +118,6 @@ SECTOR_POSITIONS = {
     "doc_annual_plan": {"x": 140, "y": 570},
     "doc_budget": {"x": 410, "y": 550},
     "doc_sponsorship": {"x": 680, "y": 520},
-    "platform_linkedin": {"x": 260, "y": -220},
 
     # 👥 RIGHT FLANK: COMMUNITY & DATA INGESTION
     "sheet_responses": {"x": 520, "y": -60},
@@ -204,7 +190,8 @@ def build_observatory_graph():
     sheet_rows = fetch_responses()
     print(f"    [✓] {len(sheet_rows)} form yanıtı işleniyor.")
 
-    # Filter normal members (non-board) from sheet rows upfront
+    # Filter normal members (non-board) from sheet rows upfront, excluding figureheads
+    EXCLUDED_FIGUREHEADS = ["250302201", "260302030", "kaan mete", "bakir basic", "bakir bašić", "kaan mete şenyıldız"]
     normal_member_rows = []
     for r in sheet_rows:
         if len(r) < 5:
@@ -216,8 +203,11 @@ def build_observatory_graph():
             if b["student_id"] == m_id or any(al in m_name.lower() for al in b["aliases"]):
                 is_board = True
                 break
-        if not is_board:
-            normal_member_rows.append(r)
+        if is_board:
+            continue
+        if m_id in EXCLUDED_FIGUREHEADS or any(ex in m_name.lower() for ex in EXCLUDED_FIGUREHEADS):
+            continue
+        normal_member_rows.append(r)
 
     nodes = []
     edges = []
@@ -260,17 +250,7 @@ def build_observatory_graph():
         "type": "Dataset",
         "file": "data/form_responses.csv",
         "url": "https://docs.google.com/spreadsheets/d/1pLeiQpBNSfDFPGa5IqLbSGoz0Z2Lm3Olu-mq3XZhzbQ/edit?usp=sharing",
-        "details": f"Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. {len(normal_member_rows)} onaylı normal üye kayıtlı."
-    })
-
-    add_node({
-        "id": "fetch_tool",
-        "label": "Google Sheet Live Fetcher",
-        "cluster": "Infrastructure",
-        "isGodNode": False,
-        "type": "Script",
-        "file": "scripts/fetch_google_sheet.py",
-        "details": "CSV formatında canlı tabloyu IDE içerisine indiren otomatik köprü."
+        "details": f"Canlı Google Form yanıt tablosu. Mahmut İhsan ve scriptler tarafından izlenir. {len(normal_member_rows)} onaylı aktif üye kayıtlı."
     })
 
     edges.append({"source": "fetch_tool", "target": "sheet_responses", "relation": "SYNCS_CSV_FROM"})
@@ -330,12 +310,12 @@ def build_observatory_graph():
 
     add_node({
         "id": "comm_social",
-        "label": "Social Media & Sponsorship (M. Efe Ural)",
+        "label": "PR & Social Media Committee",
         "cluster": "Committees",
         "isGodNode": True,
         "type": "Committee",
         "file": "organization/ROLE_DESCRIPTIONS.md",
-        "details": "Lider: Muhammed Efe Ural (FENS 2. Sınıf). Kulübün açılacak resmi Instagram hesabı yönetimi, etkinlik afişi ve kreatif tasarımlar (Marshmallow Challenge posteri) ile şirket sponsorluk ilişkileri (Bekir Enes ile ortak koordinasyon)."
+        "details": "Lider: Muhammed Efe Ural (PR & Medya Lideri). Kulübün açılacak resmi Instagram hesabı yönetimi, etkinlik afişi ve kreatif tasarımlar (Marshmallow Challenge posteri) ile şirket sponsorluk ilişkileri (Bekir Enes ile ortak koordinasyon)."
     })
 
     # 4. COMMUNITY
@@ -363,12 +343,12 @@ def build_observatory_graph():
 
     add_node({
         "id": "doc_founding",
-        "label": f"📄 SCC 10 Kurucu Üye Listesi ({len(normal_member_rows)}/10)",
+        "label": f"📄 SCC Kurucu Üye Listesi ({len(normal_member_rows)}/10)",
         "cluster": "Documents",
         "isGodNode": True,
         "type": "Doc",
         "file": "templates/SCC_FOUNDING_10_MEMBERS.md",
-        "details": f"Resmi kuruluş evrağı: 5 Yönetim Kurulu Onaylı (5/5 Tam Kadro - PR Lead: Bakir Bašić) | {len(normal_member_rows)} Kurucu Normal Üye Onaylı (10/10 Kotası %100 Tamamlandı)."
+        "details": f"Resmi yönetim kadrosu: 4 Asil Lider (Başkan: Hasan Kaan, Bşk Yrd: Mahmut İhsan, Sayman: Bekir Enes, PR Lead: Muhammed Efe Ural) | {len(normal_member_rows)} Kurucu Normal Üye Kayıtlı (10/10 Kotası Tamamlandı)."
     })
 
     add_node({
@@ -462,16 +442,19 @@ def build_observatory_graph():
             "details": f"[{b['role']}] {b.get('dept', '')} - No: {b.get('student_id', '')}\nGörevler: {b['duties']}"
         })
 
-    # Board Internal & Core Edges (Gerçek Yönetim ve Resmi Hiyerarşi)
-    edges.append({"source": "board_hasan_kaan", "target": "board_mahmut_ihsan", "relation": "ASIL_BASKAN_YARDIMCISI"})
-    edges.append({"source": "board_mahmut_ihsan", "target": "board_hasan_kaan", "relation": "REPORTS_TO_ASIL_BASKAN"})
-    edges.append({"source": "board_hasan_kaan", "target": "board_kaan_mete", "relation": "GOREVLENDIRIR_RESMI_TEMSILCI"})
-    edges.append({"source": "board_kaan_mete", "target": "board_hasan_kaan", "relation": "RAPORLAR_ASIL_BASKANA"})
-    edges.append({"source": "board_bekir_enes", "target": "board_hasan_kaan", "relation": "REPORTS_FINANCE_TO"})
+    # Board Internal & Core Edges (4 Asil Yönetim Kurulu & Sinerji)
+    edges.append({"source": "board_hasan_kaan", "target": "board_mahmut_ihsan", "relation": "KURUCU_ORTAKLAR"})
+    edges.append({"source": "board_mahmut_ihsan", "target": "board_hasan_kaan", "relation": "BASKAN_YARDIMCISI"})
+    edges.append({"source": "board_bekir_enes", "target": "board_hasan_kaan", "relation": "FINANS_KOORDINASYONU"})
+    edges.append({"source": "board_efe_ural", "target": "board_hasan_kaan", "relation": "PR_VE_MEDYA_LIDERI"})
+    edges.append({"source": "board_efe_ural", "target": "board_bekir_enes", "relation": "SPONSORLUK_ORTAKLIGI"})
+    edges.append({"source": "board_efe_ural", "target": "board_mahmut_ihsan", "relation": "DUYURU_VE_ILETISIM"})
+    edges.append({"source": "board_bekir_enes", "target": "board_mahmut_ihsan", "relation": "BUTCE_VE_OPERASYON"})
 
-    edges.append({"source": "board_kaan_mete", "target": "sks", "relation": "SCC_2_SINIF_RESMI_IMZACI"})
-    edges.append({"source": "board_kaan_mete", "target": "advisor", "relation": "RESMI_OGRENCI_TEMSILCISI"})
-    edges.append({"source": "board_kaan_mete", "target": "doc_constitution", "relation": "RESMI_EVRAKTA_IMZACI"})
+    edges.append({"source": "board_hasan_kaan", "target": "advisor", "relation": "ACADEMIC_LIAISON"})
+    edges.append({"source": "advisor", "target": "board_hasan_kaan", "relation": "MENTORS_PRESIDENT"})
+    edges.append({"source": "board_hasan_kaan", "target": "sks", "relation": "OFFICIAL_PRESIDENT_LIAISON"})
+    edges.append({"source": "board_hasan_kaan", "target": "doc_constitution", "relation": "LEAD_AUTHOR"})
     edges.append({"source": "board_hasan_kaan", "target": "event_launch", "relation": "LIDERLIK_EDER"})
 
     edges.append({"source": "board_hasan_kaan", "target": "platform_linear", "relation": "ORCHESTRATES_TASKS"})
@@ -481,36 +464,28 @@ def build_observatory_graph():
 
     edges.append({"source": "board_mahmut_ihsan", "target": "sheet_responses", "relation": "MONITORS_FORM"})
     edges.append({"source": "board_mahmut_ihsan", "target": "comm_whatsapp", "relation": "MODERATES_COMMUNITY"})
-    edges.append({"source": "board_mahmut_ihsan", "target": "doc_founding", "relation": "COMPILES_10_MEMBERS"})
+    edges.append({"source": "board_mahmut_ihsan", "target": "doc_founding", "relation": "COMPILES_ROSTER"})
 
-    edges.append({"source": "board_bekir_enes", "target": "board_mahmut_ihsan", "relation": "KOORDINE_OLUR"})
     edges.append({"source": "board_bekir_enes", "target": "doc_sponsorship", "relation": "AUTHORS_PACKAGE"})
     edges.append({"source": "board_bekir_enes", "target": "doc_budget", "relation": "MANAGES_1300KM_BUDGET"})
     edges.append({"source": "board_bekir_enes", "target": "ext_industry", "relation": "PITCHES_SPONSORSHIPS"})
     edges.append({"source": "sks", "target": "doc_budget", "relation": "FUNDS_GRANT_SUPPORT"})
     edges.append({"source": "ext_industry", "target": "doc_budget", "relation": "SPONSORS_800KM"})
 
-    edges.append({"source": "board_pr_lead", "target": "board_bekir_enes", "relation": "COLLABORATES_ON_PROMO"})
-    edges.append({"source": "board_pr_lead", "target": "board_hasan_kaan", "relation": "COORDINATES_MEDIA"})
-    edges.append({"source": "comm_social", "target": "board_pr_lead", "relation": "COORDINATES_INSTAGRAM_PR"})
-    edges.append({"source": "board_pr_lead", "target": "comm_social", "relation": "PROVIDES_PR_ASSETS"})
+    edges.append({"source": "board_efe_ural", "target": "platform_linkedin", "relation": "CONTENT_ADMIN"})
+    edges.append({"source": "board_efe_ural", "target": "event_launch", "relation": "DESIGNS_POSTER_PROMO"})
+    edges.append({"source": "board_efe_ural", "target": "comm_social", "relation": "DIRECTS_COMMITTEE"})
+    edges.append({"source": "board_efe_ural", "target": "doc_sponsorship", "relation": "CO_AUTHORS_SPONSORSHIP"})
+    edges.append({"source": "board_efe_ural", "target": "ext_industry", "relation": "CORPORATE_MEDIA_REACH"})
 
-    edges.append({"source": "board_hasan_kaan", "target": "comm_social", "relation": "DIRECTS_COMMITTEE"})
-    edges.append({"source": "comm_social", "target": "event_launch", "relation": "DESIGNS_POSTER_PROMO"})
-    edges.append({"source": "comm_social", "target": "doc_sponsorship", "relation": "CO_LEADS_SPONSORSHIPS"})
-    edges.append({"source": "comm_social", "target": "board_bekir_enes", "relation": "COLLABORATES_ON_SPONSORS"})
-    edges.append({"source": "comm_social", "target": "ext_industry", "relation": "REACHES_TECH_COMPANIES"})
+    edges.append({"source": "comm_social", "target": "event_launch", "relation": "PROMOTES_KICKOFF"})
     edges.append({"source": "event_launch", "target": "advisor", "relation": "HONOR_JURY"})
     edges.append({"source": "advisor", "target": "sks", "relation": "RESMI_FAKULTE_ONAYI"})
     edges.append({"source": "advisor", "target": "doc_founding", "relation": "TEK_ISLAK_IMZA"})
-    edges.append({"source": "board_hasan_kaan", "target": "advisor", "relation": "ACADEMIC_LIAISON"})
-    edges.append({"source": "advisor", "target": "board_hasan_kaan", "relation": "MENTORS_PRESIDENT"})
 
     # LinkedIn Company & PR Edges
     edges.append({"source": "board_hasan_kaan", "target": "platform_linkedin", "relation": "FOUNDER_AND_SUPER_ADMIN"})
     edges.append({"source": "board_mahmut_ihsan", "target": "platform_linkedin", "relation": "SUPER_ADMIN"})
-    edges.append({"source": "comm_social", "target": "platform_linkedin", "relation": "CONTENT_ADMIN"})
-    edges.append({"source": "board_pr_lead", "target": "platform_linkedin", "relation": "CONTENT_ADMIN"})
     edges.append({"source": "platform_linkedin", "target": "ext_industry", "relation": "CORPORATE_BRIDGE"})
 
     # Committee / Event / External Edges
@@ -623,7 +598,7 @@ def build_observatory_graph():
             edges.append({"source": task_node_id, "target": "doc_budget", "relation": "DELIVERS_BUDGET"})
             edges.append({"source": task_node_id, "target": "sks", "relation": "SUBMITS_TO"})
         elif "7" in ident:
-            edges.append({"source": task_node_id, "target": "board_pr_lead", "relation": "RECRUITS_FOR"})
+            edges.append({"source": task_node_id, "target": "board_efe_ural", "relation": "CONFIRMS_LEADERSHIP"})
             edges.append({"source": task_node_id, "target": "doc_founding", "relation": "COMPLETES_BOARD"})
         elif "8" in ident:
             edges.append({"source": task_node_id, "target": "sheet_responses", "relation": "INGESTS_RECORDS"})
@@ -631,7 +606,7 @@ def build_observatory_graph():
             edges.append({"source": task_node_id, "target": "comm_whatsapp", "relation": "INVITES_CONFIDENTIAL"})
         elif "9" in ident:
             edges.append({"source": task_node_id, "target": "event_launch", "relation": "PREPARES_STAND"})
-            edges.append({"source": task_node_id, "target": "board_pr_lead", "relation": "DELEGATES_PROMO"})
+            edges.append({"source": task_node_id, "target": "board_efe_ural", "relation": "DELEGATES_PROMO"})
         elif "10" in ident:
             edges.append({"source": task_node_id, "target": "comm_software", "relation": "CURATES_CURRICULUM"})
         elif "11" in ident:
@@ -648,7 +623,7 @@ def build_observatory_graph():
             edges.append({"source": task_node_id, "target": "doc_sponsorship", "relation": "CORPORATE_BOOTHS"})
         elif "15" in ident:
             edges.append({"source": task_node_id, "target": "event_launch", "relation": "ORGANIZES_KICKOFF"})
-            edges.append({"source": task_node_id, "target": "comm_social", "relation": "LED_BY_SOCIAL_COMMITTEE"})
+            edges.append({"source": task_node_id, "target": "board_efe_ural", "relation": "POSTER_PROMO_LEAD"})
 
     # 9. AGGREGATED MEMBER COHORT (Clean & uncluttered overview)
     add_node({
@@ -676,7 +651,7 @@ def build_observatory_graph():
             "linear_tasks": len(active_issues),
             "completed_tasks": len(raw_issues) - len(active_issues),
             "registered_members": len(normal_member_rows),
-            "board_members": 5
+            "board_members": 4
         },
         "nodes": nodes,
         "edges": edges

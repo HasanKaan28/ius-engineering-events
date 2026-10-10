@@ -5,15 +5,12 @@ Bu doküman, kulübümüzün şirket sponsorlukları, yakında açılacak resmi 
 
 ---
 
-## 1. Görev & Rol Ayrımı
+## 1. Liderlik & Kapsam
 
-* **Muhammed Efe Ural (Sosyal Medya & Sponsorluk Lideri)**:
+* **Muhammed Efe Ural (PR & Medya / Sponsorluk Lideri)**:
   * **Sosyal Medya & Tasarım**: Kulüp resmi Instagram hesabı açıldığında doğrudan yönetimi, hikaye/reels içerik takvimi ve tüm etkinlik afişi tasarımları.
   * **Sponsorluk & Kurumsal İlişkiler**: Bekir Enes Çokbekler (Sayman) ile birlikte yerel teknoloji şirketleriyle görüşmeler, kurumsal sponsorluk paketlerinin sunumu ve marka partnerlikleri.
-* **Bakir Bašić (PR & Dış Medya Lideri)**:
-  * Kampüs içi afişlerin fiziki baskısı, A/B Blok duyuru panoları.
-  * Boşnak öğrenci grupları ve yerel üniversite medyası ile kurumsal iletişim.
-  * Etkinlik günü yüksek kaliteli fotoğraf/video çekimi.
+  * **Kampüs İçi & Dijital Görünürlük**: Etkinlik günü kaliteli fotoğraf/video çekimi, afişlerin dijital ve fiziki dağıtımı.
 
 ---
 
